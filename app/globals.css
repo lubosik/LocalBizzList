@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased scroll-smooth;
+  }
+
+  body {
+    @apply bg-neutral-0 text-neutral-800;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-screen-lg px-4;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-full font-bold transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary text-primary-fg hover:bg-primary-int focus:ring-primary;
+  }
+
+  .btn-secondary {
+    @apply btn bg-secondary text-secondary-fg hover:bg-secondary-int focus:ring-secondary;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-secondary text-secondary bg-transparent hover:bg-secondary hover:text-secondary-fg focus:ring-secondary;
+  }
+
+  .card {
+    @apply h-full overflow-hidden rounded-lg outline outline-1 outline-neutral-30 transition-shadow hover:shadow-lg;
+  }
+
+  .category-tag {
+    @apply inline-flex items-center w-fit h-fit rounded-full font-semibold bg-accent-extraSoft py-0.5 px-2 text-xs text-neutral-800 transition-colors hover:bg-neutral-200;
+  }
+
+  .input {
+    @apply outline-none w-full text-neutral-800 py-3 px-4 border border-neutral-200 rounded-md focus:border-neutral-500 transition-colors;
+  }
+
+  /* Article Content Styling */
+  .prose {
+    @apply text-neutral-800 leading-relaxed;
+  }
+
+  .prose h1 {
+    @apply text-3xl font-bold text-neutral-900 mb-6 mt-8 leading-tight;
+  }
+
+  .prose h2 {
+    @apply text-2xl font-bold text-neutral-900 mb-4 mt-8 leading-tight;
+  }
+
+  .prose h3 {
+    @apply text-xl font-semibold text-neutral-900 mb-3 mt-6 leading-tight;
+  }
+
+  .prose h4 {
+    @apply text-lg font-semibold text-neutral-900 mb-2 mt-4 leading-tight;
+  }
+
+  .prose p {
+    @apply mb-6 leading-relaxed;
+  }
+
+  .prose ul {
+    @apply mb-6 space-y-2;
+  }
+
+  .prose ol {
+    @apply mb-6 space-y-2;
+  }
+
+  .prose li {
+    @apply leading-relaxed;
+  }
+
+  .prose strong {
+    @apply font-semibold text-neutral-900;
+  }
+
+  .prose em {
+    @apply italic text-neutral-700;
+  }
+
+  .prose img {
+    @apply my-8 rounded-lg shadow-sm;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-primary pl-4 my-6 italic text-neutral-700;
+  }
+
+  .prose hr {
+    @apply my-8 border-neutral-200;
+  }
+}
