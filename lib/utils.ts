@@ -1,3 +1,25 @@
+import { type ClassValue, clsx } from "clsx"
+import { twMerge } from "tailwind-merge"
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
+
+export function formatNumber(num: number): string {
+  return new Intl.NumberFormat('en-US').format(num);
+}
+
+export function formatCurrency(num: number): string {
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+  }).format(num);
+}
+
+export function formatPercent(num: number): string {
+  return `${Math.round(num)}%`;
+}
+
 export function formatDate(date: string | Date): string {
   return new Date(date).toLocaleDateString('en-US', {
     year: 'numeric',
