@@ -7,6 +7,7 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://localbizzlist.com'),
   title: 'LocalBizzList - South Florida Business Directory',
   description: 'Your trusted directory for South Florida local businesses, services, and expert advice. Find reliable contractors, plumbers, electricians, and more.',
   keywords: ['South Florida', 'business directory', 'local businesses', 'contractors', 'services'],
@@ -33,6 +34,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body className={inter.className}>
         <div className="flex min-h-screen flex-col">
           <Header />

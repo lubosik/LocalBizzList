@@ -1,0 +1,271 @@
+{
+  "niche_name": "Restaurant pest control (food-service compliant)",
+  "miami_queries": [
+    "restaurant pest control miami",
+    "miami restaurant pest control",
+    "food service pest control miami",
+    "miami commercial pest control",
+    "restaurant pest control service miami",
+    "miami food establishment pest control",
+    "commercial pest control miami",
+    "restaurant hygiene miami",
+    "miami restaurant health inspection pest",
+    "food service pest management miami",
+    "miami restaurant pest inspection",
+    "pest control restaurant miami",
+    "miami dining pest control",
+    "restaurant pest management miami",
+    "food service pest control service",
+    "miami restaurant bug control",
+    "commercial food service pest control",
+    "restaurant roach control miami",
+    "miami restaurant rodent control",
+    "food establishment pest control miami"
+  ],
+  "keyword_metrics": {
+    "total_query_ideas": 20,
+    "top_keywords": [
+      {
+        "keyword": "commercial pest control miami",
+        "search_volume": 140,
+        "cpc": 19.52,
+        "competition": "LOW",
+        "intent": "Commercial",
+        "difficulty": 1
+      },
+      {
+        "keyword": "pest control miami",
+        "search_volume": 5400,
+        "cpc": 19.52,
+        "competition": "MEDIUM",
+        "intent": "Navigational",
+        "difficulty": 1
+      },
+      {
+        "keyword": "restaurant pest control",
+        "search_volume": 30,
+        "cpc": 0,
+        "competition": "LOW",
+        "intent": "Commercial",
+        "difficulty": 30
+      }
+    ],
+    "secondary_keywords": [
+      {
+        "keyword": "food service pest control",
+        "search_volume": 1,
+        "cpc": 0,
+        "competition": "LOW",
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "commercial pest management",
+        "search_volume": 5,
+        "cpc": 0,
+        "competition": "LOW",
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "restaurant pest inspection",
+        "search_volume": 1,
+        "cpc": 0,
+        "competition": "LOW",
+        "intent": "Commercial"
+      }
+    ],
+     "avg_monthly_search_volume": 18,
+     "avg_cpc": 22.20,
+     "competition_level": "MEDIUM",
+     "keyword_difficulty": 11
+  },
+  "serp_analysis": {
+    "miami_query": "restaurant pest control miami",
+    "top_domains": [
+      "www.alflexexterminators.com",
+      "www.toropest.com",
+      "locations.trulynolen.com",
+      "www.thepestgroup.com",
+      "www.yelp.com",
+      "www.flapest.com",
+      "kryptonpestcontrol.com",
+      "www.megabeepestcontrol.com",
+      "www.woodtermite.com",
+      "www.flapest.com",
+      "www.ecolab.com"
+    ],
+    "local_pack_domains": [
+      "flapest.com",
+      "naturalresourcesfl.com",
+      "pestcontrolexperts.pro"
+    ],
+    "people_also_ask": [],
+    "related_searches": [],
+    "serp_structure": {
+      "local_pack_results": 3,
+      "organic_results": 10,
+      "people_also_ask": 0,
+      "related_searches": 0
+    },
+    "avg_monthly_searches_factors": "Miami restaurant pest control with health inspection compliance",
+    "search_volume_climate_ranking": "18/50",
+    "search_volume_climate_score": 40
+  },
+  "competitor_analysis": [
+    {
+      "domain": "flapest.com",
+      "strength_areas": [
+        "Perfect SEO domain and strong Local Pack presence (510 reviews, 5-star rating)",
+        "70+ years pest control experience showing longevity and expertise",
+        "Specialized restaurant page with food processing industry experience",
+        "Commercial focus with hotels, grocery stores, and food processing",
+        "Strong Google presence ranking high for 'pest control miami'"
+      ],
+      "weakness_areas": [
+        "Broader focus may limit restaurant specialization visibility",
+        "Generic restaurant page lacks Miami-specific content",
+        "Limited educational content about health inspection compliance",
+        "No clear food service regulatory compliance messaging",
+        "Website lacks restaurant-specific case studies"
+      ],
+      "content_gaps": [
+        "Miami-Dade health department inspection compliance guides",
+        "Restaurant-specific pest prevention schedules for Miami climate",
+        "Food service pest control documentation for health inspections",
+        "Miami restaurant manager pest prevention checklists",
+        "Commercial kitchen pest control certification requirements"
+      ]
+    },
+    {
+      "domain": "naturalresourcesfl.com",
+      "strength_areas": [
+        "Strong Local Pack presence with 526 reviews and 4.9-star rating",
+        "35+ years business experience showing longevity",
+        "Professional Google presence and good customer feedback",
+        "Clear business hours and local Miami focus",
+        "Established reputation in Miami market"
+      ],
+      "weakness_areas": [
+        "Limited review volume despite strong rating",
+        "Generic branding doesn't convey restaurant specialization",
+        "Basic website lacks detailed service information",
+        "No clear food service compliance specialization",
+        "Limited content about health inspection requirements"
+      ],
+      "content_gaps": [
+        "Miami restaurant health inspection pest control checklists",
+        "Food establishment pest prevention protocols",
+        "Commercial kitchen pest identification guides",
+        "Miami-Dade zoning compliance documentation",
+        "Restaurant owner pest control maintenance schedules"
+      ]
+    },
+    {
+      "domain": "pestcontrolexperts.pro",
+         "strength_areas": [
+        "Strong Local Pack presence with 164 reviews and perfect 5-star rating",
+        "10+ years established business showing growth trajectory",
+        "Professional name conveying expertise and specialization",
+        "Excellent customer reviews indicating quality service",
+        "Strong Google rankings for pest control Miami"
+      ],
+      "weakness_areas": [
+        "Limited review volume compared to longer-established competitors",
+        "Generic branding lacks restaurant-specific expertise messaging",
+        "Limited website content about food service specialization",
+        "No clear health inspection compliance guides",
+        "Website lacks educational content about restaurant pest control"
+      ],
+      "content_gaps": [
+        "Miami restaurant pest control compliance guides",
+        "Food service establishment inspection preparation resources",
+        "Commercial kitchen pest prevention standard operating procedures",
+        "Miami-Dade health department requirements calendar",
+        "Restaurant manager pest control training materials"
+      ]
+    }
+  ],
+  "google_trends": {
+    "keywords": ["restaurant pest control", "food service pest control", "commercial pest management", "restaurant pest inspection"],
+    "location": "United States",
+    "trends_data": {
+      "seasonality_notes": "Strong steady demand with moderate seasonal increases in spring/summer",
+      "seasonality_ranking": "Seasonal with Steady Base",
+      "trends_traffic_score": 35
+    },
+    "graph_data": {
+      "date_ranges": [
+        "2024-10-06 to 2024-10-12: 16,0,4,0",
+        "2024-11-03 to 2024-11-09: 15,0,5,0",
+        "2024-12-22 to 2024-12-28: 27,1,2,17",
+        "2025-01-19 to 2025-01-25: 33,1,5,0"
+      ],
+      "avg_values": [30,1,5,1]
+    },
+    "miami_trends": [
+      "miami_vs_us_trend": 0,
+      "demand_stability": "High regulatory-driven demand",
+      "trends_ranking": "35/50",
+      "peak_months": ["March", "April", "May"]
+    ]
+  },
+  "scoring": {
+    "demand_score": {
+      "score": 45,
+      "reasoning": "High-value commercial market with excellent CPC values ($19-22 CPC). Health inspection violations show recurring demand from restaurants needing compliance. Miami's high restaurant density creates strong B2B market."
+    },
+    "competitive_difficulty": {
+      "score": 30,
+      "reasoning": "Medium competition with 3 established players in Local Pack. Florida Pest Control dominates with 70+ years, but no competitor specializes in restaurant health inspection compliance."
+    },
+    "local_pack_score": {
+      "score": 28,
+      "reasoning": "Strong Local Pack with established players but limited restaurant specialization content. Opportunity exists for Miami restaurant health inspection compliance specialist."
+    },
+    "content_gap_score": {
+      "score": 42,
+      "reasoning": "Major gaps in Miami-Dade health inspection compliance guides, restaurant-specific pest prevention protocols, and food service regulatory documentation."
+    },
+    "keyword_trends_score": {
+      "score": 35,
+      "reasoning": "Steady year-round demand with spring peaks. Health inspection violations create consistent compliance-driven demand regardless of season."
+    },
+    "overall_rankability_score": 79
+  },
+  "recommendations": [
+    {
+      "rankability_score": 79,
+      "recommendation": "GO",
+      "rationale": "Strong restaurant pest control opportunity with high CPCs ($19-22), health inspection-driven demand, and significant content gaps in Miami-Dade compliance education.",
+      "priority": "High Priority"
+    },
+    {
+      "rankability_score": 79,
+      "recommendation": "GO",
+      "rationale": "Health inspection violations show recurring demand for compliance services. Excellent opportunity to become Miami's restaurant health inspection pest control specialist.",
+      "priority": "High Priority"
+    }
+  ],
+  "local_pack_analysis": {
+    "total_listings": 3,
+    "competition_ranking": "Medium-High",
+    "local_pack_score": 28,
+    "analysis": "Strong Local Pack competitors: Florida Pest Control (510 reviews, 5 stars), Natural Resources Pest Control (526 reviews, 4.9 stars), and Pest Control Experts (164 reviews, 5 stars). None focus on restaurant health inspection compliance."
+  },
+  "content_opportunities": [
+    "Miami-Dade restaurant health inspection pest control compliance guides",
+    "Commercial kitchen pest prevention schedules for Miami climate",
+    "Food service establishment inspection preparation checklists", 
+    "Restaurant pest control documentation for health department requirements",
+    "Commercial kitchen pest identification and prevention protocols",
+    "Miami restaurant manager pest control compliance training",
+    "Food establishment pest control maintenance schedules",
+    "Miami-Dade health department violation prevention guides"
+  ],
+  "miami_specific_advantages": [
+    "High restaurant密度 creating strong commercial demand",
+    "Health inspection violations driving compliance requirements",
+    "Year-round pests due to tropical climate",
+    "B2B customers valuing regulatory compliance documentation",
+    "Restaurant owners needing inspection preparation services"
+  ]
+}

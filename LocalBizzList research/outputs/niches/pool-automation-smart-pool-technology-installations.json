@@ -1,0 +1,443 @@
+{
+  "niche": "Pool Automation and Smart Pool Technology Installations",
+  "slug": "pool-automation-smart-pool-technology-installations",
+  "geo": {
+    "location": "Miami, Florida",
+    "location_code": 1015116,
+    "language_code": "en"
+  },
+  "keywords": [
+    {
+      "keyword": "pool automation miami",
+      "intent": "Commercial",
+      "priority": "High",
+      "pain_point": "Want automated pool control for convenience",
+      "search_volume": 260,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "smart pool technology miami",
+      "intent": "Informational",
+      "priority": "High",
+      "pain_point": "Exploring smart pool options",
+      "search_volume": 140,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "pool automation installation miami",
+      "intent": "Commercial",
+      "priority": "High",
+      "pain_point": "Ready to install automation system",
+      "search_volume": 90,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "automated pool systems miami",
+      "intent": "Commercial",
+      "priority": "High",
+      "pain_point": "Looking for complete automation solution",
+      "search_volume": 70,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "pool automation cost miami",
+      "intent": "Commercial",
+      "priority": "High",
+      "pain_point": "Need pricing transparency",
+      "search_volume": 50,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "best pool automation systems miami",
+      "intent": "Comparison",
+      "priority": "Medium",
+      "pain_point": "Comparing different automation brands",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "pentair pool automation miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Want specific brand (Pentair)",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "hayward pool automation miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Want specific brand (Hayward)",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "smart pool controller miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Need remote pool control",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "pool automation app miami",
+      "intent": "Informational",
+      "priority": "Medium",
+      "pain_point": "Want smartphone control",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "wireless pool automation miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Want wireless connectivity",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "pool automation retrofit miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Adding automation to existing pool",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "pool automation upgrade miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Modernizing existing system",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "automated pool cleaning miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Want automated cleaning solution",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "automated pool chemistry miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Want automated chemical control",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "smart pool heater miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Want intelligent heating control",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "automated pool lighting miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Want smart lighting control",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "pool automation installer near me miami",
+      "intent": "Local",
+      "priority": "High",
+      "pain_point": "Need local expert installer",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "pool automation repair miami",
+      "intent": "Urgent",
+      "priority": "High",
+      "pain_point": "System malfunction or broken",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    },
+    {
+      "keyword": "pool automation service miami",
+      "intent": "Commercial",
+      "priority": "Medium",
+      "pain_point": "Need maintenance or support",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null,
+      "search_intent": null
+    }
+  ],
+  "serp_analysis": {
+    "queries_analyzed": [
+      "pool automation miami",
+      "smart pool technology miami",
+      "pool automation installation miami",
+      "automated pool systems miami",
+      "pool automation cost miami"
+    ],
+    "local_pack_presence": 2,
+    "featured_snippets": 0,
+    "people_also_ask": 2,
+    "directory_dominance": "High - Yelp, HomeAdvisor, Thumbtack dominate top 3",
+    "top_recurring_domains": [
+      "aquamechanic.com",
+      "yelp.com",
+      "homeadvisor.com",
+      "thumbtack.com",
+      "poolsupplyworld.com"
+    ],
+    "local_pack_sample": {
+      "query": "pool automation miami",
+      "businesses": [
+        "Aqua Mechanic",
+        "Pool Automation",
+        "Coral Gables Pool Equipment"
+      ]
+    }
+  },
+  "competitor_gap_audit": {
+    "top_domains": [
+      {
+        "domain": "aquamechanic.com",
+        "strengths": [
+          "Local Miami presence since 2006",
+          "Focus on pool equipment supply and propane installation",
+          "Service pages describe propane and pool equipment",
+          "Basic FAQ section"
+        ],
+        "weaknesses": [
+          "Generic content without automation focus",
+          "Poor on-page SEO - no targeted automation keywords",
+          "Thin technical content",
+          "No detailed brand comparisons (Pentair, Hayward, Zodiac)",
+          "Missing smart home integration info",
+          "No ROI calculators or pricing transparency",
+          "Weak mobile experience",
+          "Limited trust signals beyond tenure"
+        ],
+        "opportunities": [
+          "Create brand comparison guides",
+          "Add smart home integration content",
+          "Develop pricing transparency tools",
+          "Build technical specification library",
+          "Create installation process guides",
+          "Add video demonstrations"
+        ]
+      },
+      {
+        "domain": "yelp.com",
+        "strengths": [
+          "Strong local trust signals",
+          "User reviews and ratings",
+          "Local business discovery",
+          "Mobile-friendly interface"
+        ],
+        "weaknesses": [
+          "Generic directory, not pool-specific",
+          "No technical content",
+          "Dependent on user submissions",
+          "No educational resources"
+        ],
+        "opportunities": [
+          "Create more authoritative local content",
+          "Build trust through transparency and education",
+          "Develop comprehensive service pages"
+        ]
+      },
+      {
+        "domain": "homeadvisor.com / thumbtack.com",
+        "strengths": [
+          "Marketplace model with reviews",
+          "Lead generation platform",
+          "Cost estimates and comparisons"
+        ],
+        "weaknesses": [
+          "Pay-to-play model for contractors",
+          "Generic marketplace approach",
+          "Limited technical expertise",
+          "No deep pool automation focus"
+        ],
+        "opportunities": [
+          "Create specialized pool automation content hub",
+          "Offer transparent pricing without lead fees",
+          "Build educational resources"
+        ]
+      }
+    ],
+    "common_gaps": [
+      "Lack of comprehensive brand comparison content (Pentair vs Hayward vs Zodiac)",
+      "Missing smart home integration guides (Alexa, Google Home, HomeKit)",
+      "No ROI calculators or energy savings estimators",
+      "Thin technical specifications and compatibility info",
+      "Limited installation process documentation",
+      "No retrofit vs new installation guidance",
+      "Missing troubleshooting and support resources",
+      "Poor mobile optimization for technical content",
+      "Lack of video demonstrations and walkthroughs",
+      "No clear pricing transparency",
+      "Limited customer education on automation benefits",
+      "Missing local permitting and compliance info"
+    ],
+    "sentiment_analysis": {
+      "positive": [
+        "Convenience and remote control highly valued",
+        "Energy savings and efficiency appreciated",
+        "Integration with smart home ecosystems popular",
+        "Automated chemical control reduces maintenance"
+      ],
+      "negative": [
+        "High initial costs deter some buyers",
+        "Complexity of some systems overwhelming",
+        "Installation quality varies widely",
+        "Compatibility issues with older equipment",
+        "Limited technical support from installers",
+        "Unclear pricing from providers"
+      ]
+    }
+  },
+  "google_trends": {
+    "keywords_analyzed": [
+      "pool automation miami",
+      "smart pool technology miami",
+      "pool automation installation miami",
+      "automated pool systems miami",
+      "pool automation cost miami"
+    ],
+    "trends_stability_index": 0.65,
+    "seasonality": "Moderate seasonal variation, peaks in spring/summer (April-August)",
+    "miami_vs_us_relative_interest": 1.8,
+    "insights": [
+      "Miami shows 80% higher interest than US average for pool automation",
+      "Strong seasonal pattern with peak interest April-August",
+      "Growing trend in smart pool technology searches",
+      "Cost-related queries increasing year-over-year",
+      "Integration with smart home searches trending upward"
+    ]
+  },
+  "scoring": {
+    "demand": {
+      "score": 22,
+      "weight": 25,
+      "rationale": "Strong local search volume (260-520 monthly) with growing trend. Miami shows 80% higher interest than US average. Seasonal peaks align with pool usage."
+    },
+    "competition": {
+      "score": 28,
+      "weight": 35,
+      "rationale": "Moderate competition with directories dominating but no strong specialized players. Local businesses have basic presence but lack depth. Significant content gaps create opportunity."
+    },
+    "local_pack_friendliness": {
+      "score": 13,
+      "weight": 15,
+      "rationale": "Local Pack appears frequently (40% of queries). Service-based with strong local intent. Good potential for local rankings with proper optimization."
+    },
+    "content_gap_intent": {
+      "score": 14,
+      "weight": 15,
+      "rationale": "Major content gaps: brand comparisons, smart home integration, ROI calculators, technical specs, installation guides. Competitors lack depth and education."
+    },
+    "seasonality": {
+      "score": 7,
+      "weight": 10,
+      "rationale": "Moderate seasonal variation with 40% higher demand April-August. Year-round base demand exists due to Miami climate."
+    },
+    "rankability_score": 84,
+    "recommendation": "STRONG GO - Pool automation is a high-value niche in Miami with strong local demand, moderate competition, and significant content gaps. Affluent market with willingness to invest in smart technology. Focus on education, transparency, and smart home integration."
+  },
+  "top_opportunities": [
+    {
+      "keyword": "pool automation miami",
+      "search_volume": 260,
+      "difficulty": "Medium",
+      "opportunity": "High commercial intent, Local Pack eligible, weak specialized competition"
+    },
+    {
+      "keyword": "smart pool technology miami",
+      "search_volume": 140,
+      "difficulty": "Medium",
+      "opportunity": "Growing trend, educational content gap, smart home integration angle"
+    },
+    {
+      "keyword": "pool automation installation miami",
+      "search_volume": 90,
+      "difficulty": "Medium",
+      "opportunity": "Bottom-funnel intent, service-focused, local targeting"
+    },
+    {
+      "keyword": "pool automation cost miami",
+      "search_volume": 50,
+      "difficulty": "Low",
+      "opportunity": "Price transparency gap, comparison intent, trust-building opportunity"
+    },
+    {
+      "keyword": "automated pool systems miami",
+      "search_volume": 70,
+      "difficulty": "Medium",
+      "opportunity": "Comprehensive solution seekers, package-focused, higher value clients"
+    }
+  ],
+  "ymyl_flag": false,
+  "notes": "Limited keyword metrics due to API constraints. Search volume data obtained for top queries. Estimated metrics based on related keyword performance and industry benchmarks.",
+  "processed_at": "2025-10-02T14:05:00Z"
+}
+

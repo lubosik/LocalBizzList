@@ -69,6 +69,14 @@ const config: Config = {
           900: '#111827',
           strong: '#000000',
         },
+        // Brand Colors for better visibility
+        brand: {
+          600: 'var(--brand-primary-600)',
+          700: 'var(--brand-primary-700)',
+          on: 'var(--brand-on-primary)',
+          ink: 'var(--brand-ink-900)',
+          muted: 'var(--brand-muted-100)',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',

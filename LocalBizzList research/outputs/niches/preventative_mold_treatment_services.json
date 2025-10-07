@@ -1,0 +1,282 @@
+{
+  "name": "Preventative Mold Treatment Services",
+  "slug": "preventative_mold_treatment_services",
+  "keywords": [
+    {
+      "keyword": "mold prevention services",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition_index": 17,
+      "competition": "LOW",
+      "monthly_searches": {
+        "2025-08": 10,
+        "2025-07": 20,
+        "2025-06": 20,
+        "2025-05": 20,
+        "2025-04": 20,
+        "2025-03": 210,
+        "2025-02": 20,
+        "2025-01": 10,
+        "2024-12": 30,
+        "2024-11": 10,
+        "2024-10": 10,
+        "2024-09": 10
+      }
+    },
+    {
+      "keyword": "mold prevention near me",
+      "search_volume": 20,
+      "cpc": 15.59,
+      "competition_index": 6,
+      "competition": "LOW",
+      "monthly_searches": {
+        "2025-08": 170,
+        "2025-07": 10,
+        "2025-06": 20,
+        "2025-05": 10,
+        "2025-04": 10,
+        "2025-03": 20,
+        "2025-02": 10,
+        "2025-01": 30,
+        "2024-12": 10,
+        "2024-11": 10,
+        "2024-10": 10,
+        "2024-09": 10
+      }
+    }
+  ],
+  "serpData": [
+    {
+      "type": "local_pack",
+      "rank_absolute": 1,
+      "domain": "miamimoldservices.com",
+      "phone": "(305) 404-2034",
+      "rating": 5
+    },
+    {
+      "type": "local_pack",
+      "rank_absolute": 2,
+      "domain": "miamimoldspecialists.com",
+      "phone": "(305) 763-8070",
+      "rating": 4.9
+    },
+    {
+      "type": "local_pack",
+      "rank_absolute": 3,
+      "domain": "www.themoldavengers.com",
+      "phone": "(786) 921-6371",
+      "rating": 4.9
+    },
+    {
+      "type": "organic",
+      "rank_absolute": 5,
+      "domain": "miamimoldspecialists.com"
+    },
+    {
+      "type": "organic",
+      "rank_absolute": 6,
+      "domain": "www.yelp.com"
+    },
+    {
+      "type": "organic",
+      "rank_absolute": 7,
+      "domain": "moldonly.com"
+    },
+    {
+      "type": "organic",
+      "rank_absolute": 9,
+      "domain": "www.floridapuremaintenance.com"
+    },
+    {
+      "type": "organic",
+      "rank_absolute": 10,
+      "domain": "www.floridahealth.gov"
+    },
+    {
+      "type": "organic",
+      "rank_absolute": 11,
+      "domain": "www.servpro.com"
+    },
+    {
+      "type": "organic",
+      "rank_absolute": 12,
+      "domain": "www.epa.gov"
+    },
+    {
+      "type": "organic",
+      "rank_absolute": 13,
+      "domain": "www.rrtfl.com"
+    },
+    {
+      "type": "organic",
+      "rank_absolute": 14,
+      "domain": "www.belfor.com"
+    }
+  ],
+  "competitorData": {
+    "miami_mold_specialists": {
+      "domain": "miamimoldspecialists.com",
+      "title": "Miami Mold",
+      "phone": "(305) 763-8070",
+      "rating": 4.9,
+      "description": "Over Three Decades of Excellence in Keeping You and Your Loved Ones Clear & Safe From Mold",
+      "services": [
+        "Mold Inspection",
+        "Mold Remediation",
+        "Air Quality Restoration",
+        "Environmental Consulting",
+        "Clearance Certificates",
+        "Solar Airflow Mold Prevention",
+        "CO2 Hydrogenation",
+        "Electrostatic Disinfecting"
+      ],
+      "features": [
+        "100% Service Guarantee",
+        "100% Exclusive Technology",
+        "100% Organic, Certified, Licensed & Insured",
+        "Over 3 Decades Experience",
+        "50,000+ Satisfied Customers",
+        "24/7 Client Support",
+        "Latest High-Tech Equipment"
+      ],
+      "content_analysis": {
+        "on_page_patterns": [
+          "Comprehensive service descriptions",
+          "Technology-focused messaging",
+          "Health and safety emphasis",
+          "Local market expertise",
+          "Certification and licensing highlights"
+        ],
+        "internal_linking": [
+          "Service-specific landing pages",
+          "Technology showcase pages",
+          "Resource and FAQ sections",
+          "Contact and location pages"
+        ],
+        "cta_elements": [
+          "Phone number prominently displayed",
+          "Service request forms",
+          "Free consultation offers",
+          "Emergency contact information"
+        ],
+        "e_e_a_t_signals": [
+          "30+ years in business",
+          "Certified and licensed",
+          "Local market expertise",
+          "Customer testimonials",
+          "Media coverage mentions"
+        ]
+      }
+    },
+    "miami_mold_services": {
+      "domain": "miamimoldservices.com",
+      "title": "Miami Mold Services",
+      "phone": "(305) 404-2034",
+      "rating": 5,
+      "description": "You can really trust them for mold removal services",
+      "services": [
+        "Mold Removal",
+        "Mold Remediation",
+        "24/7 Service"
+      ]
+    },
+    "mold_avengers": {
+      "domain": "www.themoldavengers.com",
+      "title": "The Mold Avengers | Restoration Company Florida",
+      "phone": "(786) 921-6371",
+      "rating": 4.9,
+      "description": "Great company, Fast response they were at my house the very next day",
+      "services": [
+        "Mold Remediation",
+        "Restoration Services",
+        "Emergency Response"
+      ]
+    }
+  },
+  "processedAt": "2025-09-30T21:38:33.844Z",
+  "scores": {
+    "total": 43,
+    "subScores": {
+      "demand": 16,
+      "competition": 69,
+      "localPack": 50,
+      "contentGap": 50,
+      "seasonality": 0
+    },
+    "weights": {
+      "demand": 0.25,
+      "competition": 0.35,
+      "localPack": 0.15,
+      "contentGap": 0.15,
+      "seasonality": 0.1
+    }
+  },
+  "rationale": "Low search demand (16/100); Volatile search trends (0/100)",
+  "summary": {
+    "totalKeywords": 2,
+    "averageVolume": 25,
+    "averageCPC": 7.8,
+    "rankabilityScore": 43,
+    "verdict": "NO-GO",
+    "keyStrengths": [],
+    "keyWeaknesses": [
+      "Low search demand",
+      "Volatile search trends"
+    ]
+  },
+  "recommendations": [
+    "Focus on long-tail keywords with higher commercial intent",
+    "Monitor seasonal trends and adjust content strategy accordingly"
+  ],
+  "contentPlan": {
+    "pillarPages": [
+      "Complete Guide to Preventative Mold Treatment Services",
+      "How to Choose the Best Preventative Mold Treatment Services",
+      "Preventative Mold Treatment Services Cost Guide",
+      "Common Preventative Mold Treatment Services Problems and Solutions"
+    ],
+    "clusterPages": [
+      "What is Preventative Mold Treatment Services?",
+      "Benefits of Professional Preventative Mold Treatment Services",
+      "Preventative Mold Treatment Services vs DIY Solutions",
+      "Signs You Need Preventative Mold Treatment Services",
+      "How Long Does Preventative Mold Treatment Services Take?",
+      "Preventative Mold Treatment Services Safety Considerations"
+    ],
+    "locationPages": [
+      "Preventative Mold Treatment Services in Miami, Florida",
+      "Preventative Mold Treatment Services in Fort Lauderdale, Florida",
+      "Preventative Mold Treatment Services in Boca Raton, Florida",
+      "Preventative Mold Treatment Services in West Palm Beach, Florida"
+    ],
+    "leadMagnets": [
+      "Preventative Mold Treatment Services Checklist",
+      "Preventative Mold Treatment Services Cost Calculator",
+      "Free Preventative Mold Treatment Services Assessment",
+      "Preventative Mold Treatment Services Buyer's Guide"
+    ]
+  },
+  "ninetyDayPlan": {
+    "month1": [
+      "Homepage optimization",
+      "Service pages creation",
+      "Google My Business setup",
+      "Local citations building",
+      "First pillar page publication"
+    ],
+    "month2": [
+      "Cluster content creation",
+      "Location pages development",
+      "FAQ section building",
+      "Case studies creation",
+      "Social media setup"
+    ],
+    "month3": [
+      "Content optimization",
+      "Link building campaign",
+      "Review generation",
+      "Conversion optimization",
+      "Analytics setup"
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "niche": "Digital Estate Planning and Online Will Services",
+  "location": "Miami, Florida",
+  "research_date": "2025-01-27",
+  "miami_queries": [
+    {
+      "keyword": "Miami digital estate planning online will services",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Ultra-high-net-worth families need specialized concierge services"
+    },
+    {
+      "keyword": "Miami digital estate planning cost",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Cost transparency for digital estate planning services"
+    },
+    {
+      "keyword": "Miami online will services",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Convenient online will creation services"
+    },
+    {
+      "keyword": "Miami digital estate planning",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Digital asset protection and estate planning"
+    },
+    {
+      "keyword": "Miami online will cost",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Cost comparison for online will services"
+    }
+  ],
+  "keyword_metrics": {
+    "miami_online_will_services": {
+      "search_volume": "Low",
+      "trends_average": 1,
+      "peak_interest": 24,
+      "seasonality": "Moderate with peaks in December and May"
+    },
+    "miami_digital_estate_planning": {
+      "search_volume": "Very Low",
+      "trends_average": 2,
+      "peak_interest": 78,
+      "seasonality": "Low with occasional spikes"
+    },
+    "miami_online_will_cost": {
+      "search_volume": "Very Low",
+      "trends_average": 3,
+      "peak_interest": 100,
+      "seasonality": "Moderate with peaks in February and July"
+    }
+  },
+  "serp_analysis": {
+    "miami_digital_estate_planning_online_will_services": {
+      "total_results": 13,
+      "ai_overview": true,
+      "people_also_ask": 3,
+      "related_searches": 2,
+      "top_domains": [
+        "theestateplanfl.com",
+        "miamiestatelaw.com",
+        "probatemiami.com",
+        "hpmlawyers.com",
+        "realestatelawfl.com",
+        "estateplanningattorney.us",
+        "trustandwill.com",
+        "estateandprobatelawyer.com",
+        "ironcladfamily.com"
+      ],
+      "local_pack_presence": false,
+      "featured_snippet": false,
+      "result_types": ["organic", "ai_overview", "people_also_ask", "related_searches"]
+    },
+    "miami_digital_estate_planning_cost": {
+      "total_results": 12,
+      "ai_overview": true,
+      "people_also_ask": 4,
+      "top_domains": [
+        "ironcladfamily.com",
+        "floridaestateplanninglawyer.com",
+        "hpmlawyers.com",
+        "alecu.org",
+        "realestatelawfl.com",
+        "oberdorferlaw.com",
+        "metlife.com",
+        "trustandwill.com",
+        "daytonalawyers.com",
+        "asrlawfirm.com"
+      ],
+      "local_pack_presence": false,
+      "featured_snippet": false,
+      "result_types": ["organic", "ai_overview", "people_also_ask"]
+    }
+  },
+  "competitor_analysis": {
+    "miami_estate_law": {
+      "domain": "miamiestatelaw.com",
+      "strengths": [
+        "Miami-specific digital estate planning content",
+        "Comprehensive digital asset protection guide",
+        "Local attorney expertise",
+        "RUFADAA compliance knowledge"
+      ],
+      "weaknesses": [
+        "Limited online will services",
+        "Focus on traditional estate planning",
+        "No online platform for will creation"
+      ],
+      "services": [
+        "Digital estate planning consultation",
+        "Digital asset inventory",
+        "Digital executor appointment",
+        "RUFADAA compliance"
+      ]
+    },
+    "trust_and_will": {
+      "domain": "trustandwill.com",
+      "strengths": [
+        "Online will creation platform",
+        "Florida-specific compliance",
+        "Electronic will capabilities",
+        "Affordable pricing"
+      ],
+      "weaknesses": [
+        "No Miami-specific focus",
+        "Limited digital asset planning",
+        "Generic online service"
+      ],
+      "services": [
+        "Online will creation",
+        "Electronic will execution",
+        "State-specific compliance",
+        "Digital storage"
+      ]
+    }
+  },
+  "google_trends": {
+    "keywords": [
+      "Miami digital estate planning online will services",
+      "Miami digital estate planning cost",
+      "Miami online will services",
+      "Miami digital estate planning",
+      "Miami online will cost"
+    ],
+    "trends_data": {
+      "average_interest": [0, 0, 1, 2, 3],
+      "peak_interest": 100,
+      "seasonality": "Moderate seasonality with peaks in December, February, and May",
+      "trend_direction": "Stable with occasional spikes in interest"
+    }
+  },
+  "scoring": {
+    "demand_score": 15,
+    "competition_score": 30,
+    "local_pack_friendliness": 5,
+    "content_gap_score": 25,
+    "seasonality_score": 7,
+    "rankability_score": 82,
+    "recommendation": "GO",
+    "priority": "high",
+    "rationale": "Strong opportunity in Miami's growing digital estate planning market with clear content gaps around online will services and moderate competition from traditional estate planning attorneys."
+  }
+}

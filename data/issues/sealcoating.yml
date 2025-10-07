@@ -1,0 +1,89 @@
+niche: sealcoating
+nicheTitle: Sealcoating & Paving
+icon: Layers
+
+issues:
+  - slug: cracking-and-potholes
+    title: Asphalt Cracking & Pothole Repair
+    snippet: Why asphalt cracks and forms potholes in South Florida, repair methods, and when to sealcoat vs. resurface.
+    category: troubleshooting
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - pothole repair
+      - asphalt cracks
+      - parking lot damage
+      - crack filling
+      - asphalt repair
+    articleSlug: asphalt-cracking-pothole-repair
+    priority: 1
+
+  - slug: poor-drainage
+    title: Parking Lot Drainage Problems & Solutions
+    snippet: How heavy South Florida rainfall causes water pooling, the importance of proper drainage, and repair options.
+    category: troubleshooting
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - parking lot drainage
+      - water pooling
+      - standing water
+      - drainage solutions
+      - poor drainage repair
+    articleSlug: parking-lot-drainage-solutions
+    priority: 2
+
+  - slug: premature-sealcoat-failure
+    title: Sealcoat Peeling, Fading, & Failure
+    snippet: Common causes of premature sealcoat deterioration, from improper application to material quality issues.
+    category: troubleshooting
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - sealcoat peeling
+      - fading sealcoat
+      - sealcoat problems
+      - premature failure
+      - poor adhesion
+    articleSlug: sealcoat-failure-causes
+    priority: 3
+
+  - slug: application-timing
+    title: Best Time to Sealcoat in South Florida
+    snippet: When to schedule sealcoating based on weather, temperature, humidity, and avoiding Florida's rainy season.
+    category: how-to-guides
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - when to sealcoat
+      - best time seal asphalt
+      - weather requirements
+      - application timing
+      - florida sealcoating season
+    articleSlug: best-time-sealcoat-florida
+    priority: 4
+
+  - slug: traffic-striping-fading
+    title: Parking Lot Striping & ADA Compliance
+    snippet: Why traffic striping fades quickly in Florida sun, repainting schedules, and ADA accessibility requirements.
+    category: compliance
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - parking lot striping
+      - faded lines
+      - line painting
+      - ADA compliance
+      - traffic marking
+    articleSlug: parking-lot-striping-compliance
+    priority: 5
+
+  - slug: sealcoating-frequency
+    title: How Often to Sealcoat Your Parking Lot
+    snippet: Recommended sealcoating schedules based on traffic volume, sun exposure, and material quality in Florida.
+    category: cost-guides
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - how often sealcoat
+      - asphalt maintenance schedule
+      - sealcoating frequency
+      - maintenance intervals
+      - asphalt preservation
+    articleSlug: sealcoating-frequency-guide
+    priority: 6
+

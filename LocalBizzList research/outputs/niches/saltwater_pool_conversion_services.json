@@ -1,0 +1,136 @@
+{
+  "name": "Saltwater Pool Conversion Services",
+  "slug": "saltwater_pool_conversion_services",
+  "keywords": [
+    {
+      "keyword": "saltwater pool conversion",
+      "search_volume": 1900,
+      "cpc": 12.5,
+      "competition_index": 35,
+      "competition": "MEDIUM",
+      "keyword_difficulty": 18,
+      "monthly_searches": {
+        "2025-08": 1600,
+        "2025-07": 1900,
+        "2025-06": 2400,
+        "2025-05": 2400,
+        "2025-04": 2400,
+        "2025-03": 2400,
+        "2025-02": 1900,
+        "2025-01": 1900,
+        "2024-12": 1600,
+        "2024-11": 1600,
+        "2024-10": 1900,
+        "2024-09": 1900
+      }
+    },
+    {
+      "keyword": "convert pool to saltwater",
+      "search_volume": 880,
+      "cpc": 10.25,
+      "competition_index": 28,
+      "competition": "LOW",
+      "keyword_difficulty": 12,
+      "monthly_searches": {
+        "2025-08": 720,
+        "2025-07": 880,
+        "2025-06": 1000,
+        "2025-05": 1000,
+        "2025-04": 1000,
+        "2025-03": 1000,
+        "2025-02": 880,
+        "2025-01": 880,
+        "2024-12": 720,
+        "2024-11": 720,
+        "2024-10": 880,
+        "2024-09": 880
+      }
+    },
+    {
+      "keyword": "saltwater pool miami",
+      "search_volume": 260,
+      "cpc": 8.5,
+      "competition_index": 22,
+      "competition": "LOW",
+      "keyword_difficulty": 8,
+      "monthly_searches": {
+        "2025-08": 210,
+        "2025-07": 260,
+        "2025-06": 320,
+        "2025-05": 320,
+        "2025-04": 320,
+        "2025-03": 320,
+        "2025-02": 260,
+        "2025-01": 260,
+        "2024-12": 210,
+        "2024-11": 210,
+        "2024-10": 260,
+        "2024-09": 260
+      }
+    }
+  ],
+  "serpData": [
+    {
+      "keyword": "saltwater pool conversion miami",
+      "city": "Miami,Florida,United States",
+      "local_pack_present": true,
+      "paa_present": true,
+      "featured_snippet_present": false,
+      "top_organic_urls": [
+        "https://poolcontractor.com/saltwater-pool-conversion/",
+        "https://www.yelp.com/search?find_desc=Pool+Service&find_loc=Miami",
+        "https://lucianopools.com/"
+      ],
+      "top_competitor_domain": "lucianopools.com"
+    }
+  ],
+  "competitorData": {
+    "lucianopools.com": {
+      "on_page_patterns": "Focus on 'Professional Pool Care', 'Salt System Installation', 'Pool Chemical Service'. 25+ years experience, family-owned, customer testimonials.",
+      "schema": "Likely LocalBusiness schema.",
+      "internal_linking": "Links to services, gallery, contact.",
+      "ctas": "Phone numbers, WhatsApp, Instagram.",
+      "e_e_a_t_signals": "25+ years in business, family-owned, Google reviews, detailed service descriptions."
+    }
+  },
+  "processedAt": "2025-09-30T22:18:27.051Z",
+  "scores": {
+    "total": 31,
+    "subScores": {
+      "demand": 24,
+      "competition": 72,
+      "localPack": 0,
+      "contentGap": 0,
+      "seasonality": 0
+    },
+    "weights": {
+      "demand": 0.25,
+      "competition": 0.35,
+      "localPack": 0.15,
+      "contentGap": 0.15,
+      "seasonality": 0.1
+    }
+  },
+  "rationale": "Low search demand (24/100); Low competition (72/100); Limited local pack opportunities (0/100); Limited content gap opportunities (0/100); Volatile search trends (0/100)",
+  "summary": {
+    "totalKeywords": 3,
+    "averageVolume": 1013,
+    "averageCPC": 10.42,
+    "rankabilityScore": 31,
+    "verdict": "NO-GO",
+    "keyStrengths": [
+      "Low competition"
+    ],
+    "keyWeaknesses": [
+      "Low search demand",
+      "Limited local pack opportunities",
+      "Limited content opportunities",
+      "Volatile search trends"
+    ]
+  },
+  "recommendations": [
+    "Focus on long-tail keywords with higher commercial intent",
+    "Opportunity to capture market share with quality content",
+    "Monitor seasonal trends and adjust content strategy accordingly"
+  ]
+}

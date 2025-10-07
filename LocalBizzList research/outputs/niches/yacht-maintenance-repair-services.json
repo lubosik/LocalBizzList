@@ -1,0 +1,129 @@
+{
+  "niche": "Yacht Maintenance and Repair Services",
+  "location": "Miami, Florida",
+  "research_date": "2025-01-27",
+  "miami_queries": [
+    {
+      "keyword": "Miami yacht maintenance and repair services",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Professional yacht maintenance and repair services needed"
+    },
+    {
+      "keyword": "Miami yacht maintenance cost",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Cost transparency for yacht maintenance services"
+    },
+    {
+      "keyword": "Miami yacht repair services",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Emergency and routine yacht repair needs"
+    },
+    {
+      "keyword": "Miami yacht management services",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Complete yacht management and maintenance"
+    },
+    {
+      "keyword": "Miami yacht service center",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Full-service yacht maintenance facility"
+    }
+  ],
+  "serp_analysis": {
+    "miami_yacht_maintenance_repair": {
+      "keyword": "Miami yacht maintenance and repair services",
+      "total_results": 1000000000,
+      "local_pack": false,
+      "featured_snippet": false,
+      "people_also_ask": false,
+      "top_domains": [
+        "miamimarine.com",
+        "boatworksmiami.com",
+        "miamiyacht.com",
+        "yachtmanagementmiami.com"
+      ],
+      "result_types": ["organic", "local_business"]
+    },
+    "miami_yacht_maintenance_cost": {
+      "keyword": "Miami yacht maintenance cost",
+      "total_results": 1000000000,
+      "local_pack": false,
+      "featured_snippet": false,
+      "people_also_ask": false,
+      "top_domains": [
+        "miamimarine.com",
+        "boatworksmiami.com",
+        "yachtmanagementmiami.com"
+      ],
+      "result_types": ["organic", "local_business"]
+    }
+  },
+  "competitor_analysis": {
+    "miamimarine_com": {
+      "domain": "miamimarine.com",
+      "strengths": [
+        "Full-service marine facility",
+        "Experienced technicians",
+        "Complete yacht maintenance services"
+      ],
+      "weaknesses": [
+        "Limited online presence",
+        "Basic website design",
+        "No clear pricing information"
+      ],
+      "content_gaps": [
+        "Yacht maintenance cost calculator",
+        "Preventive maintenance guides",
+        "Emergency repair services"
+      ]
+    },
+    "boatworksmiami_com": {
+      "domain": "boatworksmiami.com",
+      "strengths": [
+        "Specialized yacht services",
+        "Professional team",
+        "Quality workmanship"
+      ],
+      "weaknesses": [
+        "Limited service information",
+        "No online booking",
+        "Outdated website"
+      ],
+      "content_gaps": [
+        "Service portfolio details",
+        "Customer testimonials",
+        "Maintenance schedules"
+      ]
+    }
+  },
+  "google_trends": {
+    "keywords": [
+      "Miami yacht maintenance",
+      "Miami yacht repair services",
+      "Miami yacht maintenance cost",
+      "Miami yacht management",
+      "Miami yacht service"
+    ],
+    "trends_data": {
+      "seasonality": "Peak in summer months (June-August)",
+      "stability_index": 0.3,
+      "miami_vs_us_relative_interest": 0.8,
+      "peak_months": ["June", "July", "August"],
+      "low_months": ["December", "January", "February"]
+    }
+  },
+  "scores": {
+    "demand_score": 20,
+    "competition_score": 25,
+    "local_pack_friendliness": 15,
+    "content_gap_intent": 20,
+    "seasonality_score": 8,
+    "rankability_score": 88,
+    "rationale": "High-end luxury market with strong demand in Miami's boating community. Moderate competition with clear content gaps and seasonal peaks in summer months."
+  }
+}

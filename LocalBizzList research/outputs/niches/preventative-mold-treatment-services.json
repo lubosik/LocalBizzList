@@ -1,0 +1,226 @@
+{
+  "niche": "Preventative Mold Treatment Services",
+  "location": "Miami, Florida",
+  "research_date": "2025-01-27",
+  "miami_queries": [
+    {
+      "keyword": "Miami preventative mold treatment services",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "preventive maintenance for commercial properties"
+    },
+    {
+      "keyword": "Miami mold prevention services cost",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "cost transparency for preventive services"
+    },
+    {
+      "keyword": "Miami mold inspection and prevention",
+      "intent": "informational",
+      "priority": "high",
+      "pain_point": "comprehensive prevention approach"
+    },
+    {
+      "keyword": "Miami commercial mold prevention",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "business property protection"
+    },
+    {
+      "keyword": "Miami mold prevention contractors",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "finding qualified professionals"
+    },
+    {
+      "keyword": "Miami mold prevention tips",
+      "intent": "informational",
+      "priority": "medium",
+      "pain_point": "DIY prevention guidance"
+    },
+    {
+      "keyword": "Miami humidity control for mold prevention",
+      "intent": "informational",
+      "priority": "medium",
+      "pain_point": "climate-specific solutions"
+    },
+    {
+      "keyword": "Miami mold prevention products",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "preventive treatment options"
+    },
+    {
+      "keyword": "Miami mold prevention for homes",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "residential prevention services"
+    },
+    {
+      "keyword": "Miami mold prevention for businesses",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "commercial property protection"
+    },
+    {
+      "keyword": "Miami mold prevention maintenance",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "ongoing prevention programs"
+    },
+    {
+      "keyword": "Miami mold prevention consultation",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "expert assessment services"
+    },
+    {
+      "keyword": "Miami mold prevention certification",
+      "intent": "informational",
+      "priority": "low",
+      "pain_point": "professional standards"
+    },
+    {
+      "keyword": "Miami mold prevention insurance",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "coverage for prevention services"
+    },
+    {
+      "keyword": "Miami mold prevention emergency",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "urgent prevention needs"
+    }
+  ],
+  "serp_analysis": {
+    "primary_query": "Miami preventative mold treatment services",
+    "local_pack_domains": [
+      "miamimoldservices.com",
+      "www.fdpmoldremediation.com",
+      "www.revivewaterdamagerestoration.com"
+    ],
+    "top_organic_domains": [
+      "miamimoldspecialists.com",
+      "www.yelp.com",
+      "miamimoldspecialist.com",
+      "www.servicemasterrestore.com",
+      "moldremediationmiamielite.com"
+    ],
+    "people_also_ask": [
+      "What is the average cost for mold remediation?",
+      "How much does mold remediation cost in Miami?",
+      "Is mold remediation worth the cost?",
+      "Is there a mold preventative?"
+    ],
+    "related_searches": [
+      "Miami preventative mold treatment services reviews",
+      "Miami preventative mold treatment services near me",
+      "Miami preventative mold treatment services cost",
+      "Miami Mold Specialist",
+      "Miami Mold Specialist reviews",
+      "Free mold inspection Miami",
+      "Mold testing Miami",
+      "Mold inspection Miami cost"
+    ]
+  },
+  "cost_analysis": {
+    "miami_mold_remediation_cost": "$1,500 - $6,000",
+    "miami_mold_inspection_cost": "$300 - $1,000",
+    "preventive_treatment_cost": "$500 - $2,000",
+    "commercial_inspection_cost": "$1,000 - $3,000"
+  },
+  "competitor_analysis": {
+    "top_domains": [
+      {
+        "domain": "miamimoldspecialist.com",
+        "strengths": [
+          "Comprehensive service offerings",
+          "Advanced technology (CO2 chambers, hydroxyl generators)",
+          "30+ years experience",
+          "Marine mold removal specialization",
+          "Insurance claims assistance"
+        ],
+        "weaknesses": [
+          "Outdated website design",
+          "Limited mobile optimization",
+          "Complex service descriptions"
+        ]
+      },
+      {
+        "domain": "www.fdpmoldremediation.com",
+        "strengths": [
+          "24/7 emergency services",
+          "IICRC certified",
+          "Local Miami expertise",
+          "Comprehensive service areas",
+          "Strong customer reviews"
+        ],
+        "weaknesses": [
+          "Limited preventive focus",
+          "Basic website structure",
+          "Generic service descriptions"
+        ]
+      }
+    ],
+    "content_gaps": [
+      "Preventive maintenance programs",
+      "Climate-specific prevention strategies",
+      "Cost-benefit analysis of prevention vs remediation",
+      "Seasonal prevention schedules",
+      "DIY prevention guides"
+    ]
+  },
+  "trends_analysis": {
+    "keywords": [
+      "Miami mold prevention",
+      "Miami preventative mold treatment",
+      "Miami mold inspection cost",
+      "Miami mold remediation cost",
+      "Miami mold removal services"
+    ],
+    "trends_data": {
+      "miami_mold_prevention": {
+        "average_interest": 2,
+        "peak_interest": 39,
+        "seasonality": "moderate",
+        "peak_months": ["September", "August"]
+      },
+      "miami_mold_removal_services": {
+        "average_interest": 6,
+        "peak_interest": 100,
+        "seasonality": "high",
+        "peak_months": ["December", "March", "September"]
+      }
+    },
+    "trends_stability_index": 0.7,
+    "miami_vs_us_relative_interest": 1.2
+  },
+  "scoring": {
+    "demand_score": 25,
+    "competition_score": 35,
+    "local_pack_friendliness": 15,
+    "content_gap_score": 15,
+    "seasonality_score": 10,
+    "rankability_score": 100,
+    "rationale": "Strong demand for preventive services in Miami's humid climate, with moderate competition and clear content gaps. Local pack presence indicates good local SEO opportunities."
+  },
+  "recommendations": {
+    "go_no_go": "GO",
+    "priority_pages": [
+      "Miami Mold Prevention Services",
+      "Commercial Mold Prevention Miami",
+      "Miami Mold Prevention Cost Guide",
+      "Miami Humidity Control Solutions",
+      "Miami Mold Prevention Maintenance Plans"
+    ],
+    "content_strategy": [
+      "Focus on preventive vs reactive approach",
+      "Emphasize Miami-specific climate challenges",
+      "Provide cost-benefit analysis",
+      "Include seasonal prevention schedules",
+      "Target commercial property managers"
+    ]
+  }
+}

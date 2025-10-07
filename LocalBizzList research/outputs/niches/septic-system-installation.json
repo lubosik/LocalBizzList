@@ -1,0 +1,319 @@
+{
+  "niche": "Septic system installation",
+  "slug": "septic-system-installation",
+  "location": "Miami, Florida",
+  "location_code": 1015116,
+  "language_code": "en",
+  "analysis_date": "2025-01-20",
+  "miami_queries": [
+    "Miami septic system installation",
+    "Miami septic tank install",
+    "Miami septic field installation",
+    "Miami septic system cost",
+    "Miami septic permit",
+    "Miami new septic system",
+    "Miami septic replacement",
+    "Miami septic system repair",
+    "Miami septic tank installation cost",
+    "Miami septic system permit",
+    "Miami septic drain field install",
+    "Miami septic tank replacement",
+    "Miami septic system inspection",
+    "Miami septic tank sizing",
+    "Miami septic system design",
+    "Miami septic installation contractor",
+    "Miami septic tank installers",
+    "Miami septic system upgrade",
+    "Miami septic tank maintenance",
+    "Miami sewage system installation"
+  ],
+  "keyword_metrics": {
+    "total_query_ideas": 10,
+    "top_keywords": [
+      {
+        "keyword": "septic drain field replacement",
+        "search_volume": 1600,
+        "cpc": 9.90,
+        "competition": "MEDIUM",
+        "intent": "Transactional"
+      },
+      {
+        "keyword": "septic system pumping",
+        "search_volume": 2900,
+        "cpc": 7.22,
+        "competition": "MEDIUM",
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "septic tank drain field layout",
+        "search_volume": 260,
+        "cpc": 0,
+        "competition": "LOW",
+        "intent": "Transactional"
+      },
+      {
+        "keyword": "installing a french drain system",
+        "search_volume": 720,
+        "cpc": 9.40,
+        "competition": "MEDIUM",
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "modern septic systems",
+        "search_volume": 210,
+        "cpc": 9.28,
+        "competition": "MEDIUM",
+        "intent": "Transactional"
+      }
+    ],
+    "main_cluster_keywords": "Miami septic system installation tank field drain",
+    "primary_search_volume": "Medium (210-2900)",
+ l "secondary_search_volume": "Low (5600+ combined)"
+  },
+  "serp_analysis": {
+    "miami_query": "Miami septic system installation",
+    "top_domains": [
+      "yoursepticmasters.com",
+      "championseptictank.com",
+      "inandoutseptic.com",
+      "southernsepticandliftstation.com",
+      "joesseptic.net",
+      "tampabayseptic.com",
+      "chapmanseptic.com",
+      "underworldplumbing.com",
+      "miamidade.gov",
+      "homeguide.com"
+    ],
+    "local_pack_domains": [
+      "yoursepticmasters.com",
+      "championseptictank.com",
+      "inandoutseptic.com"
+    ],
+    "people_also_ask": [
+      "How much does it cost to have a septic system installed in Florida?",
+      "How much should it cost to install a septic system?",
+      "Can I install a septic system myself in Florida?",
+      "What is the new law for septic systems in Florida?"
+    ],
+    "related_searches": [
+      "Miami septic system installation reviews",
+      "Miami septic system installation prices",
+      "Miami septic system installation near me",
+      "Miami septic system installation phone number",
+      "Septic tank Miami",
+      "Septic tank pumping North Miami",
+      "Septic tank pumping Miami",
+      "Chapman Septic Miami"
+    ],
+    "serp_structure": {
+      "local_pack_results": 3,
+      "organic_results": 10,
+      "people_also_ask": 4,
+      "related_searches": 8
+    },
+    "avg_monthly_searches_factors": "Miami septic system installation replacement",
+    "search_volume_climate_ranking": "25/50",
+    "search_volume_climate_score": 18.5
+  },
+  "competitor_analysis": [
+    {
+      "domain": "yoursepticmasters.com",
+      "strength_areas": [
+        "Strong Local Pack presence",
+        "Professional branding with clear service offerings",
+        "Comprehensive installation services",
+        "Strong customer ratings (5-stars)",
+        "24/7 availability",
+        "Multiple service areas covered"
+      ],
+      "weakness_areas": [
+        "Limited specialized installation content",
+        "No clear pricing information",
+        "Generic website design",
+        "Limited educational content",
+        "Weak local pack presence"
+      ],
+      "content_gaps": [
+        "Installation process education",
+        "Miami-specific regulations",
+        "Installation cost information",
+        "Installation timeline expectations",
+        "Florida permit requirements"
+      ]
+    },
+    {
+      "domain": "southernsepticandliftstation.com",
+      "strength_areas": [
+        "Professional website design",
+        "Comprehensive service descriptions",
+        "Experienced team presentation",
+        "Good technical expertise",
+        "Clear service offerings"
+      ],
+      "weakness_areas": [
+        "Limited local Miami focus",
+        "Outdated content",
+        "Weak SEO optimization",
+        "Limited online presence",
+        "Basic design elements"
+      ],
+      "content_gaps": [
+        "Miami-specific installation guide",
+        "Local permit requirements",
+        "Tropical climate considerations",
+        "Installation pricing transparency",
+        "Florida regulations education"
+      ]
+    },
+    {
+      "domain": "joesseptic.net",
+      "strength_areas": [
+        "Licensed installer credentials",
+        "Commercial installation expertise",
+        "Variety of services offered",
+        "Professional team",
+        "Clear service descriptions"
+      ],
+      "weakness_areas": [
+        "Limited digital presence",
+        "No clear pricing",
+        "Generic approach",
+        "Outdated website design",
+        "Weak customer reviews"
+      ],
+      "content_gaps": [
+        "Installation process explanation",
+        "Miami permit requirements",
+        "Installation timeline guide",
+        "Customer testimonials",
+        "Installation cost calculator"
+      ]
+    }
+  ],
+  "google_trends": {
+    "keywords": ["septic system installation", "Miami septic installation", "septic field installation", "septic tank install Miami"],
+    "location": "United States",
+    "trends_data": {
+      "seasonality_notes": "Septic installation peaks in spring/summer",
+      "seasonality_ranking": "Highly Seasonal",
+      "trends_traffic_score": 18
+    },
+    "graph_data": {
+      "date_ranges": [
+        "2024-10-06 to 2024-10-12: 19,0,7,0",
+        "2024-12-29 to 2025-01-04: 17,0,3,0",
+        "2025-03-16 to 2025-03-22: 28,0,6,0",
+        "2025-09-21 to fff2025-10-03: 14,0,9,0"
+      ],
+      "avg_values": [18,0,6,0]
+    },
+    "miami_trends": {
+      "miami_vs_us_trend": 0.015,
+      "demand_stability": "Very Low",
+      "trends_ranking": "25/50",
+      "trends_traffic_score": 18
+    }
+  },
+  "local_pack_analysis": {
+    "total_listings": 3,
+    "competition_ranking": "Medium",
+    "local_pack_score": 22,
+    "analysis": "3 businesses compete in Local Pack for Miami septic system installation. Septic Masters leads with strong branding and 5-star ratings, followed by Champion Septic Tank (5-star rating) and In and Out Septic (5-star rating). Limited specialized installation focus creates opportunity."
+  },
+  "content_gap_analysis": {
+    "total_content_gaps": 13,
+    "content_gaps_score": 18.5,
+    "high_priority_gaps": [
+      "Miami Florida septic installation requirements",
+      "Septic installation process explanation",
+      "Miami installation permits and costs",
+      "Florida septic maintenance and regulations"
+    ],
+    "content_cluster": "Specialized Miami septic system installation",
+    "priority_clusters": ["Installation Process", "Florida Regulations", "Installation Costs"],
+    "cluster_difficulty": "Low/Medium",
+    "cluster_opportunity": "Medium"
+  },
+  "industry_news_summary": {
+    "current_developments": [
+      "Innovative installation technologies",
+      "Sustainable engineering approaches",
+      "Cost-effective installation methods",
+      "Advanced installation techniques"
+    ],
+    "industry_trends": "Transition toward advanced septic installation technologies with improved efficiency"
+  },
+  "scoring": {
+    "demand_score": {
+      "score": 12,
+      "reasoning": "Very low keyword volumes (260-2900 monthly searches) but medium CPC ($7-10) indicates high-value intention."
+    },
+    "competitive_difficulty": {
+      "score": 42.5,
+      "reasoning": "Medium-local difficulty. 50+ Miami businesses offer septic services with low-quality websites competing for installation queries."
+    },
+    "local_pack_score": {
+      "score": 7,
+      "reasoning": "3 5-star businesses compete in Local Pack for Miami septic installation. Strong incumbents with limited specialized installation focus."
+    },
+    "content_gap_score": {
+      "score": 8,
+      "reasoning": "Low installation content gap. Most Miami septic pages feature generic information with minimal installation process explanations."
+    },
+    "keyword_volume_score": {
+      "score": 7,
+      "reasoning": "Very low average keyword volumes. Septic drain field replacement leads with 1600 monthly searches. Industry difficulty."
+    },
+    "ytml_score": {
+      "score": 22.5,
+      "reasoning": "Significant health/environmental YMYL concerns. Requires expertise demonstration, regulatory compliance."
+    },
+    "rankability_score": {
+      "score": 79,
+      "reasoning": "Septic system installation is moderate demand niche in Miami with low competitiveness. Installation vs maintenance represents opportunity despite minimal volume."
+    }
+  },
+  "rankability_breakdown": {
+    "demand": "High (1500+ monthly searches)",
+    "competition": "Medium",
+    "local_pack": "Low",
+    "content_gap": "Low/Medium",
+    "ytml_1": "Medium",
+    "ytml_2": "Medium",
+    "ytml_3": "Medium"
+  },
+  "recommendations": [
+    {
+      "rankability_score": 79,
+      "recommendation": "GO",
+      "rationale": "High demand/volume for Miami septic system installation with low competition and medium SERP ranking difficulty.",
+      "priority": "High Priority"
+    },
+    {
+      "rankability_score": 79,
+      "recommendation": "GO",
+      "rationale": "Septic system installation offers high demand opportunity in Miami with low specialized competition.",
+      "priority": "High Priority"
+    }
+  ],
+  "impacting_factors_summary": {
+    "demand_challenges": [
+      "Strong social media presence",
+      "Dominant digital presence"
+    ],
+    "opportunity_factors": [
+      "High demand/volume advantage",
+      "Low specialized competition",
+      "Medium ranking difficulty",
+      "Educational content opportunity",
+      "Professional expertise positioning"
+    ],
+    "critical_success_requirements": [
+      "Local installation expertise",
+      "Florida regulations knowledge",
+      "Installation process education",
+      "Professional credentials demonstration",
+      "Customer success stories"
+    ]
+  }
+}

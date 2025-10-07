@@ -1,0 +1,212 @@
+{
+  "/Users/ghost/Localbizzlist/LocalBizzList research/outputs/niches/septic-cleaning-services.json": "septic-cleaning-services",
+  "niche_name": "Septic Cleaning Services",
+  "miami_queries": [
+    "Miami septic tank cleaning",
+    "septic pumping Miami",
+    "Miami septic service",
+    "septic cleaning cost Miami",
+    "Miami septic tank pumping",
+    "Miami septic tank maintenance",
+    "septic tank pumping cost Miami",
+    "Miami septic tank repair",
+    "septic cleaning near me Miami",
+    "Miami septic system inspection"
+  ],
+  "keyword_metrics": {
+    "miami_septic_tank_cleaning": {
+      "search_volume": 590,
+      "cpc": 30.91,
+      "competition": "MEDIUM",
+      "intent": "transactional"
+    },
+    "septic_pumping_miami": {
+      "search_volume": 10,
+      "cpc": 40.07,
+      "competition": "MEDIUM",
+      "intent": "transactional"
+    },
+    "miami_septic_service": {
+      "search_volume": 70,
+      "cpc": 48.97,
+      "competition": "MEDIUM",
+      "intent": "commercial"
+    },
+    "miami_septic_tank_pumping": {
+      "search_volume": 390,
+      "cpc": 45.53,
+      "competition": "HIGH",
+      "intent": "transactional"
+    },
+    "septic_tank_cleaning_companies": {
+      "search_volume": 590,
+      "cpc": 22.87,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    "american_septic_pumping": {
+      "search_volume": 140,
+      "cpc": 12.83,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    "steve_septic_service": {
+      "search_volume": 480,
+      "cpc": 19.47,
+      "competition": "LOW",
+      "intent": "navigational"
+    },
+    "waste_management_customer_service": {
+      "search_volume": 27100,
+      "cpc": 5.06,
+      "competition": "LOW",
+      "intent": "informational"
+    }
+  },
+  "serp_analysis": {
+    "total_results": "About 11,000,000 results",
+    "local_pack_available": true,
+    "top_domains": [
+      {
+        "domain": "yoursepticmasters.com",
+        "rank": 1,
+        "title": "Septic Masters",
+        "rating": 5.0,
+        "reviews": 49,
+        "phone": "(786) 282-8690"
+      },
+      {
+        "domain": "allcityseptic.com", 
+        "rank": 2,
+        "title": "All City Septic",
+        "rating": 4.8,
+        "reviews": 135,
+        "phone": "(754) 248-4375"
+      },
+      {
+        "domain": "unitedsandg.com",
+        "rank": 3,
+        "title": "United Septic & Grease Services, Inc.",
+        "rating": 4.9,
+        "reviews": 48,
+        "phone": "(305) 878-1885"
+      },
+      {
+        "domain": "championseptictank.com",
+        "rank": 5,
+        "title": "Champion Septic Tank | Miami-Dade, Broward, Palm Beach",
+        "description": "Champion Septic Tank offers expert septic cleaning, pumping, & maintenance."
+      },
+      {
+        "domain": "chapmanseptic.com",
+        "rank": 7,
+        "title": "Chapman Septic Service, Inc. – Miami, FL",
+        "phone": "305-661-0628"
+      },
+      {
+        "domain": "alligatorseptic.com",
+        "rank": 8,
+        "title": "Septic Tank Cleaning Family Owned Since 1989",
+        "description": "Complete septic service: pumping, cleaning, inspections, and repairs."
+      }
+    ]
+  },
+  "competitor_analysis": [
+    {
+      "domain": "yoursepticmasters.com",
+      "strengths": [
+        "24/7 availability",
+        "High Google rating (5.0 stars)",
+        "Comprehensive service offerings (pumping, inspection, repair, grease trap cleaning)",
+        "Strong local SEO presence ranking #1",
+        "Clear pricing transparency",
+        "Professional website with service-specific pages"
+      ],
+      "weaknesses": [
+        "Limited content depth on service pages",
+        "Generic FAQ section",
+        "No educational blog content",
+        "Missing trust signals like certifications",
+        "Basic contact form without scheduling integration"
+      ],
+      "content_gaps": [
+        "Educational content about septic system maintenance",
+        "Service area pages for specific Miami neighborhoods",
+        "Before/after case studies",
+        "Video content for service explanations",
+        "Emergency service landing pages"
+      ]
+    },
+    {
+      "domain": "allcityseptic.com",
+      "strengths": [
+        "Strong local reputation (4.8 stars, 135 reviews)",
+        "Multiple service offerings",
+        "Professional presentation"
+      ],
+      "weaknesses": [
+        "Limited online content",
+        "Basic website structure",
+        "Missing detailed service explanations"
+      ],
+      "content_gaps": [
+        "Homeowner education content",
+        "Service pricing information",
+        "Maintenance schedule guides"
+      ]
+    },
+    {
+      "domain": "chapmanseptic.com",
+      "strengths": [
+        "Clear service listing",
+        "Professional appearance",
+        "Established business presence"
+      ],
+      "weaknesses": [
+        "Outdated website design (2018)",
+        "Limited content depth",
+        "No pricing information",
+        "Missing modern SEO elements"
+      ],
+      "content_gaps": [
+        "Modern responsive design",
+        "Educational resources",
+        "Customer testimonials",
+        "Emergency services information"
+      ]
+    }
+  ],
+  "google_trends": {
+    "seasonality_pattern": "Consistent demand year-round with slight peaks in summer/fall",
+    "trend_data": [
+      { "period": "Oct 2024", "volume": 50 },
+      { "period": "Dec 2024", "volume": 52 },
+      { "period": "Feb 2025", "volume": 62 },
+      { "period": "Apr 2025", "volume": 47 },
+      { "period": "Jul 2025", "volume": 100 },
+      { "period": "Sep 2025", "volume": 69 }
+    ],
+    "avg_monthly_volume": 56
+  },
+  "scoring": {
+    "demand_score": 15,
+    "competition_score": 22,
+    "local_pack_score": 8,
+    "content_gap_score": 8,
+    "seasonality_score": 6,
+    "rankability_score": 74,
+    "difficulty_rating": "MEDIUM"
+  },
+  "recommendations": {
+    "priority_order": "HIGH",
+    "key_opportunities": [
+      "Create comprehensive educational content about septic system maintenance",
+      "Develop neighborhood-specific landing pages for Miami areas",
+      "Build emergency services content with clear CTAs",
+      "Generate video content explaining septic cleaning process",
+      "Develop service pricing calculators and quote tools"
+    ],
+    "content_strategy": "Focus on homeowner education and maintenance scheduling",
+    "local_seo_strategy": "Target specific Miami neighborhoods and emergency keywords"
+  }
+}

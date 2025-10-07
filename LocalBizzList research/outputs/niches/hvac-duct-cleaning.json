@@ -1,0 +1,193 @@
+{
+  "niche": "Commercial HVAC duct cleaning",
+  "slug": "hvac-duct-cleaning",
+  "location": "Miami, Florida",
+  "location_code": 1015116,
+  "language_code": "en",
+  "analysis_date": "2025-01-20",
+  "miami_queries": [
+    "commercial hvac duct cleaning miami",
+    "hvac duct cleaning miami",
+    "commercial air duct cleaning miami",
+    "miami hvac system cleaning",
+    "ductwork cleaning miami",
+    "commercial ac duct cleaning miami",
+    "miami commercial ventilation cleaning",
+    "hvac coil cleaning miami commercial",
+    "commercial dryer vent cleaning miami",
+    "miami industrial duct cleaning",
+    "commercial kitchen exhaust cleaning miami",
+    "miami hvac hygiene services",
+    "commercial air handler cleaning miami",
+    "miami hvac sanitation",
+    "commercial duct inspection miami",
+    "miami hvac air quality services",
+    "commercial hvac cleaning cost miami",
+    "miami commercial duct maintenance",
+    "hvac system sanitization miami",
+    "commercial hvac mold remediation miami"
+  ],
+  "keyword_data": [
+    {
+      "keyword": "commercial hvac duct cleaning miami",
+      "search_volume": 85,
+      "cpc": 12.30,
+      "competition": 0.65,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "hvac duct cleaning miami",
+      "search_volume": 120,
+      "cpc": 8.50,
+      "competition": 0.60,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "commercial air duct cleaning miami",
+      "search_volume": 75,
+      "cpc": 15.20,
+      "competition": 0.70,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "miami hvac system cleaning",
+      "search_volume": 65,
+      "cpc": 9.80,
+      "competition": 0.55,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "ductwork cleaning miami",
+      "search_volume": 55,
+      "cpc": 7.20,
+      "competition": 0.50,
+      "intent": "commercial"
+    }
+  ],
+  "serp_analysis": {
+    "top_domains": [
+      "www.ductmasters.com",
+      "airductcleaningmiamifl.com",
+      "www.stanleysteemer.com",
+      "miamimoldspecialists.com",
+      "www.yelp.com",
+      "www.psr-airductcleaningmiami.com",
+      "www.ductz.com",
+      "www.angi.com"
+    ],
+    "local_pack_count": 3,
+    "local_pack_domains": [
+      "cloroxairductcleaningincmiami.com",
+      "www.airductcleaningmiamifl.com",
+      "www.acrepairanductcleaningmiami.com"
+    ],
+    "serp_features": [
+      "local_pack",
+      "people_also_ask",
+      "people_also_search",
+      "related_searches"
+    ]
+  },
+  "competitor_gap_analysis": {
+    "top_competitors": [
+      {
+        "domain": "www.ductmasters.com",
+        "strengths": "Established since 1992, NADCA certified, A+ BBB rating, comprehensive services including commercial HVAC, strong local presence across South Florida.",
+        "weaknesses": "Website has chat widget issues, could improve mobile experience, some content could be more specific to commercial needs."
+      },
+      {
+        "domain": "airductcleaningmiamifl.com",
+        "strengths": "Good local pack presence, 10+ years in business, positive reviews, offers both residential and commercial services.",
+        "weaknesses": "Website could be more professional, limited content depth, less specialized in commercial HVAC."
+      },
+      {
+        "domain": "cloroxairductcleaningincmiami.com",
+        "strengths": "Strong local pack presence, 24/7 availability, high ratings (4.9/5), quick service mentioned in reviews.",
+        "weaknesses": "Generic website name, limited online content, less focus on commercial specialization."
+      },
+      {
+        "domain": "www.stanleysteemer.com",
+        "strengths": "National brand recognition, professional service, comprehensive cleaning services.",
+        "weaknesses": "Not Miami-specific, higher pricing, less local expertise, generic commercial approach."
+      }
+    ],
+    "opportunities": [
+      "Create highly specialized content around commercial HVAC regulations and compliance requirements in Miami-Dade County.",
+      "Target long-tail keywords related to specific commercial property types (e.g., 'restaurant hvac duct cleaning miami').",
+      "Develop educational content on the importance of regular HVAC maintenance for commercial buildings.",
+      "Emphasize commercial specialization and expertise prominently on the website, differentiating from residential-focused competitors."
+    ]
+  },
+  "google_trends": {
+    "keywords": [
+      "commercial hvac duct cleaning",
+      "hvac duct cleaning",
+      "commercial air duct cleaning",
+      "hvac system cleaning"
+    ],
+    "seasonality": "Consistent demand throughout the year with slight peaks in Q2 and Q3, indicating steady need for commercial HVAC maintenance services.",
+    "trend_data": [
+      {"date_from": "2024-10-06", "date_to": "2024-10-12", "values": [0, 73, 2, 13]},
+      {"date_from": "2024-10-13", "date_to": "2024-10-19", "values": [1, 44, 3, 7]},
+      {"date_from": "2024-10-20", "date_to": "2024-10-26", "values": [0, 50, 12, 3]},
+      {"date_from": "2024-10-27", "date_to": "2024-11-02", "values": [1, 40, 11, 13]},
+      {"date_from": "2024-11-03", "date_to": "2024-11-09", "values": [1, 43, 2, 11]},
+      {"date_from": "2024-11-10", "date_to": "2024-11-16", "values": [9, 67, 2, 3]},
+      {"date_from": "2024-11-17", "date_to": "2024-11-23", "values": [0, 22, 2, 19]},
+      {"date_from": "2024-11-24", "date_to": "2024-11-30", "values": [1, 57, 3, 3]},
+      {"date_from": "2024-12-01", "date_to": "2024-12-07", "values": [0, 36, 2, 3]},
+      {"date_from": "2024-12-08", "date_to": "2024-12-14", "values": [1, 68, 2, 11]},
+      {"date_from": "2024-12-15", "date_to": "2024-12-21", "values": [0, 50, 2, 11]},
+      {"date_from": "2024-12-22", "date_to": "2024-12-28", "values": [1, 47, 11, 3]},
+      {"date_from": "2024-12-29", "date_to": "2025-01-04", "values": [1, 43, 10, 4]},
+      {"date_from": "2025-01-05", "date_to": "2025-01-11", "values": [1, 35, 3, 8]},
+      {"date_from": "2025-01-12", "date_to": "2025-01-18", "values": [1, 38, 2, 14]},
+      {"date_from": "2025-01-19", "date_to": "2025-01-25", "values": [1, 36, 2, 4]},
+      {"date_from": "2025-01-26", "date_to": "2025-02-01", "values": [1, 37, 9, 11]},
+      {"date_from": "2025-02-02", "date_to": "2025-02-08", "values": [1, 44, 3, 8]},
+      {"date_from": "2025-02-09", "date_to": "2025-02-15", "values": [1, 33, 3, 7]},
+      {"date_from": "2025-02-16", "date_to": "2025-02-22", "values": [1, 39, 2, 11]},
+      {"date_from": "2025-02-23", "date_to": "2025-03-01", "values": [0, 44, 24, 10]},
+      {"date_from": "2025-03-02", "date_to": "2025-03-08", "values": [9, 33, 10, 19]},
+      {"date_from": "2025-03-09", "date_to": "2025-03-15", "values": [1, 33, 2, 4]},
+      {"date_from": "2025-03-16", "date_to": "2025-03-22", "values": [1, 50, 2, 4]},
+      {"date_from": "2025-03-23", "date_to": "2025-03-29", "values": [1, 32, 1, 4]},
+      {"date_from": "2025-03-30", "date_to": "2025-04-05", "values": [1, 54, 9, 11]},
+      {"date_from": "2025-04-06", "date_to": "2025-04-12", "values": [1, 55, 1, 11]},
+      {"date_from": "2025-04-13", "date_to": "2025-04-19", "values": [1, 40, 2, 4]},
+      {"date_from": "2025-04-20", "date_to": "2025-04-26", "values": [8, 50, 2, 4]},
+      {"date_from": "2025-04-27", "date_to": "2025-05-03", "values": [0, 42, 1, 11]},
+      {"date_from": "2025-05-04", "date_to": "2025-05-10", "values": [0, 63, 2, 21]},
+      {"date_from": "2025-05-11", "date_to": "2025-05-17", "values": [1, 36, 2, 7]},
+      {"date_from": "2025-05-18", "date_to": "2025-05-24", "values": [1, 44, 1, 11]},
+      {"date_from": "2025-05-25", "date_to": "2025-05-31", "values": [1, 47, 1, 10]},
+      {"date_from": "2025-06-01", "date_to": "2025-06-07", "values": [1, 48, 1, 18]},
+      {"date_from": "2025-06-08", "date_to": "2025-06-14", "values": [0, 33, 1, 3]},
+      {"date_from": "2025-06-15", "date_to": "2025-06-21", "values": [0, 49, 3, 6]},
+      {"date_from": "2025-06-22", "date_to": "2025-06-28", "values": [2, 45, 2, 4]},
+      {"date_from": "2025-06-29", "date_to": "2025-07-05", "values": [1, 27, 2, 11]},
+      {"date_from": "2025-07-06", "date_to": "2025-07-12", "values": [1, 53, 2, 10]},
+      {"date_from": "2025-07-13", "date_to": "2025-07-19", "values": [1, 57, 2, 4]},
+      {"date_from": "2025-07-20", "date_to": "2025-07-26", "values": [1, 59, 2, 5]},
+      {"date_from": "2025-07-27", "date_to": "2025-08-02", "values": [8, 42, 10, 6]},
+      {"date_from": "2025-08-03", "date_to": "2025-08-09", "values": [1, 49, 3, 5]},
+      {"date_from": "2025-08-10", "date_to": "2025-08-16", "values": [1, 38, 2, 14]},
+      {"date_from": "2025-08-17", "date_to": "2025-08-23", "values": [8, 40, 2, 5]},
+      {"date_from": "2025-08-24", "date_to": "2025-08-30", "values": [1, 55, 2, 14]},
+      {"date_from": "2025-08-31", "date_to": "2025-09-06", "values": [1, 55, 2, 6]},
+      {"date_from": "2025-09-07", "date_to": "2025-09-13", "values": [2, 100, 10, 7]},
+      {"date_from": "2025-09-14", "date_to": "2025-09-20", "values": [2, 60, 10, 9]},
+      {"date_from": "2025-09-21", "date_to": "2025-10-03", "values": [3, 40, 6, 20]}
+    ]
+  },
+  "rankability_score": {
+    "overall": 72,
+    "demand": 5,
+    "competition": 6,
+    "local_pack": 8,
+    "content_gap": 8,
+    "seasonality": 8
+  },
+  "recommendation": "GO",
+  "rationale": "The niche has strong demand with consistent search volume and good commercial intent. While competition exists, there are clear opportunities to differentiate through specialized commercial content and local expertise. The local pack presence is strong, and seasonal trends show steady demand. Focus on commercial specialization and regulatory compliance content to capture market share."
+}

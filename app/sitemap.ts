@@ -24,6 +24,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily' as const,
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/resources`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/services/restaurant-hood-cleaning`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/pricing/instant-quote`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/locations/miami/hood-cleaning`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/locations/boca-raton/hood-cleaning`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/locations/fort-lauderdale/hood-cleaning`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
   ]
 
   // Blog posts
@@ -42,5 +78,66 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  return [...staticPages, ...blogPosts, ...businesses]
+  // Resource articles
+  const resourceArticles = [
+    // Miami resources
+    {
+      url: `${baseUrl}/resources/miami/nfpa-96-hood-cleaning-checklist`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/miami/hood-cleaning-frequency-by-restaurant-type`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/miami/exhaust-fan-problems-and-fixes`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    // Boca Raton resources
+    {
+      url: `${baseUrl}/resources/boca-raton/nfpa-96-hood-cleaning-checklist`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/boca-raton/hood-cleaning-frequency-by-restaurant-type`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/boca-raton/exhaust-fan-problems-and-fixes`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    // Fort Lauderdale resources
+    {
+      url: `${baseUrl}/resources/fort-lauderdale/nfpa-96-hood-cleaning-checklist`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/fort-lauderdale/hood-cleaning-frequency-by-restaurant-type`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/fort-lauderdale/exhaust-fan-problems-and-fixes`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+  ]
+
+  return [...staticPages, ...blogPosts, ...businesses, ...resourceArticles]
 }

@@ -1,0 +1,299 @@
+{
+  "niche": "Roofing Inspection and Maintenance Plans",
+  "location": "Miami, Florida",
+  "research_date": "2025-01-27",
+  "miami_queries": [
+    {
+      "keyword": "roof inspection miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Need professional roof assessment for insurance or maintenance"
+    },
+    {
+      "keyword": "roof maintenance plans miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Looking for ongoing maintenance service contracts"
+    },
+    {
+      "keyword": "roof inspection after storm miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Post-hurricane damage assessment needed"
+    },
+    {
+      "keyword": "roof inspection cost miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Budgeting for inspection services"
+    },
+    {
+      "keyword": "roof maintenance contracts miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Seeking long-term maintenance agreements"
+    },
+    {
+      "keyword": "commercial roof inspection miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Business property roof assessment"
+    },
+    {
+      "keyword": "roof inspection report miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Need detailed documentation for insurance"
+    },
+    {
+      "keyword": "roof inspection before hurricane season miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Pre-storm preparation and assessment"
+    },
+    {
+      "keyword": "roof inspection insurance miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Insurance compliance and certification"
+    },
+    {
+      "keyword": "roof maintenance schedule miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Planning regular maintenance intervals"
+    }
+  ],
+  "keyword_metrics": [
+    {
+      "keyword": "roof inspection miami",
+      "search_volume": 590,
+      "cpc": 2.45,
+      "competition": 0.67,
+      "keyword_difficulty": 45,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "roof maintenance plans miami",
+      "search_volume": 320,
+      "cpc": 3.20,
+      "competition": 0.45,
+      "keyword_difficulty": 38,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "roof inspection after storm miami",
+      "search_volume": 210,
+      "cpc": 2.80,
+      "competition": 0.52,
+      "keyword_difficulty": 42,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "roof inspection cost miami",
+      "search_volume": 170,
+      "cpc": 1.95,
+      "competition": 0.38,
+      "keyword_difficulty": 35,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "roof maintenance contracts miami",
+      "search_volume": 140,
+      "cpc": 3.50,
+      "competition": 0.41,
+      "keyword_difficulty": 39,
+      "intent": "commercial"
+    }
+  ],
+  "serp_analysis": {
+    "top_queries": [
+      "roof inspection miami",
+      "roof maintenance plans miami",
+      "roof inspection after storm miami",
+      "roof inspection cost miami",
+      "roof maintenance contracts miami"
+    ],
+    "local_pack_presence": 5,
+    "featured_snippets": 3,
+    "people_also_ask": 4,
+    "top_domains": [
+      "tsroofingsystems.com",
+      "miamirooftech.com",
+      "honestaberoofing.com",
+      "homeinspectionsmiamifl.com",
+      "paletzroofing.com"
+    ],
+    "directory_presence": {
+      "yelp": 3,
+      "google_business": 5,
+      "angies_list": 2,
+      "homeadvisor": 3
+    },
+    "result_types": {
+      "organic": 10,
+      "local_pack": 3,
+      "featured_snippet": 1,
+      "people_also_ask": 1
+    }
+  },
+  "competitor_analysis": {
+    "top_competitors": [
+      {
+        "domain": "tsroofingsystems.com",
+        "strengths": [
+          "Comprehensive service area coverage (Miami-Dade & Broward)",
+          "Strong local SEO with location-specific pages",
+          "Professional website with clear service descriptions",
+          "Multiple certifications and awards displayed",
+          "Free consultation and estimates"
+        ],
+        "weaknesses": [
+          "Limited focus on maintenance plans specifically",
+          "No clear pricing information",
+          "Generic service descriptions"
+        ],
+        "content_gaps": [
+          "Maintenance plan details and pricing",
+          "Storm-specific inspection services",
+          "Insurance compliance information"
+        ]
+      },
+      {
+        "domain": "miamirooftech.com",
+        "strengths": [
+          "Local Miami focus and branding",
+          "Free estimates prominently featured",
+          "Multiple service types (tile, shingle, flat, metal)",
+          "Customer testimonials displayed"
+        ],
+        "weaknesses": [
+          "Outdated website design",
+          "Limited maintenance plan information",
+          "No clear service area definition"
+        ],
+        "content_gaps": [
+          "Detailed maintenance plans",
+          "Storm inspection services",
+          "Insurance compliance details"
+        ]
+      },
+      {
+        "domain": "honestaberoofing.com",
+        "strengths": [
+          "Strong guarantee offerings",
+          "Professional website design",
+          "Clear service descriptions",
+          "Multiple financing options"
+        ],
+        "weaknesses": [
+          "Limited Miami-specific content",
+          "No maintenance plan focus",
+          "Generic service descriptions"
+        ],
+        "content_gaps": [
+          "Miami-specific maintenance plans",
+          "Storm inspection services",
+          "Local compliance information"
+        ]
+      },
+      {
+        "domain": "homeinspectionsmiamifl.com",
+        "strengths": [
+          "Specialized inspection focus",
+          "Miami-specific branding",
+          "Clear service descriptions",
+          "Professional approach"
+        ],
+        "weaknesses": [
+          "Limited maintenance plan information",
+          "No clear pricing",
+          "Basic website design"
+        ],
+        "content_gaps": [
+          "Maintenance plan details",
+          "Storm-specific services",
+          "Insurance compliance information"
+        ]
+      }
+    ],
+    "common_pain_points": [
+      "Incomplete or rushed inspections by some providers",
+      "Delays in scheduling or report delivery",
+      "Communication issues regarding scope and follow-up work",
+      "Lack of clear maintenance plan options",
+      "Limited storm-specific inspection services"
+    ],
+    "opportunities": [
+      "Comprehensive maintenance plans with clear pricing",
+      "Storm-specific inspection services",
+      "Insurance compliance and certification focus",
+      "Better communication and follow-up processes",
+      "Miami-specific content and local expertise"
+    ]
+  },
+  "google_trends": {
+    "keywords": [
+      "roof inspection Miami",
+      "roof maintenance plans Miami",
+      "roof inspection after storm Miami",
+      "roof maintenance contracts Miami",
+      "roof inspection cost Miami"
+    ],
+    "trends_data": {
+      "roof inspection Miami": {
+        "average_interest": 12,
+        "peak_interest": 100,
+        "seasonality": "High during hurricane season (June-November)"
+      },
+      "roof maintenance plans Miami": {
+        "average_interest": 0,
+        "peak_interest": 0,
+        "seasonality": "Consistent year-round"
+      },
+      "roof inspection after storm Miami": {
+        "average_interest": 0,
+        "peak_interest": 5,
+        "seasonality": "Spikes after major storms"
+      },
+      "roof maintenance contracts Miami": {
+        "average_interest": 0,
+        "peak_interest": 0,
+        "seasonality": "Consistent year-round"
+      },
+      "roof inspection cost Miami": {
+        "average_interest": 2,
+        "peak_interest": 60,
+        "seasonality": "Moderate year-round interest"
+      }
+    },
+    "trends_stability_index": 0.35,
+    "miami_vs_us_relative_interest": 1.8
+  },
+  "scores": {
+    "demand_score": 22,
+    "competition_score": 28,
+    "local_pack_friendliness_score": 13,
+    "content_gap_score": 12,
+    "seasonality_score": 8,
+    "rankability_score": 83,
+    "rationale": "Strong demand with moderate competition. Local pack presence is good but content gaps exist around maintenance plans and storm-specific services. High seasonality during hurricane season creates opportunities for specialized services."
+  },
+  "recommendations": {
+    "go_no_go": "GO",
+    "key_opportunities": [
+      "Develop comprehensive maintenance plans with clear pricing",
+      "Create storm-specific inspection services",
+      "Focus on insurance compliance and certification",
+      "Improve communication and follow-up processes",
+      "Develop Miami-specific content and local expertise"
+    ],
+    "must_publish_pages": [
+      "Miami Roof Maintenance Plans - Pricing and Services",
+      "Storm Damage Roof Inspection Services in Miami",
+      "Insurance Compliance Roof Inspections Miami",
+      "Commercial Roof Maintenance Contracts Miami",
+      "Roof Inspection Cost Guide Miami"
+    ]
+  }
+}

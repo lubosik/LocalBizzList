@@ -1,0 +1,158 @@
+{
+  "niche_name": "Septic Install Services",
+  "miami_queries": [
+    "Miami septic tank installation",
+    "septic system install Miami",
+    "Miami septic installation cost",
+    "septic tank installer Miami",
+    "Miami septic drain field installation",
+    "Miami septic repair cost",
+    "Miami septic pumping cost",
+    "septic tank replacement Miami",
+    "Miami septic system design",
+    "Miami septic permit cost"
+  ],
+  "keyword_metrics": {
+    "miami_septic_tank_installation": {
+      "search_volume": 320,
+      "cpc": 15.45,
+      "competition": "HIGH",
+      "intent": "transactional"
+    },
+    "septic_drain_field_replacement": {
+      "search_volume": 1600,
+      "cpc": 9.9,
+      "competition": "MEDIUM",
+      "intent": "transactional"
+    },
+    "septic_system_pumping": {
+      "search_volume": 2900,
+      "cpc": 7.22,
+      "competition": "MEDIUM",
+      "intent": "commercial"
+    },
+    "community_septic_system": {
+      "search_volume": 140,
+      "cpc": 5.65,
+      "competition": "LOW",
+      "intent": "navigational"
+    },
+    "septic_tank_drain_field_layout": {
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": "LOW",
+      "intent": "transactional"
+    },
+    "installing_a_french_drain_system": {
+      "search_volume": 720,
+      "cpc": 9.4,
+      "competition": "LOW",
+      "intent": "commercial"
+    },
+    "modern_septic_systems": {
+      "search_volume": 210,
+      "cpc": 9.28,
+      "competition": "MEDIUM",
+      "intent": "transactional"
+    },
+    "septic_system_cost_miami": {
+      "search_volume": 180,
+      "cpc": 12.50,
+      "competition": "MEDIUM",
+      "intent": "transactional"
+    }
+  },
+  "serp_analysis": {
+    "top_domains": [
+      "allcityseptic.com",
+      "yoursepticmasters.com",
+      "championseptictank.com",
+      "joesseptic.net",
+      "yelp.com",
+      "chapmanseptic.com",
+      "tampabayseptic.com",
+      "miamidade.gov"
+    ],
+    "local_pack_domains": [
+      "allcityseptic.com",
+      "yoursepticmasters.com",
+      "championseptictank.com"
+    ],
+    "cost_information": {
+      "miami_range": "$3,451 - $4,931",
+      "florida_range": "$3,000 - $15,000",
+      "influencing_factors": [
+        "soil conditions",
+        "system type",
+        "property accessibility",
+        "permits and inspections",
+        "specialized systems"
+      ]
+    }
+  },
+  "competitor_analysis": {
+    "domain": "allcityseptic.com",
+    "strengths": [
+      "High Google rating (4.8 stars)",
+      "Local Miami presence",
+      "24-hour service availability",
+      "Strong customer reviews",
+      "Established local reputation"
+    ],
+    "weaknesses": [
+      "Basic website design",
+      "Limited content depth",
+      "No detailed service pages",
+      "Missing FAQ section",
+      "Poor mobile optimization"
+    ],
+    "content_gaps": [
+      "Comprehensive cost calculator",
+      "Florida septic regulations guide",
+      "Permit information",
+      "Installation process explanation",
+      "Customer testimonials gallery",
+      "Emergency service details",
+      "Mobile-friendly design"
+    ]
+  },
+  "google_trends": {
+    "keyword": "septic tank installation",
+    "trend_data": {
+      "average_popularity": 40,
+      "peak_season": "August (100)",
+      "lowest_season": "December (27)",
+      "seasonality_notes": "Peak demand in late summer/early fall, lower in winter"
+    }
+  },
+  "scoring": {
+    "demand_score": 18,
+    "competition_score": 15,
+    "local_pack_score": 22,
+    "content_gap_score": 20,
+    "seasonality_score": 25,
+    "rankability_score": 94
+  },
+  "recommendations": {
+    "priority_keywords": [
+      "Miami septic tank installation cost",
+      "septic system installer Miami",
+      "Miami septic drain field installation",
+      "Florida septic tank requirements"
+    ],
+    "content_strategy": [
+      "Create comprehensive cost calculators",
+      "Develop Florida regulations guide",
+      "Build permit process pages",
+      "Add installation process explanations",
+      "Include customer testimonials",
+      "Mobile optimization focus"
+    ],
+    "competitor_opportunities": [
+      "Beat championseptictank.com in local SEO",
+      "Outrank joesseptic.net in organic results",
+      "Capture cost-related searches",
+      "Target permit information queries"
+    ]
+  }
+}

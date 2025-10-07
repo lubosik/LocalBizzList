@@ -1,0 +1,280 @@
+{
+  "niche": "Marina & dock cleaning (pressure/power washing)",
+  "slug": "marina-dock-cleaning",
+  "location": "Miami, Florida",
+  "location_code": 1015116,
+  "language_code": "en",
+  "analysis_date": "2025-01-20",
+  "miami_queries": [
+    " pression washing near me",
+    "miami pressure washing",
+    "pressure washing service miami",
+    "power washing miami",
+    "miami power washing",
+    "power washing service miami",
+    "miami boat ramp",
+    "boat ramp miami",
+    "boating miami",
+    "marina miami",
+    "marina service miami",
+    "miami dock",
+    "dock service miami",
+    "pressure washing near me",
+    "miami mobile pressure washing",
+    "on-site pressure washing miami",
+    "miami yacht pressure washing",
+    "miami dock pressure washing",
+    "mobile power washing miami",
+    "miami pressure washing trailer"
+  ],
+  "keyword_metrics": {
+    "total_query_ideas": 20,
+    "top_keywords": [
+      {
+        "keyword": "miami pressure washing",
+        "search_volume": 880,
+        "cpc": 2.95,
+        "competition": "MEDIUM",
+        "intent": "Commercial",
+        "difficulty": 12
+      },
+      {
+        "keyword": "pressure washing company florida",
+        "search_volume": 210,
+        "cpc": 1.67,
+        "competition": "LOW",
+        "intent": "Commercial",
+        "difficulty": 12
+      },
+      {
+        "keyword": "pressure washing",
+        "search_volume": 165000,
+        "cpc": 18.92,
+        "competition": "MEDIUM",
+        "intent": "Commercial",
+        "difficulty": 22
+      },
+      {
+        "keyword": "power washing",
+        "search_volume": 60500,
+        "cpc": 15.56,
+        "competition": "MEDIUM",
+        "intent": "Commercial",
+        "difficulty": 15
+      }
+    ],
+    "secondary_keywords": [
+      {
+        "keyword": "dryer vent cleaning",
+        "search_volume": 165000,
+        "cpc": 18.92,
+        "competition": "MEDIUM",
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "gutter cleaning",
+        "search_volume": 60500,
+        "cpc": 15.56,
+        "competition": "MEDIUM",
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "house cleaning",
+        "search_volume": 60500,
+        "cpc": 8.51,
+        "competition": "MEDIUM",
+        "intent": "Commercial"
+      }
+    ],
+    "avg_monthly_search_volume": 33,
+    "avg_cpc": 4.85,
+    "competition_level": "MEDIUM",
+    "keyword_difficulty": 16
+  },
+  "serp_analysis": {
+    "miami_query": "miami pressure washing",
+    "top_domains": [
+      "www.bookmiamisoftwash.com",
+      "mwpressurecleaning.com",
+      "www.pressurecleaningplus.com",
+      "www.yelp.com",
+      "ultrapressurecleaning.com",
+      "www.biggreenmen.com",
+      "pressurekleenco.com",
+      "washnseal.com",
+      "pressurewashingsolutionsmiami.com",
+      "countrysidepropertymaintenance.com",
+      "www.reddit.com",
+      "www.innoutpressurecleaning.com"
+    ],
+    "local_pack_domains": [
+      "www.bookmiamisoftwash.com",
+      "mwpressurecleaning.com",
+      "www.pressurecleaningplus.com"
+    ],
+    "people_also_ask": [
+      "How much do people charge for pressure washing in Florida?",
+      "What is the going rate for pressure washing?",
+      "How much to pressure wash a 2000 sq ft driveway?",
+      "Why is pressure washing so expensive?"
+    ],
+    "related_searches": [
+      "Miami pressure washing services",
+      "Miami pressure washing reviews",
+      "Miami pressure washing cost",
+      "Miami pressure washing near me",
+      "Pressure Cleaning services near me"
+    ]
+  },
+  "competitor_analysis": [
+    {
+      "domain": "www.bookmiamisoftwash.com",
+      "strength_areas": [
+        "Perfect local SEO with 'Miami Softwash' branding",
+        "24/7 availability and emergency services",
+        "5+ years in business with 308 reviews",
+        "Specializes in soft wash technique",
+        "Strong Google reviews (5-star rating)"
+      ],
+      "weakness_areas": [
+        "Generic name lacks marina/dock specialization",
+        "Website lacks professional design",
+        "Limited content about marine services",
+        "No clear pricing transparency"
+      ],
+      "content_gaps": [
+        "Marina dock cleaning guides for Miami boaters",
+        "Marine-specific pressure washing techniques",
+        "Boat owner compliance regulations in Miami-Dade",
+        "Marina cleaning pricing calculators"
+      ]
+    },
+    {
+      "domain": "mwpressurecleaning.com",
+      "strength_areas": [
+        "7+ years in business showing longevity",
+        "Strong local presence with 306 reviews",
+        "24/7 availability for emergency services",
+        "Good Google rating and review volume",
+        "Simple, focused service offerings"
+      ],
+      "weakness_areas": [
+        "Generic branding lacks specialization",
+        "Limited online content and SEO",
+        "No clear marina/dock differentiation",
+        "Minimal social proof beyond reviews"
+      ],
+      "content_gaps": [
+        "Marina-specific cleaning service pages",
+        "Boat maintenance cleaning schedules",
+        "Marine industry standards compliance guides",
+        "Specialized marine pressure washing content"
+      ]
+    },
+    {
+      "domain": "www.pressurecleaningplus.com",
+      "strength_areas": [
+        "Miami Beach location positioning",
+        "Professional service focus",
+        "Good Google reviews (226 reviews)",
+        "Clear business hours and contact info"
+      ],
+      "weakness_areas": [
+        "Limited review volume compared to competitors",
+        "Smaller market presence",
+        "Generic service description",
+        "No specialized marina content"
+      ],
+      "content_gaps": [
+        "Marina and yacht club partnerships",
+        "Commercial marine cleaning services",
+        "Boat storage facility cleaning guides",
+        "Marine equipment cleaning standards"
+      ]
+    }
+  ],
+  "google_trends": {
+    "keywords": ["pressure washing", "power washing", "marine cleaning", "dock cleaning"],
+    "location": "United States",
+    "trends_data": {
+      "seasonality_notes": "Strong spring demand peaks with steady year-round base",
+      "seasonality_ranking": "Seasonal",
+      "trends_traffic_score": 35
+    },
+    "graph_data": {
+      "date_ranges": [
+        "2024-10-06 to 2024-10-12: 77,46,0,1",
+        "2024-11-03 to 2024-11-09: 69,30,1,2",
+        "2024-12-22 to 2024-12-28: 51,20,0,1",
+        "2025-01-19 to 2025-01-25: 66,35,3,0"
+      ],
+      "avg_values": [75,39,1,1]
+    },
+    "miami_trends": {
+      "miami_vs_us_trend": 0,
+      "demand_stability": "High seasonal peaks in spring/summer",
+      "trends_ranking": "35/50",
+      "peak_months": ["March", "April", "May", "June"]
+    }
+  },
+  "scoring": {
+    "demand_score": {
+      "score": 35,
+      "reasoning": "Strong seasonal demand peaks with excellent CPC values ($16-19). Miami's coastal location creates year-round pressure washing needs for marinas, docks, and boats."
+    },
+    "competitive_difficulty": {
+      "score": 45,
+      "reasoning": "Highly competitive market with 3 strong local players boasting 300+ reviews each. Need strong differentiation in marina/dock specialization to compete effectively."
+    },
+    "local_pack_score": {
+      "score": 12,
+      "reasoning": "Three established players dominate Local Pack with excellent reviews. High barrier to entry unless specializing in underserved marina/dock niche."
+    },
+    "content_gap_score": {
+      "score": 25,
+      "reasoning": "Significant gaps in marina-specific content, boat cleaning guides, and marine industry compliance resources. Opportunity for specialized content."
+    },
+    "keyword_trends_score": {
+      "score": 35,
+      "reasoning": "Strong seasonal peak in spring/summer (March-June) with steady base demand. Miami's coastal climate creates year-round pressure washing needs."
+    },
+    "overall_rankability_score": 62
+  },
+  "recommendations": [
+    {
+      "rankability_score": 62,
+      "recommendation": "CONDITIONAL GO",
+      "rationale": "Marina & dock cleaning offers good opportunity but requires strong specialization to compete against established general pressure washing companies.",
+      "priority": "Medium Priority"
+    },
+    {
+      "rankability_score": 62,
+      "recommendation": "CONDITIONAL GO",
+      "rationale": "Strong seasonal demand and good CPC values ($16-19), but need to differentiate with marina-specific services and specialized content to overcome high competition.",
+      "priority": "Medium Priority"
+    }
+  ],
+  "local_pack_analysis": {
+    "total_listings": 3,
+    "competition_ranking": "High",
+    "local_pack_score": 12,
+    "analysis": "Three established pressure washing companies dominate Local Pack with 300+ reviews each. Miami Softwash, M&W, and Pressure Cleaning Plus all have strong local presence and excellent ratings."
+  },
+  "content_opportunities": [
+    "Miami marina dock cleaning service guides",
+    "Boat owner seasonal pressure washing schedules", 
+    "Marine industry compliance cleaning standards",
+    "Miami-Dade marina regulations and requirements",
+    "Specialized marine pressure washing techniques",
+    "Dock installation and maintenance cleaning guides",
+    "Yacht club cleaning service programs",
+    "Marine equipment cleaning best practices"
+  ],
+  "miami_specific_advantages": [
+    "High boat/marina density in Miami area",
+    "Year-round pressure washing demand due to salt air",
+    "Premium market with yacht clubs and marinas",
+    "Coastal climate creates continuous cleaning needs",
+    "Strong seasonal peaks align with Miami boat season"
+  ]
+}

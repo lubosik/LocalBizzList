@@ -1,0 +1,140 @@
+{
+  "niche": "Non-Surgical Rhinoplasty Options",
+  "location": "Miami, Florida",
+  "research_date": "2025-01-27",
+  "miami_queries": [
+    {
+      "keyword": "Miami non-surgical rhinoplasty options",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Non-invasive nose reshaping alternatives to surgery"
+    },
+    {
+      "keyword": "Miami liquid rhinoplasty cost",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Cost transparency for non-surgical nose procedures"
+    },
+    {
+      "keyword": "Miami nose filler",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Dermal filler treatments for nose enhancement"
+    },
+    {
+      "keyword": "Miami non-surgical nose job",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Alternative to traditional rhinoplasty surgery"
+    },
+    {
+      "keyword": "Miami nose job cost",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Pricing information for nose procedures"
+    },
+    {
+      "keyword": "Miami liquid rhinoplasty",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Injectable nose reshaping procedure"
+    },
+    {
+      "keyword": "Miami nose enhancement",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Non-surgical nose improvement options"
+    },
+    {
+      "keyword": "Miami dermal filler nose",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Filler treatments for nose contouring"
+    },
+    {
+      "keyword": "Miami nose reshaping",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Non-surgical nose shape modification"
+    },
+    {
+      "keyword": "Miami cosmetic nose procedure",
+      "intent": "commercial",
+      "priority": "low",
+      "pain_point": "Aesthetic nose enhancement treatments"
+    }
+  ],
+  "serp_analysis": {
+    "local_pack_presence": true,
+    "local_pack_count": 3,
+    "top_domains": [
+      "gablesplasticsurgery.com",
+      "drbustillo.com",
+      "gallomd.com"
+    ],
+    "featured_snippet": false,
+    "people_also_ask": true,
+    "related_searches": [
+      "Nose filler Miami price",
+      "Non surgical nose job near me",
+      "Liquid rhinoplasty",
+      "Non surgical nose job Florida",
+      "Nose filler before and after"
+    ]
+  },
+  "competitor_analysis": {
+    "top_competitors": [
+      {
+        "domain": "gablesplasticsurgery.com",
+        "strengths": [
+          "Board-certified plastic surgeon",
+          "Comprehensive procedure information",
+          "Professional credentials displayed",
+          "Clear pricing information"
+        ],
+        "weaknesses": [
+          "Limited before/after photos",
+          "Generic content approach",
+          "No mobile optimization focus"
+        ]
+      },
+      {
+        "domain": "drbustillo.com",
+        "strengths": [
+          "Extensive before/after gallery",
+          "Detailed procedure information",
+          "Strong credentials and certifications",
+          "Comprehensive FAQ section"
+        ],
+        "weaknesses": [
+          "High competition for top rankings",
+          "Limited local SEO focus",
+          "No clear pricing transparency"
+        ]
+      }
+    ],
+    "content_gaps": [
+      "Cost comparison with surgical rhinoplasty",
+      "Long-term maintenance requirements",
+      "Risk assessment and safety information",
+      "Before/after photo galleries",
+      "Patient testimonials and reviews"
+    ]
+  },
+  "trends_analysis": {
+    "seasonality": "Low seasonal variation",
+    "peak_months": ["December", "January"],
+    "trend_stability": "Stable",
+    "miami_vs_us_interest": "Above average"
+  },
+  "scoring": {
+    "demand_score": 18,
+    "competition_score": 30,
+    "local_pack_friendliness": 12,
+    "content_gap_score": 15,
+    "seasonality_score": 8,
+    "rankability_score": 83,
+    "recommendation": "GO",
+    "rationale": "Strong opportunity in Miami's cosmetic market with clear content gaps around cost transparency and safety information, though competition is high from established plastic surgeons."
+  }
+}

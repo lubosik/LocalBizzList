@@ -1,0 +1,89 @@
+niche: septic-tank-services
+nicheTitle: Septic Tank Services
+icon: Wrench
+
+issues:
+  - slug: septic-tank-backup
+    title: Septic Tank Backup Emergency Guide
+    snippet: What to do when toilets and drains back up, identifying the causes, and getting emergency septic service fast.
+    category: troubleshooting
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - septic backup
+      - toilet backing up
+      - sewage backup
+      - septic emergency
+      - backup causes
+    articleSlug: septic-tank-backup-emergency
+    priority: 1
+
+  - slug: drain-field-problems
+    title: Drain Field Failure & Florida's High Water Table
+    snippet: How South Florida's high water table causes drain field problems, warning signs, and repair options.
+    category: troubleshooting
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - drain field failure
+      - soggy yard
+      - septic wet spots
+      - high water table
+      - drain field repair
+    articleSlug: drain-field-problems-florida
+    priority: 2
+
+  - slug: pumping-schedule
+    title: Septic Tank Pumping Schedule & Frequency
+    snippet: How often to pump your septic tank in South Florida based on household size, tank capacity, and usage patterns.
+    category: cost-guides
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - how often pump septic
+      - septic pumping schedule
+      - tank pumping frequency
+      - septic maintenance schedule
+      - pumping intervals
+    articleSlug: septic-pumping-schedule-guide
+    priority: 3
+
+  - slug: septic-tank-odors
+    title: Septic Tank Odor Problems & Diagnosis
+    snippet: What different septic smells indicate, from hydrogen sulfide gas to drain field issues, and how to eliminate them.
+    category: troubleshooting
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - septic smell
+      - sewage odor
+      - septic gas smell
+      - rotten egg smell
+      - septic odor causes
+    articleSlug: septic-tank-odor-diagnosis
+    priority: 4
+
+  - slug: tree-root-intrusion
+    title: Tree Root Damage to Septic Systems
+    snippet: How Florida's lush landscaping threatens septic tanks, identifying root damage, and removal options.
+    category: troubleshooting
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - roots in septic
+      - tree damage septic
+      - root removal
+      - root intrusion
+      - tree root problems
+    articleSlug: tree-root-septic-damage
+    priority: 5
+
+  - slug: septic-tank-inspection
+    title: Septic Tank Inspection for Real Estate
+    snippet: What's included in a pre-purchase septic inspection, Florida requirements, and common issues that affect sales.
+    category: compliance
+    cities: [miami, boca-raton, fort-lauderdale]
+    keywords:
+      - septic inspection requirements
+      - real estate inspection
+      - home sale inspection
+      - septic certification
+      - pre-purchase inspection
+    articleSlug: septic-inspection-real-estate
+    priority: 6
+

@@ -1,0 +1,181 @@
+{
+  "niche": "Specialized Family Office Concierge Services",
+  "location": "Miami, Florida",
+  "research_date": "2025-01-27",
+  "miami_queries": [
+    {
+      "keyword": "Miami specialized family office concierge services",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Ultra-high-net-worth families need specialized concierge services"
+    },
+    {
+      "keyword": "Miami family office concierge services cost",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Cost transparency for family office concierge services"
+    },
+    {
+      "keyword": "Miami family office services",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Comprehensive family office management services"
+    },
+    {
+      "keyword": "Miami concierge services",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Luxury lifestyle management and concierge services"
+    },
+    {
+      "keyword": "Miami luxury lifestyle management",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "High-end lifestyle management for affluent families"
+    }
+  ],
+  "keyword_metrics": {
+    "miami_concierge_services": {
+      "search_volume": 140,
+      "cpc": 12.93,
+      "competition": 0.13,
+      "competition_level": "LOW",
+      "low_top_of_page_bid": 2.66,
+      "high_top_of_page_bid": 19.84,
+      "monthly_searches": {
+        "2025-08": 140,
+        "2025-07": 140,
+        "2025-06": 140,
+        "2025-05": 110,
+        "2025-04": 140,
+        "2025-03": 140,
+        "2025-02": 140,
+        "2025-01": 170,
+        "2024-12": 140,
+        "2024-11": 140,
+        "2024-10": 170,
+        "2024-09": 140
+      },
+      "search_volume_trend": {
+        "yearly": -18
+      }
+    }
+  },
+  "serp_analysis": {
+    "miami_specialized_family_office_concierge_services": {
+      "total_results": 13,
+      "ai_overview": true,
+      "people_also_ask": 3,
+      "related_searches": 8,
+      "top_domains": [
+        "andsimple.co",
+        "riveterinc.com",
+        "jakeclaver.substack.com",
+        "kaufmanrossin.com",
+        "ceritypartners.com",
+        "tiempocapital.com",
+        "pivotcpas.com",
+        "hbwealth.com",
+        "partnermd.com",
+        "selectadvisorsinstitute.com"
+      ],
+      "local_pack_presence": false,
+      "featured_snippet": false,
+      "result_types": ["organic", "ai_overview", "people_also_ask", "related_searches"]
+    },
+    "miami_family_office_concierge_services_cost": {
+      "total_results": 13,
+      "ai_overview": true,
+      "people_also_ask": 3,
+      "related_searches": 8,
+      "top_domains": [
+        "andsimple.co",
+        "riveterinc.com",
+        "jakeclaver.substack.com",
+        "kaufmanrossin.com",
+        "ceritypartners.com",
+        "tiempocapital.com",
+        "pivotcpas.com",
+        "hbwealth.com",
+        "partnermd.com",
+        "selectadvisorsinstitute.com"
+      ],
+      "local_pack_presence": false,
+      "featured_snippet": false,
+      "result_types": ["organic", "ai_overview", "people_also_ask", "related_searches"]
+    }
+  },
+  "competitor_analysis": {
+    "kaufman_rossin": {
+      "domain": "kaufmanrossin.com",
+      "strengths": [
+        "Comprehensive family office services",
+        "Lifestyle management expertise",
+        "60+ years of experience",
+        "Miami location presence",
+        "Specialized team of professionals"
+      ],
+      "weaknesses": [
+        "Limited online presence for concierge services",
+        "Focus on accounting/advisory rather than pure concierge",
+        "No dedicated concierge service page"
+      ],
+      "services": [
+        "Domestic & Lifestyle Management",
+        "Property & Real Estate",
+        "Travel & Logistics",
+        "Specialized Support",
+        "Fractional Chief of Staff"
+      ]
+    },
+    "cerity_partners": {
+      "domain": "ceritypartners.com",
+      "strengths": [
+        "Comprehensive family office services",
+        "Concierge lifestyle services",
+        "40+ specialized advisors",
+        "Advanced holistic planning",
+        "Sophisticated investment access"
+      ],
+      "weaknesses": [
+        "No Miami-specific presence",
+        "Limited local market focus",
+        "High-end positioning may limit market"
+      ],
+      "services": [
+        "Bill pay",
+        "Real estate management",
+        "Household employees",
+        "Art advisory",
+        "Security",
+        "Private planes, boats, and cars"
+      ]
+    }
+  },
+  "google_trends": {
+    "keywords": [
+      "Miami specialized family office concierge services",
+      "Miami family office concierge services cost",
+      "Miami family office services",
+      "Miami concierge services",
+      "Miami luxury lifestyle management"
+    ],
+    "trends_data": {
+      "average_interest": [0, 0, 0, 20, 0],
+      "peak_interest": 100,
+      "seasonality": "Moderate seasonality with peaks in October and May",
+      "trend_direction": "Stable with slight decline in overall interest"
+    }
+  },
+  "scoring": {
+    "demand_score": 20,
+    "competition_score": 25,
+    "local_pack_friendliness": 5,
+    "content_gap_score": 20,
+    "seasonality_score": 8,
+    "rankability_score": 78,
+    "recommendation": "GO",
+    "priority": "high",
+    "rationale": "Strong opportunity in Miami's luxury market with clear content gaps around specialized family office concierge services and moderate competition from established wealth management firms."
+  }
+}

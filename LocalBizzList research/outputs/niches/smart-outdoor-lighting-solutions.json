@@ -1,0 +1,244 @@
+{
+  "niche": "Smart Outdoor Lighting Solutions",
+  "location": "Miami, Florida",
+  "research_date": "2025-01-27",
+  "keywords": [
+    {
+      "keyword": "smart outdoor lighting Miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Homeowners want intelligent, automated outdoor lighting systems"
+    },
+    {
+      "keyword": "outdoor lighting installation Miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Need professional installation services for outdoor lighting"
+    },
+    {
+      "keyword": "landscape lighting Miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Want to enhance property aesthetics with landscape lighting"
+    },
+    {
+      "keyword": "LED outdoor lighting Miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Seeking energy-efficient LED lighting solutions"
+    },
+    {
+      "keyword": "outdoor lighting design Miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Need custom lighting design for outdoor spaces"
+    },
+    {
+      "keyword": "smart landscape lighting Miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Want automated, app-controlled landscape lighting"
+    },
+    {
+      "keyword": "outdoor lighting contractor Miami",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Looking for licensed professionals for outdoor lighting work"
+    },
+    {
+      "keyword": "pool lighting Miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Want to illuminate pool areas for safety and ambiance"
+    },
+    {
+      "keyword": "patio lighting Miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Need lighting for outdoor entertaining areas"
+    },
+    {
+      "keyword": "security lighting Miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Want lighting for home security and safety"
+    },
+    {
+      "keyword": "outdoor lighting cost Miami",
+      "intent": "informational",
+      "priority": "high",
+      "pain_point": "Need to understand pricing for outdoor lighting projects"
+    },
+    {
+      "keyword": "best outdoor lighting Miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Looking for top-rated outdoor lighting companies"
+    },
+    {
+      "keyword": "outdoor lighting maintenance Miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Need ongoing maintenance for outdoor lighting systems"
+    },
+    {
+      "keyword": "color changing outdoor lighting Miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Want dynamic, color-changing outdoor lighting options"
+    },
+    {
+      "keyword": "outdoor lighting repair Miami",
+      "intent": "commercial",
+      "priority": "medium",
+      "pain_point": "Need repair services for existing outdoor lighting"
+    }
+  ],
+  "serp_analysis": {
+    "total_queries_sampled": 3,
+    "local_pack_dominance": 0.67,
+    "top_domains": [
+      {
+        "domain": "miamilandscapelighting.com",
+        "appearances": 3,
+        "avg_position": 2.3,
+        "local_pack_presence": true
+      },
+      {
+        "domain": "outdoorlightingconcepts.com",
+        "appearances": 3,
+        "avg_position": 2.7,
+        "local_pack_presence": true
+      },
+      {
+        "domain": "outdoorlights.com",
+        "appearances": 2,
+        "avg_position": 4.5,
+        "local_pack_presence": true
+      }
+    ],
+    "featured_snippets": 2,
+    "people_also_ask": 4,
+    "related_searches": 5,
+    "knowledge_graph": 1
+  },
+  "competitor_analysis": {
+    "top_competitors": [
+      {
+        "name": "Miami Landscape Lighting Inc.",
+        "domain": "miamilandscapelighting.com",
+        "strengths": [
+          "State licensed and insured (ES12001461)",
+          "15+ years in business",
+          "4.9/5 rating with 113 reviews",
+          "Comprehensive service offerings (residential/commercial)",
+          "Strong social media presence",
+          "Free night-time demonstrations",
+          "Premium LED products with 20-year warranty"
+        ],
+        "weaknesses": [
+          "Limited smart lighting emphasis",
+          "Basic website design",
+          "No clear pricing information",
+          "Limited mobile optimization"
+        ],
+        "content_gaps": [
+          "Smart home integration content",
+          "Energy savings calculators",
+          "Before/after project galleries",
+          "Customer education resources"
+        ]
+      },
+      {
+        "name": "Outdoor Lighting Concepts",
+        "domain": "outdoorlightingconcepts.com",
+        "strengths": [
+          "5+ years in business",
+          "5.0/5 rating with 21 reviews",
+          "Free design consultations",
+          "Color-changing systems",
+          "Commercial and residential focus"
+        ],
+        "weaknesses": [
+          "Smaller review base",
+          "Limited service area information",
+          "Basic website functionality",
+          "No clear licensing information displayed"
+        ],
+        "content_gaps": [
+          "Smart lighting technology content",
+          "Energy efficiency information",
+          "Maintenance service details",
+          "Project case studies"
+        ]
+      },
+      {
+        "name": "Outdoor Lighting Perspectives",
+        "domain": "outdoorlights.com",
+        "strengths": [
+          "National franchise with local presence",
+          "5.0/5 rating with 28 reviews",
+          "Comprehensive service offerings",
+          "Professional website design",
+          "Color-changing capabilities"
+        ],
+        "weaknesses": [
+          "Less local focus",
+          "Higher pricing potential",
+          "Limited local testimonials",
+          "Generic content approach"
+        ],
+        "content_gaps": [
+          "Miami-specific content",
+          "Local project examples",
+          "Community involvement",
+          "Local licensing information"
+        ]
+      }
+    ]
+  },
+  "trends_analysis": {
+    "keywords_tracked": [
+      "smart outdoor lighting",
+      "outdoor lighting installation", 
+      "landscape lighting",
+      "LED outdoor lighting",
+      "outdoor lighting design"
+    ],
+    "trends_stability_index": 0.72,
+    "seasonal_patterns": {
+      "peak_months": ["October", "November", "March", "May"],
+      "low_months": ["December", "January", "February"],
+      "trend_description": "Consistent demand with peaks in fall and spring seasons"
+    },
+    "miami_vs_us_relative_interest": 1.15,
+    "growth_trend": "stable"
+  },
+  "scoring": {
+    "demand_score": 75,
+    "competition_score": 65,
+    "local_pack_friendliness": 85,
+    "content_gap_score": 70,
+    "seasonality_score": 80,
+    "rankability_score": 75,
+    "rationale": "Strong local demand with moderate competition. High local pack presence indicates good opportunity for local SEO. Content gaps exist around smart technology and energy efficiency."
+  },
+  "recommendations": {
+    "go_no_go": "GO",
+    "priority_level": "high",
+    "key_opportunities": [
+      "Smart home integration content",
+      "Energy efficiency calculators",
+      "Miami-specific project galleries",
+      "Local licensing and insurance emphasis",
+      "Color-changing technology focus"
+    ],
+    "content_strategy": [
+      "Create smart lighting technology guides",
+      "Develop energy savings calculators",
+      "Build Miami project portfolio",
+      "Create maintenance service content",
+      "Develop customer education resources"
+    ]
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "timestamp": "2025-09-30T22:19:20.643Z",
+  "location": "South Florida (Miami-Dade, Broward, Palm Beach)",
+  "totalNiches": 17,
+  "averageScore": 40,
+  "top3": [
+    {
+      "name": "Luxury Pet Grooming and Spa Services",
+      "score": 67,
+      "verdict": "CAUTION",
+      "easeOfRanking": "MEDIUM"
+    },
+    {
+      "name": "Specialized Family Office Concierge Services",
+      "score": 56,
+      "verdict": "CAUTION",
+      "easeOfRanking": "MEDIUM"
+    },
+    {
+      "name": "Smart Home Installation",
+      "score": 52,
+      "verdict": "CAUTION",
+      "easeOfRanking": "MEDIUM"
+    }
+  ],
+  "allNiches": [
+    {
+      "name": "Luxury Pet Grooming and Spa Services",
+      "slug": "luxury_pet_grooming_and_spa_services",
+      "score": 67,
+      "subScores": {
+        "demand": 97,
+        "competition": 95,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 95
+      },
+      "summary": {
+        "totalKeywords": 7,
+        "averageVolume": 13020,
+        "averageCPC": 2.97,
+        "rankabilityScore": 67,
+        "verdict": "CAUTION",
+        "keyStrengths": [
+          "High search demand",
+          "Low competition",
+          "Stable search trends"
+        ],
+        "keyWeaknesses": [
+          "Limited local pack opportunities",
+          "Limited content opportunities"
+        ]
+      },
+      "easeOfRanking": "MEDIUM"
+    },
+    {
+      "name": "Specialized Family Office Concierge Services",
+      "slug": "specialized_family_office_concierge_services",
+      "score": 56,
+      "subScores": {
+        "demand": 100,
+        "competition": 89,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 7,
+        "averageVolume": 13226,
+        "averageCPC": 7.38,
+        "rankabilityScore": 56,
+        "verdict": "CAUTION",
+        "keyStrengths": [
+          "High search demand",
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "MEDIUM"
+    },
+    {
+      "name": "Smart Home Installation",
+      "slug": "smart_home_installation",
+      "score": 52,
+      "subScores": {
+        "demand": 100,
+        "competition": 76,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 7,
+        "averageVolume": 16971,
+        "averageCPC": 6.24,
+        "rankabilityScore": 52,
+        "verdict": "CAUTION",
+        "keyStrengths": [
+          "High search demand",
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "MEDIUM"
+    },
+    {
+      "name": "Yacht and Jet Detailing Services",
+      "slug": "yacht_and_jet_detailing_services",
+      "score": 46,
+      "subScores": {
+        "demand": 20,
+        "competition": 83,
+        "localPack": 50,
+        "contentGap": 29,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 7,
+        "averageVolume": 1669,
+        "averageCPC": 4.22,
+        "rankabilityScore": 46,
+        "verdict": "NO-GO",
+        "keyStrengths": [
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Low search demand",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Non-Surgical Rhinoplasty Options",
+      "slug": "nonsurgical_rhinoplasty_options",
+      "score": 45,
+      "subScores": {
+        "demand": 89,
+        "competition": 65,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 6,
+        "averageVolume": 13167,
+        "averageCPC": 4.77,
+        "rankabilityScore": 45,
+        "verdict": "NO-GO",
+        "keyStrengths": [
+          "High search demand"
+        ],
+        "keyWeaknesses": [
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Luxury Home Security Systems",
+      "slug": "luxury_home_security_systems",
+      "score": 44,
+      "subScores": {
+        "demand": 49,
+        "competition": 92,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 6,
+        "averageVolume": 277,
+        "averageCPC": 23.53,
+        "rankabilityScore": 44,
+        "verdict": "NO-GO",
+        "keyStrengths": [
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Preventative Mold Treatment Services",
+      "slug": "preventative_mold_treatment_services",
+      "score": 43,
+      "subScores": {
+        "demand": 16,
+        "competition": 69,
+        "localPack": 50,
+        "contentGap": 50,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 2,
+        "averageVolume": 25,
+        "averageCPC": 7.8,
+        "rankabilityScore": 43,
+        "verdict": "NO-GO",
+        "keyStrengths": [],
+        "keyWeaknesses": [
+          "Low search demand",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Custom Smart Wine Cellars",
+      "slug": "custom_smart_wine_cellars",
+      "score": 34,
+      "subScores": {
+        "demand": 21,
+        "competition": 59,
+        "localPack": 50,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 3,
+        "averageVolume": 1417,
+        "averageCPC": 8.51,
+        "rankabilityScore": 34,
+        "verdict": "NO-GO",
+        "keyStrengths": [],
+        "keyWeaknesses": [
+          "Low search demand",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Cybersecurity Integration with Smart Home Security",
+      "slug": "cybersecurity_integration_with_smart_home_security",
+      "score": 34,
+      "subScores": {
+        "demand": 0,
+        "competition": 98,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 1,
+        "averageVolume": 170,
+        "averageCPC": 0,
+        "rankabilityScore": 34,
+        "verdict": "NO-GO",
+        "keyStrengths": [
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Low search demand",
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Digital Estate Planning and Online Will Services",
+      "slug": "digital_estate_planning_and_online_will_services",
+      "score": 33,
+      "subScores": {
+        "demand": 5,
+        "competition": 91,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 7,
+        "averageVolume": 153,
+        "averageCPC": 2.07,
+        "rankabilityScore": 33,
+        "verdict": "NO-GO",
+        "keyStrengths": [
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Low search demand",
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Executive Wellness and Health Optimization Services",
+      "slug": "executive_wellness_and_health_optimization_services",
+      "score": 33,
+      "subScores": {
+        "demand": 13,
+        "competition": 84,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 6,
+        "averageVolume": 473,
+        "averageCPC": 4.87,
+        "rankabilityScore": 33,
+        "verdict": "NO-GO",
+        "keyStrengths": [
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Low search demand",
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Hurricane-Proof Home Retrofitting Services",
+      "slug": "hurricaneproof_home_retrofitting_services",
+      "score": 33,
+      "subScores": {
+        "demand": 30,
+        "competition": 73,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 3,
+        "averageVolume": 3930,
+        "averageCPC": 9.28,
+        "rankabilityScore": 33,
+        "verdict": "NO-GO",
+        "keyStrengths": [
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "High-End Pool and Spa Maintenance Services",
+      "slug": "highend_pool_and_spa_maintenance_services",
+      "score": 32,
+      "subScores": {
+        "demand": 19,
+        "competition": 79,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 6,
+        "averageVolume": 83,
+        "averageCPC": 9,
+        "rankabilityScore": 32,
+        "verdict": "NO-GO",
+        "keyStrengths": [
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Low search demand",
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Eco-Friendly and Green Roof Installation Services",
+      "slug": "ecofriendly_and_green_roof_installation_services",
+      "score": 31,
+      "subScores": {
+        "demand": 13,
+        "competition": 81,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 6,
+        "averageVolume": 233,
+        "averageCPC": 5.61,
+        "rankabilityScore": 31,
+        "verdict": "NO-GO",
+        "keyStrengths": [
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Low search demand",
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Saltwater Pool Conversion Services",
+      "slug": "saltwater_pool_conversion_services",
+      "score": 31,
+      "subScores": {
+        "demand": 24,
+        "competition": 72,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 3,
+        "averageVolume": 1013,
+        "averageCPC": 10.42,
+        "rankabilityScore": 31,
+        "verdict": "NO-GO",
+        "keyStrengths": [
+          "Low competition"
+        ],
+        "keyWeaknesses": [
+          "Low search demand",
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Luxury Estate and Property Management Services",
+      "slug": "luxury_estate_and_property_management_services",
+      "score": 30,
+      "subScores": {
+        "demand": 30,
+        "competition": 66,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 3,
+        "averageVolume": 1380,
+        "averageCPC": 12.75,
+        "rankabilityScore": 30,
+        "verdict": "NO-GO",
+        "keyStrengths": [],
+        "keyWeaknesses": [
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    },
+    {
+      "name": "Premium Pet Boarding and Luxury Pet Hotels",
+      "slug": "premium_pet_boarding_and_luxury_pet_hotels",
+      "score": 29,
+      "subScores": {
+        "demand": 39,
+        "competition": 56,
+        "localPack": 0,
+        "contentGap": 0,
+        "seasonality": 0
+      },
+      "summary": {
+        "totalKeywords": 6,
+        "averageVolume": 5433,
+        "averageCPC": 3.22,
+        "rankabilityScore": 29,
+        "verdict": "NO-GO",
+        "keyStrengths": [],
+        "keyWeaknesses": [
+          "Limited local pack opportunities",
+          "Limited content opportunities",
+          "Volatile search trends"
+        ]
+      },
+      "easeOfRanking": "HARD"
+    }
+  ]
+}

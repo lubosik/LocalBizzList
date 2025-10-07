@@ -1,0 +1,275 @@
+{
+  "niche": "Yacht / boat detailing (marine detailing)",
+  "slug": "yacht-boat-detailing",
+  "location": "Miami, Florida",
+  "location_code": 1015116,
+  "language_code": "en",
+  "analysis_date": "2025-01-20",
+  "miami_queries": [
+    "miami yacht detailing",
+    "yacht detailing miami",
+    "miami boat detailing",
+    "boat detailing miami",
+    "miami marine detailing",
+    "marine detailing miami",
+    "miami yacht cleaning",
+    "yacht cleaning miami",
+    "miami boat washing",
+    "boat washing miami",
+    "miami marine cleaning",
+    "marine cleaning miami",
+    "miami yacht wash",
+    "yacht wash miami",
+    "miami boat detailing service",
+    "yacht detailing service miami",
+    "miami luxury yacht cleaning",
+    "luxury yacht cleaning miami",
+    "miami superyacht detailing",
+    "superyacht detailing miami"
+  ],
+  "keyword_metrics": {
+    "total_query_ideas": 20,
+    "top_keywords": [
+      {
+        "keyword": "miami yacht detailing",
+        "search_volume": 20,
+        "cpc": 8.35,
+        "competition": "LOW",
+        "intent": "Commercial",
+        "difficulty": 38
+      },
+      {
+        "keyword": "miami boat detailing",
+        "search_volume": 20,
+        "cpc": 3.97,
+        "competition": "LOW", 
+        "intent": "Commercial",
+        "difficulty": 38
+      },
+      {
+        "keyword": "marine detailing miami",
+        "search_volume": 10,
+        "cpc": 1.25,
+        "competition": "HIGH",
+        "intent": "Commercial",
+        "difficulty": 38
+      },
+      {
+        "keyword": "yacht cleaning miami",
+        "search_volume": 10,
+        "cpc": 0,
+        "competition": "LOW",
+        "intent": "Commercial",
+        "difficulty": 37
+      }
+    ],
+    "secondary_keywords": [
+      {
+        "keyword": "montauk yacht club",
+        "search_volume": 22200,
+        "cpc": 2.34,
+        "competition": "MEDIUM",
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "florida yacht club",
+        "search_volume": 2400,
+        "cpc": 1.44,
+        "competition": "LOW",
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "sailing yachts for sale",
+        "search_volume": 1600,
+        "cpc": 0.35,
+        "competition": "HIGH",
+        "intent": "Commercial"
+      }
+    ],
+    "avg_monthly_search_volume": 15,
+    "avg_cpc": 4.73,
+    "competition_level": "MEDIUM",
+    "keyword_difficulty": 38
+  },
+  "serp_analysis": {
+    "miami_query": "miami yacht detailing",
+    "top_domains": [
+      "www.miamiboatdetailing.com",
+      "miamiyachtdetail.com",
+      "www.sosdetailing.com",
+      "sundetailing.com",
+      "globalyachtdetailing.com",
+      "highseasdetailingco.com",
+      "washauto.me",
+      "www.miamiyachting.net",
+      "www.tintworld.com"
+    ],
+    "local_pack_domains": [
+      "www.miamiyachtdetail.com",
+      "www.sosdetailing.com", 
+      "www.miamiboatdetailing.com"
+    ],
+    "people_also_ask": [],
+    "related_searches": [
+      "Miami yacht detailing prices",
+      "Miami yacht detailing services",
+      "Miami yacht detailing price list",
+      "Miami yacht detailing cost",
+      "Miami yacht detailing near me",
+      "Boat detailing near me",
+      "Neptune Marine Detailing",
+      "Magic hands marine detailing"
+    ]
+  },
+  "competitor_analysis": [
+    {
+      "domain": "www.sosdetailing.com",
+      "strength_areas": [
+        "Strong Miami Beach location (7+ years, 32 reviews)",
+        "Specialized ceramic coating and graphene services",
+        "Professional website with detailed service descriptions",
+        "Customized maintenance schedules for boat owners",
+        "Good volume of reviews with 5-star rating"
+      ],
+      "weakness_areas": [
+        "Limited review volume (32 reviews) compared to potential",
+        "Generic name 'S.O.S.' doesn't convey maritime expertise",
+        "Website design lacks luxury positioning",
+        "No clear yacht specialism vs. general boat cleaning"
+      ],
+      "content_gaps": [
+        "Miami yacht club partnership programs",
+        "Luxury yacht maintenance guides",
+        "Miami-Dade marine regulations compliance",
+        "Superyacht detailing services"
+      ]
+    },
+    {
+      "domain": "www.miamiboatdetailing.com",
+      "strength_areas": [
+        "Perfect SEO name for 'miami boat detailing'",
+        "35+ years marine industry experience",
+        "Mobile service throughout South Florida",
+        "Strong Local Pack presence",
+        "Comprehensive service area coverage"
+      },
+      "weakness_areas": [
+        "Limited review volume (3 reviews)",
+        "Basic website lacks professional presentation",
+        "No yacht specialization vs. general boat services",
+        "Unable to verify 35-year experience claims online"
+      ],
+      "content_gaps": [
+        "Yacht maintenance schedules",
+        "Miami yacht ownership guides",
+        "Marine industry standards compliance",
+        "Private yacht cleaning programs"
+      ]
+    },
+    {
+      "domain": "www.miamiyachtdetail.com",
+      "strength_areas": [
+        "Perfect name for yacht detailing specialization",
+        "5-star rating with 10 reviews",
+        "Local Pack #1 position",
+        "Focused on yacht services specifically"
+      ],
+      "weakness_areas": [
+        "Minimal review volume (10 reviews)",
+        "Website appears basic/minimal",
+        "Limited online presence beyond directory listings",
+        "No clear advantage proposition"
+      ],
+      "content_gaps": [
+        "Luxury yacht detailing packages",
+        "Miami yacht maintenance schedules", 
+        "Superyacht equipment care guides",
+        "Yacht club partnership programs"
+      ]
+    }
+  ],
+  "google_trends": {
+    "keywords": ["yacht detailing", "boat detailing", "marine cleaning", "yacht cleaning"],
+    "location": "United States",
+    "trends_data": {
+      "seasonality_notes": "Strong seasonal peaks in spring/summer with steady base demand",
+      "seasonality_ranking": "Highly Seasonal",
+      "trends_traffic_score": 45
+    },
+    "graph_data": {
+      "date_ranges": [
+        "2024-10-06 to 2024-10-12: 2,22,7,8",
+        "2024-11-03 to 2024-11-09: 1,50,15,6",
+        "2024-12-22 to 2024-12-28: 1,28,11,2",
+        "2025-01-19 to 2025-01-25: 2,37,33,7"
+      ],
+      "avg_values": [4,46,18,9]
+    },
+    "miami_trends": {
+      "miami_vs_us_trend": 0,
+      "demand_stability": "High seasonal variation with spring/summer peaks",
+      "trends_ranking": "45/50", 
+      "peak_months": ["April", "May", "June", "July"]
+    }
+  },
+  "scoring": {
+    "demand_score": {
+      "score": 32,
+      "reasoning": "Good CPC values ($4-8) for yacht detailing indicate high-value customers. Moderate search volumes but luxury yacht market segment pays premium prices."
+    },
+    "competitive_difficulty": {
+      "score": 38,
+      "reasoning": "Moderate competition with 3 established local players but none dominate the yacht specialization. Limited review volumes across competitors show room for market penetration."
+    },
+    "local_pack_score": {
+      "score": 25,
+      "reasoning": "Three competitors in Local Pack but limited review volumes (3-32 reviews each). Opportunity to gain share with better SEO and professional presentation."
+    },
+    "content_replace_score": {
+      "score": 35,
+      "reasoning": "Significant content gaps in yacht maintenance guides, luxury yacht programs, Miami yacht club partnerships, and marine regulations compliance."
+    },
+    "keyword_trends_score": {
+      "score": 45,
+      "reasoning": "Highly seasonal business with peak demand April-July. Strong seasonal variation means need for strategic planning around peak boating season."
+    },
+    "overall_rankability_score": 70
+  },
+  "recommendations": [
+    {
+      "rankability_score": 70,
+      "recommendation": "GO",
+      "rationale": "Good yacht detailing opportunity with strong seasonal demand, luxury market pricing ($4-8 CPC), and moderate competition allowing market penetration.",
+      "priority": "Medium Priority"
+    },
+    {
+      "rankability_score": 70,
+      "recommendation": "GO",
+      "rationale": "Strategic content gaps exist for yacht club partnerships, luxury yacht maintenance, and Miami-specific marine guides. Seasonal business requires winter preparation for peak season.",
+      "priority": "Medium Priority"
+    }
+  ],
+  "local_pack_analysis": {
+    "total_listings": 3,
+    "competition_ranking": "Medium",
+    "local_pack_score": 25,
+    "analysis": "Three established competitors but none particularly strong. Miami Yacht Detail (#1 Local Pack), S.O.S. Detailing (32 reviews), and Miami Boat Detailing (3 reviews) compete but lack dominant market position."
+  },
+  "content_opportunities": [
+    "Miami yacht club partnership programs",
+    "Luxury yacht maintenance schedules",
+    "Superyacht detailing service packages",
+    "Miami-Dade marine regulations compliance guides",
+    "Yacht ownership investment protection guides",
+    "Miami yacht seasonal preparation schedules",
+    "Marine industry standards compliance resources",
+    "Private yacht concierge services"
+  ],
+  "miami_specific_advantages": [
+    "High concentration of luxury yachts and marina facilities",
+    "Year-round favorable climate for boating",
+    "Strong yacht club community and networking opportunities",
+    "International yacht traffic from Caribbean and Latin America",
+    "Premium market segment with high disposable income"
+  ]
+}

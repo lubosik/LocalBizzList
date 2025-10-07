@@ -1,0 +1,276 @@
+{
+  "niche": "Fire extinguisher inspection & servicing (commercial)",
+  "slug": "fire-extinguisher",
+  "location": "Miami, Florida",
+  "location_code": 1015116,
+  "language_code": "en",
+  "analysis_date": "2025-01-20",
+  "miami_queries": [
+    "fire extinguisher inspection miami",
+    "miami fire extinguisher inspection",
+    "commercial fire extinguisher inspection miami",
+    "miami fire extinguisher service",
+    "fire extinguisher maintenance miami",
+    "miami fire extinguisher maintenance",
+    "commercial fire extinguisher service miami",
+    "miami fire extinguisher testing",
+    "fire extinguisher certification miami",
+    "miami fire extinguisher certification",
+    "commercial fire extinguisher certification miami",
+    "miami fire extinguisher repair",
+    "fire extinguisher repair miami",
+    "miami fire extinguisher refill",
+    "fire extinguisher refill miami",
+    "miami fire extinguisher replacement",
+    "fire extinguisher replacement miami",
+    "miami fire extinguisher installation",
+    "fire extinguisher installation miami",
+    "miami fire extinguisher compliance"
+  ],
+  "keyword_analysis": {
+    "total_keywords": 20,
+    "avg_search_volume": 25,
+    "avg_cpc": 12.50,
+    "avg_competition": 0.55,
+    "top_keywords": [
+      {
+        "keyword": "fire extinguisher service miami",
+        "search_volume": 140,
+        "cpc": 9.49,
+        "competition": 0.67,
+        "intent": "transactional"
+      },
+      {
+        "keyword": "fire extinguisher inspection miami",
+        "search_volume": 20,
+        "cpc": 18.63,
+        "competition": 0.32,
+        "intent": "transactional"
+      },
+      {
+        "keyword": "commercial fire extinguisher inspection miami",
+        "search_volume": 15,
+        "cpc": 15.20,
+        "competition": 0.45,
+        "intent": "transactional"
+      },
+      {
+        "keyword": "fire extinguisher maintenance miami",
+        "search_volume": 12,
+        "cpc": 11.80,
+        "competition": 0.40,
+        "intent": "transactional"
+      },
+      {
+        "keyword": "fire extinguisher certification miami",
+        "search_volume": 10,
+        "cpc": 12.50,
+        "competition": 1.00,
+        "intent": "commercial"
+      }
+    ],
+    "keyword_clusters": [
+      {
+        "cluster": "Fire Extinguisher Service",
+        "keywords": ["fire extinguisher service miami", "miami fire extinguisher service", "commercial fire extinguisher service miami"],
+        "avg_volume": 95,
+        "avg_cpc": 12.30
+      },
+      {
+        "cluster": "Fire Extinguisher Inspection",
+        "keywords": ["fire extinguisher inspection miami", "miami fire extinguisher inspection", "commercial fire extinguisher inspection miami"],
+        "avg_volume": 18,
+        "avg_cpc": 16.90
+      },
+      {
+        "cluster": "Fire Extinguisher Maintenance",
+        "keywords": ["fire extinguisher maintenance miami", "miami fire extinguisher maintenance", "fire extinguisher testing miami"],
+        "avg_volume": 10,
+        "avg_cpc": 11.20
+      },
+      {
+        "cluster": "Fire Extinguisher Certification",
+        "keywords": ["fire extinguisher certification miami", "miami fire extinguisher certification", "commercial fire extinguisher certification miami"],
+        "avg_volume": 8,
+        "avg_cpc": 12.50
+      }
+    ]
+  },
+  "serp_analysis": {
+    "local_pack_presence": true,
+    "local_pack_count": 3,
+    "top_domains": [
+      {
+        "domain": "www.fire-extinguisher.net",
+        "title": "AFS",
+        "rating": 4.8,
+        "reviews": 61,
+        "phone": "(954) 237-7505"
+      },
+      {
+        "domain": "cityfireinc.com",
+        "title": "City Fire Inc.",
+        "rating": 5.0,
+        "reviews": 1400,
+        "phone": "(954) 987-1338"
+      },
+      {
+        "domain": "www.securityfirepreventioninc.com",
+        "title": "Security Fire Prevention Inc",
+        "rating": 4.5,
+        "reviews": 15,
+        "phone": "(305) 264-8428"
+      }
+    ],
+    "organic_results": [
+      {
+        "domain": "www.miamifire.com",
+        "title": "Miami Fire Equipment",
+        "description": "Serving Miami Since 1950! Fire extinguisher Inspection, Maintenance and Testing, Fire Suppression System Inspection and Maintenance"
+      },
+      {
+        "domain": "pyebarkerfs.com",
+        "title": "Miami, FL – Pye-Barker Fire & Safety",
+        "description": "Pye-Barker's fire extinguisher experts provide inspection, testing, maintenance, and recharge to help you maintain code compliance"
+      },
+      {
+        "domain": "abcfirestoppers.com",
+        "title": "Fire Extinguisher Services",
+        "description": "We Service Miami & Ft Lauderdale. Extinguishers, emergency lights and safety signs. Call us to get your fire extinguisher certification tag updated."
+      }
+    ],
+    "people_also_ask": [
+      "How much should a fire extinguisher inspection cost?",
+      "How much does it cost to check a fire extinguisher?",
+      "Does the fire department inspect fire extinguishers for free?",
+      "How often do fire extinguishers need to be inspected in Florida?"
+    ]
+  },
+  "competitor_analysis": {
+    "top_competitors": [
+      {
+        "name": "City Fire Inc.",
+        "domain": "cityfireinc.com",
+        "rating": 5.0,
+        "reviews": 1400,
+        "strengths": [
+          "Excellent customer service and professionalism",
+          "Prompt and efficient service",
+          "Highly rated technicians",
+          "Strong local presence in South Florida"
+        ],
+        "weaknesses": [
+          "Limited online content",
+          "Basic website design",
+          "Could improve SEO presence"
+        ]
+      },
+      {
+        "name": "AFS (America's Fire Shield)",
+        "domain": "www.fire-extinguisher.net",
+        "rating": 4.8,
+        "reviews": 61,
+        "strengths": [
+          "Quick scheduling and service",
+          "Competitive pricing",
+          "Professional service quality"
+        ],
+        "weaknesses": [
+          "Fewer reviews than competitors",
+          "Limited local content",
+          "Basic online presence"
+        ]
+      },
+      {
+        "name": "Miami Fire Equipment",
+        "domain": "www.miamifire.com",
+        "rating": "N/A",
+        "reviews": "N/A",
+        "strengths": [
+          "70+ years of experience",
+          "Family-owned business",
+          "Comprehensive services",
+          "Strong local reputation"
+        ],
+        "weaknesses": [
+          "Recently retired/closed business",
+          "No longer accepting new customers",
+          "Website shows retirement notice"
+        ]
+      },
+      {
+        "name": "Security Fire Prevention Inc",
+        "domain": "www.securityfirepreventioninc.com",
+        "rating": 4.5,
+        "reviews": 15,
+        "strengths": [
+          "10+ years in business",
+          "Good customer reviews",
+          "Local Miami presence"
+        ],
+        "weaknesses": [
+          "Limited online reviews",
+          "Smaller operation",
+          "Basic website"
+        ]
+      }
+    ],
+    "content_gaps": [
+      "Comprehensive fire safety guides",
+      "OSHA compliance information",
+      "Fire extinguisher training resources",
+      "Emergency response procedures",
+      "Industry regulations and standards"
+    ],
+    "ux_issues": [
+      "Outdated website designs",
+      "Limited mobile optimization",
+      "Poor content organization",
+      "Missing FAQ sections",
+      "Insufficient service information"
+    ]
+  },
+  "google_trends": {
+    "trend_data": {
+      "fire extinguisher inspection": 54,
+      "fire extinguisher service": 47,
+      "commercial fire extinguisher": 8,
+      "fire extinguisher maintenance": 9
+    },
+    "seasonality": "Consistent demand throughout year with slight peaks in spring/summer",
+    "trend_direction": "Stable with minor fluctuations"
+  },
+  "scoring": {
+    "demand_score": 3,
+    "competition_score": 7,
+    "local_pack_score": 8,
+    "content_gap_score": 7,
+    "seasonality_score": 8,
+    "overall_rankability_score": 66
+  },
+  "recommendations": {
+    "go_no_go": "GO",
+    "rationale": "Strong local competition but good opportunities for content marketing and technical expertise positioning. Miami Fire Equipment's retirement creates market opportunity.",
+    "key_opportunities": [
+      "Focus on technical expertise and compliance",
+      "Develop comprehensive fire safety content",
+      "Target commercial and multi-family properties",
+      "Emphasize local Miami expertise",
+      "Create OSHA compliance resources"
+    ],
+    "content_strategy": [
+      "Fire extinguisher inspection checklist",
+      "OSHA compliance guide for Miami businesses",
+      "Commercial fire safety requirements",
+      "Emergency response procedures",
+      "Fire extinguisher maintenance schedules"
+    ],
+    "target_audience": [
+      "Commercial property managers",
+      "Restaurant owners",
+      "Office building managers",
+      "Multi-family property owners",
+      "Healthcare facilities"
+    ]
+  }
+}

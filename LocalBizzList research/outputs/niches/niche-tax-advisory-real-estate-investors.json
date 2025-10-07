@@ -1,0 +1,168 @@
+{
+  "niche": "Niche Tax Advisory for Real Estate Investors",
+  "location": "Miami, Florida",
+  "research_date": "2025-01-27",
+  "miami_queries": [
+    {
+      "keyword": "Miami niche tax advisory real estate investors",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Specialized tax advisory services for real estate investors"
+    },
+    {
+      "keyword": "Miami real estate investor tax advisor cost",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Cost transparency for real estate tax advisory services"
+    },
+    {
+      "keyword": "Miami real estate tax services",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Professional real estate tax services"
+    },
+    {
+      "keyword": "Miami property tax advisor",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Property tax advisory and appeals"
+    },
+    {
+      "keyword": "Miami real estate tax planning",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Strategic tax planning for real estate investments"
+    }
+  ],
+  "keyword_metrics": {
+    "miami_real_estate_tax_services": {
+      "search_volume": "Low",
+      "trends_average": 3,
+      "peak_interest": 100,
+      "seasonality": "Moderate with peaks in June and November"
+    },
+    "miami_real_estate_tax_planning": {
+      "search_volume": "Low",
+      "trends_average": 3,
+      "peak_interest": 100,
+      "seasonality": "Moderate with peaks in June and July"
+    },
+    "miami_niche_tax_advisory_real_estate_investors": {
+      "search_volume": "Very Low",
+      "trends_average": 0,
+      "peak_interest": 0,
+      "seasonality": "Low seasonality"
+    }
+  },
+  "serp_analysis": {
+    "miami_niche_tax_advisory_real_estate_investors": {
+      "total_results": 15,
+      "ai_overview": true,
+      "people_also_ask": 0,
+      "related_searches": 8,
+      "top_domains": [
+        "yelp.com",
+        "whittmarsh.com",
+        "bpbcpa.com",
+        "brighthilladvisors.com",
+        "accountingwebsites.org",
+        "pntax.com",
+        "clutch.co",
+        "dakota.com",
+        "cflgcpa.com",
+        "feedbackwrench.com"
+      ],
+      "local_pack_presence": true,
+      "featured_snippet": false,
+      "result_types": ["organic", "ai_overview", "local_pack", "related_searches"]
+    },
+    "miami_real_estate_investor_tax_advisor_cost": {
+      "total_results": 12,
+      "ai_overview": true,
+      "people_also_ask": 4,
+      "top_domains": [
+        "advancedtaxadvisors.net",
+        "skfinancial.com",
+        "nsktglobal.com",
+        "bpbcpa.com",
+        "miamicpa.com",
+        "yelp.com",
+        "dimovtax.com",
+        "ghtaxadvisors.com",
+        "biggerpockets.com",
+        "pntax.com"
+      ],
+      "local_pack_presence": false,
+      "featured_snippet": false,
+      "result_types": ["organic", "ai_overview", "people_also_ask", "related_searches"]
+    }
+  },
+  "competitor_analysis": {
+    "whittmarsh": {
+      "domain": "whittmarsh.com",
+      "strengths": [
+        "Real estate investor specialization",
+        "Comprehensive tax reduction planning",
+        "Outsourced accounting services",
+        "Strong online presence and testimonials"
+      ],
+      "weaknesses": [
+        "Limited Miami-specific focus",
+        "No clear pricing transparency",
+        "Generic real estate approach"
+      ],
+      "services": [
+        "Real estate tax planning",
+        "Tax reduction strategies",
+        "Outsourced accounting",
+        "Business tax preparation"
+      ]
+    },
+    "presti_naegele": {
+      "domain": "pntax.com",
+      "strengths": [
+        "Miami-specific real estate accounting",
+        "Comprehensive real estate services",
+        "Entity formation guidance",
+        "Accelerated depreciation expertise"
+      ],
+      "weaknesses": [
+        "No Miami-specific focus",
+        "Limited online presence",
+        "Traditional CPA approach"
+      ],
+      "services": [
+        "Real estate accounting",
+        "Tax planning and strategies",
+        "Entity formation",
+        "1031 exchange guidance"
+      ]
+    }
+  },
+  "google_trends": {
+    "keywords": [
+      "Miami niche tax advisory real estate investors",
+      "Miami real estate investor tax advisor cost",
+      "Miami real estate tax services",
+      "Miami property tax advisor",
+      "Miami real estate tax planning"
+    ],
+    "trends_data": {
+      "average_interest": [0, 0, 3, 0, 3],
+      "peak_interest": 100,
+      "seasonality": "Moderate seasonality with peaks in June, July, and November",
+      "trend_direction": "Stable with occasional spikes in interest"
+    }
+  },
+  "scoring": {
+    "demand_score": 18,
+    "competition_score": 32,
+    "local_pack_friendliness": 8,
+    "content_gap_score": 22,
+    "seasonality_score": 6,
+    "rankability_score": 86,
+    "recommendation": "GO",
+    "priority": "high",
+    "rationale": "Strong opportunity in Miami's real estate market with clear content gaps around niche tax advisory services and moderate competition from established CPA firms."
+  }
+}

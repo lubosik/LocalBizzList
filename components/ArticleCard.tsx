@@ -15,23 +15,31 @@ export default function ArticleCard({ post }: ArticleCardProps) {
       <Link href={post.url} className="block">
         <div className="relative h-48 w-full bg-neutral-100">
           <Image
-            src={post.featuredImage}
-            alt={post.featuredImageAlt}
+            src={post.featuredImage || '/images/placeholder-article.jpg'}
+            alt={post.featuredImageAlt || post.title}
             fill
             className="object-cover"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            loading="lazy"
+            width={400}
+            height={192}
           />
         </div>
 
         <div className="flex flex-col gap-3 p-4">
           <div className="flex items-center gap-2 flex-wrap">
-            <span className="category-tag">
+            <span className="inline-flex items-center rounded-full bg-brand-600 text-brand-on px-2 py-1 text-xs font-semibold">
               {post.category}
             </span>
-            {post.readingTime && (
+            {post.readTime && (
               <span className="flex items-center gap-1 text-xs text-neutral-500">
                 <Clock className="h-3 w-3" />
-                {post.readingTime} min read
+                {post.readTime}
+              </span>
+            )}
+            {post.city && (
+              <span className="inline-flex items-center rounded-full bg-neutral-200 text-neutral-700 px-2 py-1 text-xs font-medium">
+                {post.city}
               </span>
             )}
           </div>

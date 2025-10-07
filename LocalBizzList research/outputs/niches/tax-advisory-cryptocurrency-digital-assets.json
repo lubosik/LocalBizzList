@@ -1,0 +1,168 @@
+{
+  "niche": "Tax Advisory for Cryptocurrency and Digital Assets",
+  "location": "Miami, Florida",
+  "research_date": "2025-01-27",
+  "miami_queries": [
+    {
+      "keyword": "Miami tax advisory cryptocurrency digital assets",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Complex cryptocurrency tax compliance and planning needs"
+    },
+    {
+      "keyword": "Miami cryptocurrency tax advisor cost",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Cost transparency for cryptocurrency tax services"
+    },
+    {
+      "keyword": "Miami crypto tax services",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Professional cryptocurrency tax preparation and planning"
+    },
+    {
+      "keyword": "Miami digital asset tax planning",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "Strategic tax planning for digital asset investments"
+    },
+    {
+      "keyword": "Miami cryptocurrency compliance",
+      "intent": "commercial",
+      "priority": "high",
+      "pain_point": "IRS compliance for cryptocurrency transactions"
+    }
+  ],
+  "keyword_metrics": {
+    "miami_crypto_tax_services": {
+      "search_volume": "Low",
+      "trends_average": 2,
+      "peak_interest": 62,
+      "seasonality": "Moderate with peaks in September and March"
+    },
+    "miami_cryptocurrency_compliance": {
+      "search_volume": "Very Low",
+      "trends_average": 4,
+      "peak_interest": 100,
+      "seasonality": "High seasonality with peaks in March and November"
+    },
+    "miami_cryptocurrency_tax_advisor_cost": {
+      "search_volume": "Very Low",
+      "trends_average": 0,
+      "peak_interest": 0,
+      "seasonality": "Low seasonality"
+    }
+  },
+  "serp_analysis": {
+    "miami_tax_advisory_cryptocurrency_digital_assets": {
+      "total_results": 13,
+      "ai_overview": true,
+      "people_also_ask": 4,
+      "related_searches": 2,
+      "top_domains": [
+        "turnercpas.com",
+        "miamicpa.com",
+        "grantthornton.com",
+        "klasing-associates.com",
+        "whittmarsh.com",
+        "montague.law",
+        "blockchainlawyer.io",
+        "bettehochberger.com",
+        "kaufmanrossin.com",
+        "cryptotaxmiami.com"
+      ],
+      "local_pack_presence": false,
+      "featured_snippet": false,
+      "result_types": ["organic", "ai_overview", "people_also_ask", "related_searches"]
+    },
+    "miami_cryptocurrency_tax_advisor_cost": {
+      "total_results": 12,
+      "ai_overview": true,
+      "people_also_ask": 4,
+      "top_domains": [
+        "miamicpa.com",
+        "turnercpas.com",
+        "dimovtax.com",
+        "klasing-associates.com",
+        "chainwisecpa.com",
+        "gordonlaw.com",
+        "whittmarsh.com",
+        "genesistaxconsultants.com",
+        "blockchainlawyer.io",
+        "koinly.io"
+      ],
+      "local_pack_presence": false,
+      "featured_snippet": false,
+      "result_types": ["organic", "ai_overview", "people_also_ask", "related_searches"]
+    }
+  },
+  "competitor_analysis": {
+    "miami_cpa": {
+      "domain": "miamicpa.com",
+      "strengths": [
+        "Miami-specific cryptocurrency tax expertise",
+        "Comprehensive crypto tax services",
+        "Local CPA firm with crypto specialization",
+        "Clear service offerings and pricing"
+      ],
+      "weaknesses": [
+        "Limited online presence",
+        "Traditional CPA approach",
+        "No subscription-based services"
+      ],
+      "services": [
+        "Cryptocurrency tax preparation",
+        "Crypto tax planning",
+        "Digital asset compliance",
+        "IRS audit representation"
+      ]
+    },
+    "chainwise_cpa": {
+      "domain": "chainwisecpa.com",
+      "strengths": [
+        "Florida-specific crypto CPA services",
+        "Subscription-based pricing model",
+        "Comprehensive crypto tax services",
+        "Strong online presence"
+      ],
+      "weaknesses": [
+        "No Miami-specific focus",
+        "Generic Florida approach",
+        "Limited local expertise"
+      ],
+      "services": [
+        "Crypto tax preparation",
+        "Tax planning and advisory",
+        "Blockchain bookkeeping",
+        "Tax resolution services"
+      ]
+    }
+  },
+  "google_trends": {
+    "keywords": [
+      "Miami tax advisory cryptocurrency digital assets",
+      "Miami cryptocurrency tax advisor cost",
+      "Miami crypto tax services",
+      "Miami digital asset tax planning",
+      "Miami cryptocurrency compliance"
+    ],
+    "trends_data": {
+      "average_interest": [0, 0, 2, 0, 4],
+      "peak_interest": 100,
+      "seasonality": "High seasonality with peaks in March, September, and November",
+      "trend_direction": "Growing interest in cryptocurrency tax services"
+    }
+  },
+  "scoring": {
+    "demand_score": 20,
+    "competition_score": 35,
+    "local_pack_friendliness": 5,
+    "content_gap_score": 25,
+    "seasonality_score": 8,
+    "rankability_score": 93,
+    "recommendation": "GO",
+    "priority": "high",
+    "rationale": "Strong opportunity in Miami's growing cryptocurrency market with clear content gaps around cost transparency and moderate competition from established CPA firms."
+  }
+}

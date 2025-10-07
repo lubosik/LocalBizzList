@@ -1,0 +1,179 @@
+{
+  "niche": "Backflow prevention device testing (commercial)",
+  "slug": "backflow-prevention",
+  "location": "Miami, Florida",
+  "location_code": 1015116,
+  "language_code": "en",
+  "analysis_date": "2025-01-20",
+  "miami_queries": [
+    "backflow prevention testing miami",
+    "miami backflow prevention testing",
+    "commercial backflow testing miami",
+    "miami backflow device testing",
+    "backflow prevention inspection miami",
+    "miami backflow prevention service",
+    "commercial backflow inspection miami",
+    "miami backflow device inspection",
+    "backflow prevention certification miami",
+    "miami backflow prevention certification",
+    "commercial backflow certification miami",
+    "miami backflow device certification",
+    "backflow prevention maintenance miami",
+    "miami backflow prevention maintenance",
+    "commercial backflow maintenance miami",
+    "miami backflow device maintenance",
+    "backflow prevention repair miami",
+    "miami backflow prevention repair",
+    "commercial backflow repair miami",
+    "miami backflow device repair"
+  ],
+  "keyword_metrics": {
+    "total_keywords": 20,
+    "avg_search_volume": 12,
+    "avg_cpc": 6.50,
+    "avg_competition": 0.45,
+    "top_keywords": [
+      {
+        "keyword": "backflow prevention testing miami",
+        "search_volume": 25,
+        "cpc": 8.50,
+        "competition": 0.50,
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "commercial backflow testing miami",
+        "search_volume": 20,
+        "cpc": 12.30,
+        "competition": 0.60,
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "backflow device testing miami",
+        "search_volume": 18,
+        "cpc": 9.80,
+        "competition": 0.45,
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "backflow prevention inspection miami",
+        "search_volume": 15,
+        "cpc": 7.20,
+        "competition": 0.40,
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "backflow prevention certification miami",
+        "search_volume": 12,
+        "cpc": 10.50,
+        "competition": 0.55,
+        "intent": "Commercial"
+      }
+    ]
+  },
+  "serp_analysis": {
+    "total_results": 15,
+    "local_pack_present": true,
+    "local_pack_size": 3,
+    "top_domains": [
+      "miamidade.gov",
+      "ccbackflow.com",
+      "allbackflowsolutions.com",
+      "rightowaybackflow.com",
+      "orrplumbing.com",
+      "falconplumbing.net",
+      "abcbackflow.com",
+      "bayplumbingco.com"
+    ],
+    "serp_notes": [
+      "Strong local presence with Miami-specific companies",
+      "Miami-Dade County government provides official information and certified tester lists",
+      "Multiple local companies with 5-star ratings and positive reviews",
+      "Limited content depth on most competitor sites",
+      "Generic service descriptions without detailed technical information"
+    ]
+  },
+  "trends_data": {
+    "seasonality": "Low seasonal variation with consistent demand throughout year",
+    "trend_stability": "Stable demand with 11 average weekly searches",
+    "growth_pattern": "Consistent baseline demand with occasional spikes",
+    "key_insights": [
+      "Consistent demand throughout year with 11 average weekly searches",
+      "Occasional spikes in February (46 searches) and June (18 searches)",
+      "Commercial backflow testing shows zero search volume",
+      "Backflow device testing shows higher volume (13 average)"
+    ]
+  },
+  "competitor_analysis": [
+    {
+      "domain": "orrplumbing.com",
+      "strengths": [
+        "Established since 1974 with long service history",
+        "Comprehensive commercial backflow prevention services",
+        "Detailed technical content about backflow prevention devices",
+        "Professional service descriptions and compliance focus",
+        "Strong local Miami presence"
+      ],
+      "weaknesses": [
+        "Generic service descriptions without specific pricing",
+        "Limited Miami-specific content optimization",
+        "No clear service packages or pricing transparency"
+      ]
+    },
+    {
+      "domain": "abcbackflow.com",
+      "strengths": [
+        "Certified backflow testing company",
+        "Many years of experience in Miami-Dade area",
+        "Specialized in backflow services only",
+        "Serves Broward, Miami-Dade, and Palm Beach counties"
+      ],
+      "weaknesses": [
+        "Website has technical issues (redirects)",
+        "Limited online content and information",
+        "No clear service descriptions or pricing"
+      ]
+    },
+    {
+      "domain": "falconplumbing.net",
+      "strengths": [
+        "Professional backflow testing and certification services",
+        "Competitive pricing mentioned",
+        "Local Miami phone number and contact information",
+        "Clear service focus on backflow testing"
+      ],
+      "weaknesses": [
+        "Limited content depth and technical information",
+        "Generic service descriptions",
+        "No detailed compliance or regulatory information"
+      ]
+    }
+  ],
+  "google_trends": {
+    "seasonality": "Low seasonal variation with consistent demand throughout year",
+    "trend_stability": "Stable demand with 11 average weekly searches",
+    "growth_pattern": "Consistent baseline demand with occasional spikes",
+    "key_insights": [
+      "Consistent demand throughout year with 11 average weekly searches",
+      "Occasional spikes in February (46 searches) and June (18 searches)",
+      "Commercial backflow testing shows zero search volume",
+      "Backflow device testing shows higher volume (13 average)"
+    ]
+  },
+  "scoring": {
+    "demand_score": 4,
+    "competition_score": 7,
+    "local_pack_score": 8,
+    "content_gap_score": 7,
+    "seasonality_score": 8,
+    "overall_rankability": 68,
+    "go_no_go": "GO",
+    "rationale": "Moderate demand with strong local competition. Excellent local pack presence and content gap opportunities. High-value commercial market with recurring revenue potential."
+  },
+  "recommendations": [
+    "Create Miami-specific service pages with local testimonials",
+    "Develop technical guides about backflow prevention device requirements",
+    "Build educational content about Florida compliance requirements",
+    "Implement local SEO optimization for Miami searches",
+    "Develop transparent pricing and service packages"
+  ]
+}

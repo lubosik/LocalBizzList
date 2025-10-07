@@ -1,0 +1,284 @@
+{
+  "niche": "Grease trap / grease interceptor cleaning & removal",
+  "slug": "grease-trap-cleaning-removal",
+  "location": "Miami, Florida",
+  "location_code": 1015116,
+  "language_code": "en",
+  "analysis_date": "2025-01-20",
+  "miami_queries": [
+    "Miami grease trap cleaning",
+    "Miami grease interceptor cleaning",
+    "Miami grease trap pumping",
+    "Miami grease trap service",
+    "Miami grease trap maintenance",
+    "Miami commercial grease trap",
+    "Miami grease trap installation",
+    "Miami grease trap repair",
+    "Miami grease trap removal",
+    "Miami grease trap inspection",
+    "Miami grease trap disposal",
+    "Miami restaurant grease trap",
+    "Miami kitchen grease trap",
+    "Miami grease trap emergency",
+    "Miami grease trap regulations",
+    "Miami grease trap compliance",
+    "Miami grease trap pumping cost",
+    "Miami grease trap cleaning price",
+    "Miami grease trap service near me",
+    "Miami grease trap contractor"
+  ],
+  "keyword_metrics": {
+    "total_query_ideas": 20,
+    "top_keywords": [
+      {
+        "keyword": "grease trap cleaning",
+        "search_volume": 9900,
+        "cpc": 23.2,
+        "competition": "MEDIUM",
+        "intent": "Transactional",
+        "difficulty": 38
+      },
+      {
+        "keyword": "grease trap pumping",
+        "search_volume": 1600,
+        "cpc": 16.1,
+        "competition": "MEDIUM",
+        "intent": "Transactional",
+        "difficulty": 31
+      },
+      {
+        "keyword": "grease interceptor cleaning",
+        "search_volume": 260,
+        "cpc": 21.8,
+        "competition": "LOW",
+        "intent": "Transactional",
+        "difficulty": 24
+      },
+      {
+        "keyword": "commercial grease trap service",
+        "search_volume": 30,
+        "cpc": 13.51,
+        "competition": "LOW",
+        "intent": "Transactional",
+        "difficulty": 17
+      }
+    ],
+    "main_cluster_keywords": "Miami grease trap cleaning pumping maintenance",
+    "primary_search_volume": "Medium (30-9900 monthly)",
+    "secondary_search_volume": "High (260+ monthly commercial)"
+  },
+  "serp_analysis": {
+    "miami_query": "grease trap cleaning Miami",
+    "top_domains": [
+      "www.unitedsandg.com",
+      "www.championseptictank.com",
+      "onmywayseptic.com",
+      "www.peoplesplumbing.com",
+      "www.coralgablesplumbing.com",
+      "www.greasetrapmasters.com",
+      "www.yelp.com",
+      "eazygrease.com",
+      "quickclean.us",
+      "aboveallsepticanddrain.com",
+      "www.miamidade.gov"
+    ],
+    "local_pack_domains": [
+      "www.unitedsandg.com",
+      "www.championseptictank.com",
+      "onmywayseptic.com"
+    ],
+    "people_also_ask": [
+      "What does grease trap cleaning cost in Miami?",
+      "How often should commercial grease traps be cleaned?",
+      "What are Miami-Dade grease trap regulations?",
+      "Where can I get grease trap pumping service?"
+    ],
+    "related_searches": [
+      "Grease trap cleaning Miami Dade",
+      "Grease trap cleaning Miami cost",
+      "Septic tank cleaning Miami",
+      "Septic masters Miami",
+      "On my Way septic",
+      "Septic tank Cleaner",
+      "On My Way Septic reviews"
+    ],
+    "serp_structure": {
+      "local_pack_results": 3,
+      "organic_results": 9,
+      "people_also_ask": 4,
+      "related_searches": 7
+    },
+    "avg_monthly_searches_factors": "Miami grease trap cleaning service",
+    "search_volume_climate_ranking": "30/50",
+    "search_volume_climate_score": 28
+  },
+  "competitor_analysis": [
+    {
+      "domain": "www.unitedsandg.com",
+      "strength_areas": [
+        "Specialized grease trap services with 10+ years experience",
+        "Strong local Miami presence with 24/7 availability",
+        "4.9-star rating with 48 reviews",
+        "Comprehensive septic and grease services",
+        "Professional commercial focus"
+      ],
+      "weakness_areas": [
+        "Limited review volume compared to competitors",
+        "Broader service focus may dilute grease specialization",
+        "Minimal content marketing presence",
+        "Website lacks detailed service descriptions"
+      ],
+      "content_gaps": [
+        "Miami-specific grease trap compliance guides",
+        "Pricing transparency for grease cleaning",
+        "Educational content on grease trap maintenance",
+        "Local regulations and requirements",
+        "Commercial customer testimonials"
+      ]
+    },
+    {
+      "domain": "www.championseptictank.com",
+      "strength_areas": [
+        "Dominant market position with 1,100 reviews",
+        "Strong brand recognition across Miami-Dade",
+        "Comprehensive service portfolio including grease traps",
+        "5-star rating with extensive customer base",
+        "Professional presentation and marketing"
+      ],
+      "weakness_areas": [
+        "Broad service focus dilutes grease trap specialization",
+        "Higher pricing positioning",
+        "Complex service portfolio may confuse customers",
+        "Limited grease-specific content"
+      ],
+      "content_gaps": [
+        "Grease trap vs septic tank service differentiation",
+        "Commercial grease trap frequency schedules",
+        "Miami-Dade compliance requirements",
+        "Restaurant-specific grease solutions",
+        "Cost-comparison calculators"
+      ]
+    },
+    {
+      "domain": "onmywayseptic.com",
+      "strength_areas": [
+        "Strong local reputation with 361 reviews",
+        "4.9-star rating with affordable positioning",
+        "10+ years business experience",
+        "24/7 availability",
+        "Competitive pricing emphasis"
+      ],
+      "weakness_areas": [
+        "Limited digital marketing presence",
+        "Weak SEO optimization",
+        "Basic website design",
+        "Limited content creation",
+        "Smaller team size"
+      ],
+      "content_gaps": [
+        "SEO-optimized grease trap content",
+        "Educational resources and guides",
+        "Digital marketing strategy",
+        "Customer review generation",
+        "Website optimization"
+      ]
+    }
+  ],
+  "google_trends": {
+    "keywords": ["grease trap cleaning", "grease interceptor cleaning", "commercial grease trap", "grease trap pumping"],
+    "location": "United States",
+    "trends_data": {
+      "seasonality_notes": "Steady year-round demand with moderate seasonal peaks",
+      "seasonality_ranking": "Stable",
+      "trends_traffic_score": 28
+    },
+    "graph_data": {
+      "date_ranges": [
+        "2024-10-06 to 2024-10-12: 43,1,12,2",
+        "2024-11-03 to 2024-11-09: 47,1,7,15",
+        "2024-12-22 to 2024-12-28: 51,0,19,4",
+        "2025-01-19 to 2025-01-25: 54,0,6,10"
+      ],
+      "avg_values": [61,2,13,5]
+    },
+    "miami_trends": {
+      "miami_vs_us_trend": 0,
+      "demand_stability": "High",
+      "trends_ranking": "30/50",
+      "trends_traffic_score": 28
+    }
+  },
+  "scoring": {
+    "demand_score": {
+      "score": 28,
+      "reasoning": "High commercial demand with $13-23 CPC indicating valuable customers. Grease trap cleaning serves restaurants, hotels, and food service industry in Miami."
+    },
+    "competitive_difficulty": {
+      "score": 35,
+      "reasoning": "Medium difficulty with established players but content gaps exist. United, Champion, and On My Way compete but lack specialized grease focus."
+    },
+    "local_pack_score": {
+      "score": 18,
+      "reasoning": "Three main players dominate Local Pack but none specialize exclusively in grease trap services - opportunity exists."
+    },
+    "content_gap_score": {
+      "score": 22,
+      "reasoning": "Significant gaps in Miami-specific compliance guides, pricing calculators, and commercial educational content."
+    },
+    "keyword_volume_score": {
+      "score": 18,
+      "reasoning": "Medium volume terms with strong commercial intent. Main opportunity lies in commercial-specific long-tail keywords."
+    },
+    "ytml_score": {
+      "score": 25,
+      "reasoning": "Moderate YMYL due to environmental health regulations. Requires compliance knowledge but not medical/safety expertise."
+    },
+    "rankability_score": {
+      "score": 78,
+      "reasoning": "Excellent commercial opportunity with high CPCs and content gaps. Miami restaurant density creates strong recurring demand."
+    }
+  },
+  "recommendations": [
+    {
+      "rankability_score": 78,
+      "recommendation": "GO",
+      "rationale": "Grease trap cleaning offers excellent commercial opportunity with high-value customers ($13-23 CPC) and content gaps in Miami market.",
+      "priority": "High Priority"
+    },
+    {
+      "rankability_score": 78,
+      "recommendation": "GO",
+      "rationale": "Restaurant density in Miami creates strong recurring demand for grease trap services with minimal seasonality issues.",
+      "priority": "High Priority"
+    }
+  ],
+  "local_pack_analysis": {
+    "total_listings": 3,
+    "competition_ranking": "Medium",
+    "local_pack_score": 18,
+    "analysis": "Three established businesses compete in Local包for Miami grease trap cleaning. United Septic & Grease leads with specialized focus (4.9 stars, 48 reviews), followed by Champion Septic Tank (5 stars, 1,100 reviews) and On My Way Septic (4.9 stars, 361 reviews). None specialize exclusively in grease traps."
+  },
+  "content_gap_analysis": {
+    "total_content_gaps": 18,
+    "content_gaps_score": 22,
+    "high_priority_gaps": [
+      "Miami-Dade grease trap compliance requirements",
+      "Commercial grease trap cleaning frequency calculator",
+      "Restaurant grease trap cost estimator",
+      "Miami grease trap regulations guide"
+    ],
+    "content_cluster": "Educational commercial grease trap",
+    "priority_clusters": ["Compliance", "Pricing", "Maintenance", "Restaurant Solutions"],
+    "cluster_difficulty": "Medium",
+    "cluster_opportunity": "High"
+  },
+  "industry_news_summary": {
+    "current_developments": [
+      "Environmental regulations tightening",
+      "Commercial kitchen compliance requirements",
+      "Automated grease trap monitoring systems",
+      "Sustainable waste disposal methods"
+    ],
+    "industry_trends": "Increased focus on compliance education and automated scheduling for commercial grease trap maintenance"
+  }
+}

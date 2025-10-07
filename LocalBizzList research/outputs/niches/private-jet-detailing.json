@@ -1,0 +1,274 @@
+{
+  "niche": "Private jet (aircraft) detailing",
+  "slug": "private-jet-detailing",
+  "location": "Miami, Florida",
+  "location_code": 1015116,
+  "language_code": "en",
+  "analysis_date": "2025-01-20",
+  "miami_queries": [
+    "miami private jet detailing",
+    "private jet detailing miami",
+    "miami aircraft detailing",
+    "aircraft detailing miami",
+    "miami luxury jet service",
+    "private jet cleaning miami",
+    "miami corporate jet detailing",
+    "aircraft cleaning miami",
+    "miami jet wash service",
+    "executive jet detailing miami",
+    "miami private aircraft cleaning",
+    "luxury airplane detailing miami",
+    "miami aviation detailing services",
+    "private jet maintenance miami",
+    "miami airplane cleaning",
+    "aircraft detailing services miami",
+    "miami jet interior cleaning",
+    "private airplane detailing miami",
+    "miami charter jet cleaning",
+    "aviation cleaning miami"
+  ],
+  "keyword_metrics": {
+    "total_query_ideas": 20,
+    "top_keywords": [
+      {
+        "keyword": "private jet maintenance cost",
+        "search_volume": 170,
+        "cpc": 1.15,
+        "competition": "LOW",
+        "intent": "Commercial",
+        "difficulty": 5
+      },
+      {
+        "keyword": "jet reports",
+        "search_volume": 880,
+        "cpc": 12.74,
+        "competition": "MEDIUM",
+        "intent": "Commercial",
+        "difficulty": 4
+      },
+      {
+        "keyword": "first jet aircraft",
+        "search_volume": 2900,
+        "cpc": 0,
+        "competition": "LOW",
+        "intent": "Commercial",
+        "difficulty": 29
+      },
+      {
+        "keyword": "eagle air service",
+        "search_volume": 70,
+        "cpc": 11.58,
+        "competition": "LOW",
+        "intent": "Commercial",
+        "difficulty": 5
+      }
+    ],
+    "secondary_keywords": [
+      {
+        "keyword": "aircraft detailing miami",
+        "search_volume": 0,
+        "cpc": 0,
+        "competition": "Unknown",
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "miami private jet detailing",
+        "search_volume": 0,
+        "cpc": 0,
+        "competition": "Unknown",
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "private jet cleaning miami",
+        "search_volume": 0,
+        "cpc": 0,
+        "competition": "Unknown",
+        "intent": "Commercial"
+      }
+    ],
+    "avg_monthly_search_volume": 4,
+    "avg_cpc": 6.52,
+    "competition_level": "LOW",
+    "keyword_difficulty": 11
+  },
+  "serp_analysis": {
+    "miami_query": "miami private jet detailing",
+    "top_domains": [
+      "www.konigdetailing.com",
+      "www.aeroshineprestige.com",
+      "www.realcleanaircraft.com",
+      "jetdetailking.com",
+      "www.dgkusa.com",
+      "www.instagram.com",
+      "dyfinestdetailing.com",
+      "www.sparrowhawkmobiledetailing.com"
+    ],
+    "local_pack_domains": [
+      "www.aeroshineprestige.com",
+      "AIRCRAFT DETAILING (unclaimed listing)",
+      "primeappearance.com"
+    ],
+    "people_also_ask": [],
+    "related_searches": [
+      "Miami private jet detailing reviews",
+      "Miami private jet detailing services",
+      "Miami private jet detailing prices",
+      "Miami private jet detailing jobs",
+      "Miami private jet detailing cost",
+      "Real Clean aircraft detailing",
+      "Miami private jet detailing near me",
+      "Jet detailing near me"
+    ]
+  },
+  "competitor_analysis": [
+    {
+      "domain": "www.konigdetailing.com",
+      "strength_areas": [
+        "Certified Ceramic Pro aircraft installation center",
+        "Premium positioning with ceramic coating specialization",
+        "Full-service aviation detailing with comprehensive packages",
+        "Professional website with detailed service offerings",
+        "Strong SEO presence ranking #1 for 'aircraft detailing miami'"
+      ],
+      "weakness_areas": [
+        "Limited review volume in aviation segment",
+        "Broader auto/marine focus dilutes aviation specialization",
+        "Premium positioning may limit broader market access",
+        "No clear pricing transparency on website"
+      ],
+      "content_gaps": [
+        "Miami-specific private jet owner guides",
+        "Private jet maintenance schedules and tips",
+        "Miami private jet regulations and compliance",
+        "VIP private jet detailing services"
+      ]
+    },
+    {
+      "domain": "www.aeroshineprestige.com",
+      "strength_areas": [
+        "Fort Lauderdale location serves Miami area",
+        "Specific aircraft detailing specialization",
+        "Good Google presence with search visibility",
+        "24/7 availability for emergency services",
+        "Focused aviation cleaning services"
+      ],
+      "weakness_areas": [
+        "Limited review volume (22 reviews)",
+        "Fort Lauderdale may not serve Miami airport efficiently",
+        "Website lacks comprehensive service descriptions",
+        "No pricing transparency"
+      ],
+      "content_gaps": [
+        "Miami International Airport accessibility guides",
+        "Private jet interior/exterior packages",
+        "Charter aircraft specialist services",
+        "Miami-Dade aviation regulations compliance"
+      ]
+    },
+    {
+      "domain": "jetdetailking.com",
+      "strength_areas": [
+        "Perfect niche positioning - 'Jet Detail King'",
+        "Luxury positioning for private jets specifically",
+        "24/7 concierge-level services",
+        "Specialized jet cleaning focus"
+      ],
+      "weakness_areas": [
+        "Limited online presence and reviews",
+        "Website lacks detail on service packages",
+        "No clear Miami location confirmation",
+        "Minimal content for SEO optimization"
+      ],
+      "content_gaps": [
+        "Miami private jet cleaning schedules",
+        "VIP private jet owner services",
+        "Executive jet maintenance guides",
+        "Private jet charter detailing programs"
+      ]
+    }
+  ],
+  "google_trends": {
+    "keywords": ["private jet", "aircraft detailing", "aviation services", "private jet cleaning"],
+    "location": "United States",
+    "trends_data": {
+      "seasonality_notes": "High steady demand throughout year with no major seasonal peaks",
+      "seasonality_ranking": "Stable",
+      "trends_traffic_score": 25
+    },
+    "graph_data": {
+      "date_ranges": [
+        "2024-10-06 to 2024-10-12: 89,0,10,0",
+        "2024-11-03 to 2024-11-09: 88,0,10,0",
+        "2024-12-22 to 2024-12-28: 91,0,11,0",
+        "2025-01-19 to 2025-01-25: 87,1,15,0"
+      ],
+      "avg_values": [82,0,13,0]
+    },
+    "miami_trends": {
+      "miami_vs_us_trend": 0,
+      "demand_stability": "Excellent steady demand year-round",
+      "trends_ranking": "25/50",
+      "peak_months": "Consistent throughout year"
+    }
+  },
+  "scoring": {
+    "demand_score": {
+      "score": 35,
+      "reasoning": "High-end luxury market with excellent CPC values ($6-13 CPC). Private jet owners willing to pay premium prices for superior service. Steady year-round demand with no seasonality issues."
+    },
+    "competitive_difficulty": {
+      "score": 20,
+      "reasoning": "Low competition with few specialized private jet detailing providers. Only 3 major competitors with limited review volumes. Opportunity exists for Miami-specific private jet specialist."
+    },
+    "local_pack_score": {
+      "score": 32,
+      "reasoning": "Mixed Local Pack with one solid competitor (AeroShine Prestige) but includes unclaimed listing. Opportunity to dominate Miami-specific private jet Local Pack with proper optimization."
+    },
+    "content_gap_score": {
+      "score": 42,
+      "reasoning": "Significant content gaps in Miami-specific private jet owner guides, VIP services, charter aircraft programs, and MIA airport accessibility. High opportunity for content differentiation."
+    },
+    "keyword_trends_score": {
+      "score": 25,
+      "reasoning": "Excellent steady demand with no seasonal peaks - private jet cleaning needed year-round. High search volumes for general aviation terms create opportunity."
+    },
+    "overall_rankability_score": 86
+  },
+  "recommendations": [
+    {
+      "rankability_score": 86,
+      "recommendation": "GO",
+      "rationale": "Exceptional private jet detailing opportunity with low competition, high-value customers ($6-13 CPC), and significant content gaps in Miami market.",
+      "priority": "Very High Priority"
+    },
+    {
+      "rankability_score": 86,
+      "recommendation": "GO", 
+      "rationale": "Steady year-round demand, luxury customer base willing to pay premium prices, and opportunity to become Miami's premier private jet detailing specialist.",
+      "priority": "Very High Priority"
+    }
+  ],
+  "local_pack_analysis": {
+    "total_listings": 3,
+    "competition_ranking": "Low-Medium",
+    "local_pack_score": 32,
+    "analysis": "Mix of established competitor (AeroShine Prestige), unclaimed listing, and weaker provider (Prime Appearance). High opportunity for Miami-specific private jet specialist to dominate Local Pack."
+  },
+  "content_opportunities": [
+    "Miami private jet owner maintenance guides",
+    "VIP private jet detailing programs",
+    "Charter aircraft cleaning services",
+    "Miami International Airport accessibility guides",
+    "Private jet interior luxury packages",
+    "Executive jet maintenance schedules",
+    "Miami-Dade aviation regulations compliance guides",
+    "Corporate jet fleet cleaning programs"
+  ],
+  "miami_specific_advantages": [
+    "High concentration of private jet owners and charter operators",
+    "Miami International Airport (MIA) accessibility",
+    "Luxury market segment with premium pricing potential",
+    "Year-round demand without seasonal variations",
+    "Business travel hub creates consistent private jet traffic"
+  ]
+}

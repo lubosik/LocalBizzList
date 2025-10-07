@@ -1,0 +1,176 @@
+{
+  "niche": "Kitchen fire-suppression system inspection & servicing",
+  "slug": "kitchen-fire-suppression",
+  "location": "Miami, Florida",
+  "location_code": 1015116,
+  "language_code": "en",
+  "analysis_date": "2025-01-20",
+  "miami_queries": [
+    "kitchen fire suppression miami",
+    "miami kitchen fire suppression",
+    "kitchen fire suppression inspection miami",
+    "miami fire suppression system",
+    "kitchen fire suppression service miami",
+    "miami commercial fire suppression",
+    "restaurant fire suppression miami",
+    "miami kitchen fire system",
+    "commercial fire suppression miami",
+    "kitchen fire suppression maintenance miami",
+    "miami fire suppression inspection",
+    "restaurant fire suppression system miami",
+    "miami commercial kitchen fire suppression",
+    "kitchen fire suppression testing miami",
+    "miami fire suppression repair",
+    "commercial fire suppression inspection miami",
+    "kitchen fire suppression certification miami",
+    "miami fire suppression compliance",
+    "restaurant fire suppression inspection miami",
+    "miami kitchen fire suppression service"
+  ],
+  "keyword_metrics": {
+    "total_keywords": 20,
+    "avg_search_volume": 45,
+    "avg_cpc": 8.50,
+    "avg_competition": 0.65,
+    "top_keywords": [
+      {
+        "keyword": "kitchen fire suppression miami",
+        "search_volume": 120,
+        "cpc": 12.50,
+        "competition": 0.70,
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "commercial fire suppression miami",
+        "search_volume": 95,
+        "cpc": 15.20,
+        "competition": 0.75,
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "restaurant fire suppression miami",
+        "search_volume": 85,
+        "cpc": 18.30,
+        "competition": 0.80,
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "fire suppression inspection miami",
+        "search_volume": 75,
+        "cpc": 9.80,
+        "competition": 0.60,
+        "intent": "Commercial"
+      },
+      {
+        "keyword": "kitchen fire suppression inspection",
+        "search_volume": 65,
+        "cpc": 11.20,
+        "competition": 0.65,
+        "intent": "Commercial"
+      }
+    ]
+  },
+  "serp_analysis": {
+    "total_results": 15,
+    "local_pack_present": true,
+    "local_pack_size": 3,
+    "top_domains": [
+      "cityfireinc.com",
+      "airflowspecialists.com",
+      "empirefireprotection.com",
+      "miamifireprotection.com",
+      "southfloridafire.com"
+    ],
+    "serp_notes": [
+      "Strong local presence with Miami-specific companies",
+      "City Fire Inc dominates with 4.9/5 rating and 1,115+ reviews",
+      "Limited content depth on most competitor sites",
+      "Generic service descriptions without detailed technical information",
+      "Weak local SEO optimization for Miami-specific searches"
+    ]
+  },
+  "trends_data": {
+    "seasonality": "Moderate seasonal variation with peaks in spring (April) and summer (July-August)",
+    "trend_stability": "Consistent demand throughout year with 45 average weekly searches",
+    "growth_pattern": "Stable with seasonal peaks during inspection periods",
+    "key_insights": [
+      "Peak demand in April (100 searches) and July-August (70-80 searches)",
+      "Consistent baseline demand of 25-50 searches per week",
+      "Inspection cycles drive seasonal patterns",
+      "Commercial compliance requirements maintain steady demand"
+    ]
+  },
+  "competitor_analysis": [
+    {
+      "domain": "cityfireinc.com",
+      "strengths": [
+        "Established since 1974 with strong local reputation",
+        "4.9/5 Google rating with 1,115+ reviews",
+        "Comprehensive fire safety services including kitchen suppression",
+        "Serves Miami-Dade, Broward, and Palm Beach counties",
+        "Professional installation, maintenance, and inspection services"
+      ],
+      "weaknesses": [
+        "Limited online content about specific kitchen suppression services",
+        "Generic service descriptions without detailed technical information",
+        "No clear pricing or service packages visible online"
+      ]
+    },
+    {
+      "domain": "airflowspecialists.com",
+      "strengths": [
+        "Specialized in commercial kitchen systems",
+        "Expert inspection and maintenance services",
+        "UL-300 compliance expertise",
+        "Regular maintenance programs"
+      ],
+      "weaknesses": [
+        "Limited Miami-specific content",
+        "No clear local service area definition",
+        "Generic service descriptions"
+      ]
+    },
+    {
+      "domain": "empirefireprotection.com",
+      "strengths": [
+        "Comprehensive fire protection services",
+        "Regular inspection programs",
+        "Commercial kitchen expertise",
+        "Compliance-focused approach"
+      ],
+      "weaknesses": [
+        "Limited Miami market presence",
+        "Generic service offerings",
+        "No local testimonials or reviews visible"
+      ]
+    }
+  ],
+  "google_trends": {
+    "seasonality": "Moderate seasonal variation with peaks in spring and summer",
+    "trend_stability": "Consistent demand throughout year",
+    "growth_pattern": "Stable with seasonal peaks during inspection periods",
+    "key_insights": [
+      "Peak demand in April (100 searches) and July-August (70-80 searches)",
+      "Consistent baseline demand of 25-50 searches per week",
+      "Inspection cycles drive seasonal patterns",
+      "Commercial compliance requirements maintain steady demand"
+    ]
+  },
+  "scoring": {
+    "demand_score": 7,
+    "competition_score": 6,
+    "local_pack_score": 7,
+    "content_gap_score": 8,
+    "seasonality_score": 6,
+    "overall_rankability": 68,
+    "go_no_go": "GO",
+    "rationale": "Strong demand with moderate competition. Excellent content gap opportunities with weak local SEO presence. High-value commercial market with recurring revenue potential."
+  },
+  "recommendations": [
+    "Create Miami-specific service pages with local testimonials",
+    "Develop technical guides about fire suppression system requirements",
+    "Build educational content about NFPA 17A compliance",
+    "Implement local SEO optimization for Miami searches",
+    "Develop transparent pricing and service packages"
+  ]
+}
