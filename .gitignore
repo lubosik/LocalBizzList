@@ -40,3 +40,22 @@ next-env.d.ts
 node_modules/
 .next/
 node_modules/
+
+# Documentation and research files
+DASHBOARD_*.md
+PROJECT-COMPLETE.md
+QA-CHECKLIST.md
+QUICK-START.sh
+SETUP-GUIDE.md
+checkatrade-ui-ia-analysis.md
+content-model-mdx-contentlayer.md
+prd-claude-code-template.md
+tsconfig.build.json
+tsconfig.tsbuildinfo
+
+# Outputs and archives
+outputs/
+archive/
+
+# Research folder
+LocalBizzList research/
