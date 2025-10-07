@@ -37,3 +37,5 @@ next-env.d.ts
 
 # contentlayer
 .contentlayerLocalBizzList research/
+node_modules/
+.next/
