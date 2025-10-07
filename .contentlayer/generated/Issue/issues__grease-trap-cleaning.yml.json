@@ -1,0 +1,137 @@
+{
+  "niche": "grease-trap-cleaning",
+  "nicheTitle": "Grease Trap Cleaning",
+  "icon": "Droplet",
+  "issues": [
+    {
+      "slug": "grease-trap-overflow",
+      "title": "Grease Trap Overflow & Full Trap Problems",
+      "snippet": "What causes grease trap overflow, warning signs of a full trap, and emergency steps to prevent kitchen shutdown.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "grease trap overflow",
+        "trap full",
+        "grease backup",
+        "grease trap flooding",
+        "overfull grease trap"
+      ],
+      "articleSlug": "grease-trap-overflow-causes",
+      "priority": 1
+    },
+    {
+      "slug": "drainage-line-blockage",
+      "title": "Drainage Line Blockage & Backup",
+      "snippet": "How to identify and resolve clogged incoming and outgoing drainage lines in your grease trap system.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "drain line clog",
+        "grease trap backup",
+        "floor drain backup",
+        "drainage blockage",
+        "incoming line clog"
+      ],
+      "articleSlug": "drainage-line-blockage-solutions",
+      "priority": 2
+    },
+    {
+      "slug": "foul-odors",
+      "title": "Grease Trap Odor Problems & Solutions",
+      "snippet": "Why grease traps smell worse in Miami's hot, humid climate and how to eliminate persistent odor issues.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "grease trap smell",
+        "odor problems",
+        "bad smell from drain",
+        "grease trap stink",
+        "foul odor causes"
+      ],
+      "articleSlug": "grease-trap-odor-solutions",
+      "priority": 3
+    },
+    {
+      "slug": "crossover-clogs",
+      "title": "Crossover Clogs in Multi-Compartment Traps",
+      "snippet": "Technical guide to identifying and fixing clogged crossovers that cause rising water levels in grease traps.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "grease trap compartments",
+        "water level rising",
+        "crossover clog",
+        "compartment backup",
+        "grease trap overflow"
+      ],
+      "articleSlug": "crossover-clogs-multi-compartment",
+      "priority": 4
+    },
+    {
+      "slug": "regulatory-compliance",
+      "title": "Miami-Dade Grease Trap Compliance",
+      "snippet": "Understanding FOG ordinances, inspection requirements, and avoiding fines in Miami-Dade County's strict regulations.",
+      "category": "compliance",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "grease trap regulations",
+        "miami compliance",
+        "FOG ordinance",
+        "grease interceptor requirements",
+        "miami-dade regulations"
+      ],
+      "articleSlug": "miami-grease-trap-compliance",
+      "priority": 5
+    },
+    {
+      "slug": "pumping-schedule",
+      "title": "Grease Trap Pumping Frequency Guide",
+      "snippet": "How often to pump your grease trap based on restaurant size, volume, and local regulations to avoid problems.",
+      "category": "cost-guides",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "how often pump grease trap",
+        "grease trap cleaning frequency",
+        "pumping schedule",
+        "cleaning intervals",
+        "maintenance frequency"
+      ],
+      "articleSlug": "grease-trap-pumping-frequency",
+      "priority": 6
+    }
+  ],
+  "_id": "issues/grease-trap-cleaning.yml",
+  "_raw": {
+    "sourceFilePath": "issues/grease-trap-cleaning.yml",
+    "sourceFileName": "grease-trap-cleaning.yml",
+    "sourceFileDir": "issues",
+    "contentType": "data",
+    "flattenedPath": "issues/grease-trap-cleaning"
+  },
+  "type": "Issue",
+  "url": "/niches/grease-trap-cleaning/"
+}

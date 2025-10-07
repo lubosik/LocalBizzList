@@ -1,0 +1,33 @@
+niche: "grease-trap-cleaning"
+nicheTitle: "Grease Trap Cleaning"
+icon: "Droplets"
+issues:
+  - slug: "grease-trap-overflow-backup"
+    title: "Grease Trap Overflow Backing Up Drains"
+    snippet: "Emergency pumping service clears blockages and prevents health code violations."
+    category: "emergency-after-hours"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "grease trap overflow backup"
+      - "grease trap emergency pumping"
+      - "drain backup from grease trap"
+    articleSlug: "grease-trap-overflow-emergency-pumping"
+    priority: 1
+
+  - slug: "grease-trap-pumping-frequency"
+    title: "How Often Should We Pump Our Grease Trap?"
+    snippet: "Pumping frequency depends on tank size and daily wastewater volume per EPA guidelines."
+    category: "maintenance-repairs"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "grease trap pumping frequency"
+      - "how often pump grease trap"
+      - "grease trap maintenance schedule"
+    articleSlug: "grease-trap-pumping-frequency-guide"
+    priority: 2

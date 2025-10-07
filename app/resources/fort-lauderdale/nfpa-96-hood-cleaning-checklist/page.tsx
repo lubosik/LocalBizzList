@@ -127,21 +127,21 @@ const cleaningProcedures = [
 ]
 
 const inspectionItems = [
-  'Hood interior cleanliness and grease removal',
-  'Fan motor operation and lubrication',
-  'Ductwork integrity and cleanliness',
-  'Grease trap functionality and cleanliness',
-  'Fire suppression system operation',
-  'Electrical connections and corrosion',
-  'Exhaust fan blade condition and balance',
-  'Filter condition and replacement needs',
-  'System airflow and performance',
-  'Safety equipment functionality',
-  'Documentation completeness and accuracy',
-  'Compliance with NFPA 96 standards',
-  'Broward County specific requirements',
-  'Coastal corrosion assessment',
-  'Emergency shutoff functionality'
+  { id: '1', text: 'Hood interior cleanliness and grease removal' },
+  { id: '2', text: 'Fan motor operation and lubrication' },
+  { id: '3', text: 'Ductwork integrity and cleanliness' },
+  { id: '4', text: 'Grease trap functionality and cleanliness' },
+  { id: '5', text: 'Fire suppression system operation' },
+  { id: '6', text: 'Electrical connections and corrosion' },
+  { id: '7', text: 'Exhaust fan blade condition and balance' },
+  { id: '8', text: 'Filter condition and replacement needs' },
+  { id: '9', text: 'System airflow and performance' },
+  { id: '10', text: 'Safety equipment functionality' },
+  { id: '11', text: 'Documentation completeness and accuracy' },
+  { id: '12', text: 'Compliance with NFPA 96 standards' },
+  { id: '13', text: 'Broward County specific requirements' },
+  { id: '14', text: 'Coastal corrosion assessment' },
+  { id: '15', text: 'Emergency shutoff functionality' }
 ]
 
 const documentationRequirements = [

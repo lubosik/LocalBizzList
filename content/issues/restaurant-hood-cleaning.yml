@@ -1,0 +1,48 @@
+niche: "restaurant-hood-cleaning"
+nicheTitle: "Restaurant Hood Cleaning"
+icon: "Flame"
+issues:
+  - slug: "failed-health-inspection-grease-buildup"
+    title: "Failed Health Inspection Due to Grease Buildup"
+    snippet: "NFPA 96 compliance cleaning restores safety ratings in 24-48 hours."
+    category: "compliance-inspections"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "failed health inspection grease buildup"
+      - "restore health rating after failed inspection"
+      - "NFPA 96 emergency cleaning"
+    articleSlug: "failed-health-inspection-grease-buildup"
+    priority: 1
+
+  - slug: "exhaust-fan-grinding-noise"
+    title: "Exhaust Fan Making Loud Grinding Noise"
+    snippet: "Emergency fan motor replacement with same-day service available."
+    category: "emergency-after-hours"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "exhaust fan grinding noise"
+      - "kitchen exhaust fan loud noise repair"
+      - "emergency fan motor replacement"
+    articleSlug: "exhaust-fan-grinding-noise-repair"
+    priority: 2
+
+  - slug: "hood-cleaning-frequency-requirements"
+    title: "How Often Do We Need Hood Cleaning?"
+    snippet: "NFPA 96 mandates cleaning frequency based on cooking volume and grease production."
+    category: "compliance-inspections"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "hood cleaning frequency requirements"
+      - "how often hood cleaning NFPA 96"
+      - "restaurant hood cleaning schedule"
+    articleSlug: "hood-cleaning-frequency-by-restaurant-type"
+    priority: 3

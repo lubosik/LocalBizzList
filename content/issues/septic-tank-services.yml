@@ -1,0 +1,18 @@
+niche: "septic-tank-services"
+nicheTitle: "Septic Tank Services"
+icon: "Truck"
+issues:
+  - slug: "septic-tank-backup-flooding"
+    title: "Septic Tank Backup Causing Property Flooding"
+    snippet: "Emergency pumping and drain field inspection resolve backups in 4-6 hours."
+    category: "emergency-after-hours"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "septic tank backup flooding"
+      - "emergency septic pumping"
+      - "septic overflow emergency"
+    articleSlug: "septic-tank-backup-emergency-pumping"
+    priority: 1

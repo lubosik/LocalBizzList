@@ -1,46 +1,65 @@
-import { allPosts } from 'contentlayer/generated'
 import Hero from '@/components/Hero'
 import ArticleGrid from '@/components/ArticleGrid'
 import CategoryStrip from '@/components/home/CategoryStrip'
 import IssuesGrid from '@/components/home/IssuesGrid'
 import { getAllCategories } from '@/lib/data/categories'
 import { getHomepageIssues } from '@/lib/data/issues'
+import type { BlogPost } from '@/lib/types/blog'
 
 export const metadata = {
   title: 'Blog & Resources - LocalBizzList',
   description: 'Expert advice, how-to guides, cost information, and local insights for South Florida commercial services.',
 }
 
-// Define in-scope niches
-const IN_SCOPE_NICHES = [
-  'restaurant-hood-cleaning',
-  'grease-trap-cleaning', 
-  'septic-tank-services',
-  'sealcoating',
-  'fire-extinguisher-services',
-  'sprinkler-repair'
-]
-
-// Define in-scope categories
-const IN_SCOPE_CATEGORIES = [
-  'cost-guides',
-  'compliance-inspections',
-  'maintenance-repairs',
-  'emergency-after-hours',
-  'planning-roi'
-]
-
 export default function BlogPage() {
-  // Filter posts to only include in-scope content
-  const filteredPosts = allPosts.filter(post => {
-    const hasValidNiche = post.niche && IN_SCOPE_NICHES.includes(post.niche)
-    const hasValidCategory = post.category && IN_SCOPE_CATEGORIES.includes(post.category)
-    return hasValidNiche && hasValidCategory
-  })
-
-  const posts = filteredPosts.sort(
-    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  )
+  // Mock data for blog posts until contentlayer is properly configured
+  const posts: BlogPost[] = [
+    {
+      title: 'NFPA 96 Compliance Checklist for Fort Lauderdale Restaurants',
+      excerpt: 'Complete checklist for NFPA 96 compliance including inspection requirements, cleaning schedules, and certification procedures.',
+      slug: 'nfpa-96-compliance-checklist-fort-lauderdale',
+      publishedAt: '2025-01-05',
+      category: 'compliance-inspections',
+      categorySlug: 'compliance-inspections',
+      featuredImage: '/images/blog/nfpa-compliance.jpg',
+      featuredImageAlt: 'NFPA 96 compliance checklist',
+      author: 'LocalBizzList Team',
+      readingTime: 8,
+      niche: 'restaurant-hood-cleaning',
+      city: 'Fort Lauderdale',
+      url: '/blog/nfpa-96-compliance-checklist-fort-lauderdale',
+    },
+    {
+      title: 'Hood Cleaning Cost Guide for Miami Restaurants',
+      excerpt: 'Understanding hood cleaning costs, pricing factors, and budget planning for Miami-Dade County restaurants.',
+      slug: 'hood-cleaning-cost-guide-miami',
+      publishedAt: '2025-01-04',
+      category: 'cost-guides',
+      categorySlug: 'cost-guides',
+      featuredImage: '/images/blog/hood-cleaning-costs.jpg',
+      featuredImageAlt: 'Hood cleaning cost breakdown',
+      author: 'LocalBizzList Team',
+      readingTime: 6,
+      niche: 'restaurant-hood-cleaning',
+      city: 'Miami',
+      url: '/blog/hood-cleaning-cost-guide-miami',
+    },
+    {
+      title: 'Emergency Grease Trap Overflow Solutions in Boca Raton',
+      excerpt: 'Immediate steps to take when your grease trap overflows and how to prevent future incidents.',
+      slug: 'emergency-grease-trap-overflow-boca-raton',
+      publishedAt: '2025-01-03',
+      category: 'emergency-after-hours',
+      categorySlug: 'emergency-after-hours',
+      featuredImage: '/images/blog/grease-trap-emergency.jpg',
+      featuredImageAlt: 'Emergency grease trap overflow',
+      author: 'LocalBizzList Team',
+      readingTime: 10,
+      niche: 'grease-trap-cleaning',
+      city: 'Boca Raton',
+      url: '/blog/emergency-grease-trap-overflow-boca-raton',
+    },
+  ]
 
   const categories = getAllCategories()
   

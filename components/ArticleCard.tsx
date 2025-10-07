@@ -3,10 +3,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Clock } from 'lucide-react'
-import type { Post } from 'contentlayer/generated'
+import type { BlogPost } from '@/lib/types/blog'
 
 interface ArticleCardProps {
-  post: Post
+  post: BlogPost
 }
 
 export default function ArticleCard({ post }: ArticleCardProps) {
@@ -31,10 +31,10 @@ export default function ArticleCard({ post }: ArticleCardProps) {
             <span className="inline-flex items-center rounded-full bg-brand-600 text-brand-on px-2 py-1 text-xs font-semibold">
               {post.category}
             </span>
-            {post.readTime && (
+            {post.readingTime && (
               <span className="flex items-center gap-1 text-xs text-neutral-500">
                 <Clock className="h-3 w-3" />
-                {post.readTime}
+                {post.readingTime} min read
               </span>
             )}
             {post.city && (

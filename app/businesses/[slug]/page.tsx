@@ -1,19 +1,48 @@
 import { notFound } from 'next/navigation'
-import { allBusinesses } from 'contentlayer/generated'
-import { useMDXComponent } from 'next-contentlayer/hooks'
 import Link from 'next/link'
 import Image from 'next/image'
 import { MapPin, Phone, Globe, CheckCircle2, ArrowLeft } from 'lucide-react'
-import BusinessGrid from '@/components/BusinessGrid'
+
+// Mock business data - replace with real data source
+const mockBusinesses = [
+  {
+    slug: 'elite-realty-group',
+    name: 'Elite Realty Group',
+    description: 'Premier luxury real estate services in South Florida',
+    category: 'Real Estate',
+    city: 'Miami',
+    state: 'FL',
+    phone: '(305) 555-0123',
+    website: 'https://eliterealtygroup.com',
+    services: ['Luxury Home Sales', 'Property Management', 'Investment Consulting'],
+    logo: '/images/businesses/elite-realty-group.jpg',
+    verified: true,
+    featured: true,
+  },
+  {
+    slug: 'prestige-wealth-advisors',
+    name: 'Prestige Wealth Advisors',
+    description: 'Comprehensive wealth management and financial planning services',
+    category: 'Financial Services',
+    city: 'Boca Raton',
+    state: 'FL',
+    phone: '(561) 555-0456',
+    website: 'https://prestigewealthadvisors.com',
+    services: ['Investment Management', 'Estate Planning', 'Tax Optimization'],
+    logo: '/images/businesses/prestige-wealth-advisors.jpg',
+    verified: true,
+    featured: true,
+  },
+]
 
 export async function generateStaticParams() {
-  return allBusinesses.map((business) => ({
+  return mockBusinesses.map((business) => ({
     slug: business.slug,
   }))
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const business = allBusinesses.find((business) => business.slug === params.slug)
+  const business = mockBusinesses.find((business) => business.slug === params.slug)
 
   if (!business) {
     return {
@@ -34,16 +63,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 export default function BusinessPage({ params }: { params: { slug: string } }) {
-  const business = allBusinesses.find((business) => business.slug === params.slug)
+  const business = mockBusinesses.find((business) => business.slug === params.slug)
 
   if (!business) {
     notFound()
   }
 
-  const MDXContent = useMDXComponent(business.body.code)
-
   // Get related businesses
-  const relatedBusinesses = allBusinesses
+  const relatedBusinesses = mockBusinesses
     .filter(
       (b) =>
         b.slug !== business.slug &&
@@ -64,13 +91,6 @@ export default function BusinessPage({ params }: { params: { slug: string } }) {
               <span>/</span>
               <Link href="/businesses" className="hover:text-primary transition-colors">
                 Businesses
-              </Link>
-              <span>/</span>
-              <Link
-                href={business.categoryUrl}
-                className="hover:text-primary transition-colors"
-              >
-                {business.category}
               </Link>
               <span>/</span>
               <span className="text-neutral-800 truncate">{business.name}</span>
@@ -111,12 +131,9 @@ export default function BusinessPage({ params }: { params: { slug: string } }) {
                       <CheckCircle2 className="h-8 w-8 text-accent flex-shrink-0" />
                     )}
                   </div>
-                  <Link
-                    href={business.categoryUrl}
-                    className="category-tag"
-                  >
+                  <span className="inline-block px-3 py-1 text-sm font-semibold text-primary bg-primary/10 rounded-full">
                     {business.category}
-                  </Link>
+                  </span>
                 </div>
               </div>
 
@@ -142,7 +159,7 @@ export default function BusinessPage({ params }: { params: { slug: string } }) {
 
               {/* Additional Content */}
               <div className="prose prose-lg max-w-none">
-                <MDXContent />
+                <p>Contact us today to learn more about our services and how we can help you achieve your goals.</p>
               </div>
             </div>
 
@@ -225,7 +242,22 @@ export default function BusinessPage({ params }: { params: { slug: string } }) {
             <h2 className="text-3xl font-bold text-neutral-800 mb-8">
               Similar Businesses
             </h2>
-            <BusinessGrid businesses={relatedBusinesses} />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {relatedBusinesses.map((relatedBusiness) => (
+                <div key={relatedBusiness.slug} className="card p-6">
+                  <h3 className="text-xl font-bold text-neutral-800 mb-2">
+                    {relatedBusiness.name}
+                  </h3>
+                  <p className="text-neutral-600 mb-4">{relatedBusiness.description}</p>
+                  <Link
+                    href={`/businesses/${relatedBusiness.slug}`}
+                    className="text-primary hover:text-primary-int font-semibold"
+                  >
+                    View Details →
+                  </Link>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
       )}

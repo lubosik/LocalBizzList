@@ -1,0 +1,18 @@
+niche: "sprinkler-repair"
+nicheTitle: "Sprinkler Repair & Testing"
+icon: "Sprinkle"
+issues:
+  - slug: "backflow-preventer-leaking"
+    title: "Backflow Preventer Leaking Water"
+    snippet: "Certified backflow testing and repair prevents contamination and fines."
+    category: "maintenance-repairs"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "backflow preventer leaking"
+      - "backflow testing repair"
+      - "backflow device certification"
+    articleSlug: "backflow-preventer-repair-testing"
+    priority: 1

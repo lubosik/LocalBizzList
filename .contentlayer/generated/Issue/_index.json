@@ -1,0 +1,824 @@
+[
+  {
+    "niche": "fire-extinguisher-services",
+    "nicheTitle": "Fire Extinguisher Services",
+    "icon": "Flame",
+    "issues": [
+      {
+        "slug": "annual-inspection-requirements",
+        "title": "Fire Extinguisher Annual Inspection Requirements",
+        "snippet": "Florida's legal requirements for annual fire extinguisher inspections, what's involved, and avoiding violations.",
+        "category": "compliance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "annual inspection",
+          "florida requirements",
+          "inspection frequency",
+          "legal requirements",
+          "compliance inspection"
+        ],
+        "articleSlug": "annual-inspection-requirements",
+        "priority": 1
+      },
+      {
+        "slug": "expired-inspection-tags",
+        "title": "Expired Fire Extinguisher Tags & Violations",
+        "snippet": "What expired inspection tags mean for your business, liability risks, and getting back into compliance.",
+        "category": "compliance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "expired tag",
+          "out of date",
+          "missing inspection",
+          "tag replacement",
+          "compliance violation"
+        ],
+        "articleSlug": "expired-inspection-tags-fix",
+        "priority": 2
+      },
+      {
+        "slug": "low-pressure",
+        "title": "Fire Extinguisher Low Pressure & Recharge",
+        "snippet": "Why fire extinguishers lose pressure, how to check the gauge, and when recharge vs. replacement is needed.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "fire extinguisher pressure",
+          "gauge in red",
+          "needs recharge",
+          "pressure loss",
+          "recharge service"
+        ],
+        "articleSlug": "low-pressure-recharge-guide",
+        "priority": 3
+      },
+      {
+        "slug": "corrosion-and-rust",
+        "title": "Corrosion & Rust on Fire Extinguishers",
+        "snippet": "How South Florida's humidity and salt air accelerates corrosion, inspection tips, and when to replace.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "rusty fire extinguisher",
+          "corrosion damage",
+          "coastal damage",
+          "salt air corrosion",
+          "extinguisher rust"
+        ],
+        "articleSlug": "corrosion-rust-coastal-areas",
+        "priority": 4
+      },
+      {
+        "slug": "obstruction-and-accessibility",
+        "title": "Fire Extinguisher Placement & Accessibility",
+        "snippet": "Proper mounting height, distance requirements, visibility rules, and common obstruction violations.",
+        "category": "compliance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "placement requirements",
+          "accessibility rules",
+          "mounting height",
+          "obstruction violations",
+          "visibility requirements"
+        ],
+        "articleSlug": "placement-accessibility-rules",
+        "priority": 5
+      },
+      {
+        "slug": "hydrostatic-testing",
+        "title": "Hydrostatic Testing Requirements & Schedule",
+        "snippet": "Understanding the 5-12 year hydrostatic testing requirement, what's involved, and maintaining certification.",
+        "category": "maintenance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "hydrostatic test",
+          "pressure test",
+          "5 year inspection",
+          "testing requirements",
+          "certification maintenance"
+        ],
+        "articleSlug": "hydrostatic-testing-guide",
+        "priority": 6
+      }
+    ],
+    "_id": "issues/fire-extinguisher-services.yml",
+    "_raw": {
+      "sourceFilePath": "issues/fire-extinguisher-services.yml",
+      "sourceFileName": "fire-extinguisher-services.yml",
+      "sourceFileDir": "issues",
+      "contentType": "data",
+      "flattenedPath": "issues/fire-extinguisher-services"
+    },
+    "type": "Issue",
+    "url": "/niches/fire-extinguisher-services/"
+  },
+  {
+    "niche": "grease-trap-cleaning",
+    "nicheTitle": "Grease Trap Cleaning",
+    "icon": "Droplet",
+    "issues": [
+      {
+        "slug": "grease-trap-overflow",
+        "title": "Grease Trap Overflow & Full Trap Problems",
+        "snippet": "What causes grease trap overflow, warning signs of a full trap, and emergency steps to prevent kitchen shutdown.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "grease trap overflow",
+          "trap full",
+          "grease backup",
+          "grease trap flooding",
+          "overfull grease trap"
+        ],
+        "articleSlug": "grease-trap-overflow-causes",
+        "priority": 1
+      },
+      {
+        "slug": "drainage-line-blockage",
+        "title": "Drainage Line Blockage & Backup",
+        "snippet": "How to identify and resolve clogged incoming and outgoing drainage lines in your grease trap system.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "drain line clog",
+          "grease trap backup",
+          "floor drain backup",
+          "drainage blockage",
+          "incoming line clog"
+        ],
+        "articleSlug": "drainage-line-blockage-solutions",
+        "priority": 2
+      },
+      {
+        "slug": "foul-odors",
+        "title": "Grease Trap Odor Problems & Solutions",
+        "snippet": "Why grease traps smell worse in Miami's hot, humid climate and how to eliminate persistent odor issues.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "grease trap smell",
+          "odor problems",
+          "bad smell from drain",
+          "grease trap stink",
+          "foul odor causes"
+        ],
+        "articleSlug": "grease-trap-odor-solutions",
+        "priority": 3
+      },
+      {
+        "slug": "crossover-clogs",
+        "title": "Crossover Clogs in Multi-Compartment Traps",
+        "snippet": "Technical guide to identifying and fixing clogged crossovers that cause rising water levels in grease traps.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "grease trap compartments",
+          "water level rising",
+          "crossover clog",
+          "compartment backup",
+          "grease trap overflow"
+        ],
+        "articleSlug": "crossover-clogs-multi-compartment",
+        "priority": 4
+      },
+      {
+        "slug": "regulatory-compliance",
+        "title": "Miami-Dade Grease Trap Compliance",
+        "snippet": "Understanding FOG ordinances, inspection requirements, and avoiding fines in Miami-Dade County's strict regulations.",
+        "category": "compliance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "grease trap regulations",
+          "miami compliance",
+          "FOG ordinance",
+          "grease interceptor requirements",
+          "miami-dade regulations"
+        ],
+        "articleSlug": "miami-grease-trap-compliance",
+        "priority": 5
+      },
+      {
+        "slug": "pumping-schedule",
+        "title": "Grease Trap Pumping Frequency Guide",
+        "snippet": "How often to pump your grease trap based on restaurant size, volume, and local regulations to avoid problems.",
+        "category": "cost-guides",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "how often pump grease trap",
+          "grease trap cleaning frequency",
+          "pumping schedule",
+          "cleaning intervals",
+          "maintenance frequency"
+        ],
+        "articleSlug": "grease-trap-pumping-frequency",
+        "priority": 6
+      }
+    ],
+    "_id": "issues/grease-trap-cleaning.yml",
+    "_raw": {
+      "sourceFilePath": "issues/grease-trap-cleaning.yml",
+      "sourceFileName": "grease-trap-cleaning.yml",
+      "sourceFileDir": "issues",
+      "contentType": "data",
+      "flattenedPath": "issues/grease-trap-cleaning"
+    },
+    "type": "Issue",
+    "url": "/niches/grease-trap-cleaning/"
+  },
+  {
+    "niche": "restaurant-hood-cleaning",
+    "nicheTitle": "Restaurant Hood Cleaning",
+    "icon": "Flame",
+    "issues": [
+      {
+        "slug": "exhaust-fan-problems",
+        "title": "Exhaust Fan Problems & Fixes",
+        "snippet": "Common exhaust fan issues like noise, vibration, and mechanical failures that impact NFPA 96 compliance and kitchen safety.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "exhaust fan noise",
+          "exhaust fan not working",
+          "exhaust fan vibration",
+          "kitchen exhaust fan problems",
+          "exhaust fan repair"
+        ],
+        "articleSlug": "exhaust-fan-problems-and-fixes",
+        "priority": 1
+      },
+      {
+        "slug": "grease-duct-buildup",
+        "title": "Grease Duct Buildup & Fire Hazards",
+        "snippet": "How grease accumulates in ductwork, creating fire hazards and requiring professional cleaning to maintain safety.",
+        "category": "maintenance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "grease duct cleaning",
+          "duct fire hazard",
+          "grease accumulation",
+          "exhaust duct buildup",
+          "grease duct inspection"
+        ],
+        "articleSlug": "grease-duct-buildup-fire-hazards",
+        "priority": 2
+      },
+      {
+        "slug": "hood-filter-maintenance",
+        "title": "Hood Filter Cleaning & Replacement",
+        "snippet": "Best practices for baffle filter cleaning frequency and replacement schedules for different restaurant types.",
+        "category": "maintenance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "hood filter cleaning frequency",
+          "baffle filter replacement",
+          "grease filter maintenance",
+          "hood filter types",
+          "filter cleaning schedule"
+        ],
+        "articleSlug": "hood-filter-maintenance-schedule",
+        "priority": 3
+      },
+      {
+        "slug": "nfpa-96-compliance",
+        "title": "NFPA 96 Compliance Requirements",
+        "snippet": "Understanding NFPA 96 regulations, inspection requirements, and cleaning frequency standards for commercial kitchens.",
+        "category": "compliance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "nfpa 96 requirements",
+          "hood cleaning frequency",
+          "fire inspection requirements",
+          "nfpa 96 standards",
+          "commercial kitchen compliance"
+        ],
+        "articleSlug": "nfpa-96-compliance-guide",
+        "priority": 4
+      },
+      {
+        "slug": "fire-suppression-system-issues",
+        "title": "Fire Suppression System Problems",
+        "snippet": "Common Ansul system issues, maintenance requirements, and why certified service is essential for safety.",
+        "category": "compliance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "ansul system problems",
+          "fire suppression inspection",
+          "kitchen fire system",
+          "ansul maintenance",
+          "fire suppression repair"
+        ],
+        "articleSlug": "fire-suppression-system-issues",
+        "priority": 5
+      },
+      {
+        "slug": "hood-cleaning-frequency",
+        "title": "Hood Cleaning Frequency by Restaurant Type",
+        "snippet": "How often to clean your commercial kitchen hood system based on cooking volume, menu type, and NFPA 96 guidelines.",
+        "category": "cost-guides",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "how often clean hood",
+          "kitchen exhaust cleaning schedule",
+          "hood cleaning frequency chart",
+          "restaurant cleaning schedule",
+          "nfpa cleaning requirements"
+        ],
+        "articleSlug": "hood-cleaning-frequency-guide",
+        "priority": 6
+      }
+    ],
+    "_id": "issues/restaurant-hood-cleaning.yml",
+    "_raw": {
+      "sourceFilePath": "issues/restaurant-hood-cleaning.yml",
+      "sourceFileName": "restaurant-hood-cleaning.yml",
+      "sourceFileDir": "issues",
+      "contentType": "data",
+      "flattenedPath": "issues/restaurant-hood-cleaning"
+    },
+    "type": "Issue",
+    "url": "/niches/restaurant-hood-cleaning/"
+  },
+  {
+    "niche": "sealcoating",
+    "nicheTitle": "Sealcoating & Paving",
+    "icon": "Layers",
+    "issues": [
+      {
+        "slug": "cracking-and-potholes",
+        "title": "Asphalt Cracking & Pothole Repair",
+        "snippet": "Why asphalt cracks and forms potholes in South Florida, repair methods, and when to sealcoat vs. resurface.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "pothole repair",
+          "asphalt cracks",
+          "parking lot damage",
+          "crack filling",
+          "asphalt repair"
+        ],
+        "articleSlug": "asphalt-cracking-pothole-repair",
+        "priority": 1
+      },
+      {
+        "slug": "poor-drainage",
+        "title": "Parking Lot Drainage Problems & Solutions",
+        "snippet": "How heavy South Florida rainfall causes water pooling, the importance of proper drainage, and repair options.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "parking lot drainage",
+          "water pooling",
+          "standing water",
+          "drainage solutions",
+          "poor drainage repair"
+        ],
+        "articleSlug": "parking-lot-drainage-solutions",
+        "priority": 2
+      },
+      {
+        "slug": "premature-sealcoat-failure",
+        "title": "Sealcoat Peeling, Fading, & Failure",
+        "snippet": "Common causes of premature sealcoat deterioration, from improper application to material quality issues.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "sealcoat peeling",
+          "fading sealcoat",
+          "sealcoat problems",
+          "premature failure",
+          "poor adhesion"
+        ],
+        "articleSlug": "sealcoat-failure-causes",
+        "priority": 3
+      },
+      {
+        "slug": "application-timing",
+        "title": "Best Time to Sealcoat in South Florida",
+        "snippet": "When to schedule sealcoating based on weather, temperature, humidity, and avoiding Florida's rainy season.",
+        "category": "how-to-guides",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "when to sealcoat",
+          "best time seal asphalt",
+          "weather requirements",
+          "application timing",
+          "florida sealcoating season"
+        ],
+        "articleSlug": "best-time-sealcoat-florida",
+        "priority": 4
+      },
+      {
+        "slug": "traffic-striping-fading",
+        "title": "Parking Lot Striping & ADA Compliance",
+        "snippet": "Why traffic striping fades quickly in Florida sun, repainting schedules, and ADA accessibility requirements.",
+        "category": "compliance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "parking lot striping",
+          "faded lines",
+          "line painting",
+          "ADA compliance",
+          "traffic marking"
+        ],
+        "articleSlug": "parking-lot-striping-compliance",
+        "priority": 5
+      },
+      {
+        "slug": "sealcoating-frequency",
+        "title": "How Often to Sealcoat Your Parking Lot",
+        "snippet": "Recommended sealcoating schedules based on traffic volume, sun exposure, and material quality in Florida.",
+        "category": "cost-guides",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "how often sealcoat",
+          "asphalt maintenance schedule",
+          "sealcoating frequency",
+          "maintenance intervals",
+          "asphalt preservation"
+        ],
+        "articleSlug": "sealcoating-frequency-guide",
+        "priority": 6
+      }
+    ],
+    "_id": "issues/sealcoating.yml",
+    "_raw": {
+      "sourceFilePath": "issues/sealcoating.yml",
+      "sourceFileName": "sealcoating.yml",
+      "sourceFileDir": "issues",
+      "contentType": "data",
+      "flattenedPath": "issues/sealcoating"
+    },
+    "type": "Issue",
+    "url": "/niches/sealcoating/"
+  },
+  {
+    "niche": "septic-tank-services",
+    "nicheTitle": "Septic Tank Services",
+    "icon": "Wrench",
+    "issues": [
+      {
+        "slug": "septic-tank-backup",
+        "title": "Septic Tank Backup Emergency Guide",
+        "snippet": "What to do when toilets and drains back up, identifying the causes, and getting emergency septic service fast.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "septic backup",
+          "toilet backing up",
+          "sewage backup",
+          "septic emergency",
+          "backup causes"
+        ],
+        "articleSlug": "septic-tank-backup-emergency",
+        "priority": 1
+      },
+      {
+        "slug": "drain-field-problems",
+        "title": "Drain Field Failure & Florida's High Water Table",
+        "snippet": "How South Florida's high water table causes drain field problems, warning signs, and repair options.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "drain field failure",
+          "soggy yard",
+          "septic wet spots",
+          "high water table",
+          "drain field repair"
+        ],
+        "articleSlug": "drain-field-problems-florida",
+        "priority": 2
+      },
+      {
+        "slug": "pumping-schedule",
+        "title": "Septic Tank Pumping Schedule & Frequency",
+        "snippet": "How often to pump your septic tank in South Florida based on household size, tank capacity, and usage patterns.",
+        "category": "cost-guides",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "how often pump septic",
+          "septic pumping schedule",
+          "tank pumping frequency",
+          "septic maintenance schedule",
+          "pumping intervals"
+        ],
+        "articleSlug": "septic-pumping-schedule-guide",
+        "priority": 3
+      },
+      {
+        "slug": "septic-tank-odors",
+        "title": "Septic Tank Odor Problems & Diagnosis",
+        "snippet": "What different septic smells indicate, from hydrogen sulfide gas to drain field issues, and how to eliminate them.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "septic smell",
+          "sewage odor",
+          "septic gas smell",
+          "rotten egg smell",
+          "septic odor causes"
+        ],
+        "articleSlug": "septic-tank-odor-diagnosis",
+        "priority": 4
+      },
+      {
+        "slug": "tree-root-intrusion",
+        "title": "Tree Root Damage to Septic Systems",
+        "snippet": "How Florida's lush landscaping threatens septic tanks, identifying root damage, and removal options.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "roots in septic",
+          "tree damage septic",
+          "root removal",
+          "root intrusion",
+          "tree root problems"
+        ],
+        "articleSlug": "tree-root-septic-damage",
+        "priority": 5
+      },
+      {
+        "slug": "septic-tank-inspection",
+        "title": "Septic Tank Inspection for Real Estate",
+        "snippet": "What's included in a pre-purchase septic inspection, Florida requirements, and common issues that affect sales.",
+        "category": "compliance",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "septic inspection requirements",
+          "real estate inspection",
+          "home sale inspection",
+          "septic certification",
+          "pre-purchase inspection"
+        ],
+        "articleSlug": "septic-inspection-real-estate",
+        "priority": 6
+      }
+    ],
+    "_id": "issues/septic-tank-services.yml",
+    "_raw": {
+      "sourceFilePath": "issues/septic-tank-services.yml",
+      "sourceFileName": "septic-tank-services.yml",
+      "sourceFileDir": "issues",
+      "contentType": "data",
+      "flattenedPath": "issues/septic-tank-services"
+    },
+    "type": "Issue",
+    "url": "/niches/septic-tank-services/"
+  },
+  {
+    "niche": "sprinkler-repair",
+    "nicheTitle": "Sprinkler Repair",
+    "icon": "Droplets",
+    "issues": [
+      {
+        "slug": "clogged-sprinkler-heads",
+        "title": "Clogged Sprinkler Heads & Poor Spray",
+        "snippet": "How to identify and clean clogged sprinkler heads, common causes, and preventing future clogs.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "sprinkler head clogged",
+          "won't pop up",
+          "poor spray pattern",
+          "clogged nozzle",
+          "head cleaning"
+        ],
+        "articleSlug": "clogged-sprinkler-heads-fix",
+        "priority": 1
+      },
+      {
+        "slug": "leaking-pipes",
+        "title": "Underground Sprinkler Leak Detection & Repair",
+        "snippet": "Finding hidden leaks in South Florida's sandy soil, water waste signs, and professional repair options.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "sprinkler leak",
+          "wet spot on lawn",
+          "underground leak",
+          "pipe leak detection",
+          "leak repair cost"
+        ],
+        "articleSlug": "underground-sprinkler-leak-repair",
+        "priority": 2
+      },
+      {
+        "slug": "broken-sprinkler-heads",
+        "title": "Broken Sprinkler Head Replacement",
+        "snippet": "Common causes of broken heads from mowing and traffic, DIY vs. professional replacement, and matching parts.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "broken sprinkler head",
+          "head won't work",
+          "replace sprinkler head",
+          "damaged head",
+          "head replacement"
+        ],
+        "articleSlug": "broken-sprinkler-head-replacement",
+        "priority": 3
+      },
+      {
+        "slug": "valve-malfunctions",
+        "title": "Sprinkler Valve Problems & Zone Issues",
+        "snippet": "Diagnosing valve failures that prevent zones from turning on or off, and when to call a technician.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "valve won't open",
+          "zone not working",
+          "valve repair",
+          "solenoid problems",
+          "zone control issues"
+        ],
+        "articleSlug": "sprinkler-valve-problems-fix",
+        "priority": 4
+      },
+      {
+        "slug": "poor-water-pressure",
+        "title": "Low Sprinkler Water Pressure Solutions",
+        "snippet": "System-wide causes of poor pressure, from pump issues to main line problems, and troubleshooting steps.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "low water pressure",
+          "weak spray",
+          "sprinkler not reaching",
+          "pressure problems",
+          "pump issues"
+        ],
+        "articleSlug": "low-sprinkler-pressure-solutions",
+        "priority": 5
+      },
+      {
+        "slug": "controller-problems",
+        "title": "Sprinkler Controller & Timer Issues",
+        "snippet": "Troubleshooting programming problems, electrical issues, and upgrading to smart irrigation controllers.",
+        "category": "troubleshooting",
+        "cities": [
+          "miami",
+          "boca-raton",
+          "fort-lauderdale"
+        ],
+        "keywords": [
+          "controller not working",
+          "programming issues",
+          "timer problems",
+          "smart controller",
+          "controller repair"
+        ],
+        "articleSlug": "sprinkler-controller-problems",
+        "priority": 6
+      }
+    ],
+    "_id": "issues/sprinkler-repair.yml",
+    "_raw": {
+      "sourceFilePath": "issues/sprinkler-repair.yml",
+      "sourceFileName": "sprinkler-repair.yml",
+      "sourceFileDir": "issues",
+      "contentType": "data",
+      "flattenedPath": "issues/sprinkler-repair"
+    },
+    "type": "Issue",
+    "url": "/niches/sprinkler-repair/"
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "niche": "fire-extinguisher-services",
+  "nicheTitle": "Fire Extinguisher Services",
+  "icon": "Flame",
+  "issues": [
+    {
+      "slug": "annual-inspection-requirements",
+      "title": "Fire Extinguisher Annual Inspection Requirements",
+      "snippet": "Florida's legal requirements for annual fire extinguisher inspections, what's involved, and avoiding violations.",
+      "category": "compliance",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "annual inspection",
+        "florida requirements",
+        "inspection frequency",
+        "legal requirements",
+        "compliance inspection"
+      ],
+      "articleSlug": "annual-inspection-requirements",
+      "priority": 1
+    },
+    {
+      "slug": "expired-inspection-tags",
+      "title": "Expired Fire Extinguisher Tags & Violations",
+      "snippet": "What expired inspection tags mean for your business, liability risks, and getting back into compliance.",
+      "category": "compliance",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "expired tag",
+        "out of date",
+        "missing inspection",
+        "tag replacement",
+        "compliance violation"
+      ],
+      "articleSlug": "expired-inspection-tags-fix",
+      "priority": 2
+    },
+    {
+      "slug": "low-pressure",
+      "title": "Fire Extinguisher Low Pressure & Recharge",
+      "snippet": "Why fire extinguishers lose pressure, how to check the gauge, and when recharge vs. replacement is needed.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "fire extinguisher pressure",
+        "gauge in red",
+        "needs recharge",
+        "pressure loss",
+        "recharge service"
+      ],
+      "articleSlug": "low-pressure-recharge-guide",
+      "priority": 3
+    },
+    {
+      "slug": "corrosion-and-rust",
+      "title": "Corrosion & Rust on Fire Extinguishers",
+      "snippet": "How South Florida's humidity and salt air accelerates corrosion, inspection tips, and when to replace.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "rusty fire extinguisher",
+        "corrosion damage",
+        "coastal damage",
+        "salt air corrosion",
+        "extinguisher rust"
+      ],
+      "articleSlug": "corrosion-rust-coastal-areas",
+      "priority": 4
+    },
+    {
+      "slug": "obstruction-and-accessibility",
+      "title": "Fire Extinguisher Placement & Accessibility",
+      "snippet": "Proper mounting height, distance requirements, visibility rules, and common obstruction violations.",
+      "category": "compliance",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "placement requirements",
+        "accessibility rules",
+        "mounting height",
+        "obstruction violations",
+        "visibility requirements"
+      ],
+      "articleSlug": "placement-accessibility-rules",
+      "priority": 5
+    },
+    {
+      "slug": "hydrostatic-testing",
+      "title": "Hydrostatic Testing Requirements & Schedule",
+      "snippet": "Understanding the 5-12 year hydrostatic testing requirement, what's involved, and maintaining certification.",
+      "category": "maintenance",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "hydrostatic test",
+        "pressure test",
+        "5 year inspection",
+        "testing requirements",
+        "certification maintenance"
+      ],
+      "articleSlug": "hydrostatic-testing-guide",
+      "priority": 6
+    }
+  ],
+  "_id": "issues/fire-extinguisher-services.yml",
+  "_raw": {
+    "sourceFilePath": "issues/fire-extinguisher-services.yml",
+    "sourceFileName": "fire-extinguisher-services.yml",
+    "sourceFileDir": "issues",
+    "contentType": "data",
+    "flattenedPath": "issues/fire-extinguisher-services"
+  },
+  "type": "Issue",
+  "url": "/niches/fire-extinguisher-services/"
+}

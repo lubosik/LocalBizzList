@@ -1,14 +1,41 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
-import { allPosts, allBusinesses } from 'contentlayer/generated'
 import SearchBar from '@/components/SearchBar'
-import ArticleGrid from '@/components/ArticleGrid'
-import BusinessGrid from '@/components/BusinessGrid'
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/Tabs'
 
-export default function SearchPage() {
+// Mock data - replace with real data source
+const mockPosts = [
+  {
+    slug: 'nfpa-96-compliance-checklist',
+    title: 'NFPA 96 Compliance Checklist',
+    excerpt: 'Complete checklist for NFPA 96 compliance',
+    category: 'Compliance & Inspections',
+    publishedAt: '2025-01-05',
+    readTime: '8 min read',
+    featuredImage: '/images/blog/nfpa-96-checklist.jpg',
+    featuredImageAlt: 'NFPA 96 Compliance Checklist',
+  },
+]
+
+const mockBusinesses = [
+  {
+    slug: 'elite-realty-group',
+    name: 'Elite Realty Group',
+    description: 'Premier luxury real estate services in South Florida',
+    category: 'Real Estate',
+    city: 'Miami',
+    state: 'FL',
+    phone: '(305) 555-0123',
+    website: 'https://eliterealtygroup.com',
+    services: ['Luxury Home Sales', 'Property Management', 'Investment Consulting'],
+    logo: '/images/businesses/elite-realty-group.jpg',
+    verified: true,
+    featured: true,
+  },
+]
+
+function SearchContent() {
   const searchParams = useSearchParams()
   const [query, setQuery] = useState('')
   const [activeTab, setActiveTab] = useState('all')
@@ -26,18 +53,17 @@ export default function SearchPage() {
 
   // Filter posts
   const filteredPosts = query
-    ? allPosts.filter(
+    ? mockPosts.filter(
         (post) =>
           post.title.toLowerCase().includes(query) ||
           post.excerpt.toLowerCase().includes(query) ||
-          post.category.toLowerCase().includes(query) ||
-          post.tags?.some((tag) => tag.toLowerCase().includes(query))
+          post.category.toLowerCase().includes(query)
       )
     : []
 
   // Filter businesses
   const filteredBusinesses = query
-    ? allBusinesses.filter(
+    ? mockBusinesses.filter(
         (business) =>
           business.name.toLowerCase().includes(query) ||
           business.description.toLowerCase().includes(query) ||
@@ -141,14 +167,70 @@ export default function SearchPage() {
               {(activeTab === 'all' || activeTab === 'businesses') && filteredBusinesses.length > 0 && (
                 <div className="mb-12">
                   <h3 className="text-xl font-bold text-neutral-800 mb-6">Businesses</h3>
-                  <BusinessGrid businesses={filteredBusinesses} />
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {filteredBusinesses.map((business) => (
+                      <div key={business.slug} className="card p-6">
+                        <div className="flex items-start gap-4 mb-4">
+                          {business.logo && (
+                            <div className="relative w-16 h-16 flex-shrink-0">
+                              <img
+                                src={business.logo}
+                                alt={`${business.name} logo`}
+                                className="w-full h-full object-contain"
+                              />
+                            </div>
+                          )}
+                          <div className="flex-1">
+                            <h4 className="text-xl font-bold text-neutral-800 mb-1">
+                              {business.name}
+                            </h4>
+                            <span className="inline-block px-2 py-1 text-xs font-semibold text-primary bg-primary/10 rounded-full">
+                              {business.category}
+                            </span>
+                          </div>
+                        </div>
+                        <p className="text-neutral-600 mb-4">{business.description}</p>
+                        <div className="flex items-center justify-between">
+                          <span className="text-sm text-neutral-500">
+                            {business.city}, {business.state}
+                          </span>
+                          <a
+                            href={`/businesses/${business.slug}`}
+                            className="text-primary hover:text-primary-int font-semibold"
+                          >
+                            View Details →
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
 
               {(activeTab === 'all' || activeTab === 'articles') && filteredPosts.length > 0 && (
                 <div>
                   <h3 className="text-xl font-bold text-neutral-800 mb-6">Articles</h3>
-                  <ArticleGrid posts={filteredPosts} />
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {filteredPosts.map((post) => (
+                      <div key={post.slug} className="card p-6">
+                        <h4 className="text-xl font-bold text-neutral-800 mb-2">
+                          {post.title}
+                        </h4>
+                        <p className="text-neutral-600 mb-4">{post.excerpt}</p>
+                        <div className="flex items-center justify-between">
+                          <span className="text-sm text-neutral-500">
+                            {post.category} • {post.readTime}
+                          </span>
+                          <a
+                            href={`/blog/${post.slug}`}
+                            className="text-primary hover:text-primary-int font-semibold"
+                          >
+                            Read More →
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
@@ -156,5 +238,13 @@ export default function SearchPage() {
         )}
       </section>
     </>
+  )
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SearchContent />
+    </Suspense>
   )
 }

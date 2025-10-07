@@ -1,0 +1,137 @@
+{
+  "niche": "sprinkler-repair",
+  "nicheTitle": "Sprinkler Repair",
+  "icon": "Droplets",
+  "issues": [
+    {
+      "slug": "clogged-sprinkler-heads",
+      "title": "Clogged Sprinkler Heads & Poor Spray",
+      "snippet": "How to identify and clean clogged sprinkler heads, common causes, and preventing future clogs.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "sprinkler head clogged",
+        "won't pop up",
+        "poor spray pattern",
+        "clogged nozzle",
+        "head cleaning"
+      ],
+      "articleSlug": "clogged-sprinkler-heads-fix",
+      "priority": 1
+    },
+    {
+      "slug": "leaking-pipes",
+      "title": "Underground Sprinkler Leak Detection & Repair",
+      "snippet": "Finding hidden leaks in South Florida's sandy soil, water waste signs, and professional repair options.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "sprinkler leak",
+        "wet spot on lawn",
+        "underground leak",
+        "pipe leak detection",
+        "leak repair cost"
+      ],
+      "articleSlug": "underground-sprinkler-leak-repair",
+      "priority": 2
+    },
+    {
+      "slug": "broken-sprinkler-heads",
+      "title": "Broken Sprinkler Head Replacement",
+      "snippet": "Common causes of broken heads from mowing and traffic, DIY vs. professional replacement, and matching parts.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "broken sprinkler head",
+        "head won't work",
+        "replace sprinkler head",
+        "damaged head",
+        "head replacement"
+      ],
+      "articleSlug": "broken-sprinkler-head-replacement",
+      "priority": 3
+    },
+    {
+      "slug": "valve-malfunctions",
+      "title": "Sprinkler Valve Problems & Zone Issues",
+      "snippet": "Diagnosing valve failures that prevent zones from turning on or off, and when to call a technician.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "valve won't open",
+        "zone not working",
+        "valve repair",
+        "solenoid problems",
+        "zone control issues"
+      ],
+      "articleSlug": "sprinkler-valve-problems-fix",
+      "priority": 4
+    },
+    {
+      "slug": "poor-water-pressure",
+      "title": "Low Sprinkler Water Pressure Solutions",
+      "snippet": "System-wide causes of poor pressure, from pump issues to main line problems, and troubleshooting steps.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "low water pressure",
+        "weak spray",
+        "sprinkler not reaching",
+        "pressure problems",
+        "pump issues"
+      ],
+      "articleSlug": "low-sprinkler-pressure-solutions",
+      "priority": 5
+    },
+    {
+      "slug": "controller-problems",
+      "title": "Sprinkler Controller & Timer Issues",
+      "snippet": "Troubleshooting programming problems, electrical issues, and upgrading to smart irrigation controllers.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "controller not working",
+        "programming issues",
+        "timer problems",
+        "smart controller",
+        "controller repair"
+      ],
+      "articleSlug": "sprinkler-controller-problems",
+      "priority": 6
+    }
+  ],
+  "_id": "issues/sprinkler-repair.yml",
+  "_raw": {
+    "sourceFilePath": "issues/sprinkler-repair.yml",
+    "sourceFileName": "sprinkler-repair.yml",
+    "sourceFileDir": "issues",
+    "contentType": "data",
+    "flattenedPath": "issues/sprinkler-repair"
+  },
+  "type": "Issue",
+  "url": "/niches/sprinkler-repair/"
+}

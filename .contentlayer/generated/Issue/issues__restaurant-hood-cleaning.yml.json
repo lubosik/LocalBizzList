@@ -1,0 +1,137 @@
+{
+  "niche": "restaurant-hood-cleaning",
+  "nicheTitle": "Restaurant Hood Cleaning",
+  "icon": "Flame",
+  "issues": [
+    {
+      "slug": "exhaust-fan-problems",
+      "title": "Exhaust Fan Problems & Fixes",
+      "snippet": "Common exhaust fan issues like noise, vibration, and mechanical failures that impact NFPA 96 compliance and kitchen safety.",
+      "category": "troubleshooting",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "exhaust fan noise",
+        "exhaust fan not working",
+        "exhaust fan vibration",
+        "kitchen exhaust fan problems",
+        "exhaust fan repair"
+      ],
+      "articleSlug": "exhaust-fan-problems-and-fixes",
+      "priority": 1
+    },
+    {
+      "slug": "grease-duct-buildup",
+      "title": "Grease Duct Buildup & Fire Hazards",
+      "snippet": "How grease accumulates in ductwork, creating fire hazards and requiring professional cleaning to maintain safety.",
+      "category": "maintenance",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "grease duct cleaning",
+        "duct fire hazard",
+        "grease accumulation",
+        "exhaust duct buildup",
+        "grease duct inspection"
+      ],
+      "articleSlug": "grease-duct-buildup-fire-hazards",
+      "priority": 2
+    },
+    {
+      "slug": "hood-filter-maintenance",
+      "title": "Hood Filter Cleaning & Replacement",
+      "snippet": "Best practices for baffle filter cleaning frequency and replacement schedules for different restaurant types.",
+      "category": "maintenance",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "hood filter cleaning frequency",
+        "baffle filter replacement",
+        "grease filter maintenance",
+        "hood filter types",
+        "filter cleaning schedule"
+      ],
+      "articleSlug": "hood-filter-maintenance-schedule",
+      "priority": 3
+    },
+    {
+      "slug": "nfpa-96-compliance",
+      "title": "NFPA 96 Compliance Requirements",
+      "snippet": "Understanding NFPA 96 regulations, inspection requirements, and cleaning frequency standards for commercial kitchens.",
+      "category": "compliance",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "nfpa 96 requirements",
+        "hood cleaning frequency",
+        "fire inspection requirements",
+        "nfpa 96 standards",
+        "commercial kitchen compliance"
+      ],
+      "articleSlug": "nfpa-96-compliance-guide",
+      "priority": 4
+    },
+    {
+      "slug": "fire-suppression-system-issues",
+      "title": "Fire Suppression System Problems",
+      "snippet": "Common Ansul system issues, maintenance requirements, and why certified service is essential for safety.",
+      "category": "compliance",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "ansul system problems",
+        "fire suppression inspection",
+        "kitchen fire system",
+        "ansul maintenance",
+        "fire suppression repair"
+      ],
+      "articleSlug": "fire-suppression-system-issues",
+      "priority": 5
+    },
+    {
+      "slug": "hood-cleaning-frequency",
+      "title": "Hood Cleaning Frequency by Restaurant Type",
+      "snippet": "How often to clean your commercial kitchen hood system based on cooking volume, menu type, and NFPA 96 guidelines.",
+      "category": "cost-guides",
+      "cities": [
+        "miami",
+        "boca-raton",
+        "fort-lauderdale"
+      ],
+      "keywords": [
+        "how often clean hood",
+        "kitchen exhaust cleaning schedule",
+        "hood cleaning frequency chart",
+        "restaurant cleaning schedule",
+        "nfpa cleaning requirements"
+      ],
+      "articleSlug": "hood-cleaning-frequency-guide",
+      "priority": 6
+    }
+  ],
+  "_id": "issues/restaurant-hood-cleaning.yml",
+  "_raw": {
+    "sourceFilePath": "issues/restaurant-hood-cleaning.yml",
+    "sourceFileName": "restaurant-hood-cleaning.yml",
+    "sourceFileDir": "issues",
+    "contentType": "data",
+    "flattenedPath": "issues/restaurant-hood-cleaning"
+  },
+  "type": "Issue",
+  "url": "/niches/restaurant-hood-cleaning/"
+}

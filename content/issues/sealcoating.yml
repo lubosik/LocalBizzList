@@ -1,0 +1,18 @@
+niche: "sealcoating"
+nicheTitle: "Sealcoating & Paving"
+icon: "HardHat"
+issues:
+  - slug: "parking-lot-cracks-worsening"
+    title: "Parking Lot Cracks Worsening After Rain"
+    snippet: "Crack sealing and sealcoating prevent water penetration and extend pavement life."
+    category: "maintenance-repairs"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "parking lot cracks after rain"
+      - "asphalt crack sealing"
+      - "prevent parking lot deterioration"
+    articleSlug: "parking-lot-crack-repair-sealcoating"
+    priority: 1

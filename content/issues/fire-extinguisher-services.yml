@@ -1,0 +1,18 @@
+niche: "fire-extinguisher-services"
+nicheTitle: "Fire Extinguisher Services"
+icon: "AlertTriangle"
+issues:
+  - slug: "fire-extinguishers-expired-tags"
+    title: "Fire Extinguishers Expired or Missing Tags"
+    snippet: "Annual inspections and recharging ensure compliance with Florida Fire Prevention Code."
+    category: "compliance-inspections"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "expired fire extinguisher tags"
+      - "fire extinguisher inspection Florida"
+      - "fire extinguisher compliance"
+    articleSlug: "fire-extinguisher-inspection-compliance"
+    priority: 1

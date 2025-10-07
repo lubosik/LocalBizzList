@@ -1,8 +1,8 @@
-import type { Post } from 'contentlayer/generated'
+import type { BlogPost } from '@/lib/types/blog'
 import ArticleCard from './ArticleCard'
 
 interface ArticleGridProps {
-  posts: Post[]
+  posts: BlogPost[]
 }
 
 export default function ArticleGrid({ posts }: ArticleGridProps) {
@@ -17,7 +17,7 @@ export default function ArticleGrid({ posts }: ArticleGridProps) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {posts.map((post) => (
-        <ArticleCard key={post._id} post={post} />
+        <ArticleCard key={post.slug} post={post} />
       ))}
     </div>
   )

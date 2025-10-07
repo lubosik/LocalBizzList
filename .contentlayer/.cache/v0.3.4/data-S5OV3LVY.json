@@ -1,0 +1,1088 @@
+{
+  "cacheItemsMap": {
+    "businesses/elite-realty-group.mdx": {
+      "document": {
+        "name": "Elite Realty Group",
+        "slug": "elite-realty-group",
+        "description": "Luxury real estate specialists representing South Florida's most prestigious properties. Expert representation for buyers and sellers of high-end waterfront estates, penthouses, and luxury condominiums.",
+        "category": "Luxury Real Estate",
+        "city": "Miami Beach",
+        "state": "FL",
+        "phone": "(305) 555-7100",
+        "website": "https://eliterealtygroup.example.com",
+        "services": [
+          "Luxury Property Sales & Acquisitions",
+          "Waterfront Estate Marketing",
+          "International Buyer Representation",
+          "Investment Property Analysis",
+          "New Development Pre-Sales",
+          "Concierge Real Estate Services"
+        ],
+        "logo": "https://placehold.co/200x150/10B981/FFFFFF?text=Elite+Realty&font=roboto",
+        "verified": true,
+        "featured": true,
+        "body": {
+          "raw": "\n# Elite Realty Group\n\n**South Florida's premier luxury real estate specialists**\n\n## About Us\n\nElite Realty Group is recognized as one of South Florida's leading luxury real estate brokerages. Our team of elite agents has facilitated over $3 billion in luxury property transactions, representing the region's most prestigious estates, penthouses, and waterfront properties.\n\n## Our Services\n\n### Luxury Property Sales\n- Multi-million dollar estate marketing\n- Exclusive off-market opportunities\n- Professional photography and videography\n- International marketing campaigns\n- Virtual and in-person showings\n\n### Buyer Representation\n- Confidential property searches\n- Market analysis and valuation\n- Negotiation and due diligence\n- Closing coordination\n- Post-sale support and property management referrals\n\n### Investment Services\n- Property portfolio analysis\n- Market trend forecasting\n- ROI projections and analysis\n- 1031 exchange coordination\n- Opportunity zone investments\n\n### International Clientele\n- Multi-lingual agent team\n- Global marketing network\n- International wire transfer assistance\n- Visa and immigration attorney referrals\n- Cultural liaison services\n\n## Why Choose Elite Realty Group?\n\n- **Proven Track Record:** $3B+ in luxury sales\n- **Market Expertise:** 25+ years in South Florida luxury market\n- **Discretion:** Confidential transactions for high-profile clients\n- **Network:** Exclusive access to off-market listings\n- **White-Glove Service:** Concierge-level support throughout transaction\n\n## Property Specializations\n\n- Oceanfront estates ($5M - $100M+)\n- Luxury condominiums and penthouses\n- Private islands and waterfront compounds\n- Golf course and country club properties\n- New luxury developments\n\n## Service Areas\n\nSpecializing in South Florida's most exclusive neighborhoods:\n- Miami Beach & South Beach\n- Fisher Island & Star Island\n- Coral Gables & Coconut Grove\n- Sunny Isles Beach\n- Bal Harbour & Golden Beach\n- Brickell & Downtown Miami\n\n---\n\n*Elite Realty Group is a verified business on LocalBizzList. Licensed real estate broker. Equal housing opportunity provider.*",
+          "code": "var Component=(()=>{var mn=Object.create;var j=Object.defineProperty;var bn=Object.getOwnPropertyDescriptor;var hn=Object.getOwnPropertyNames;var _n=Object.getPrototypeOf,pn=Object.prototype.hasOwnProperty;var q=(u,r)=>()=>(r||u((r={exports:{}}).exports,r),r.exports),gn=(u,r)=>{for(var p in r)j(u,p,{get:r[p],enumerable:!0})},ze=(u,r,p,y)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let v of hn(r))!pn.call(u,v)&&v!==p&&j(u,v,{get:()=>r[v],enumerable:!(y=bn(r,v))||y.enumerable});return u};var vn=(u,r,p)=>(p=u!=null?mn(_n(u)):{},ze(r||!u||!u.__esModule?j(p,\"default\",{value:u,enumerable:!0}):p,u)),yn=u=>ze(j({},\"__esModule\",{value:!0}),u);var Re=q((Ln,Ee)=>{Ee.exports=React});var Le=q(X=>{\"use strict\";(function(){\"use strict\";var u=Re(),r=Symbol.for(\"react.element\"),p=Symbol.for(\"react.portal\"),y=Symbol.for(\"react.fragment\"),v=Symbol.for(\"react.strict_mode\"),H=Symbol.for(\"react.profiler\"),J=Symbol.for(\"react.provider\"),Z=Symbol.for(\"react.context\"),C=Symbol.for(\"react.forward_ref\"),F=Symbol.for(\"react.suspense\"),D=Symbol.for(\"react.suspense_list\"),T=Symbol.for(\"react.memo\"),A=Symbol.for(\"react.lazy\"),Te=Symbol.for(\"react.offscreen\"),Q=Symbol.iterator,we=\"@@iterator\";function Pe(e){if(e===null||typeof e!=\"object\")return null;var n=Q&&e[Q]||e[we];return typeof n==\"function\"?n:null}var z=u.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;function m(e){{for(var n=arguments.length,i=new Array(n>1?n-1:0),s=1;s<n;s++)i[s-1]=arguments[s];Oe(\"error\",e,i)}}function Oe(e,n,i){{var s=z.ReactDebugCurrentFrame,o=s.getStackAddendum();o!==\"\"&&(n+=\"%s\",i=i.concat([o]));var c=i.map(function(l){return String(l)});c.unshift(\"Warning: \"+n),Function.prototype.apply.call(console[e],console,c)}}var ke=!1,je=!1,Fe=!1,De=!1,Ae=!1,ee;ee=Symbol.for(\"react.module.reference\");function Ie(e){return!!(typeof e==\"string\"||typeof e==\"function\"||e===y||e===H||Ae||e===v||e===F||e===D||De||e===Te||ke||je||Fe||typeof e==\"object\"&&e!==null&&(e.$$typeof===A||e.$$typeof===T||e.$$typeof===J||e.$$typeof===Z||e.$$typeof===C||e.$$typeof===ee||e.getModuleId!==void 0))}function Me(e,n,i){var s=e.displayName;if(s)return s;var o=n.displayName||n.name||\"\";return o!==\"\"?i+\"(\"+o+\")\":i}function ne(e){return e.displayName||\"Context\"}function g(e){if(e==null)return null;if(typeof e.tag==\"number\"&&m(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),typeof e==\"function\")return e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case y:return\"Fragment\";case p:return\"Portal\";case H:return\"Profiler\";case v:return\"StrictMode\";case F:return\"Suspense\";case D:return\"SuspenseList\"}if(typeof e==\"object\")switch(e.$$typeof){case Z:var n=e;return ne(n)+\".Consumer\";case J:var i=e;return ne(i._context)+\".Provider\";case C:return Me(e,e.render,\"ForwardRef\");case T:var s=e.displayName||null;return s!==null?s:g(e.type)||\"Memo\";case A:{var o=e,c=o._payload,l=o._init;try{return g(l(c))}catch{return null}}}return null}var N=Object.assign,L=0,re,te,ie,se,ae,le,oe;function ce(){}ce.__reactDisabledLog=!0;function $e(){{if(L===0){re=console.log,te=console.info,ie=console.warn,se=console.error,ae=console.group,le=console.groupCollapsed,oe=console.groupEnd;var e={configurable:!0,enumerable:!0,value:ce,writable:!0};Object.defineProperties(console,{info:e,log:e,warn:e,error:e,group:e,groupCollapsed:e,groupEnd:e})}L++}}function We(){{if(L--,L===0){var e={configurable:!0,enumerable:!0,writable:!0};Object.defineProperties(console,{log:N({},e,{value:re}),info:N({},e,{value:te}),warn:N({},e,{value:ie}),error:N({},e,{value:se}),group:N({},e,{value:ae}),groupCollapsed:N({},e,{value:le}),groupEnd:N({},e,{value:oe})})}L<0&&m(\"disabledDepth fell below zero. This is a bug in React. Please file an issue.\")}}var I=z.ReactCurrentDispatcher,M;function w(e,n,i){{if(M===void 0)try{throw Error()}catch(o){var s=o.stack.trim().match(/\\n( *(at )?)/);M=s&&s[1]||\"\"}return`\n`+M+e}}var $=!1,P;{var Ye=typeof WeakMap==\"function\"?WeakMap:Map;P=new Ye}function ue(e,n){if(!e||$)return\"\";{var i=P.get(e);if(i!==void 0)return i}var s;$=!0;var o=Error.prepareStackTrace;Error.prepareStackTrace=void 0;var c;c=I.current,I.current=null,$e();try{if(n){var l=function(){throw Error()};if(Object.defineProperty(l.prototype,\"props\",{set:function(){throw Error()}}),typeof Reflect==\"object\"&&Reflect.construct){try{Reflect.construct(l,[])}catch(h){s=h}Reflect.construct(e,[],l)}else{try{l.call()}catch(h){s=h}e.call(l.prototype)}}else{try{throw Error()}catch(h){s=h}e()}}catch(h){if(h&&s&&typeof h.stack==\"string\"){for(var a=h.stack.split(`\n`),b=s.stack.split(`\n`),f=a.length-1,d=b.length-1;f>=1&&d>=0&&a[f]!==b[d];)d--;for(;f>=1&&d>=0;f--,d--)if(a[f]!==b[d]){if(f!==1||d!==1)do if(f--,d--,d<0||a[f]!==b[d]){var _=`\n`+a[f].replace(\" at new \",\" at \");return e.displayName&&_.includes(\"<anonymous>\")&&(_=_.replace(\"<anonymous>\",e.displayName)),typeof e==\"function\"&&P.set(e,_),_}while(f>=1&&d>=0);break}}}finally{$=!1,I.current=c,We(),Error.prepareStackTrace=o}var R=e?e.displayName||e.name:\"\",x=R?w(R):\"\";return typeof e==\"function\"&&P.set(e,x),x}function Ve(e,n,i){return ue(e,!1)}function Be(e){var n=e.prototype;return!!(n&&n.isReactComponent)}function O(e,n,i){if(e==null)return\"\";if(typeof e==\"function\")return ue(e,Be(e));if(typeof e==\"string\")return w(e);switch(e){case F:return w(\"Suspense\");case D:return w(\"SuspenseList\")}if(typeof e==\"object\")switch(e.$$typeof){case C:return Ve(e.render);case T:return O(e.type,n,i);case A:{var s=e,o=s._payload,c=s._init;try{return O(c(o),n,i)}catch{}}}return\"\"}var U=Object.prototype.hasOwnProperty,fe={},de=z.ReactDebugCurrentFrame;function k(e){if(e){var n=e._owner,i=O(e.type,e._source,n?n.type:null);de.setExtraStackFrame(i)}else de.setExtraStackFrame(null)}function Ge(e,n,i,s,o){{var c=Function.call.bind(U);for(var l in e)if(c(e,l)){var a=void 0;try{if(typeof e[l]!=\"function\"){var b=Error((s||\"React class\")+\": \"+i+\" type `\"+l+\"` is invalid; it must be a function, usually from the `prop-types` package, but received `\"+typeof e[l]+\"`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.\");throw b.name=\"Invariant Violation\",b}a=e[l](n,l,s,i,null,\"SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED\")}catch(f){a=f}a&&!(a instanceof Error)&&(k(o),m(\"%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).\",s||\"React class\",i,l,typeof a),k(null)),a instanceof Error&&!(a.message in fe)&&(fe[a.message]=!0,k(o),m(\"Failed %s type: %s\",i,a.message),k(null))}}}var Ke=Array.isArray;function W(e){return Ke(e)}function qe(e){{var n=typeof Symbol==\"function\"&&Symbol.toStringTag,i=n&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return i}}function Xe(e){try{return me(e),!1}catch{return!0}}function me(e){return\"\"+e}function be(e){if(Xe(e))return m(\"The provided key is an unsupported type %s. This value must be coerced to a string before before using it here.\",qe(e)),me(e)}var S=z.ReactCurrentOwner,He={key:!0,ref:!0,__self:!0,__source:!0},he,_e,Y;Y={};function Je(e){if(U.call(e,\"ref\")){var n=Object.getOwnPropertyDescriptor(e,\"ref\").get;if(n&&n.isReactWarning)return!1}return e.ref!==void 0}function Ze(e){if(U.call(e,\"key\")){var n=Object.getOwnPropertyDescriptor(e,\"key\").get;if(n&&n.isReactWarning)return!1}return e.key!==void 0}function Qe(e,n){if(typeof e.ref==\"string\"&&S.current&&n&&S.current.stateNode!==n){var i=g(S.current.type);Y[i]||(m('Component \"%s\" contains the string ref \"%s\". Support for string refs will be removed in a future major release. This case cannot be automatically converted to an arrow function. We ask you to manually fix this case by using useRef() or createRef() instead. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-string-ref',g(S.current.type),e.ref),Y[i]=!0)}}function en(e,n){{var i=function(){he||(he=!0,m(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)\",n))};i.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:i,configurable:!0})}}function nn(e,n){{var i=function(){_e||(_e=!0,m(\"%s: `ref` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)\",n))};i.isReactWarning=!0,Object.defineProperty(e,\"ref\",{get:i,configurable:!0})}}var rn=function(e,n,i,s,o,c,l){var a={$$typeof:r,type:e,key:n,ref:i,props:l,_owner:c};return a._store={},Object.defineProperty(a._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:!1}),Object.defineProperty(a,\"_self\",{configurable:!1,enumerable:!1,writable:!1,value:s}),Object.defineProperty(a,\"_source\",{configurable:!1,enumerable:!1,writable:!1,value:o}),Object.freeze&&(Object.freeze(a.props),Object.freeze(a)),a};function tn(e,n,i,s,o){{var c,l={},a=null,b=null;i!==void 0&&(be(i),a=\"\"+i),Ze(n)&&(be(n.key),a=\"\"+n.key),Je(n)&&(b=n.ref,Qe(n,o));for(c in n)U.call(n,c)&&!He.hasOwnProperty(c)&&(l[c]=n[c]);if(e&&e.defaultProps){var f=e.defaultProps;for(c in f)l[c]===void 0&&(l[c]=f[c])}if(a||b){var d=typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e;a&&en(l,d),b&&nn(l,d)}return rn(e,a,b,o,s,S.current,l)}}var V=z.ReactCurrentOwner,pe=z.ReactDebugCurrentFrame;function E(e){if(e){var n=e._owner,i=O(e.type,e._source,n?n.type:null);pe.setExtraStackFrame(i)}else pe.setExtraStackFrame(null)}var B;B=!1;function G(e){return typeof e==\"object\"&&e!==null&&e.$$typeof===r}function ge(){{if(V.current){var e=g(V.current.type);if(e)return`\n\nCheck the render method of \\``+e+\"`.\"}return\"\"}}function sn(e){{if(e!==void 0){var n=e.fileName.replace(/^.*[\\\\\\/]/,\"\"),i=e.lineNumber;return`\n\nCheck your code at `+n+\":\"+i+\".\"}return\"\"}}var ve={};function an(e){{var n=ge();if(!n){var i=typeof e==\"string\"?e:e.displayName||e.name;i&&(n=`\n\nCheck the top-level render call using <`+i+\">.\")}return n}}function ye(e,n){{if(!e._store||e._store.validated||e.key!=null)return;e._store.validated=!0;var i=an(n);if(ve[i])return;ve[i]=!0;var s=\"\";e&&e._owner&&e._owner!==V.current&&(s=\" It was passed a child from \"+g(e._owner.type)+\".\"),E(e),m('Each child in a list should have a unique \"key\" prop.%s%s See https://reactjs.org/link/warning-keys for more information.',i,s),E(null)}}function Ne(e,n){{if(typeof e!=\"object\")return;if(W(e))for(var i=0;i<e.length;i++){var s=e[i];G(s)&&ye(s,n)}else if(G(e))e._store&&(e._store.validated=!0);else if(e){var o=Pe(e);if(typeof o==\"function\"&&o!==e.entries)for(var c=o.call(e),l;!(l=c.next()).done;)G(l.value)&&ye(l.value,n)}}}function ln(e){{var n=e.type;if(n==null||typeof n==\"string\")return;var i;if(typeof n==\"function\")i=n.propTypes;else if(typeof n==\"object\"&&(n.$$typeof===C||n.$$typeof===T))i=n.propTypes;else return;if(i){var s=g(n);Ge(i,e.props,\"prop\",s,e)}else if(n.PropTypes!==void 0&&!B){B=!0;var o=g(n);m(\"Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?\",o||\"Unknown\")}typeof n.getDefaultProps==\"function\"&&!n.getDefaultProps.isReactClassApproved&&m(\"getDefaultProps is only used on classic React.createClass definitions. Use a static property named `defaultProps` instead.\")}}function on(e){{for(var n=Object.keys(e.props),i=0;i<n.length;i++){var s=n[i];if(s!==\"children\"&&s!==\"key\"){E(e),m(\"Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.\",s),E(null);break}}e.ref!==null&&(E(e),m(\"Invalid attribute `ref` supplied to `React.Fragment`.\"),E(null))}}var xe={};function cn(e,n,i,s,o,c){{var l=Ie(e);if(!l){var a=\"\";(e===void 0||typeof e==\"object\"&&e!==null&&Object.keys(e).length===0)&&(a+=\" You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\");var b=sn(o);b?a+=b:a+=ge();var f;e===null?f=\"null\":W(e)?f=\"array\":e!==void 0&&e.$$typeof===r?(f=\"<\"+(g(e.type)||\"Unknown\")+\" />\",a=\" Did you accidentally export a JSX literal instead of a component?\"):f=typeof e,m(\"React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s\",f,a)}var d=tn(e,n,i,o,c);if(d==null)return d;if(l){var _=n.children;if(_!==void 0)if(s)if(W(_)){for(var R=0;R<_.length;R++)Ne(_[R],e);Object.freeze&&Object.freeze(_)}else m(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else Ne(_,e)}if(U.call(n,\"key\")){var x=g(e),h=Object.keys(n).filter(function(dn){return dn!==\"key\"}),K=h.length>0?\"{key: someKey, \"+h.join(\": ..., \")+\": ...}\":\"{key: someKey}\";if(!xe[x+K]){var fn=h.length>0?\"{\"+h.join(\": ..., \")+\": ...}\":\"{}\";m(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,K,x,fn,x),xe[x+K]=!0}}return e===y?on(d):ln(d),d}}var un=cn;X.Fragment=y,X.jsxDEV=un})()});var Se=q((Sn,Ue)=>{\"use strict\";Ue.exports=Le()});var En={};gn(En,{default:()=>zn,frontmatter:()=>Nn});var t=vn(Se()),Nn={name:\"Elite Realty Group\",slug:\"elite-realty-group\",description:\"Luxury real estate specialists representing South Florida's most prestigious properties. Expert representation for buyers and sellers of high-end waterfront estates, penthouses, and luxury condominiums.\",category:\"Luxury Real Estate\",city:\"Miami Beach\",state:\"FL\",phone:\"(305) 555-7100\",website:\"https://eliterealtygroup.example.com\",services:[\"Luxury Property Sales & Acquisitions\",\"Waterfront Estate Marketing\",\"International Buyer Representation\",\"Investment Property Analysis\",\"New Development Pre-Sales\",\"Concierge Real Estate Services\"],logo:\"https://placehold.co/200x150/10B981/FFFFFF?text=Elite+Realty&font=roboto\",verified:!0,featured:!0};function Ce(u){let r=Object.assign({h1:\"h1\",p:\"p\",strong:\"strong\",h2:\"h2\",h3:\"h3\",ul:\"ul\",li:\"li\",hr:\"hr\",em:\"em\"},u.components);return(0,t.jsxDEV)(t.Fragment,{children:[(0,t.jsxDEV)(r.h1,{children:\"Elite Realty Group\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:22,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.p,{children:(0,t.jsxDEV)(r.strong,{children:\"South Florida's premier luxury real estate specialists\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:24,columnNumber:1},this)},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:24,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.h2,{children:\"About Us\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:26,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.p,{children:\"Elite Realty Group is recognized as one of South Florida's leading luxury real estate brokerages. Our team of elite agents has facilitated over $3 billion in luxury property transactions, representing the region's most prestigious estates, penthouses, and waterfront properties.\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:28,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.h2,{children:\"Our Services\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:30,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.h3,{children:\"Luxury Property Sales\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:32,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.ul,{children:[`\n`,(0,t.jsxDEV)(r.li,{children:\"Multi-million dollar estate marketing\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:33,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Exclusive off-market opportunities\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:34,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Professional photography and videography\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:35,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"International marketing campaigns\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:36,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Virtual and in-person showings\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:37,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:33,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.h3,{children:\"Buyer Representation\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:39,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.ul,{children:[`\n`,(0,t.jsxDEV)(r.li,{children:\"Confidential property searches\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:40,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Market analysis and valuation\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:41,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Negotiation and due diligence\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:42,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Closing coordination\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:43,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Post-sale support and property management referrals\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:44,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:40,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.h3,{children:\"Investment Services\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:46,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.ul,{children:[`\n`,(0,t.jsxDEV)(r.li,{children:\"Property portfolio analysis\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:47,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Market trend forecasting\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:48,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"ROI projections and analysis\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:49,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"1031 exchange coordination\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:50,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Opportunity zone investments\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:51,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:47,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.h3,{children:\"International Clientele\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:53,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.ul,{children:[`\n`,(0,t.jsxDEV)(r.li,{children:\"Multi-lingual agent team\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:54,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Global marketing network\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:55,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"International wire transfer assistance\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:56,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Visa and immigration attorney referrals\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:57,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Cultural liaison services\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:58,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:54,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.h2,{children:\"Why Choose Elite Realty Group?\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:60,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.ul,{children:[`\n`,(0,t.jsxDEV)(r.li,{children:[(0,t.jsxDEV)(r.strong,{children:\"Proven Track Record:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:62,columnNumber:3},this),\" $3B+ in luxury sales\"]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:62,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:[(0,t.jsxDEV)(r.strong,{children:\"Market Expertise:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:63,columnNumber:3},this),\" 25+ years in South Florida luxury market\"]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:63,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:[(0,t.jsxDEV)(r.strong,{children:\"Discretion:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:64,columnNumber:3},this),\" Confidential transactions for high-profile clients\"]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:64,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:[(0,t.jsxDEV)(r.strong,{children:\"Network:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:65,columnNumber:3},this),\" Exclusive access to off-market listings\"]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:65,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:[(0,t.jsxDEV)(r.strong,{children:\"White-Glove Service:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:66,columnNumber:3},this),\" Concierge-level support throughout transaction\"]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:66,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:62,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.h2,{children:\"Property Specializations\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:68,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.ul,{children:[`\n`,(0,t.jsxDEV)(r.li,{children:\"Oceanfront estates ($5M - $100M+)\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:70,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Luxury condominiums and penthouses\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:71,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Private islands and waterfront compounds\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:72,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Golf course and country club properties\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:73,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"New luxury developments\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:74,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:70,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.h2,{children:\"Service Areas\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:76,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.p,{children:\"Specializing in South Florida's most exclusive neighborhoods:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:78,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.ul,{children:[`\n`,(0,t.jsxDEV)(r.li,{children:\"Miami Beach & South Beach\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:79,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Fisher Island & Star Island\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:80,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Coral Gables & Coconut Grove\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:81,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Sunny Isles Beach\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:82,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Bal Harbour & Golden Beach\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:83,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.li,{children:\"Brickell & Downtown Miami\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:84,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:79,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.hr,{},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:86,columnNumber:1},this),`\n`,(0,t.jsxDEV)(r.p,{children:(0,t.jsxDEV)(r.em,{children:\"Elite Realty Group is a verified business on LocalBizzList. Licensed real estate broker. Equal housing opportunity provider.\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:88,columnNumber:1},this)},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:88,columnNumber:1},this)]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\",lineNumber:1,columnNumber:1},this)}function xn(u={}){let{wrapper:r}=u.components||{};return r?(0,t.jsxDEV)(r,Object.assign({},u,{children:(0,t.jsxDEV)(Ce,u,void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\"},this)}),void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-fe56de2a-384e-4a32-85cc-7c5b62eff48c.mdx\"},this):Ce(u)}var zn=xn;return yn(En);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Facebook, Inc. and its affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+        },
+        "_id": "businesses/elite-realty-group.mdx",
+        "_raw": {
+          "sourceFilePath": "businesses/elite-realty-group.mdx",
+          "sourceFileName": "elite-realty-group.mdx",
+          "sourceFileDir": "businesses",
+          "contentType": "mdx",
+          "flattenedPath": "businesses/elite-realty-group"
+        },
+        "type": "Business",
+        "url": "/businesses/elite-realty-group",
+        "categoryUrl": "/businesses/category/luxury-real-estate"
+      },
+      "documentHash": "1759193319682",
+      "hasWarnings": false,
+      "documentTypeName": "Business"
+    },
+    "businesses/prestige-wealth-advisors.mdx": {
+      "document": {
+        "name": "Prestige Wealth Advisors",
+        "slug": "prestige-wealth-advisors",
+        "description": "Premier wealth management and financial planning services for high-net-worth individuals and families across South Florida. Personalized strategies, portfolio management, and legacy planning.",
+        "category": "Wealth Management",
+        "city": "Miami",
+        "state": "FL",
+        "phone": "(305) 555-8900",
+        "website": "https://prestigewealthadvisors.example.com",
+        "services": [
+          "Comprehensive Wealth Management",
+          "Investment Portfolio Management",
+          "Estate & Legacy Planning",
+          "Tax Optimization Strategies",
+          "Retirement Planning",
+          "Family Office Services"
+        ],
+        "logo": "https://placehold.co/200x150/1E3A8A/FFFFFF?text=Prestige+Wealth&font=roboto",
+        "verified": true,
+        "featured": true,
+        "body": {
+          "raw": "\n# Prestige Wealth Advisors\n\n**Premier wealth management for South Florida's most discerning clients**\n\n## About Us\n\nPrestige Wealth Advisors is a boutique wealth management firm serving high-net-worth individuals, families, and business owners across South Florida. With over $2 billion in assets under management, we provide personalized financial strategies tailored to your unique goals and lifestyle.\n\n## Our Services\n\n### Comprehensive Wealth Management\n- Holistic financial planning and strategy\n- Goal-based investment approach\n- Risk management and asset protection\n- Ongoing portfolio monitoring and rebalancing\n\n### Investment Management\n- Custom portfolio construction\n- Alternative investments and private placements\n- ESG and impact investing options\n- Institutional-grade investment research\n\n### Estate & Legacy Planning\n- Multi-generational wealth transfer strategies\n- Trust and estate planning coordination\n- Charitable giving strategies\n- Family governance and education\n\n### Tax Optimization\n- Tax-efficient investment strategies\n- Coordination with CPAs and tax attorneys\n- Opportunity zone investments\n- Qualified opportunity funds\n\n## Why Choose Prestige Wealth Advisors?\n\n- **Fiduciary Standard:** We always act in your best interest\n- **Personalized Service:** Dedicated wealth advisor and team\n- **Independence:** No proprietary products or conflicts of interest\n- **Expertise:** CFP®, CFA®, and JD professionals\n- **Track Record:** 20+ years serving South Florida families\n\n## Client Profile\n\nWe typically work with clients who have:\n- $2M+ in investable assets\n- Complex financial situations\n- Multi-generational wealth planning needs\n- Business succession planning requirements\n\n## Service Areas\n\nProudly serving clients throughout South Florida:\n- Miami & Miami Beach\n- Coral Gables & Coconut Grove\n- Boca Raton & Delray Beach\n- Palm Beach & Jupiter\n- Fort Lauderdale & Aventura\n\n---\n\n*Prestige Wealth Advisors is a verified business on LocalBizzList. Securities offered through registered representatives. Investment advisory services offered through Prestige Wealth Advisors, LLC, a registered investment adviser.*",
+          "code": "var Component=(()=>{var mn=Object.create;var j=Object.defineProperty;var bn=Object.getOwnPropertyDescriptor;var hn=Object.getOwnPropertyNames;var _n=Object.getPrototypeOf,gn=Object.prototype.hasOwnProperty;var K=(c,r)=>()=>(r||c((r={exports:{}}).exports,r),r.exports),pn=(c,r)=>{for(var g in r)j(c,g,{get:r[g],enumerable:!0})},ze=(c,r,g,N)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let v of hn(r))!gn.call(c,v)&&v!==g&&j(c,v,{get:()=>r[v],enumerable:!(N=bn(r,v))||N.enumerable});return c};var vn=(c,r,g)=>(g=c!=null?mn(_n(c)):{},ze(r||!c||!c.__esModule?j(g,\"default\",{value:c,enumerable:!0}):g,c)),Nn=c=>ze(j({},\"__esModule\",{value:!0}),c);var Re=K((Ln,Ee)=>{Ee.exports=React});var Le=K(X=>{\"use strict\";(function(){\"use strict\";var c=Re(),r=Symbol.for(\"react.element\"),g=Symbol.for(\"react.portal\"),N=Symbol.for(\"react.fragment\"),v=Symbol.for(\"react.strict_mode\"),J=Symbol.for(\"react.profiler\"),H=Symbol.for(\"react.provider\"),Q=Symbol.for(\"react.context\"),w=Symbol.for(\"react.forward_ref\"),A=Symbol.for(\"react.suspense\"),k=Symbol.for(\"react.suspense_list\"),C=Symbol.for(\"react.memo\"),D=Symbol.for(\"react.lazy\"),Ce=Symbol.for(\"react.offscreen\"),Z=Symbol.iterator,Te=\"@@iterator\";function Se(e){if(e===null||typeof e!=\"object\")return null;var n=Z&&e[Z]||e[Te];return typeof n==\"function\"?n:null}var z=c.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;function m(e){{for(var n=arguments.length,t=new Array(n>1?n-1:0),a=1;a<n;a++)t[a-1]=arguments[a];Oe(\"error\",e,t)}}function Oe(e,n,t){{var a=z.ReactDebugCurrentFrame,o=a.getStackAddendum();o!==\"\"&&(n+=\"%s\",t=t.concat([o]));var u=t.map(function(l){return String(l)});u.unshift(\"Warning: \"+n),Function.prototype.apply.call(console[e],console,u)}}var Fe=!1,je=!1,Ae=!1,ke=!1,De=!1,ee;ee=Symbol.for(\"react.module.reference\");function We(e){return!!(typeof e==\"string\"||typeof e==\"function\"||e===N||e===J||De||e===v||e===A||e===k||ke||e===Ce||Fe||je||Ae||typeof e==\"object\"&&e!==null&&(e.$$typeof===D||e.$$typeof===C||e.$$typeof===H||e.$$typeof===Q||e.$$typeof===w||e.$$typeof===ee||e.getModuleId!==void 0))}function Me(e,n,t){var a=e.displayName;if(a)return a;var o=n.displayName||n.name||\"\";return o!==\"\"?t+\"(\"+o+\")\":t}function ne(e){return e.displayName||\"Context\"}function p(e){if(e==null)return null;if(typeof e.tag==\"number\"&&m(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),typeof e==\"function\")return e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case N:return\"Fragment\";case g:return\"Portal\";case J:return\"Profiler\";case v:return\"StrictMode\";case A:return\"Suspense\";case k:return\"SuspenseList\"}if(typeof e==\"object\")switch(e.$$typeof){case Q:var n=e;return ne(n)+\".Consumer\";case H:var t=e;return ne(t._context)+\".Provider\";case w:return Me(e,e.render,\"ForwardRef\");case C:var a=e.displayName||null;return a!==null?a:p(e.type)||\"Memo\";case D:{var o=e,u=o._payload,l=o._init;try{return p(l(u))}catch{return null}}}return null}var y=Object.assign,L=0,re,te,ie,ae,se,le,oe;function ue(){}ue.__reactDisabledLog=!0;function Ie(){{if(L===0){re=console.log,te=console.info,ie=console.warn,ae=console.error,se=console.group,le=console.groupCollapsed,oe=console.groupEnd;var e={configurable:!0,enumerable:!0,value:ue,writable:!0};Object.defineProperties(console,{info:e,log:e,warn:e,error:e,group:e,groupCollapsed:e,groupEnd:e})}L++}}function $e(){{if(L--,L===0){var e={configurable:!0,enumerable:!0,writable:!0};Object.defineProperties(console,{log:y({},e,{value:re}),info:y({},e,{value:te}),warn:y({},e,{value:ie}),error:y({},e,{value:ae}),group:y({},e,{value:se}),groupCollapsed:y({},e,{value:le}),groupEnd:y({},e,{value:oe})})}L<0&&m(\"disabledDepth fell below zero. This is a bug in React. Please file an issue.\")}}var W=z.ReactCurrentDispatcher,M;function T(e,n,t){{if(M===void 0)try{throw Error()}catch(o){var a=o.stack.trim().match(/\\n( *(at )?)/);M=a&&a[1]||\"\"}return`\n`+M+e}}var I=!1,S;{var Ye=typeof WeakMap==\"function\"?WeakMap:Map;S=new Ye}function ce(e,n){if(!e||I)return\"\";{var t=S.get(e);if(t!==void 0)return t}var a;I=!0;var o=Error.prepareStackTrace;Error.prepareStackTrace=void 0;var u;u=W.current,W.current=null,Ie();try{if(n){var l=function(){throw Error()};if(Object.defineProperty(l.prototype,\"props\",{set:function(){throw Error()}}),typeof Reflect==\"object\"&&Reflect.construct){try{Reflect.construct(l,[])}catch(h){a=h}Reflect.construct(e,[],l)}else{try{l.call()}catch(h){a=h}e.call(l.prototype)}}else{try{throw Error()}catch(h){a=h}e()}}catch(h){if(h&&a&&typeof h.stack==\"string\"){for(var s=h.stack.split(`\n`),b=a.stack.split(`\n`),d=s.length-1,f=b.length-1;d>=1&&f>=0&&s[d]!==b[f];)f--;for(;d>=1&&f>=0;d--,f--)if(s[d]!==b[f]){if(d!==1||f!==1)do if(d--,f--,f<0||s[d]!==b[f]){var _=`\n`+s[d].replace(\" at new \",\" at \");return e.displayName&&_.includes(\"<anonymous>\")&&(_=_.replace(\"<anonymous>\",e.displayName)),typeof e==\"function\"&&S.set(e,_),_}while(d>=1&&f>=0);break}}}finally{I=!1,W.current=u,$e(),Error.prepareStackTrace=o}var R=e?e.displayName||e.name:\"\",x=R?T(R):\"\";return typeof e==\"function\"&&S.set(e,x),x}function Ve(e,n,t){return ce(e,!1)}function Be(e){var n=e.prototype;return!!(n&&n.isReactComponent)}function O(e,n,t){if(e==null)return\"\";if(typeof e==\"function\")return ce(e,Be(e));if(typeof e==\"string\")return T(e);switch(e){case A:return T(\"Suspense\");case k:return T(\"SuspenseList\")}if(typeof e==\"object\")switch(e.$$typeof){case w:return Ve(e.render);case C:return O(e.type,n,t);case D:{var a=e,o=a._payload,u=a._init;try{return O(u(o),n,t)}catch{}}}return\"\"}var U=Object.prototype.hasOwnProperty,de={},fe=z.ReactDebugCurrentFrame;function F(e){if(e){var n=e._owner,t=O(e.type,e._source,n?n.type:null);fe.setExtraStackFrame(t)}else fe.setExtraStackFrame(null)}function Ge(e,n,t,a,o){{var u=Function.call.bind(U);for(var l in e)if(u(e,l)){var s=void 0;try{if(typeof e[l]!=\"function\"){var b=Error((a||\"React class\")+\": \"+t+\" type `\"+l+\"` is invalid; it must be a function, usually from the `prop-types` package, but received `\"+typeof e[l]+\"`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.\");throw b.name=\"Invariant Violation\",b}s=e[l](n,l,a,t,null,\"SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED\")}catch(d){s=d}s&&!(s instanceof Error)&&(F(o),m(\"%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).\",a||\"React class\",t,l,typeof s),F(null)),s instanceof Error&&!(s.message in de)&&(de[s.message]=!0,F(o),m(\"Failed %s type: %s\",t,s.message),F(null))}}}var qe=Array.isArray;function $(e){return qe(e)}function Ke(e){{var n=typeof Symbol==\"function\"&&Symbol.toStringTag,t=n&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return t}}function Xe(e){try{return me(e),!1}catch{return!0}}function me(e){return\"\"+e}function be(e){if(Xe(e))return m(\"The provided key is an unsupported type %s. This value must be coerced to a string before before using it here.\",Ke(e)),me(e)}var P=z.ReactCurrentOwner,Je={key:!0,ref:!0,__self:!0,__source:!0},he,_e,Y;Y={};function He(e){if(U.call(e,\"ref\")){var n=Object.getOwnPropertyDescriptor(e,\"ref\").get;if(n&&n.isReactWarning)return!1}return e.ref!==void 0}function Qe(e){if(U.call(e,\"key\")){var n=Object.getOwnPropertyDescriptor(e,\"key\").get;if(n&&n.isReactWarning)return!1}return e.key!==void 0}function Ze(e,n){if(typeof e.ref==\"string\"&&P.current&&n&&P.current.stateNode!==n){var t=p(P.current.type);Y[t]||(m('Component \"%s\" contains the string ref \"%s\". Support for string refs will be removed in a future major release. This case cannot be automatically converted to an arrow function. We ask you to manually fix this case by using useRef() or createRef() instead. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-string-ref',p(P.current.type),e.ref),Y[t]=!0)}}function en(e,n){{var t=function(){he||(he=!0,m(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)\",n))};t.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:t,configurable:!0})}}function nn(e,n){{var t=function(){_e||(_e=!0,m(\"%s: `ref` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)\",n))};t.isReactWarning=!0,Object.defineProperty(e,\"ref\",{get:t,configurable:!0})}}var rn=function(e,n,t,a,o,u,l){var s={$$typeof:r,type:e,key:n,ref:t,props:l,_owner:u};return s._store={},Object.defineProperty(s._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:!1}),Object.defineProperty(s,\"_self\",{configurable:!1,enumerable:!1,writable:!1,value:a}),Object.defineProperty(s,\"_source\",{configurable:!1,enumerable:!1,writable:!1,value:o}),Object.freeze&&(Object.freeze(s.props),Object.freeze(s)),s};function tn(e,n,t,a,o){{var u,l={},s=null,b=null;t!==void 0&&(be(t),s=\"\"+t),Qe(n)&&(be(n.key),s=\"\"+n.key),He(n)&&(b=n.ref,Ze(n,o));for(u in n)U.call(n,u)&&!Je.hasOwnProperty(u)&&(l[u]=n[u]);if(e&&e.defaultProps){var d=e.defaultProps;for(u in d)l[u]===void 0&&(l[u]=d[u])}if(s||b){var f=typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e;s&&en(l,f),b&&nn(l,f)}return rn(e,s,b,o,a,P.current,l)}}var V=z.ReactCurrentOwner,ge=z.ReactDebugCurrentFrame;function E(e){if(e){var n=e._owner,t=O(e.type,e._source,n?n.type:null);ge.setExtraStackFrame(t)}else ge.setExtraStackFrame(null)}var B;B=!1;function G(e){return typeof e==\"object\"&&e!==null&&e.$$typeof===r}function pe(){{if(V.current){var e=p(V.current.type);if(e)return`\n\nCheck the render method of \\``+e+\"`.\"}return\"\"}}function an(e){{if(e!==void 0){var n=e.fileName.replace(/^.*[\\\\\\/]/,\"\"),t=e.lineNumber;return`\n\nCheck your code at `+n+\":\"+t+\".\"}return\"\"}}var ve={};function sn(e){{var n=pe();if(!n){var t=typeof e==\"string\"?e:e.displayName||e.name;t&&(n=`\n\nCheck the top-level render call using <`+t+\">.\")}return n}}function Ne(e,n){{if(!e._store||e._store.validated||e.key!=null)return;e._store.validated=!0;var t=sn(n);if(ve[t])return;ve[t]=!0;var a=\"\";e&&e._owner&&e._owner!==V.current&&(a=\" It was passed a child from \"+p(e._owner.type)+\".\"),E(e),m('Each child in a list should have a unique \"key\" prop.%s%s See https://reactjs.org/link/warning-keys for more information.',t,a),E(null)}}function ye(e,n){{if(typeof e!=\"object\")return;if($(e))for(var t=0;t<e.length;t++){var a=e[t];G(a)&&Ne(a,n)}else if(G(e))e._store&&(e._store.validated=!0);else if(e){var o=Se(e);if(typeof o==\"function\"&&o!==e.entries)for(var u=o.call(e),l;!(l=u.next()).done;)G(l.value)&&Ne(l.value,n)}}}function ln(e){{var n=e.type;if(n==null||typeof n==\"string\")return;var t;if(typeof n==\"function\")t=n.propTypes;else if(typeof n==\"object\"&&(n.$$typeof===w||n.$$typeof===C))t=n.propTypes;else return;if(t){var a=p(n);Ge(t,e.props,\"prop\",a,e)}else if(n.PropTypes!==void 0&&!B){B=!0;var o=p(n);m(\"Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?\",o||\"Unknown\")}typeof n.getDefaultProps==\"function\"&&!n.getDefaultProps.isReactClassApproved&&m(\"getDefaultProps is only used on classic React.createClass definitions. Use a static property named `defaultProps` instead.\")}}function on(e){{for(var n=Object.keys(e.props),t=0;t<n.length;t++){var a=n[t];if(a!==\"children\"&&a!==\"key\"){E(e),m(\"Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.\",a),E(null);break}}e.ref!==null&&(E(e),m(\"Invalid attribute `ref` supplied to `React.Fragment`.\"),E(null))}}var xe={};function un(e,n,t,a,o,u){{var l=We(e);if(!l){var s=\"\";(e===void 0||typeof e==\"object\"&&e!==null&&Object.keys(e).length===0)&&(s+=\" You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\");var b=an(o);b?s+=b:s+=pe();var d;e===null?d=\"null\":$(e)?d=\"array\":e!==void 0&&e.$$typeof===r?(d=\"<\"+(p(e.type)||\"Unknown\")+\" />\",s=\" Did you accidentally export a JSX literal instead of a component?\"):d=typeof e,m(\"React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s\",d,s)}var f=tn(e,n,t,o,u);if(f==null)return f;if(l){var _=n.children;if(_!==void 0)if(a)if($(_)){for(var R=0;R<_.length;R++)ye(_[R],e);Object.freeze&&Object.freeze(_)}else m(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else ye(_,e)}if(U.call(n,\"key\")){var x=p(e),h=Object.keys(n).filter(function(fn){return fn!==\"key\"}),q=h.length>0?\"{key: someKey, \"+h.join(\": ..., \")+\": ...}\":\"{key: someKey}\";if(!xe[x+q]){var dn=h.length>0?\"{\"+h.join(\": ..., \")+\": ...}\":\"{}\";m(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,q,x,dn,x),xe[x+q]=!0}}return e===N?on(f):ln(f),f}}var cn=un;X.Fragment=N,X.jsxDEV=cn})()});var Pe=K((Pn,Ue)=>{\"use strict\";Ue.exports=Le()});var En={};pn(En,{default:()=>zn,frontmatter:()=>yn});var i=vn(Pe()),yn={name:\"Prestige Wealth Advisors\",slug:\"prestige-wealth-advisors\",description:\"Premier wealth management and financial planning services for high-net-worth individuals and families across South Florida. Personalized strategies, portfolio management, and legacy planning.\",category:\"Wealth Management\",city:\"Miami\",state:\"FL\",phone:\"(305) 555-8900\",website:\"https://prestigewealthadvisors.example.com\",services:[\"Comprehensive Wealth Management\",\"Investment Portfolio Management\",\"Estate & Legacy Planning\",\"Tax Optimization Strategies\",\"Retirement Planning\",\"Family Office Services\"],logo:\"https://placehold.co/200x150/1E3A8A/FFFFFF?text=Prestige+Wealth&font=roboto\",verified:!0,featured:!0};function we(c){let r=Object.assign({h1:\"h1\",p:\"p\",strong:\"strong\",h2:\"h2\",h3:\"h3\",ul:\"ul\",li:\"li\",hr:\"hr\",em:\"em\"},c.components);return(0,i.jsxDEV)(i.Fragment,{children:[(0,i.jsxDEV)(r.h1,{children:\"Prestige Wealth Advisors\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:22,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.p,{children:(0,i.jsxDEV)(r.strong,{children:\"Premier wealth management for South Florida's most discerning clients\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:24,columnNumber:1},this)},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:24,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.h2,{children:\"About Us\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:26,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.p,{children:\"Prestige Wealth Advisors is a boutique wealth management firm serving high-net-worth individuals, families, and business owners across South Florida. With over $2 billion in assets under management, we provide personalized financial strategies tailored to your unique goals and lifestyle.\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:28,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.h2,{children:\"Our Services\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:30,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.h3,{children:\"Comprehensive Wealth Management\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:32,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.ul,{children:[`\n`,(0,i.jsxDEV)(r.li,{children:\"Holistic financial planning and strategy\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:33,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Goal-based investment approach\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:34,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Risk management and asset protection\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:35,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Ongoing portfolio monitoring and rebalancing\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:36,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:33,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.h3,{children:\"Investment Management\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:38,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.ul,{children:[`\n`,(0,i.jsxDEV)(r.li,{children:\"Custom portfolio construction\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:39,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Alternative investments and private placements\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:40,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"ESG and impact investing options\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:41,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Institutional-grade investment research\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:42,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:39,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.h3,{children:\"Estate & Legacy Planning\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:44,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.ul,{children:[`\n`,(0,i.jsxDEV)(r.li,{children:\"Multi-generational wealth transfer strategies\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:45,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Trust and estate planning coordination\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:46,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Charitable giving strategies\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:47,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Family governance and education\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:48,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:45,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.h3,{children:\"Tax Optimization\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:50,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.ul,{children:[`\n`,(0,i.jsxDEV)(r.li,{children:\"Tax-efficient investment strategies\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:51,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Coordination with CPAs and tax attorneys\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:52,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Opportunity zone investments\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:53,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Qualified opportunity funds\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:54,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:51,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.h2,{children:\"Why Choose Prestige Wealth Advisors?\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:56,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.ul,{children:[`\n`,(0,i.jsxDEV)(r.li,{children:[(0,i.jsxDEV)(r.strong,{children:\"Fiduciary Standard:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:58,columnNumber:3},this),\" We always act in your best interest\"]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:58,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:[(0,i.jsxDEV)(r.strong,{children:\"Personalized Service:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:59,columnNumber:3},this),\" Dedicated wealth advisor and team\"]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:59,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:[(0,i.jsxDEV)(r.strong,{children:\"Independence:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:60,columnNumber:3},this),\" No proprietary products or conflicts of interest\"]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:60,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:[(0,i.jsxDEV)(r.strong,{children:\"Expertise:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:61,columnNumber:3},this),\" CFP\\xAE, CFA\\xAE, and JD professionals\"]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:61,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:[(0,i.jsxDEV)(r.strong,{children:\"Track Record:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:62,columnNumber:3},this),\" 20+ years serving South Florida families\"]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:62,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:58,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.h2,{children:\"Client Profile\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:64,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.p,{children:\"We typically work with clients who have:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:66,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.ul,{children:[`\n`,(0,i.jsxDEV)(r.li,{children:\"$2M+ in investable assets\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:67,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Complex financial situations\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:68,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Multi-generational wealth planning needs\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:69,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Business succession planning requirements\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:70,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:67,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.h2,{children:\"Service Areas\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:72,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.p,{children:\"Proudly serving clients throughout South Florida:\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:74,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.ul,{children:[`\n`,(0,i.jsxDEV)(r.li,{children:\"Miami & Miami Beach\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:75,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Coral Gables & Coconut Grove\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:76,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Boca Raton & Delray Beach\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:77,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Palm Beach & Jupiter\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:78,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.li,{children:\"Fort Lauderdale & Aventura\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:79,columnNumber:1},this),`\n`]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:75,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.hr,{},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:81,columnNumber:1},this),`\n`,(0,i.jsxDEV)(r.p,{children:(0,i.jsxDEV)(r.em,{children:\"Prestige Wealth Advisors is a verified business on LocalBizzList. Securities offered through registered representatives. Investment advisory services offered through Prestige Wealth Advisors, LLC, a registered investment adviser.\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:83,columnNumber:1},this)},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:83,columnNumber:1},this)]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\",lineNumber:1,columnNumber:1},this)}function xn(c={}){let{wrapper:r}=c.components||{};return r?(0,i.jsxDEV)(r,Object.assign({},c,{children:(0,i.jsxDEV)(we,c,void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\"},this)}),void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/businesses/_mdx_bundler_entry_point-ea003311-8748-41ac-a56a-a00dc8e08e91.mdx\"},this):we(c)}var zn=xn;return Nn(En);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Facebook, Inc. and its affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+        },
+        "_id": "businesses/prestige-wealth-advisors.mdx",
+        "_raw": {
+          "sourceFilePath": "businesses/prestige-wealth-advisors.mdx",
+          "sourceFileName": "prestige-wealth-advisors.mdx",
+          "sourceFileDir": "businesses",
+          "contentType": "mdx",
+          "flattenedPath": "businesses/prestige-wealth-advisors"
+        },
+        "type": "Business",
+        "url": "/businesses/prestige-wealth-advisors",
+        "categoryUrl": "/businesses/category/wealth-management"
+      },
+      "documentHash": "1759193302261",
+      "hasWarnings": false,
+      "documentTypeName": "Business"
+    },
+    "issues/fire-extinguisher-services.yml": {
+      "document": {
+        "niche": "fire-extinguisher-services",
+        "nicheTitle": "Fire Extinguisher Services",
+        "icon": "Flame",
+        "issues": [
+          {
+            "slug": "annual-inspection-requirements",
+            "title": "Fire Extinguisher Annual Inspection Requirements",
+            "snippet": "Florida's legal requirements for annual fire extinguisher inspections, what's involved, and avoiding violations.",
+            "category": "compliance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "annual inspection",
+              "florida requirements",
+              "inspection frequency",
+              "legal requirements",
+              "compliance inspection"
+            ],
+            "articleSlug": "annual-inspection-requirements",
+            "priority": 1
+          },
+          {
+            "slug": "expired-inspection-tags",
+            "title": "Expired Fire Extinguisher Tags & Violations",
+            "snippet": "What expired inspection tags mean for your business, liability risks, and getting back into compliance.",
+            "category": "compliance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "expired tag",
+              "out of date",
+              "missing inspection",
+              "tag replacement",
+              "compliance violation"
+            ],
+            "articleSlug": "expired-inspection-tags-fix",
+            "priority": 2
+          },
+          {
+            "slug": "low-pressure",
+            "title": "Fire Extinguisher Low Pressure & Recharge",
+            "snippet": "Why fire extinguishers lose pressure, how to check the gauge, and when recharge vs. replacement is needed.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "fire extinguisher pressure",
+              "gauge in red",
+              "needs recharge",
+              "pressure loss",
+              "recharge service"
+            ],
+            "articleSlug": "low-pressure-recharge-guide",
+            "priority": 3
+          },
+          {
+            "slug": "corrosion-and-rust",
+            "title": "Corrosion & Rust on Fire Extinguishers",
+            "snippet": "How South Florida's humidity and salt air accelerates corrosion, inspection tips, and when to replace.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "rusty fire extinguisher",
+              "corrosion damage",
+              "coastal damage",
+              "salt air corrosion",
+              "extinguisher rust"
+            ],
+            "articleSlug": "corrosion-rust-coastal-areas",
+            "priority": 4
+          },
+          {
+            "slug": "obstruction-and-accessibility",
+            "title": "Fire Extinguisher Placement & Accessibility",
+            "snippet": "Proper mounting height, distance requirements, visibility rules, and common obstruction violations.",
+            "category": "compliance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "placement requirements",
+              "accessibility rules",
+              "mounting height",
+              "obstruction violations",
+              "visibility requirements"
+            ],
+            "articleSlug": "placement-accessibility-rules",
+            "priority": 5
+          },
+          {
+            "slug": "hydrostatic-testing",
+            "title": "Hydrostatic Testing Requirements & Schedule",
+            "snippet": "Understanding the 5-12 year hydrostatic testing requirement, what's involved, and maintaining certification.",
+            "category": "maintenance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "hydrostatic test",
+              "pressure test",
+              "5 year inspection",
+              "testing requirements",
+              "certification maintenance"
+            ],
+            "articleSlug": "hydrostatic-testing-guide",
+            "priority": 6
+          }
+        ],
+        "_id": "issues/fire-extinguisher-services.yml",
+        "_raw": {
+          "sourceFilePath": "issues/fire-extinguisher-services.yml",
+          "sourceFileName": "fire-extinguisher-services.yml",
+          "sourceFileDir": "issues",
+          "contentType": "data",
+          "flattenedPath": "issues/fire-extinguisher-services"
+        },
+        "type": "Issue",
+        "url": "/niches/fire-extinguisher-services/"
+      },
+      "documentHash": "1759858604637",
+      "hasWarnings": false,
+      "documentTypeName": "Issue"
+    },
+    "issues/grease-trap-cleaning.yml": {
+      "document": {
+        "niche": "grease-trap-cleaning",
+        "nicheTitle": "Grease Trap Cleaning",
+        "icon": "Droplet",
+        "issues": [
+          {
+            "slug": "grease-trap-overflow",
+            "title": "Grease Trap Overflow & Full Trap Problems",
+            "snippet": "What causes grease trap overflow, warning signs of a full trap, and emergency steps to prevent kitchen shutdown.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "grease trap overflow",
+              "trap full",
+              "grease backup",
+              "grease trap flooding",
+              "overfull grease trap"
+            ],
+            "articleSlug": "grease-trap-overflow-causes",
+            "priority": 1
+          },
+          {
+            "slug": "drainage-line-blockage",
+            "title": "Drainage Line Blockage & Backup",
+            "snippet": "How to identify and resolve clogged incoming and outgoing drainage lines in your grease trap system.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "drain line clog",
+              "grease trap backup",
+              "floor drain backup",
+              "drainage blockage",
+              "incoming line clog"
+            ],
+            "articleSlug": "drainage-line-blockage-solutions",
+            "priority": 2
+          },
+          {
+            "slug": "foul-odors",
+            "title": "Grease Trap Odor Problems & Solutions",
+            "snippet": "Why grease traps smell worse in Miami's hot, humid climate and how to eliminate persistent odor issues.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "grease trap smell",
+              "odor problems",
+              "bad smell from drain",
+              "grease trap stink",
+              "foul odor causes"
+            ],
+            "articleSlug": "grease-trap-odor-solutions",
+            "priority": 3
+          },
+          {
+            "slug": "crossover-clogs",
+            "title": "Crossover Clogs in Multi-Compartment Traps",
+            "snippet": "Technical guide to identifying and fixing clogged crossovers that cause rising water levels in grease traps.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "grease trap compartments",
+              "water level rising",
+              "crossover clog",
+              "compartment backup",
+              "grease trap overflow"
+            ],
+            "articleSlug": "crossover-clogs-multi-compartment",
+            "priority": 4
+          },
+          {
+            "slug": "regulatory-compliance",
+            "title": "Miami-Dade Grease Trap Compliance",
+            "snippet": "Understanding FOG ordinances, inspection requirements, and avoiding fines in Miami-Dade County's strict regulations.",
+            "category": "compliance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "grease trap regulations",
+              "miami compliance",
+              "FOG ordinance",
+              "grease interceptor requirements",
+              "miami-dade regulations"
+            ],
+            "articleSlug": "miami-grease-trap-compliance",
+            "priority": 5
+          },
+          {
+            "slug": "pumping-schedule",
+            "title": "Grease Trap Pumping Frequency Guide",
+            "snippet": "How often to pump your grease trap based on restaurant size, volume, and local regulations to avoid problems.",
+            "category": "cost-guides",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "how often pump grease trap",
+              "grease trap cleaning frequency",
+              "pumping schedule",
+              "cleaning intervals",
+              "maintenance frequency"
+            ],
+            "articleSlug": "grease-trap-pumping-frequency",
+            "priority": 6
+          }
+        ],
+        "_id": "issues/grease-trap-cleaning.yml",
+        "_raw": {
+          "sourceFilePath": "issues/grease-trap-cleaning.yml",
+          "sourceFileName": "grease-trap-cleaning.yml",
+          "sourceFileDir": "issues",
+          "contentType": "data",
+          "flattenedPath": "issues/grease-trap-cleaning"
+        },
+        "type": "Issue",
+        "url": "/niches/grease-trap-cleaning/"
+      },
+      "documentHash": "1759858604637",
+      "hasWarnings": false,
+      "documentTypeName": "Issue"
+    },
+    "issues/restaurant-hood-cleaning.yml": {
+      "document": {
+        "niche": "restaurant-hood-cleaning",
+        "nicheTitle": "Restaurant Hood Cleaning",
+        "icon": "Flame",
+        "issues": [
+          {
+            "slug": "exhaust-fan-problems",
+            "title": "Exhaust Fan Problems & Fixes",
+            "snippet": "Common exhaust fan issues like noise, vibration, and mechanical failures that impact NFPA 96 compliance and kitchen safety.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "exhaust fan noise",
+              "exhaust fan not working",
+              "exhaust fan vibration",
+              "kitchen exhaust fan problems",
+              "exhaust fan repair"
+            ],
+            "articleSlug": "exhaust-fan-problems-and-fixes",
+            "priority": 1
+          },
+          {
+            "slug": "grease-duct-buildup",
+            "title": "Grease Duct Buildup & Fire Hazards",
+            "snippet": "How grease accumulates in ductwork, creating fire hazards and requiring professional cleaning to maintain safety.",
+            "category": "maintenance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "grease duct cleaning",
+              "duct fire hazard",
+              "grease accumulation",
+              "exhaust duct buildup",
+              "grease duct inspection"
+            ],
+            "articleSlug": "grease-duct-buildup-fire-hazards",
+            "priority": 2
+          },
+          {
+            "slug": "hood-filter-maintenance",
+            "title": "Hood Filter Cleaning & Replacement",
+            "snippet": "Best practices for baffle filter cleaning frequency and replacement schedules for different restaurant types.",
+            "category": "maintenance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "hood filter cleaning frequency",
+              "baffle filter replacement",
+              "grease filter maintenance",
+              "hood filter types",
+              "filter cleaning schedule"
+            ],
+            "articleSlug": "hood-filter-maintenance-schedule",
+            "priority": 3
+          },
+          {
+            "slug": "nfpa-96-compliance",
+            "title": "NFPA 96 Compliance Requirements",
+            "snippet": "Understanding NFPA 96 regulations, inspection requirements, and cleaning frequency standards for commercial kitchens.",
+            "category": "compliance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "nfpa 96 requirements",
+              "hood cleaning frequency",
+              "fire inspection requirements",
+              "nfpa 96 standards",
+              "commercial kitchen compliance"
+            ],
+            "articleSlug": "nfpa-96-compliance-guide",
+            "priority": 4
+          },
+          {
+            "slug": "fire-suppression-system-issues",
+            "title": "Fire Suppression System Problems",
+            "snippet": "Common Ansul system issues, maintenance requirements, and why certified service is essential for safety.",
+            "category": "compliance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "ansul system problems",
+              "fire suppression inspection",
+              "kitchen fire system",
+              "ansul maintenance",
+              "fire suppression repair"
+            ],
+            "articleSlug": "fire-suppression-system-issues",
+            "priority": 5
+          },
+          {
+            "slug": "hood-cleaning-frequency",
+            "title": "Hood Cleaning Frequency by Restaurant Type",
+            "snippet": "How often to clean your commercial kitchen hood system based on cooking volume, menu type, and NFPA 96 guidelines.",
+            "category": "cost-guides",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "how often clean hood",
+              "kitchen exhaust cleaning schedule",
+              "hood cleaning frequency chart",
+              "restaurant cleaning schedule",
+              "nfpa cleaning requirements"
+            ],
+            "articleSlug": "hood-cleaning-frequency-guide",
+            "priority": 6
+          }
+        ],
+        "_id": "issues/restaurant-hood-cleaning.yml",
+        "_raw": {
+          "sourceFilePath": "issues/restaurant-hood-cleaning.yml",
+          "sourceFileName": "restaurant-hood-cleaning.yml",
+          "sourceFileDir": "issues",
+          "contentType": "data",
+          "flattenedPath": "issues/restaurant-hood-cleaning"
+        },
+        "type": "Issue",
+        "url": "/niches/restaurant-hood-cleaning/"
+      },
+      "documentHash": "1759858604637",
+      "hasWarnings": false,
+      "documentTypeName": "Issue"
+    },
+    "issues/sealcoating.yml": {
+      "document": {
+        "niche": "sealcoating",
+        "nicheTitle": "Sealcoating & Paving",
+        "icon": "Layers",
+        "issues": [
+          {
+            "slug": "cracking-and-potholes",
+            "title": "Asphalt Cracking & Pothole Repair",
+            "snippet": "Why asphalt cracks and forms potholes in South Florida, repair methods, and when to sealcoat vs. resurface.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "pothole repair",
+              "asphalt cracks",
+              "parking lot damage",
+              "crack filling",
+              "asphalt repair"
+            ],
+            "articleSlug": "asphalt-cracking-pothole-repair",
+            "priority": 1
+          },
+          {
+            "slug": "poor-drainage",
+            "title": "Parking Lot Drainage Problems & Solutions",
+            "snippet": "How heavy South Florida rainfall causes water pooling, the importance of proper drainage, and repair options.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "parking lot drainage",
+              "water pooling",
+              "standing water",
+              "drainage solutions",
+              "poor drainage repair"
+            ],
+            "articleSlug": "parking-lot-drainage-solutions",
+            "priority": 2
+          },
+          {
+            "slug": "premature-sealcoat-failure",
+            "title": "Sealcoat Peeling, Fading, & Failure",
+            "snippet": "Common causes of premature sealcoat deterioration, from improper application to material quality issues.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "sealcoat peeling",
+              "fading sealcoat",
+              "sealcoat problems",
+              "premature failure",
+              "poor adhesion"
+            ],
+            "articleSlug": "sealcoat-failure-causes",
+            "priority": 3
+          },
+          {
+            "slug": "application-timing",
+            "title": "Best Time to Sealcoat in South Florida",
+            "snippet": "When to schedule sealcoating based on weather, temperature, humidity, and avoiding Florida's rainy season.",
+            "category": "how-to-guides",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "when to sealcoat",
+              "best time seal asphalt",
+              "weather requirements",
+              "application timing",
+              "florida sealcoating season"
+            ],
+            "articleSlug": "best-time-sealcoat-florida",
+            "priority": 4
+          },
+          {
+            "slug": "traffic-striping-fading",
+            "title": "Parking Lot Striping & ADA Compliance",
+            "snippet": "Why traffic striping fades quickly in Florida sun, repainting schedules, and ADA accessibility requirements.",
+            "category": "compliance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "parking lot striping",
+              "faded lines",
+              "line painting",
+              "ADA compliance",
+              "traffic marking"
+            ],
+            "articleSlug": "parking-lot-striping-compliance",
+            "priority": 5
+          },
+          {
+            "slug": "sealcoating-frequency",
+            "title": "How Often to Sealcoat Your Parking Lot",
+            "snippet": "Recommended sealcoating schedules based on traffic volume, sun exposure, and material quality in Florida.",
+            "category": "cost-guides",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "how often sealcoat",
+              "asphalt maintenance schedule",
+              "sealcoating frequency",
+              "maintenance intervals",
+              "asphalt preservation"
+            ],
+            "articleSlug": "sealcoating-frequency-guide",
+            "priority": 6
+          }
+        ],
+        "_id": "issues/sealcoating.yml",
+        "_raw": {
+          "sourceFilePath": "issues/sealcoating.yml",
+          "sourceFileName": "sealcoating.yml",
+          "sourceFileDir": "issues",
+          "contentType": "data",
+          "flattenedPath": "issues/sealcoating"
+        },
+        "type": "Issue",
+        "url": "/niches/sealcoating/"
+      },
+      "documentHash": "1759858604637",
+      "hasWarnings": false,
+      "documentTypeName": "Issue"
+    },
+    "issues/septic-tank-services.yml": {
+      "document": {
+        "niche": "septic-tank-services",
+        "nicheTitle": "Septic Tank Services",
+        "icon": "Wrench",
+        "issues": [
+          {
+            "slug": "septic-tank-backup",
+            "title": "Septic Tank Backup Emergency Guide",
+            "snippet": "What to do when toilets and drains back up, identifying the causes, and getting emergency septic service fast.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "septic backup",
+              "toilet backing up",
+              "sewage backup",
+              "septic emergency",
+              "backup causes"
+            ],
+            "articleSlug": "septic-tank-backup-emergency",
+            "priority": 1
+          },
+          {
+            "slug": "drain-field-problems",
+            "title": "Drain Field Failure & Florida's High Water Table",
+            "snippet": "How South Florida's high water table causes drain field problems, warning signs, and repair options.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "drain field failure",
+              "soggy yard",
+              "septic wet spots",
+              "high water table",
+              "drain field repair"
+            ],
+            "articleSlug": "drain-field-problems-florida",
+            "priority": 2
+          },
+          {
+            "slug": "pumping-schedule",
+            "title": "Septic Tank Pumping Schedule & Frequency",
+            "snippet": "How often to pump your septic tank in South Florida based on household size, tank capacity, and usage patterns.",
+            "category": "cost-guides",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "how often pump septic",
+              "septic pumping schedule",
+              "tank pumping frequency",
+              "septic maintenance schedule",
+              "pumping intervals"
+            ],
+            "articleSlug": "septic-pumping-schedule-guide",
+            "priority": 3
+          },
+          {
+            "slug": "septic-tank-odors",
+            "title": "Septic Tank Odor Problems & Diagnosis",
+            "snippet": "What different septic smells indicate, from hydrogen sulfide gas to drain field issues, and how to eliminate them.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "septic smell",
+              "sewage odor",
+              "septic gas smell",
+              "rotten egg smell",
+              "septic odor causes"
+            ],
+            "articleSlug": "septic-tank-odor-diagnosis",
+            "priority": 4
+          },
+          {
+            "slug": "tree-root-intrusion",
+            "title": "Tree Root Damage to Septic Systems",
+            "snippet": "How Florida's lush landscaping threatens septic tanks, identifying root damage, and removal options.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "roots in septic",
+              "tree damage septic",
+              "root removal",
+              "root intrusion",
+              "tree root problems"
+            ],
+            "articleSlug": "tree-root-septic-damage",
+            "priority": 5
+          },
+          {
+            "slug": "septic-tank-inspection",
+            "title": "Septic Tank Inspection for Real Estate",
+            "snippet": "What's included in a pre-purchase septic inspection, Florida requirements, and common issues that affect sales.",
+            "category": "compliance",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "septic inspection requirements",
+              "real estate inspection",
+              "home sale inspection",
+              "septic certification",
+              "pre-purchase inspection"
+            ],
+            "articleSlug": "septic-inspection-real-estate",
+            "priority": 6
+          }
+        ],
+        "_id": "issues/septic-tank-services.yml",
+        "_raw": {
+          "sourceFilePath": "issues/septic-tank-services.yml",
+          "sourceFileName": "septic-tank-services.yml",
+          "sourceFileDir": "issues",
+          "contentType": "data",
+          "flattenedPath": "issues/septic-tank-services"
+        },
+        "type": "Issue",
+        "url": "/niches/septic-tank-services/"
+      },
+      "documentHash": "1759858604637",
+      "hasWarnings": false,
+      "documentTypeName": "Issue"
+    },
+    "issues/sprinkler-repair.yml": {
+      "document": {
+        "niche": "sprinkler-repair",
+        "nicheTitle": "Sprinkler Repair",
+        "icon": "Droplets",
+        "issues": [
+          {
+            "slug": "clogged-sprinkler-heads",
+            "title": "Clogged Sprinkler Heads & Poor Spray",
+            "snippet": "How to identify and clean clogged sprinkler heads, common causes, and preventing future clogs.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "sprinkler head clogged",
+              "won't pop up",
+              "poor spray pattern",
+              "clogged nozzle",
+              "head cleaning"
+            ],
+            "articleSlug": "clogged-sprinkler-heads-fix",
+            "priority": 1
+          },
+          {
+            "slug": "leaking-pipes",
+            "title": "Underground Sprinkler Leak Detection & Repair",
+            "snippet": "Finding hidden leaks in South Florida's sandy soil, water waste signs, and professional repair options.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "sprinkler leak",
+              "wet spot on lawn",
+              "underground leak",
+              "pipe leak detection",
+              "leak repair cost"
+            ],
+            "articleSlug": "underground-sprinkler-leak-repair",
+            "priority": 2
+          },
+          {
+            "slug": "broken-sprinkler-heads",
+            "title": "Broken Sprinkler Head Replacement",
+            "snippet": "Common causes of broken heads from mowing and traffic, DIY vs. professional replacement, and matching parts.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "broken sprinkler head",
+              "head won't work",
+              "replace sprinkler head",
+              "damaged head",
+              "head replacement"
+            ],
+            "articleSlug": "broken-sprinkler-head-replacement",
+            "priority": 3
+          },
+          {
+            "slug": "valve-malfunctions",
+            "title": "Sprinkler Valve Problems & Zone Issues",
+            "snippet": "Diagnosing valve failures that prevent zones from turning on or off, and when to call a technician.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "valve won't open",
+              "zone not working",
+              "valve repair",
+              "solenoid problems",
+              "zone control issues"
+            ],
+            "articleSlug": "sprinkler-valve-problems-fix",
+            "priority": 4
+          },
+          {
+            "slug": "poor-water-pressure",
+            "title": "Low Sprinkler Water Pressure Solutions",
+            "snippet": "System-wide causes of poor pressure, from pump issues to main line problems, and troubleshooting steps.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "low water pressure",
+              "weak spray",
+              "sprinkler not reaching",
+              "pressure problems",
+              "pump issues"
+            ],
+            "articleSlug": "low-sprinkler-pressure-solutions",
+            "priority": 5
+          },
+          {
+            "slug": "controller-problems",
+            "title": "Sprinkler Controller & Timer Issues",
+            "snippet": "Troubleshooting programming problems, electrical issues, and upgrading to smart irrigation controllers.",
+            "category": "troubleshooting",
+            "cities": [
+              "miami",
+              "boca-raton",
+              "fort-lauderdale"
+            ],
+            "keywords": [
+              "controller not working",
+              "programming issues",
+              "timer problems",
+              "smart controller",
+              "controller repair"
+            ],
+            "articleSlug": "sprinkler-controller-problems",
+            "priority": 6
+          }
+        ],
+        "_id": "issues/sprinkler-repair.yml",
+        "_raw": {
+          "sourceFilePath": "issues/sprinkler-repair.yml",
+          "sourceFileName": "sprinkler-repair.yml",
+          "sourceFileDir": "issues",
+          "contentType": "data",
+          "flattenedPath": "issues/sprinkler-repair"
+        },
+        "type": "Issue",
+        "url": "/niches/sprinkler-repair/"
+      },
+      "documentHash": "1759858604638",
+      "hasWarnings": false,
+      "documentTypeName": "Issue"
+    },
+    "categories/how-to.mdx": {
+      "document": {
+        "name": "How-To Guides",
+        "slug": "how-to",
+        "description": "Step-by-step guides for home improvement projects and hiring contractors in South Florida",
+        "heroImage": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&h=400&fit=crop",
+        "heroImageAlt": "Home improvement tools and materials",
+        "featured": true,
+        "body": {
+          "raw": "\n# How-To Guides\n\nLearn how to tackle home improvement projects and hire the right contractors in South Florida with our comprehensive step-by-step guides.\n\n## What You'll Find Here\n\nOur how-to guides cover everything from basic DIY projects to complex home improvements, all tailored to South Florida's unique climate and building requirements.",
+          "code": "var Component=(()=>{var dr=Object.create;var N=Object.defineProperty;var vr=Object.getOwnPropertyDescriptor;var br=Object.getOwnPropertyNames;var pr=Object.getPrototypeOf,hr=Object.prototype.hasOwnProperty;var q=(l,u)=>()=>(u||l((u={exports:{}}).exports,u),u.exports),mr=(l,u)=>{for(var h in u)N(l,h,{get:u[h],enumerable:!0})},Te=(l,u,h,_)=>{if(u&&typeof u==\"object\"||typeof u==\"function\")for(let y of br(u))!hr.call(l,y)&&y!==h&&N(l,y,{get:()=>u[y],enumerable:!(_=vr(u,y))||_.enumerable});return l};var gr=(l,u,h)=>(h=l!=null?dr(pr(l)):{},Te(u||!l||!l.__esModule?N(h,\"default\",{value:l,enumerable:!0}):h,l)),yr=l=>Te(N({},\"__esModule\",{value:!0}),l);var Ce=q((Cr,we)=>{we.exports=React});var Se=q(H=>{\"use strict\";(function(){\"use strict\";var l=Ce(),u=Symbol.for(\"react.element\"),h=Symbol.for(\"react.portal\"),_=Symbol.for(\"react.fragment\"),y=Symbol.for(\"react.strict_mode\"),X=Symbol.for(\"react.profiler\"),J=Symbol.for(\"react.provider\"),Z=Symbol.for(\"react.context\"),j=Symbol.for(\"react.forward_ref\"),I=Symbol.for(\"react.suspense\"),L=Symbol.for(\"react.suspense_list\"),x=Symbol.for(\"react.memo\"),Y=Symbol.for(\"react.lazy\"),xe=Symbol.for(\"react.offscreen\"),Q=Symbol.iterator,ke=\"@@iterator\";function De(e){if(e===null||typeof e!=\"object\")return null;var r=Q&&e[Q]||e[ke];return typeof r==\"function\"?r:null}var T=l.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;function d(e){{for(var r=arguments.length,t=new Array(r>1?r-1:0),n=1;n<r;n++)t[n-1]=arguments[n];Fe(\"error\",e,t)}}function Fe(e,r,t){{var n=T.ReactDebugCurrentFrame,o=n.getStackAddendum();o!==\"\"&&(r+=\"%s\",t=t.concat([o]));var s=t.map(function(i){return String(i)});s.unshift(\"Warning: \"+r),Function.prototype.apply.call(console[e],console,s)}}var Ae=!1,Ne=!1,Ie=!1,Le=!1,Ye=!1,ee;ee=Symbol.for(\"react.module.reference\");function We(e){return!!(typeof e==\"string\"||typeof e==\"function\"||e===_||e===X||Ye||e===y||e===I||e===L||Le||e===xe||Ae||Ne||Ie||typeof e==\"object\"&&e!==null&&(e.$$typeof===Y||e.$$typeof===x||e.$$typeof===J||e.$$typeof===Z||e.$$typeof===j||e.$$typeof===ee||e.getModuleId!==void 0))}function $e(e,r,t){var n=e.displayName;if(n)return n;var o=r.displayName||r.name||\"\";return o!==\"\"?t+\"(\"+o+\")\":t}function re(e){return e.displayName||\"Context\"}function m(e){if(e==null)return null;if(typeof e.tag==\"number\"&&d(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),typeof e==\"function\")return e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case _:return\"Fragment\";case h:return\"Portal\";case X:return\"Profiler\";case y:return\"StrictMode\";case I:return\"Suspense\";case L:return\"SuspenseList\"}if(typeof e==\"object\")switch(e.$$typeof){case Z:var r=e;return re(r)+\".Consumer\";case J:var t=e;return re(t._context)+\".Provider\";case j:return $e(e,e.render,\"ForwardRef\");case x:var n=e.displayName||null;return n!==null?n:m(e.type)||\"Memo\";case Y:{var o=e,s=o._payload,i=o._init;try{return m(i(s))}catch{return null}}}return null}var E=Object.assign,S=0,te,ne,ae,ie,oe,ue,se;function le(){}le.__reactDisabledLog=!0;function Ue(){{if(S===0){te=console.log,ne=console.info,ae=console.warn,ie=console.error,oe=console.group,ue=console.groupCollapsed,se=console.groupEnd;var e={configurable:!0,enumerable:!0,value:le,writable:!0};Object.defineProperties(console,{info:e,log:e,warn:e,error:e,group:e,groupCollapsed:e,groupEnd:e})}S++}}function ze(){{if(S--,S===0){var e={configurable:!0,enumerable:!0,writable:!0};Object.defineProperties(console,{log:E({},e,{value:te}),info:E({},e,{value:ne}),warn:E({},e,{value:ae}),error:E({},e,{value:ie}),group:E({},e,{value:oe}),groupCollapsed:E({},e,{value:ue}),groupEnd:E({},e,{value:se})})}S<0&&d(\"disabledDepth fell below zero. This is a bug in React. Please file an issue.\")}}var W=T.ReactCurrentDispatcher,$;function k(e,r,t){{if($===void 0)try{throw Error()}catch(o){var n=o.stack.trim().match(/\\n( *(at )?)/);$=n&&n[1]||\"\"}return`\n`+$+e}}var U=!1,D;{var Me=typeof WeakMap==\"function\"?WeakMap:Map;D=new Me}function ce(e,r){if(!e||U)return\"\";{var t=D.get(e);if(t!==void 0)return t}var n;U=!0;var o=Error.prepareStackTrace;Error.prepareStackTrace=void 0;var s;s=W.current,W.current=null,Ue();try{if(r){var i=function(){throw Error()};if(Object.defineProperty(i.prototype,\"props\",{set:function(){throw Error()}}),typeof Reflect==\"object\"&&Reflect.construct){try{Reflect.construct(i,[])}catch(b){n=b}Reflect.construct(e,[],i)}else{try{i.call()}catch(b){n=b}e.call(i.prototype)}}else{try{throw Error()}catch(b){n=b}e()}}catch(b){if(b&&n&&typeof b.stack==\"string\"){for(var a=b.stack.split(`\n`),v=n.stack.split(`\n`),c=a.length-1,f=v.length-1;c>=1&&f>=0&&a[c]!==v[f];)f--;for(;c>=1&&f>=0;c--,f--)if(a[c]!==v[f]){if(c!==1||f!==1)do if(c--,f--,f<0||a[c]!==v[f]){var p=`\n`+a[c].replace(\" at new \",\" at \");return e.displayName&&p.includes(\"<anonymous>\")&&(p=p.replace(\"<anonymous>\",e.displayName)),typeof e==\"function\"&&D.set(e,p),p}while(c>=1&&f>=0);break}}}finally{U=!1,W.current=s,ze(),Error.prepareStackTrace=o}var C=e?e.displayName||e.name:\"\",R=C?k(C):\"\";return typeof e==\"function\"&&D.set(e,R),R}function Ve(e,r,t){return ce(e,!1)}function Be(e){var r=e.prototype;return!!(r&&r.isReactComponent)}function F(e,r,t){if(e==null)return\"\";if(typeof e==\"function\")return ce(e,Be(e));if(typeof e==\"string\")return k(e);switch(e){case I:return k(\"Suspense\");case L:return k(\"SuspenseList\")}if(typeof e==\"object\")switch(e.$$typeof){case j:return Ve(e.render);case x:return F(e.type,r,t);case Y:{var n=e,o=n._payload,s=n._init;try{return F(s(o),r,t)}catch{}}}return\"\"}var O=Object.prototype.hasOwnProperty,fe={},de=T.ReactDebugCurrentFrame;function A(e){if(e){var r=e._owner,t=F(e.type,e._source,r?r.type:null);de.setExtraStackFrame(t)}else de.setExtraStackFrame(null)}function Ge(e,r,t,n,o){{var s=Function.call.bind(O);for(var i in e)if(s(e,i)){var a=void 0;try{if(typeof e[i]!=\"function\"){var v=Error((n||\"React class\")+\": \"+t+\" type `\"+i+\"` is invalid; it must be a function, usually from the `prop-types` package, but received `\"+typeof e[i]+\"`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.\");throw v.name=\"Invariant Violation\",v}a=e[i](r,i,n,t,null,\"SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED\")}catch(c){a=c}a&&!(a instanceof Error)&&(A(o),d(\"%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).\",n||\"React class\",t,i,typeof a),A(null)),a instanceof Error&&!(a.message in fe)&&(fe[a.message]=!0,A(o),d(\"Failed %s type: %s\",t,a.message),A(null))}}}var Ke=Array.isArray;function z(e){return Ke(e)}function qe(e){{var r=typeof Symbol==\"function\"&&Symbol.toStringTag,t=r&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return t}}function He(e){try{return ve(e),!1}catch{return!0}}function ve(e){return\"\"+e}function be(e){if(He(e))return d(\"The provided key is an unsupported type %s. This value must be coerced to a string before before using it here.\",qe(e)),ve(e)}var P=T.ReactCurrentOwner,Xe={key:!0,ref:!0,__self:!0,__source:!0},pe,he,M;M={};function Je(e){if(O.call(e,\"ref\")){var r=Object.getOwnPropertyDescriptor(e,\"ref\").get;if(r&&r.isReactWarning)return!1}return e.ref!==void 0}function Ze(e){if(O.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function Qe(e,r){if(typeof e.ref==\"string\"&&P.current&&r&&P.current.stateNode!==r){var t=m(P.current.type);M[t]||(d('Component \"%s\" contains the string ref \"%s\". Support for string refs will be removed in a future major release. This case cannot be automatically converted to an arrow function. We ask you to manually fix this case by using useRef() or createRef() instead. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-string-ref',m(P.current.type),e.ref),M[t]=!0)}}function er(e,r){{var t=function(){pe||(pe=!0,d(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)\",r))};t.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:t,configurable:!0})}}function rr(e,r){{var t=function(){he||(he=!0,d(\"%s: `ref` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)\",r))};t.isReactWarning=!0,Object.defineProperty(e,\"ref\",{get:t,configurable:!0})}}var tr=function(e,r,t,n,o,s,i){var a={$$typeof:u,type:e,key:r,ref:t,props:i,_owner:s};return a._store={},Object.defineProperty(a._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:!1}),Object.defineProperty(a,\"_self\",{configurable:!1,enumerable:!1,writable:!1,value:n}),Object.defineProperty(a,\"_source\",{configurable:!1,enumerable:!1,writable:!1,value:o}),Object.freeze&&(Object.freeze(a.props),Object.freeze(a)),a};function nr(e,r,t,n,o){{var s,i={},a=null,v=null;t!==void 0&&(be(t),a=\"\"+t),Ze(r)&&(be(r.key),a=\"\"+r.key),Je(r)&&(v=r.ref,Qe(r,o));for(s in r)O.call(r,s)&&!Xe.hasOwnProperty(s)&&(i[s]=r[s]);if(e&&e.defaultProps){var c=e.defaultProps;for(s in c)i[s]===void 0&&(i[s]=c[s])}if(a||v){var f=typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e;a&&er(i,f),v&&rr(i,f)}return tr(e,a,v,o,n,P.current,i)}}var V=T.ReactCurrentOwner,me=T.ReactDebugCurrentFrame;function w(e){if(e){var r=e._owner,t=F(e.type,e._source,r?r.type:null);me.setExtraStackFrame(t)}else me.setExtraStackFrame(null)}var B;B=!1;function G(e){return typeof e==\"object\"&&e!==null&&e.$$typeof===u}function ge(){{if(V.current){var e=m(V.current.type);if(e)return`\n\nCheck the render method of \\``+e+\"`.\"}return\"\"}}function ar(e){{if(e!==void 0){var r=e.fileName.replace(/^.*[\\\\\\/]/,\"\"),t=e.lineNumber;return`\n\nCheck your code at `+r+\":\"+t+\".\"}return\"\"}}var ye={};function ir(e){{var r=ge();if(!r){var t=typeof e==\"string\"?e:e.displayName||e.name;t&&(r=`\n\nCheck the top-level render call using <`+t+\">.\")}return r}}function _e(e,r){{if(!e._store||e._store.validated||e.key!=null)return;e._store.validated=!0;var t=ir(r);if(ye[t])return;ye[t]=!0;var n=\"\";e&&e._owner&&e._owner!==V.current&&(n=\" It was passed a child from \"+m(e._owner.type)+\".\"),w(e),d('Each child in a list should have a unique \"key\" prop.%s%s See https://reactjs.org/link/warning-keys for more information.',t,n),w(null)}}function Ee(e,r){{if(typeof e!=\"object\")return;if(z(e))for(var t=0;t<e.length;t++){var n=e[t];G(n)&&_e(n,r)}else if(G(e))e._store&&(e._store.validated=!0);else if(e){var o=De(e);if(typeof o==\"function\"&&o!==e.entries)for(var s=o.call(e),i;!(i=s.next()).done;)G(i.value)&&_e(i.value,r)}}}function or(e){{var r=e.type;if(r==null||typeof r==\"string\")return;var t;if(typeof r==\"function\")t=r.propTypes;else if(typeof r==\"object\"&&(r.$$typeof===j||r.$$typeof===x))t=r.propTypes;else return;if(t){var n=m(r);Ge(t,e.props,\"prop\",n,e)}else if(r.PropTypes!==void 0&&!B){B=!0;var o=m(r);d(\"Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?\",o||\"Unknown\")}typeof r.getDefaultProps==\"function\"&&!r.getDefaultProps.isReactClassApproved&&d(\"getDefaultProps is only used on classic React.createClass definitions. Use a static property named `defaultProps` instead.\")}}function ur(e){{for(var r=Object.keys(e.props),t=0;t<r.length;t++){var n=r[t];if(n!==\"children\"&&n!==\"key\"){w(e),d(\"Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.\",n),w(null);break}}e.ref!==null&&(w(e),d(\"Invalid attribute `ref` supplied to `React.Fragment`.\"),w(null))}}var Re={};function sr(e,r,t,n,o,s){{var i=We(e);if(!i){var a=\"\";(e===void 0||typeof e==\"object\"&&e!==null&&Object.keys(e).length===0)&&(a+=\" You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\");var v=ar(o);v?a+=v:a+=ge();var c;e===null?c=\"null\":z(e)?c=\"array\":e!==void 0&&e.$$typeof===u?(c=\"<\"+(m(e.type)||\"Unknown\")+\" />\",a=\" Did you accidentally export a JSX literal instead of a component?\"):c=typeof e,d(\"React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s\",c,a)}var f=nr(e,r,t,o,s);if(f==null)return f;if(i){var p=r.children;if(p!==void 0)if(n)if(z(p)){for(var C=0;C<p.length;C++)Ee(p[C],e);Object.freeze&&Object.freeze(p)}else d(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else Ee(p,e)}if(O.call(r,\"key\")){var R=m(e),b=Object.keys(r).filter(function(fr){return fr!==\"key\"}),K=b.length>0?\"{key: someKey, \"+b.join(\": ..., \")+\": ...}\":\"{key: someKey}\";if(!Re[R+K]){var cr=b.length>0?\"{\"+b.join(\": ..., \")+\": ...}\":\"{}\";d(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,K,R,cr,R),Re[R+K]=!0}}return e===_?ur(f):or(f),f}}var lr=sr;H.Fragment=_,H.jsxDEV=lr})()});var Pe=q((Or,Oe)=>{\"use strict\";Oe.exports=Se()});var Tr={};mr(Tr,{default:()=>Rr,frontmatter:()=>_r});var g=gr(Pe()),_r={name:\"How-To Guides\",slug:\"how-to\",description:\"Step-by-step guides for home improvement projects and hiring contractors in South Florida\",heroImage:\"https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&h=400&fit=crop\",heroImageAlt:\"Home improvement tools and materials\",featured:!0};function je(l){let u=Object.assign({h1:\"h1\",p:\"p\",h2:\"h2\"},l.components);return(0,g.jsxDEV)(g.Fragment,{children:[(0,g.jsxDEV)(u.h1,{children:\"How-To Guides\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/categories/_mdx_bundler_entry_point-b81dc1c5-e82b-43f5-9132-8fb67f98ebce.mdx\",lineNumber:10,columnNumber:1},this),`\n`,(0,g.jsxDEV)(u.p,{children:\"Learn how to tackle home improvement projects and hire the right contractors in South Florida with our comprehensive step-by-step guides.\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/categories/_mdx_bundler_entry_point-b81dc1c5-e82b-43f5-9132-8fb67f98ebce.mdx\",lineNumber:12,columnNumber:1},this),`\n`,(0,g.jsxDEV)(u.h2,{children:\"What You'll Find Here\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/categories/_mdx_bundler_entry_point-b81dc1c5-e82b-43f5-9132-8fb67f98ebce.mdx\",lineNumber:14,columnNumber:1},this),`\n`,(0,g.jsxDEV)(u.p,{children:\"Our how-to guides cover everything from basic DIY projects to complex home improvements, all tailored to South Florida's unique climate and building requirements.\"},void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/categories/_mdx_bundler_entry_point-b81dc1c5-e82b-43f5-9132-8fb67f98ebce.mdx\",lineNumber:16,columnNumber:1},this)]},void 0,!0,{fileName:\"/Users/ghost/Localbizzlist/content/categories/_mdx_bundler_entry_point-b81dc1c5-e82b-43f5-9132-8fb67f98ebce.mdx\",lineNumber:1,columnNumber:1},this)}function Er(l={}){let{wrapper:u}=l.components||{};return u?(0,g.jsxDEV)(u,Object.assign({},l,{children:(0,g.jsxDEV)(je,l,void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/categories/_mdx_bundler_entry_point-b81dc1c5-e82b-43f5-9132-8fb67f98ebce.mdx\"},this)}),void 0,!1,{fileName:\"/Users/ghost/Localbizzlist/content/categories/_mdx_bundler_entry_point-b81dc1c5-e82b-43f5-9132-8fb67f98ebce.mdx\"},this):je(l)}var Rr=Er;return yr(Tr);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Facebook, Inc. and its affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+        },
+        "_id": "categories/how-to.mdx",
+        "_raw": {
+          "sourceFilePath": "categories/how-to.mdx",
+          "sourceFileName": "how-to.mdx",
+          "sourceFileDir": "categories",
+          "contentType": "mdx",
+          "flattenedPath": "categories/how-to"
+        },
+        "type": "Category",
+        "url": "/blog/how-to"
+      },
+      "documentHash": "1759192419995",
+      "hasWarnings": false,
+      "documentTypeName": "Category"
+    },
+    "posts/cost-guides/hood-cleaning-cost-guide-miami.mdx": {
+      "document": {
+        "title": "Hood Cleaning Cost Guide for Miami Restaurants",
+        "slug": "hood-cleaning-cost-guide-miami",
+        "excerpt": "Complete breakdown of NFPA 96 hood cleaning costs in Miami-Dade County, including frequency requirements, pricing factors, and budget planning tips.",
+        "description": "Complete breakdown of NFPA 96 hood cleaning costs in Miami-Dade County, including frequency requirements, pricing factors, and budget planning tips.",
+        "publishedAt": "2025-01-15T00:00:00.000Z",
+        "featuredImage": "/images/blog/hood-cleaning-cost-guide.jpg",
+        "featuredImageAlt": "Hood cleaning cost guide for Miami restaurants",
+        "author": "LocalBizzList Team",
+        "category": "cost-guides",
+        "categorySlug": "cost-guides",
+        "tags": [
+          "cost",
+          "NFPA 96",
+          "Miami",
+          "restaurant",
+          "compliance"
+        ],
+        "featured": true,
+        "body": {
+          "raw": "\n# Hood Cleaning Cost Guide for Miami Restaurants\n\nUnderstanding the true cost of hood cleaning services in Miami is crucial for restaurant owners and managers. This comprehensive guide breaks down all the factors that influence pricing and helps you budget effectively for NFPA 96 compliance.\n\n## Average Hood Cleaning Costs in Miami\n\n### Basic Service Pricing\n- **Small restaurants (1-2 hoods)**: $150-$300 per cleaning\n- **Medium restaurants (3-5 hoods)**: $300-$600 per cleaning  \n- **Large restaurants (6+ hoods)**: $600-$1,200 per cleaning\n\n### Frequency Requirements\nNFPA 96 mandates cleaning frequency based on cooking volume:\n- **High-volume cooking**: Monthly cleaning required\n- **Moderate-volume cooking**: Quarterly cleaning required\n- **Low-volume cooking**: Semi-annual cleaning required\n\n## Factors That Affect Pricing\n\n### 1. Kitchen Size and Complexity\n- Number of hoods and exhaust systems\n- Ductwork length and accessibility\n- Grease buildup severity\n- Equipment accessibility\n\n### 2. Service Level Requirements\n- Basic cleaning vs. deep cleaning\n- Certification documentation needs\n- Emergency service requirements\n- After-hours availability\n\n### 3. Compliance Documentation\n- NFPA 96 certification\n- Inspection reports\n- Compliance documentation\n- Insurance requirements\n\n## Budget Planning Tips\n\n### Annual Budget Planning\nFor a typical Miami restaurant with moderate cooking volume:\n- **Quarterly cleanings**: $1,200-$2,400 annually\n- **Monthly cleanings**: $1,800-$3,600 annually\n- **Emergency services**: Budget 20% extra for unexpected needs\n\n### Cost-Saving Strategies\n1. **Schedule regular maintenance** to prevent emergency cleanings\n2. **Bundle services** with other kitchen maintenance\n3. **Negotiate annual contracts** for better pricing\n4. **Choose certified providers** to avoid compliance issues\n\n## ROI Considerations\n\n### Benefits of Regular Hood Cleaning\n- **Reduced fire risk**: Lower insurance premiums\n- **Improved efficiency**: Better airflow and equipment performance\n- **Compliance assurance**: Avoid costly violations\n- **Extended equipment life**: Prevent premature replacement\n\n### Cost of Non-Compliance\n- **Fire department violations**: $500-$2,000 per incident\n- **Insurance claim denials**: Potential coverage loss\n- **Equipment damage**: $5,000-$50,000 replacement costs\n- **Business interruption**: Lost revenue during closures\n\n## Getting Accurate Quotes\n\n### Information to Provide\n- Kitchen layout and hood count\n- Cooking volume and schedule\n- Current cleaning frequency\n- Compliance requirements\n- Preferred service schedule\n\n### Questions to Ask Providers\n- What's included in the base price?\n- Are certifications and documentation included?\n- What's the emergency service policy?\n- Do you offer annual contracts?\n- What payment terms are available?\n\n## Conclusion\n\nProper hood cleaning is not just a compliance requirement—it's an investment in your restaurant's safety, efficiency, and profitability. By understanding the true costs and planning accordingly, Miami restaurant owners can ensure they're getting the best value while maintaining NFPA 96 compliance.\n\nReady to get a quote for your Miami restaurant? [Get an instant quote](/pricing/instant-quote?src=blog_cost-guide) for hood cleaning services.\n",
+          "code": "var Component=(()=>{var h=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(i,n)=>()=>(n||i((n={exports:{}}).exports,n),n.exports),y=(i,n)=>{for(var r in n)c(i,r,{get:n[r],enumerable:!0})},o=(i,n,r,t)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let l of g(n))!p.call(i,l)&&l!==r&&c(i,l,{get:()=>n[l],enumerable:!(t=u(n,l))||t.enumerable});return i};var v=(i,n,r)=>(r=i!=null?h(m(i)):{},o(n||!i||!i.__esModule?c(r,\"default\",{value:i,enumerable:!0}):r,i)),C=i=>o(c({},\"__esModule\",{value:!0}),i);var d=f((x,a)=>{a.exports=_jsx_runtime});var A={};y(A,{default:()=>M,frontmatter:()=>q});var e=v(d()),q={title:\"Hood Cleaning Cost Guide for Miami Restaurants\",slug:\"hood-cleaning-cost-guide-miami\",excerpt:\"Complete breakdown of NFPA 96 hood cleaning costs in Miami-Dade County, including frequency requirements, pricing factors, and budget planning tips.\",description:\"Complete breakdown of NFPA 96 hood cleaning costs in Miami-Dade County, including frequency requirements, pricing factors, and budget planning tips.\",publishedAt:\"2025-01-15\",readTime:\"8 min read\",category:\"cost-guides\",categorySlug:\"cost-guides\",niche:\"restaurant-hood-cleaning\",city:\"Miami\",tags:[\"cost\",\"NFPA 96\",\"Miami\",\"restaurant\",\"compliance\"],featured:!0,featuredImage:\"/images/blog/hood-cleaning-cost-guide.jpg\",featuredImageAlt:\"Hood cleaning cost guide for Miami restaurants\",author:\"LocalBizzList Team\"};function s(i){let n=Object.assign({h1:\"h1\",p:\"p\",h2:\"h2\",h3:\"h3\",ul:\"ul\",li:\"li\",strong:\"strong\",ol:\"ol\",a:\"a\"},i.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.h1,{children:\"Hood Cleaning Cost Guide for Miami Restaurants\"}),`\n`,(0,e.jsx)(n.p,{children:\"Understanding the true cost of hood cleaning services in Miami is crucial for restaurant owners and managers. This comprehensive guide breaks down all the factors that influence pricing and helps you budget effectively for NFPA 96 compliance.\"}),`\n`,(0,e.jsx)(n.h2,{children:\"Average Hood Cleaning Costs in Miami\"}),`\n`,(0,e.jsx)(n.h3,{children:\"Basic Service Pricing\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Small restaurants (1-2 hoods)\"}),\": $150-$300 per cleaning\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Medium restaurants (3-5 hoods)\"}),\": $300-$600 per cleaning\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Large restaurants (6+ hoods)\"}),\": $600-$1,200 per cleaning\"]}),`\n`]}),`\n`,(0,e.jsx)(n.h3,{children:\"Frequency Requirements\"}),`\n`,(0,e.jsx)(n.p,{children:\"NFPA 96 mandates cleaning frequency based on cooking volume:\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"High-volume cooking\"}),\": Monthly cleaning required\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Moderate-volume cooking\"}),\": Quarterly cleaning required\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Low-volume cooking\"}),\": Semi-annual cleaning required\"]}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{children:\"Factors That Affect Pricing\"}),`\n`,(0,e.jsx)(n.h3,{children:\"1. Kitchen Size and Complexity\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"Number of hoods and exhaust systems\"}),`\n`,(0,e.jsx)(n.li,{children:\"Ductwork length and accessibility\"}),`\n`,(0,e.jsx)(n.li,{children:\"Grease buildup severity\"}),`\n`,(0,e.jsx)(n.li,{children:\"Equipment accessibility\"}),`\n`]}),`\n`,(0,e.jsx)(n.h3,{children:\"2. Service Level Requirements\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"Basic cleaning vs. deep cleaning\"}),`\n`,(0,e.jsx)(n.li,{children:\"Certification documentation needs\"}),`\n`,(0,e.jsx)(n.li,{children:\"Emergency service requirements\"}),`\n`,(0,e.jsx)(n.li,{children:\"After-hours availability\"}),`\n`]}),`\n`,(0,e.jsx)(n.h3,{children:\"3. Compliance Documentation\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"NFPA 96 certification\"}),`\n`,(0,e.jsx)(n.li,{children:\"Inspection reports\"}),`\n`,(0,e.jsx)(n.li,{children:\"Compliance documentation\"}),`\n`,(0,e.jsx)(n.li,{children:\"Insurance requirements\"}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{children:\"Budget Planning Tips\"}),`\n`,(0,e.jsx)(n.h3,{children:\"Annual Budget Planning\"}),`\n`,(0,e.jsx)(n.p,{children:\"For a typical Miami restaurant with moderate cooking volume:\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Quarterly cleanings\"}),\": $1,200-$2,400 annually\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Monthly cleanings\"}),\": $1,800-$3,600 annually\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Emergency services\"}),\": Budget 20% extra for unexpected needs\"]}),`\n`]}),`\n`,(0,e.jsx)(n.h3,{children:\"Cost-Saving Strategies\"}),`\n`,(0,e.jsxs)(n.ol,{children:[`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Schedule regular maintenance\"}),\" to prevent emergency cleanings\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Bundle services\"}),\" with other kitchen maintenance\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Negotiate annual contracts\"}),\" for better pricing\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Choose certified providers\"}),\" to avoid compliance issues\"]}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{children:\"ROI Considerations\"}),`\n`,(0,e.jsx)(n.h3,{children:\"Benefits of Regular Hood Cleaning\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Reduced fire risk\"}),\": Lower insurance premiums\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Improved efficiency\"}),\": Better airflow and equipment performance\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Compliance assurance\"}),\": Avoid costly violations\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Extended equipment life\"}),\": Prevent premature replacement\"]}),`\n`]}),`\n`,(0,e.jsx)(n.h3,{children:\"Cost of Non-Compliance\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Fire department violations\"}),\": $500-$2,000 per incident\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Insurance claim denials\"}),\": Potential coverage loss\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Equipment damage\"}),\": $5,000-$50,000 replacement costs\"]}),`\n`,(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Business interruption\"}),\": Lost revenue during closures\"]}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{children:\"Getting Accurate Quotes\"}),`\n`,(0,e.jsx)(n.h3,{children:\"Information to Provide\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"Kitchen layout and hood count\"}),`\n`,(0,e.jsx)(n.li,{children:\"Cooking volume and schedule\"}),`\n`,(0,e.jsx)(n.li,{children:\"Current cleaning frequency\"}),`\n`,(0,e.jsx)(n.li,{children:\"Compliance requirements\"}),`\n`,(0,e.jsx)(n.li,{children:\"Preferred service schedule\"}),`\n`]}),`\n`,(0,e.jsx)(n.h3,{children:\"Questions to Ask Providers\"}),`\n`,(0,e.jsxs)(n.ul,{children:[`\n`,(0,e.jsx)(n.li,{children:\"What's included in the base price?\"}),`\n`,(0,e.jsx)(n.li,{children:\"Are certifications and documentation included?\"}),`\n`,(0,e.jsx)(n.li,{children:\"What's the emergency service policy?\"}),`\n`,(0,e.jsx)(n.li,{children:\"Do you offer annual contracts?\"}),`\n`,(0,e.jsx)(n.li,{children:\"What payment terms are available?\"}),`\n`]}),`\n`,(0,e.jsx)(n.h2,{children:\"Conclusion\"}),`\n`,(0,e.jsx)(n.p,{children:\"Proper hood cleaning is not just a compliance requirement\\u2014it's an investment in your restaurant's safety, efficiency, and profitability. By understanding the true costs and planning accordingly, Miami restaurant owners can ensure they're getting the best value while maintaining NFPA 96 compliance.\"}),`\n`,(0,e.jsxs)(n.p,{children:[\"Ready to get a quote for your Miami restaurant? \",(0,e.jsx)(n.a,{href:\"/pricing/instant-quote?src=blog_cost-guide\",children:\"Get an instant quote\"}),\" for hood cleaning services.\"]})]})}function b(i={}){let{wrapper:n}=i.components||{};return n?(0,e.jsx)(n,Object.assign({},i,{children:(0,e.jsx)(s,i)})):s(i)}var M=b;return C(A);})();\n;return Component;"
+        },
+        "_id": "posts/cost-guides/hood-cleaning-cost-guide-miami.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/cost-guides/hood-cleaning-cost-guide-miami.mdx",
+          "sourceFileName": "hood-cleaning-cost-guide-miami.mdx",
+          "sourceFileDir": "posts/cost-guides",
+          "contentType": "mdx",
+          "flattenedPath": "posts/cost-guides/hood-cleaning-cost-guide-miami"
+        },
+        "type": "Post",
+        "url": "/blog/hood-cleaning-cost-guide-miami",
+        "categoryUrl": "/blog/cost-guides",
+        "readingTime": 3
+      },
+      "documentHash": "1759867404802",
+      "hasWarnings": true,
+      "documentTypeName": "Post"
+    },
+    "posts/compliance-inspections/nfpa-96-compliance-checklist-fort-lauderdale.mdx": {
+      "document": {
+        "title": "NFPA 96 Compliance Checklist for Fort Lauderdale Restaurants",
+        "slug": "nfpa-96-compliance-checklist-fort-lauderdale",
+        "excerpt": "Complete NFPA 96 compliance checklist for Fort Lauderdale restaurants, including inspection requirements, documentation, and certification procedures.",
+        "description": "Complete NFPA 96 compliance checklist for Fort Lauderdale restaurants, including inspection requirements, documentation, and certification procedures.",
+        "publishedAt": "2025-01-14T00:00:00.000Z",
+        "featuredImage": "/images/blog/nfpa-96-compliance-checklist.jpg",
+        "featuredImageAlt": "NFPA 96 compliance checklist for Fort Lauderdale restaurants",
+        "author": "LocalBizzList Team",
+        "category": "compliance-inspections",
+        "categorySlug": "compliance-inspections",
+        "tags": [
+          "NFPA 96",
+          "compliance",
+          "Fort Lauderdale",
+          "inspection",
+          "certification"
+        ],
+        "featured": true,
+        "body": {
+          "raw": "\n# NFPA 96 Compliance Checklist for Fort Lauderdale Restaurants\n\nMaintaining NFPA 96 compliance is essential for Fort Lauderdale restaurants. This comprehensive checklist ensures your kitchen exhaust system meets all safety and regulatory requirements.\n\n## Pre-Inspection Preparation\n\n### Documentation Requirements\n- [ ] Current NFPA 96 certification\n- [ ] Previous inspection reports\n- [ ] Cleaning service records\n- [ ] Equipment maintenance logs\n- [ ] Fire suppression system certificates\n\n### Physical Preparation\n- [ ] Clear access to all hoods and ducts\n- [ ] Remove items blocking exhaust systems\n- [ ] Ensure proper lighting for inspection\n- [ ] Have maintenance records readily available\n\n## Hood System Inspection Points\n\n### Hood Structure\n- [ ] Hoods properly installed and secured\n- [ ] No visible damage or corrosion\n- [ ] Proper clearance from combustible materials\n- [ ] Adequate lighting under hoods\n- [ ] Grease collection systems functioning\n\n### Exhaust Ducts\n- [ ] Ducts properly sized for cooking equipment\n- [ ] No visible grease accumulation\n- [ ] Proper slope for grease drainage\n- [ ] Access panels properly sealed\n- [ ] No damage or deterioration\n\n### Fire Suppression Systems\n- [ ] Automatic fire suppression systems operational\n- [ ] Manual activation devices accessible\n- [ ] System inspection tags current\n- [ ] Nozzles clean and unobstructed\n- [ ] Pressure gauges within normal range\n\n## Cleaning Requirements\n\n### Frequency Compliance\n- [ ] High-volume cooking: Monthly cleaning\n- [ ] Moderate-volume cooking: Quarterly cleaning\n- [ ] Low-volume cooking: Semi-annual cleaning\n- [ ] Cleaning performed by certified technicians\n- [ ] Documentation of cleaning dates\n\n### Cleaning Quality Standards\n- [ ] All grease removed from hoods\n- [ ] Ducts cleaned to bare metal\n- [ ] Fans and motors cleaned\n- [ ] Filters replaced or cleaned\n- [ ] System tested after cleaning\n\n## Fort Lauderdale Specific Requirements\n\n### Local Regulations\n- [ ] Broward County fire code compliance\n- [ ] City of Fort Lauderdale permits current\n- [ ] Health department approval\n- [ ] Business license requirements met\n- [ ] Insurance coverage adequate\n\n### Inspection Scheduling\n- [ ] Annual fire department inspection scheduled\n- [ ] Health department inspection current\n- [ ] Third-party certification up to date\n- [ ] Emergency contact information posted\n- [ ] Evacuation procedures documented\n\n## Emergency Preparedness\n\n### Fire Safety Equipment\n- [ ] Fire extinguishers properly located\n- [ ] Emergency shut-off switches accessible\n- [ ] Evacuation routes clearly marked\n- [ ] Emergency contact numbers posted\n- [ ] Staff training records current\n\n### Response Procedures\n- [ ] Fire suppression system activation procedures\n- [ ] Emergency contact protocols\n- [ ] Evacuation procedures documented\n- [ ] Staff training on emergency response\n- [ ] Regular drill schedules maintained\n\n## Documentation and Record Keeping\n\n### Required Records\n- [ ] Cleaning service invoices\n- [ ] Inspection reports\n- [ ] Maintenance logs\n- [ ] Training certificates\n- [ ] Equipment warranties\n\n### Digital Documentation\n- [ ] Photos of cleaning process\n- [ ] Before/after cleaning images\n- [ ] Digital copies of certificates\n- [ ] Cloud storage of records\n- [ ] Regular backup procedures\n\n## Common Compliance Issues\n\n### Frequent Violations\n- **Insufficient cleaning frequency**: Most common violation\n- **Inadequate documentation**: Missing service records\n- **Blocked access panels**: Equipment blocking inspection points\n- **Outdated certifications**: Expired inspection reports\n- **Improper maintenance**: Neglected fire suppression systems\n\n### Prevention Strategies\n1. **Schedule regular cleanings** before they're due\n2. **Maintain detailed records** of all services\n3. **Train staff** on compliance requirements\n4. **Work with certified providers** for all services\n5. **Conduct self-inspections** monthly\n\n## Cost of Non-Compliance\n\n### Financial Penalties\n- **Fire department violations**: $500-$2,000 per incident\n- **Health department fines**: $1,000-$5,000 per violation\n- **Insurance claim denials**: Potential coverage loss\n- **Business interruption**: Lost revenue during closures\n\n### Safety Risks\n- **Fire hazards**: Increased risk of kitchen fires\n- **Health violations**: Potential closure orders\n- **Equipment damage**: Premature system failure\n- **Liability exposure**: Increased legal risk\n\n## Getting Professional Help\n\n### Choosing a Certified Provider\n- [ ] NFPA 96 certified technicians\n- [ ] Licensed and insured\n- [ ] Local Fort Lauderdale experience\n- [ ] References from other restaurants\n- [ ] Competitive pricing\n\n### Service Expectations\n- [ ] Detailed cleaning reports\n- [ ] Compliance documentation\n- [ ] Emergency response capability\n- [ ] Flexible scheduling options\n- [ ] Ongoing support and consultation\n\n## Conclusion\n\nNFPA 96 compliance is not optional—it's essential for restaurant safety and legal operation in Fort Lauderdale. By following this checklist and working with certified professionals, you can ensure your restaurant meets all requirements while maintaining a safe environment for staff and customers.\n\nNeed help with NFPA 96 compliance? [Get an instant quote](/pricing/instant-quote?src=blog_compliance-checklist) for certified hood cleaning services.\n",
+          "code": "var Component=(()=>{var h=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),y=(i,e)=>{for(var r in e)c(i,r,{get:e[r],enumerable:!0})},o=(i,e,r,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of p(e))!g.call(i,l)&&l!==r&&c(i,l,{get:()=>e[l],enumerable:!(t=u(e,l))||t.enumerable});return i};var v=(i,e,r)=>(r=i!=null?h(m(i)):{},o(e||!i||!i.__esModule?c(r,\"default\",{value:i,enumerable:!0}):r,i)),F=i=>o(c({},\"__esModule\",{value:!0}),i);var s=f((L,a)=>{a.exports=_jsx_runtime});var q={};y(q,{default:()=>k,frontmatter:()=>P});var n=v(s()),P={title:\"NFPA 96 Compliance Checklist for Fort Lauderdale Restaurants\",slug:\"nfpa-96-compliance-checklist-fort-lauderdale\",excerpt:\"Complete NFPA 96 compliance checklist for Fort Lauderdale restaurants, including inspection requirements, documentation, and certification procedures.\",description:\"Complete NFPA 96 compliance checklist for Fort Lauderdale restaurants, including inspection requirements, documentation, and certification procedures.\",publishedAt:\"2025-01-14\",readTime:\"10 min read\",category:\"compliance-inspections\",categorySlug:\"compliance-inspections\",niche:\"restaurant-hood-cleaning\",city:\"Fort Lauderdale\",tags:[\"NFPA 96\",\"compliance\",\"Fort Lauderdale\",\"inspection\",\"certification\"],featured:!0,featuredImage:\"/images/blog/nfpa-96-compliance-checklist.jpg\",featuredImageAlt:\"NFPA 96 compliance checklist for Fort Lauderdale restaurants\",author:\"LocalBizzList Team\"};function d(i){let e=Object.assign({h1:\"h1\",p:\"p\",h2:\"h2\",h3:\"h3\",ul:\"ul\",li:\"li\",strong:\"strong\",ol:\"ol\",a:\"a\"},i.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h1,{children:\"NFPA 96 Compliance Checklist for Fort Lauderdale Restaurants\"}),`\n`,(0,n.jsx)(e.p,{children:\"Maintaining NFPA 96 compliance is essential for Fort Lauderdale restaurants. This comprehensive checklist ensures your kitchen exhaust system meets all safety and regulatory requirements.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Pre-Inspection Preparation\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Documentation Requirements\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Current NFPA 96 certification\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Previous inspection reports\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Cleaning service records\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Equipment maintenance logs\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Fire suppression system certificates\"}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Physical Preparation\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Clear access to all hoods and ducts\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Remove items blocking exhaust systems\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Ensure proper lighting for inspection\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Have maintenance records readily available\"}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Hood System Inspection Points\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Hood Structure\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Hoods properly installed and secured\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] No visible damage or corrosion\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Proper clearance from combustible materials\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Adequate lighting under hoods\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Grease collection systems functioning\"}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Exhaust Ducts\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Ducts properly sized for cooking equipment\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] No visible grease accumulation\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Proper slope for grease drainage\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Access panels properly sealed\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] No damage or deterioration\"}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Fire Suppression Systems\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Automatic fire suppression systems operational\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Manual activation devices accessible\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] System inspection tags current\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Nozzles clean and unobstructed\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Pressure gauges within normal range\"}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Cleaning Requirements\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Frequency Compliance\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] High-volume cooking: Monthly cleaning\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Moderate-volume cooking: Quarterly cleaning\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Low-volume cooking: Semi-annual cleaning\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Cleaning performed by certified technicians\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Documentation of cleaning dates\"}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Cleaning Quality Standards\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] All grease removed from hoods\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Ducts cleaned to bare metal\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Fans and motors cleaned\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Filters replaced or cleaned\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] System tested after cleaning\"}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Fort Lauderdale Specific Requirements\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Local Regulations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Broward County fire code compliance\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] City of Fort Lauderdale permits current\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Health department approval\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Business license requirements met\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Insurance coverage adequate\"}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Inspection Scheduling\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Annual fire department inspection scheduled\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Health department inspection current\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Third-party certification up to date\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Emergency contact information posted\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Evacuation procedures documented\"}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Emergency Preparedness\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Fire Safety Equipment\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Fire extinguishers properly located\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Emergency shut-off switches accessible\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Evacuation routes clearly marked\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Emergency contact numbers posted\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Staff training records current\"}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Response Procedures\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Fire suppression system activation procedures\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Emergency contact protocols\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Evacuation procedures documented\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Staff training on emergency response\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Regular drill schedules maintained\"}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Documentation and Record Keeping\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Required Records\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Cleaning service invoices\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Inspection reports\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Maintenance logs\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Training certificates\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Equipment warranties\"}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Digital Documentation\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Photos of cleaning process\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Before/after cleaning images\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Digital copies of certificates\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Cloud storage of records\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Regular backup procedures\"}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Common Compliance Issues\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Frequent Violations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Insufficient cleaning frequency\"}),\": Most common violation\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Inadequate documentation\"}),\": Missing service records\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Blocked access panels\"}),\": Equipment blocking inspection points\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Outdated certifications\"}),\": Expired inspection reports\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Improper maintenance\"}),\": Neglected fire suppression systems\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Prevention Strategies\"}),`\n`,(0,n.jsxs)(e.ol,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Schedule regular cleanings\"}),\" before they're due\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Maintain detailed records\"}),\" of all services\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Train staff\"}),\" on compliance requirements\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Work with certified providers\"}),\" for all services\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Conduct self-inspections\"}),\" monthly\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Cost of Non-Compliance\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Financial Penalties\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Fire department violations\"}),\": $500-$2,000 per incident\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Health department fines\"}),\": $1,000-$5,000 per violation\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Insurance claim denials\"}),\": Potential coverage loss\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Business interruption\"}),\": Lost revenue during closures\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Safety Risks\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Fire hazards\"}),\": Increased risk of kitchen fires\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Health violations\"}),\": Potential closure orders\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Equipment damage\"}),\": Premature system failure\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Liability exposure\"}),\": Increased legal risk\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Getting Professional Help\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Choosing a Certified Provider\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] NFPA 96 certified technicians\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Licensed and insured\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Local Fort Lauderdale experience\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] References from other restaurants\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Competitive pricing\"}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Service Expectations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"[ ] Detailed cleaning reports\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Compliance documentation\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Emergency response capability\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Flexible scheduling options\"}),`\n`,(0,n.jsx)(e.li,{children:\"[ ] Ongoing support and consultation\"}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Conclusion\"}),`\n`,(0,n.jsx)(e.p,{children:\"NFPA 96 compliance is not optional\\u2014it's essential for restaurant safety and legal operation in Fort Lauderdale. By following this checklist and working with certified professionals, you can ensure your restaurant meets all requirements while maintaining a safe environment for staff and customers.\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Need help with NFPA 96 compliance? \",(0,n.jsx)(e.a,{href:\"/pricing/instant-quote?src=blog_compliance-checklist\",children:\"Get an instant quote\"}),\" for certified hood cleaning services.\"]})]})}function C(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,Object.assign({},i,{children:(0,n.jsx)(d,i)})):d(i)}var k=C;return F(q);})();\n;return Component;"
+        },
+        "_id": "posts/compliance-inspections/nfpa-96-compliance-checklist-fort-lauderdale.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/compliance-inspections/nfpa-96-compliance-checklist-fort-lauderdale.mdx",
+          "sourceFileName": "nfpa-96-compliance-checklist-fort-lauderdale.mdx",
+          "sourceFileDir": "posts/compliance-inspections",
+          "contentType": "mdx",
+          "flattenedPath": "posts/compliance-inspections/nfpa-96-compliance-checklist-fort-lauderdale"
+        },
+        "type": "Post",
+        "url": "/blog/nfpa-96-compliance-checklist-fort-lauderdale",
+        "categoryUrl": "/blog/compliance-inspections",
+        "readingTime": 5
+      },
+      "documentHash": "1759867395370",
+      "hasWarnings": true,
+      "documentTypeName": "Post"
+    },
+    "posts/emergency-after-hours/emergency-grease-trap-overflow-boca-raton.mdx": {
+      "document": {
+        "title": "Emergency Grease Trap Overflow Solutions in Boca Raton",
+        "slug": "emergency-grease-trap-overflow-boca-raton",
+        "excerpt": "Immediate steps to take when your grease trap overflows in Boca Raton, including emergency response procedures and prevention strategies.",
+        "description": "Immediate steps to take when your grease trap overflows in Boca Raton, including emergency response procedures and prevention strategies.",
+        "publishedAt": "2025-01-13T00:00:00.000Z",
+        "featuredImage": "/images/blog/emergency-grease-trap-overflow.jpg",
+        "featuredImageAlt": "Emergency grease trap overflow solutions in Boca Raton",
+        "author": "LocalBizzList Team",
+        "category": "emergency-after-hours",
+        "categorySlug": "emergency-after-hours",
+        "tags": [
+          "emergency",
+          "grease trap",
+          "Boca Raton",
+          "overflow",
+          "after-hours"
+        ],
+        "featured": true,
+        "body": {
+          "raw": "\n# Emergency Grease Trap Overflow Solutions in Boca Raton\n\nA grease trap overflow is a serious emergency that requires immediate action. This guide provides step-by-step procedures for Boca Raton restaurant owners to handle grease trap emergencies safely and effectively.\n\n## Immediate Emergency Response\n\n### First Steps (0-15 minutes)\n1. **Stop all kitchen operations** immediately\n2. **Turn off water supply** to prevent further overflow\n3. **Evacuate kitchen area** if safety is compromised\n4. **Call emergency service provider** for immediate response\n5. **Document the incident** with photos and notes\n\n### Safety Precautions\n- **Avoid direct contact** with overflow material\n- **Ensure proper ventilation** in affected areas\n- **Keep staff away** from contaminated areas\n- **Use protective equipment** if cleanup is necessary\n- **Notify health department** if required by local regulations\n\n## Emergency Service Providers\n\n### Boca Raton Emergency Services\n- **24/7 Emergency Response**: Available for immediate service\n- **Same-Day Service**: Most providers offer same-day emergency service\n- **Certified Technicians**: EPA-certified professionals\n- **Equipment on Hand**: Pump trucks and emergency equipment ready\n- **Local Knowledge**: Familiar with Boca Raton regulations\n\n### What to Expect\n- **Response Time**: Typically 1-2 hours for emergency calls\n- **Assessment**: Professional evaluation of the situation\n- **Immediate Action**: Pumping and containment procedures\n- **Documentation**: Detailed report of services performed\n- **Follow-up**: Recommendations for prevention\n\n## Containment and Cleanup\n\n### Immediate Containment\n1. **Stop the source** of the overflow\n2. **Contain the spread** using absorbent materials\n3. **Prevent environmental damage** to surrounding areas\n4. **Secure the area** to prevent access\n5. **Begin cleanup procedures** safely\n\n### Professional Cleanup Process\n- **Assessment**: Evaluate extent of damage\n- **Containment**: Prevent further spread\n- **Pumping**: Remove accumulated grease and wastewater\n- **Cleaning**: Thorough cleaning of affected areas\n- **Disposal**: Proper disposal of contaminated materials\n- **Sanitization**: Complete sanitization of affected areas\n\n## Prevention Strategies\n\n### Regular Maintenance\n- **Monthly inspections** of grease trap condition\n- **Quarterly pumping** based on usage and capacity\n- **Annual system evaluation** by certified professionals\n- **Staff training** on proper grease disposal\n- **Documentation** of all maintenance activities\n\n### Best Practices\n1. **Proper grease disposal**: Never pour grease down drains\n2. **Regular cleaning**: Clean grease traps regularly\n3. **Monitor usage**: Track grease production and disposal\n4. **Staff training**: Educate staff on proper procedures\n5. **Emergency planning**: Have emergency procedures in place\n\n## Cost Considerations\n\n### Emergency Service Costs\n- **Emergency call fee**: $150-$300\n- **Pumping service**: $200-$500\n- **Cleanup and disposal**: $300-$800\n- **After-hours surcharge**: 50-100% additional\n- **Total emergency cost**: $650-$1,600\n\n### Prevention vs. Emergency Costs\n- **Regular maintenance**: $200-$400 quarterly\n- **Emergency service**: $650-$1,600 per incident\n- **Savings**: 60-75% cost reduction with regular maintenance\n- **ROI**: Regular maintenance pays for itself in 2-3 incidents prevented\n\n## Regulatory Compliance\n\n### Boca Raton Requirements\n- **Health Department**: Must be notified of overflows\n- **Environmental Protection**: Prevent contamination of waterways\n- **Business License**: Maintain compliance for continued operation\n- **Insurance**: Ensure adequate coverage for incidents\n- **Documentation**: Maintain records of all incidents and responses\n\n### Reporting Requirements\n- **Immediate notification** to health department\n- **Written report** within 24 hours\n- **Corrective action plan** within 48 hours\n- **Follow-up inspection** within 30 days\n- **Documentation** of all actions taken\n\n## Insurance Considerations\n\n### Coverage Requirements\n- **General liability**: Covers third-party claims\n- **Property damage**: Covers damage to your property\n- **Business interruption**: Covers lost revenue\n- **Environmental liability**: Covers environmental damage\n- **Professional liability**: Covers service provider issues\n\n### Claims Process\n1. **Document everything** with photos and reports\n2. **Contact insurance company** immediately\n3. **Provide detailed information** about the incident\n4. **Work with adjusters** to assess damage\n5. **Follow up** on claim status regularly\n\n## Long-term Solutions\n\n### System Upgrades\n- **Larger capacity**: Upgrade to larger grease trap\n- **Better location**: Relocate for easier access\n- **Improved design**: Install more efficient system\n- **Monitoring systems**: Add electronic monitoring\n- **Preventive measures**: Install grease interceptors\n\n### Maintenance Contracts\n- **Regular service**: Scheduled maintenance visits\n- **Emergency response**: Priority service for emergencies\n- **Documentation**: Complete service records\n- **Compliance support**: Help with regulatory requirements\n- **Cost savings**: Reduced rates for contract customers\n\n## Conclusion\n\nGrease trap overflows are serious emergencies that require immediate professional response. By having emergency procedures in place and working with reliable service providers, Boca Raton restaurant owners can minimize damage and ensure quick recovery from these incidents.\n\nDon't wait for an emergency—establish a relationship with a reliable service provider now. [Get an instant quote](/pricing/instant-quote?src=blog_emergency-grease-trap) for emergency grease trap services.\n",
+          "code": "var Component=(()=>{var h=Object.create;var l=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),v=(r,e)=>{for(var i in e)l(r,i,{get:e[i],enumerable:!0})},c=(r,e,i,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of m(e))!p.call(r,t)&&t!==i&&l(r,t,{get:()=>e[t],enumerable:!(o=g(e,t))||o.enumerable});return r};var y=(r,e,i)=>(i=r!=null?h(u(r)):{},c(e||!r||!r.__esModule?l(i,\"default\",{value:r,enumerable:!0}):i,r)),w=r=>c(l({},\"__esModule\",{value:!0}),r);var a=f((S,s)=>{s.exports=_jsx_runtime});var E={};v(E,{default:()=>P,frontmatter:()=>C});var n=y(a()),C={title:\"Emergency Grease Trap Overflow Solutions in Boca Raton\",slug:\"emergency-grease-trap-overflow-boca-raton\",excerpt:\"Immediate steps to take when your grease trap overflows in Boca Raton, including emergency response procedures and prevention strategies.\",description:\"Immediate steps to take when your grease trap overflows in Boca Raton, including emergency response procedures and prevention strategies.\",publishedAt:\"2025-01-13\",readTime:\"6 min read\",category:\"emergency-after-hours\",categorySlug:\"emergency-after-hours\",niche:\"grease-trap-cleaning\",city:\"Boca Raton\",tags:[\"emergency\",\"grease trap\",\"Boca Raton\",\"overflow\",\"after-hours\"],featured:!0,featuredImage:\"/images/blog/emergency-grease-trap-overflow.jpg\",featuredImageAlt:\"Emergency grease trap overflow solutions in Boca Raton\",author:\"LocalBizzList Team\"};function d(r){let e=Object.assign({h1:\"h1\",p:\"p\",h2:\"h2\",h3:\"h3\",ol:\"ol\",li:\"li\",strong:\"strong\",ul:\"ul\",a:\"a\"},r.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h1,{children:\"Emergency Grease Trap Overflow Solutions in Boca Raton\"}),`\n`,(0,n.jsx)(e.p,{children:\"A grease trap overflow is a serious emergency that requires immediate action. This guide provides step-by-step procedures for Boca Raton restaurant owners to handle grease trap emergencies safely and effectively.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Immediate Emergency Response\"}),`\n`,(0,n.jsx)(e.h3,{children:\"First Steps (0-15 minutes)\"}),`\n`,(0,n.jsxs)(e.ol,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Stop all kitchen operations\"}),\" immediately\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Turn off water supply\"}),\" to prevent further overflow\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Evacuate kitchen area\"}),\" if safety is compromised\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Call emergency service provider\"}),\" for immediate response\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Document the incident\"}),\" with photos and notes\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Safety Precautions\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Avoid direct contact\"}),\" with overflow material\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Ensure proper ventilation\"}),\" in affected areas\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Keep staff away\"}),\" from contaminated areas\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Use protective equipment\"}),\" if cleanup is necessary\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Notify health department\"}),\" if required by local regulations\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Emergency Service Providers\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Boca Raton Emergency Services\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"24/7 Emergency Response\"}),\": Available for immediate service\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Same-Day Service\"}),\": Most providers offer same-day emergency service\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Certified Technicians\"}),\": EPA-certified professionals\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Equipment on Hand\"}),\": Pump trucks and emergency equipment ready\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Local Knowledge\"}),\": Familiar with Boca Raton regulations\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"What to Expect\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Response Time\"}),\": Typically 1-2 hours for emergency calls\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Assessment\"}),\": Professional evaluation of the situation\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Immediate Action\"}),\": Pumping and containment procedures\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Documentation\"}),\": Detailed report of services performed\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Follow-up\"}),\": Recommendations for prevention\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Containment and Cleanup\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Immediate Containment\"}),`\n`,(0,n.jsxs)(e.ol,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Stop the source\"}),\" of the overflow\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Contain the spread\"}),\" using absorbent materials\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Prevent environmental damage\"}),\" to surrounding areas\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Secure the area\"}),\" to prevent access\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Begin cleanup procedures\"}),\" safely\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Professional Cleanup Process\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Assessment\"}),\": Evaluate extent of damage\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Containment\"}),\": Prevent further spread\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Pumping\"}),\": Remove accumulated grease and wastewater\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Cleaning\"}),\": Thorough cleaning of affected areas\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Disposal\"}),\": Proper disposal of contaminated materials\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Sanitization\"}),\": Complete sanitization of affected areas\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Prevention Strategies\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Regular Maintenance\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Monthly inspections\"}),\" of grease trap condition\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Quarterly pumping\"}),\" based on usage and capacity\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Annual system evaluation\"}),\" by certified professionals\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Staff training\"}),\" on proper grease disposal\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Documentation\"}),\" of all maintenance activities\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Best Practices\"}),`\n`,(0,n.jsxs)(e.ol,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Proper grease disposal\"}),\": Never pour grease down drains\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Regular cleaning\"}),\": Clean grease traps regularly\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Monitor usage\"}),\": Track grease production and disposal\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Staff training\"}),\": Educate staff on proper procedures\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Emergency planning\"}),\": Have emergency procedures in place\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Cost Considerations\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Emergency Service Costs\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Emergency call fee\"}),\": $150-$300\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Pumping service\"}),\": $200-$500\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Cleanup and disposal\"}),\": $300-$800\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"After-hours surcharge\"}),\": 50-100% additional\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Total emergency cost\"}),\": $650-$1,600\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Prevention vs. Emergency Costs\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Regular maintenance\"}),\": $200-$400 quarterly\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Emergency service\"}),\": $650-$1,600 per incident\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Savings\"}),\": 60-75% cost reduction with regular maintenance\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"ROI\"}),\": Regular maintenance pays for itself in 2-3 incidents prevented\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Regulatory Compliance\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Boca Raton Requirements\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Health Department\"}),\": Must be notified of overflows\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Environmental Protection\"}),\": Prevent contamination of waterways\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Business License\"}),\": Maintain compliance for continued operation\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Insurance\"}),\": Ensure adequate coverage for incidents\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Documentation\"}),\": Maintain records of all incidents and responses\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Reporting Requirements\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Immediate notification\"}),\" to health department\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Written report\"}),\" within 24 hours\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Corrective action plan\"}),\" within 48 hours\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Follow-up inspection\"}),\" within 30 days\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Documentation\"}),\" of all actions taken\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Insurance Considerations\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Coverage Requirements\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"General liability\"}),\": Covers third-party claims\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Property damage\"}),\": Covers damage to your property\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Business interruption\"}),\": Covers lost revenue\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Environmental liability\"}),\": Covers environmental damage\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Professional liability\"}),\": Covers service provider issues\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Claims Process\"}),`\n`,(0,n.jsxs)(e.ol,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Document everything\"}),\" with photos and reports\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Contact insurance company\"}),\" immediately\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Provide detailed information\"}),\" about the incident\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Work with adjusters\"}),\" to assess damage\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Follow up\"}),\" on claim status regularly\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Long-term Solutions\"}),`\n`,(0,n.jsx)(e.h3,{children:\"System Upgrades\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Larger capacity\"}),\": Upgrade to larger grease trap\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Better location\"}),\": Relocate for easier access\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Improved design\"}),\": Install more efficient system\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Monitoring systems\"}),\": Add electronic monitoring\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Preventive measures\"}),\": Install grease interceptors\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h3,{children:\"Maintenance Contracts\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Regular service\"}),\": Scheduled maintenance visits\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Emergency response\"}),\": Priority service for emergencies\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Documentation\"}),\": Complete service records\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Compliance support\"}),\": Help with regulatory requirements\"]}),`\n`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Cost savings\"}),\": Reduced rates for contract customers\"]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Conclusion\"}),`\n`,(0,n.jsx)(e.p,{children:\"Grease trap overflows are serious emergencies that require immediate professional response. By having emergency procedures in place and working with reliable service providers, Boca Raton restaurant owners can minimize damage and ensure quick recovery from these incidents.\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Don't wait for an emergency\\u2014establish a relationship with a reliable service provider now. \",(0,n.jsx)(e.a,{href:\"/pricing/instant-quote?src=blog_emergency-grease-trap\",children:\"Get an instant quote\"}),\" for emergency grease trap services.\"]})]})}function R(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,Object.assign({},r,{children:(0,n.jsx)(d,r)})):d(r)}var P=R;return w(E);})();\n;return Component;"
+        },
+        "_id": "posts/emergency-after-hours/emergency-grease-trap-overflow-boca-raton.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/emergency-after-hours/emergency-grease-trap-overflow-boca-raton.mdx",
+          "sourceFileName": "emergency-grease-trap-overflow-boca-raton.mdx",
+          "sourceFileDir": "posts/emergency-after-hours",
+          "contentType": "mdx",
+          "flattenedPath": "posts/emergency-after-hours/emergency-grease-trap-overflow-boca-raton"
+        },
+        "type": "Post",
+        "url": "/blog/emergency-grease-trap-overflow-boca-raton",
+        "categoryUrl": "/blog/emergency-after-hours",
+        "readingTime": 4
+      },
+      "documentHash": "1759867413587",
+      "hasWarnings": true,
+      "documentTypeName": "Post"
+    }
+  }
+}

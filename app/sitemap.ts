@@ -1,5 +1,4 @@
 import { MetadataRoute } from 'next'
-import { allPosts, allBusinesses } from 'contentlayer/generated'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://localbizzlist.com'
@@ -26,6 +25,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/resources`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/niches`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/niches/restaurant-hood-cleaning`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/niches/grease-trap-cleaning`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/niches/septic-tank-services`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/niches/sealcoating`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/niches/fire-extinguisher-services`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/niches/sprinkler-repair`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.8,
@@ -62,21 +103,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // Blog posts
-  const blogPosts = allPosts.map((post) => ({
-    url: `${baseUrl}${post.url}`,
-    lastModified: new Date(post.updatedAt || post.publishedAt),
-    changeFrequency: 'weekly' as const,
-    priority: 0.7,
-  }))
+  // Mock blog posts - replace with real data source
+  const blogPosts = [
+    {
+      url: `${baseUrl}/blog/nfpa-96-compliance-checklist`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    },
+  ]
 
-  // Businesses
-  const businesses = allBusinesses.map((business) => ({
-    url: `${baseUrl}${business.url}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }))
+  // Mock businesses - replace with real data source
+  const businesses = [
+    {
+      url: `${baseUrl}/businesses/elite-realty-group`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/businesses/prestige-wealth-advisors`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+  ]
 
   // Resource articles
   const resourceArticles = [
