@@ -126,17 +126,17 @@ export default function ResourcesPage() {
       </div>
 
       {/* CTA */}
-      <div className="bg-secondary py-16">
-        <div className="container text-center text-white">
+      <div className="bg-primary py-16">
+        <div className="container text-center text-primary-fg">
           <h2 className="text-3xl font-bold mb-4">
             Need a Service Quote?
           </h2>
-          <p className="text-xl text-white/90 mb-8">
+          <p className="text-xl mb-8 opacity-90">
             Get instant quotes for any of our commercial services
           </p>
           <Link
             href="/pricing/instant-quote?src=resources_cta"
-            className="btn-primary px-8 py-3 text-lg"
+            className="bg-white text-primary hover:bg-neutral-50 px-8 py-3 text-lg rounded-lg font-semibold inline-flex items-center transition-colors"
           >
             Get Instant Quote
           </Link>

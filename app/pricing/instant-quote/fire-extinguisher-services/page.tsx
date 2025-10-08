@@ -9,15 +9,6 @@ export const metadata: Metadata = {
 export default function FireExtinguisherQuotePage() {
   return (
     <div className="min-h-screen bg-neutral-50">
-      <div className="bg-white shadow-sm">
-        <div className="container py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="text-2xl font-bold text-primary">LocalBizzList</Link>
-            <Link href="tel:+19545554663" className="text-neutral-700 hover:text-primary font-semibold">(954) 555-4663</Link>
-          </div>
-        </div>
-      </div>
-
       <div className="bg-gradient-to-b from-primary to-primary-int py-16">
         <div className="container text-center text-white">
           <h1 className="text-4xl font-bold mb-4">Get Your Instant Fire Extinguisher Quote</h1>
@@ -77,10 +68,10 @@ export default function FireExtinguisherQuotePage() {
         </div>
       </div>
 
-      <div className="bg-secondary py-16">
-        <div className="container text-center text-white">
+      <div className="bg-primary py-16">
+        <div className="container text-center text-primary-fg">
           <h2 className="text-3xl font-bold mb-4">Need Service Today?</h2>
-          <Link href="tel:+19545554663" className="btn-primary px-8 py-3 text-lg">Call (954) 555-4663</Link>
+          <Link href="tel:+19545554663" className="bg-white text-primary hover:bg-neutral-50 px-8 py-3 text-lg rounded-lg font-semibold inline-flex items-center transition-colors">Call (954) 555-4663</Link>
         </div>
       </div>
     </div>

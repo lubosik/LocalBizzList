@@ -9,20 +9,6 @@ export const metadata: Metadata = {
 export default function GreaseTrapQuotePage() {
   return (
     <div className="min-h-screen bg-neutral-50">
-      {/* Header */}
-      <div className="bg-white shadow-sm">
-        <div className="container py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="text-2xl font-bold text-primary">
-              LocalBizzList
-            </Link>
-            <Link href="tel:+19545554663" className="text-neutral-700 hover:text-primary font-semibold">
-              (954) 555-4663
-            </Link>
-          </div>
-        </div>
-      </div>
-
       {/* Hero Section */}
       <div className="bg-gradient-to-b from-primary to-primary-int py-16">
         <div className="container text-center text-white">
@@ -225,24 +211,24 @@ export default function GreaseTrapQuotePage() {
       </div>
 
       {/* Footer CTA */}
-      <div className="bg-secondary py-16">
-        <div className="container text-center text-white">
+      <div className="bg-primary py-16">
+        <div className="container text-center text-primary-fg">
           <h2 className="text-3xl font-bold mb-4">
             Need Immediate Service?
           </h2>
-          <p className="text-xl text-white/90 mb-8">
+          <p className="text-xl mb-8 opacity-90">
             Call now for emergency grease trap service
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="tel:+19545554663"
-              className="btn-primary px-8 py-3 text-lg"
+              className="bg-white text-primary hover:bg-neutral-50 px-8 py-3 text-lg rounded-lg font-semibold inline-flex items-center transition-colors"
             >
               Call (954) 555-4663
             </Link>
             <Link
               href="/niches/grease-trap-cleaning"
-              className="text-white hover:underline font-semibold"
+              className="text-primary-fg hover:underline font-semibold opacity-90"
             >
               Learn More About Our Service
             </Link>
