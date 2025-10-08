@@ -451,6 +451,45 @@ export default function RestaurantHoodCleaningPage() {
         </div>
       </section>
 
+      {/* Common Issues Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12">
+              Common Issues We Can Solve
+            </h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                <h3 className="text-xl font-semibold mb-4 text-orange-600">Exhaust Fan Making Loud Grinding Noise</h3>
+                <p className="text-gray-600 mb-4">
+                  Troubleshooting guide for commercial kitchen exhaust fan grinding noise. Quick fixes, safety checks, and when to call professionals for repair.
+                </p>
+                <a 
+                  href="/resources/issues/hood-cleaning/exhaust-fan-grinding-noise"
+                  className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium"
+                >
+                  Learn More →
+                </a>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                <h3 className="text-xl font-semibold mb-4 text-blue-600">How Often Do We Need Hood Cleaning?</h3>
+                <p className="text-gray-600 mb-4">
+                  Complete guide to hood cleaning frequency requirements by NFPA 96 standards. Learn cleaning schedules for different restaurant types and cooking volumes.
+                </p>
+                <a 
+                  href="/resources/issues/hood-cleaning/how-often-hood-cleaning"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
+                >
+                  Learn More →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">

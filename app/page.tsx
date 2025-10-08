@@ -67,67 +67,73 @@ export default function HomePage() {
     city: issue.cities[0], // Use first city
   }))
   
-  // Mock data for latest guides - will be replaced with real data from resources
-  const mockGuides = [
+  // Real data for latest guides from actual blog articles
+  const latestGuides = [
     {
       title: '30-Point NFPA 96 Compliance Checklist for Miami Restaurants',
-      excerpt: 'Complete checklist for NFPA 96 compliance including inspection requirements, cleaning schedules, and certification procedures.',
+      excerpt: 'Complete NFPA 96 compliance checklist for Miami restaurants. Ensure fire safety compliance with Miami-Dade County requirements and avoid costly violations.',
       city: 'Miami',
       category: 'Compliance & Inspections',
-      publishedAt: 'Jan 5, 2025',
-      readTime: '8 min read',
-      slug: 'nfpa-96-hood-cleaning-checklist',
+      publishedAt: 'Jan 15, 2024',
+      readTime: '12 min read',
+      slug: 'nfpa-96-compliance-checklist-miami',
       citySlug: 'miami',
+      url: '/blog/nfpa-96-compliance-checklist-miami',
     },
     {
       title: 'Hood Cleaning Frequency by Restaurant Type in Boca Raton',
-      excerpt: 'Understanding NFPA 96 requirements for different cooking volumes and grease production levels.',
+      excerpt: 'Complete guide to hood cleaning frequency requirements for different restaurant types in Boca Raton. NFPA 96 compliance schedules for fast food, fine dining, and casual restaurants.',
       city: 'Boca Raton',
       category: 'Compliance & Inspections',
-      publishedAt: 'Jan 4, 2025',
-      readTime: '6 min read',
-      slug: 'hood-cleaning-frequency-by-restaurant-type',
+      publishedAt: 'Jan 15, 2024',
+      readTime: '10 min read',
+      slug: 'hood-cleaning-frequency-boca-raton',
       citySlug: 'boca-raton',
+      url: '/blog/hood-cleaning-frequency-boca-raton',
     },
     {
-      title: 'Kitchen Exhaust Fan Problems & Quick Fixes',
-      excerpt: 'Common exhaust fan issues, troubleshooting steps, and when to call for professional repair.',
+      title: 'Kitchen Exhaust Fan Problems & Quick Fixes in Fort Lauderdale',
+      excerpt: 'Complete troubleshooting guide for kitchen exhaust fan problems in Fort Lauderdale. Quick fixes for common issues, repair costs, and when to call professionals.',
       city: 'Fort Lauderdale',
       category: 'Maintenance & Repairs',
-      publishedAt: 'Jan 3, 2025',
+      publishedAt: 'Jan 15, 2024',
       readTime: '10 min read',
-      slug: 'exhaust-fan-problems-and-fixes',
+      slug: 'exhaust-fan-problems-fort-lauderdale',
       citySlug: 'fort-lauderdale',
+      url: '/blog/exhaust-fan-problems-fort-lauderdale',
     },
     {
       title: 'NFPA 96 Hood Cleaning Checklist for Fort Lauderdale',
-      excerpt: 'Complete compliance checklist for Fort Lauderdale restaurants including local regulations.',
+      excerpt: 'Complete NFPA 96 hood cleaning checklist for Fort Lauderdale restaurants. Ensure fire safety compliance with Broward County requirements and avoid costly violations.',
       city: 'Fort Lauderdale',
       category: 'Compliance & Inspections',
-      publishedAt: 'Jan 2, 2025',
-      readTime: '8 min read',
-      slug: 'nfpa-96-hood-cleaning-checklist',
+      publishedAt: 'Jan 15, 2024',
+      readTime: '11 min read',
+      slug: 'nfpa-96-hood-cleaning-checklist-fort-lauderdale',
       citySlug: 'fort-lauderdale',
+      url: '/blog/nfpa-96-hood-cleaning-checklist-fort-lauderdale',
     },
     {
       title: 'Hood Cleaning Frequency Requirements in Miami',
-      excerpt: 'Miami-Dade County specific requirements for hood cleaning schedules and documentation.',
+      excerpt: 'Understanding hood cleaning frequency requirements for Miami restaurants. NFPA 96 compliance and Miami-Dade County regulations.',
       city: 'Miami',
       category: 'Compliance & Inspections',
-      publishedAt: 'Jan 1, 2025',
-      readTime: '6 min read',
-      slug: 'hood-cleaning-frequency-by-restaurant-type',
+      publishedAt: 'Jan 15, 2024',
+      readTime: '9 min read',
+      slug: 'hood-cleaning-frequency-requirements-miami',
       citySlug: 'miami',
+      url: '/blog/hood-cleaning-frequency-requirements-miami',
     },
     {
-      title: 'Exhaust Fan Problems & Coastal Climate Considerations',
-      excerpt: 'How South Florida\'s coastal climate affects exhaust fan performance and maintenance needs.',
+      title: 'Exhaust Fan Problems & Coastal Climate Considerations in Boca Raton',
+      excerpt: 'Exhaust fan problems and coastal climate considerations for Boca Raton restaurants. Salt air effects and maintenance tips.',
       city: 'Boca Raton',
       category: 'Maintenance & Repairs',
-      publishedAt: 'Dec 31, 2024',
-      readTime: '10 min read',
-      slug: 'exhaust-fan-problems-and-fixes',
+      publishedAt: 'Jan 15, 2024',
+      readTime: '7 min read',
+      slug: 'exhaust-fan-coastal-considerations-boca-raton',
       citySlug: 'boca-raton',
+      url: '/blog/exhaust-fan-coastal-considerations-boca-raton',
     },
   ]
 
@@ -200,7 +206,7 @@ export default function HomePage() {
       <IssuesGrid issues={issues} />
 
       {/* Latest Guides */}
-      <LatestGuides guides={mockGuides} />
+        <LatestGuides guides={latestGuides} />
 
       {/* Service Areas & Trust Links */}
       <section className="container py-16">

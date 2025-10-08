@@ -542,7 +542,7 @@ export default function FortLauderdaleExhaustFanProblemsPage() {
             "dateModified": "2025-01-07T00:00:00.000Z",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://localbizzlist.com/resources/fort-lauderdale/exhaust-fan-problems-and-fixes"
+              "@id": "https://localbizzlist.com/resources/restaurant-hood-cleaning/fort-lauderdale/exhaust-fan-problems-and-fixes"
             },
             "about": {
               "@type": "Thing",

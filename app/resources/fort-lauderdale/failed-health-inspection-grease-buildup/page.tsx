@@ -660,11 +660,11 @@ export default function FailedHealthInspectionFortLauderdalePage() {
           <section className="mt-16">
             <h2 className="text-2xl font-bold mb-6">Related Resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Link href="/resources/fort-lauderdale/nfpa-96-hood-cleaning-checklist" className="bg-gray-50 p-6 rounded-lg hover:bg-gray-100 transition-colors">
+              <Link href="/resources/restaurant-hood-cleaning/fort-lauderdale/nfpa-96-hood-cleaning-checklist" className="bg-gray-50 p-6 rounded-lg hover:bg-gray-100 transition-colors">
                 <h3 className="text-xl font-bold text-blue-600 mb-2">NFPA 96 Hood Cleaning Checklist</h3>
                 <p className="text-gray-700">Complete compliance checklist for Fort Lauderdale restaurants to prevent inspection failures.</p>
               </Link>
-              <Link href="/resources/fort-lauderdale/hood-cleaning-frequency-by-restaurant-type" className="bg-gray-50 p-6 rounded-lg hover:bg-gray-100 transition-colors">
+              <Link href="/resources/restaurant-hood-cleaning/fort-lauderdale/hood-cleaning-frequency-by-restaurant-type" className="bg-gray-50 p-6 rounded-lg hover:bg-gray-100 transition-colors">
                 <h3 className="text-xl font-bold text-blue-600 mb-2">Hood Cleaning Frequency Requirements</h3>
                 <p className="text-gray-700">Understanding NFPA 96 cleaning schedules for different Fort Lauderdale restaurant types.</p>
               </Link>

@@ -680,11 +680,11 @@ export default function ExhaustFanGrindingNoiseFortLauderdalePage() {
           <section className="mt-16">
             <h2 className="text-2xl font-bold mb-6">Related Resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Link href="/resources/fort-lauderdale/exhaust-fan-problems-and-fixes" className="bg-gray-50 p-6 rounded-lg hover:bg-gray-100 transition-colors">
+              <Link href="/resources/restaurant-hood-cleaning/fort-lauderdale/exhaust-fan-problems-and-fixes" className="bg-gray-50 p-6 rounded-lg hover:bg-gray-100 transition-colors">
                 <h3 className="text-xl font-bold text-blue-600 mb-2">Kitchen Exhaust Fan Problems & Quick Fixes</h3>
                 <p className="text-gray-700">Comprehensive guide to common exhaust fan issues and troubleshooting steps for Fort Lauderdale restaurants.</p>
               </Link>
-              <Link href="/resources/fort-lauderdale/hood-cleaning-frequency-by-restaurant-type" className="bg-gray-50 p-6 rounded-lg hover:bg-gray-100 transition-colors">
+              <Link href="/resources/restaurant-hood-cleaning/fort-lauderdale/hood-cleaning-frequency-by-restaurant-type" className="bg-gray-50 p-6 rounded-lg hover:bg-gray-100 transition-colors">
                 <h3 className="text-xl font-bold text-blue-600 mb-2">Hood Cleaning Frequency Requirements</h3>
                 <p className="text-gray-700">Understanding NFPA 96 cleaning schedules to prevent exhaust system problems.</p>
               </Link>

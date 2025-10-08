@@ -103,10 +103,40 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // Mock blog posts - replace with real data source
+  // Real blog posts
   const blogPosts = [
     {
-      url: `${baseUrl}/blog/nfpa-96-compliance-checklist`,
+      url: `${baseUrl}/blog/nfpa-96-compliance-checklist-miami`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/hood-cleaning-frequency-boca-raton`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/exhaust-fan-problems-fort-lauderdale`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/nfpa-96-hood-cleaning-checklist-fort-lauderdale`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/hood-cleaning-frequency-requirements-miami`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/exhaust-fan-coastal-considerations-boca-raton`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.7,
@@ -116,7 +146,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Empty businesses array - will be populated with real hood cleaning vendors
   const businesses: any[] = []
 
-  // Resource articles
+  // Common issues pages
+  const commonIssuesPages = [
+    {
+      url: `${baseUrl}/resources/issues/hood-cleaning/exhaust-fan-grinding-noise`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/issues/hood-cleaning/how-often-hood-cleaning`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+  ]
+
+  // Resource articles (legacy - keeping for now)
   const resourceArticles = [
     // Miami resources
     {
@@ -158,24 +204,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // Fort Lauderdale resources
     {
-      url: `${baseUrl}/resources/fort-lauderdale/nfpa-96-hood-cleaning-checklist`,
+      url: `${baseUrl}/resources/restaurant-hood-cleaning/fort-lauderdale/nfpa-96-hood-cleaning-checklist`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/resources/fort-lauderdale/hood-cleaning-frequency-by-restaurant-type`,
+      url: `${baseUrl}/resources/restaurant-hood-cleaning/fort-lauderdale/hood-cleaning-frequency-by-restaurant-type`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/resources/fort-lauderdale/exhaust-fan-problems-and-fixes`,
+      url: `${baseUrl}/resources/restaurant-hood-cleaning/fort-lauderdale/exhaust-fan-problems-and-fixes`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
   ]
 
-  return [...staticPages, ...blogPosts, ...businesses, ...resourceArticles]
+  return [...staticPages, ...blogPosts, ...businesses, ...commonIssuesPages, ...resourceArticles]
 }
