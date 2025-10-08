@@ -177,7 +177,7 @@ export default function SealcoatingPage() {
             {niche.description} Available in Miami, Fort Lauderdale, and Boca Raton.
           </p>
           <Link
-            href="/pricing/instant-quote?src=niche_sealcoating"
+            href="/pricing/instant-quote/sealcoating?src=niche_sealcoating"
             className="btn-primary bg-white text-primary hover:bg-neutral-50 px-8 py-4 text-lg font-bold inline-flex items-center gap-2"
           >
             <Calculator className="w-5 h-5" />
@@ -249,20 +249,20 @@ export default function SealcoatingPage() {
       </section>
 
       {/* Footer CTA */}
-      <section className="bg-secondary py-12">
+      <section className="bg-primary py-12">
         <div className="container flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
+            <h2 className="text-2xl md:text-3xl font-bold text-primary-fg mb-2">
               Need parking lot sealcoating?
             </h2>
-            <p className="text-white/90 text-base">
+            <p className="text-primary-fg/90 text-base">
               Get an instant quote for professional sealcoating service.
             </p>
           </div>
-          
+
           <Link
-            href="/pricing/instant-quote?src=niche_sealcoating_footer"
-            className="btn-primary bg-white text-secondary hover:bg-neutral-50 px-8 py-4 text-lg font-bold inline-flex items-center gap-2"
+            href="/pricing/instant-quote/sealcoating?src=niche_sealcoating_footer"
+            className="bg-white text-primary hover:bg-neutral-50 px-8 py-4 text-lg font-bold inline-flex items-center gap-2 rounded-lg transition-colors"
           >
             <Calculator className="w-5 h-5" />
             Get Instant Quote

@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { ArrowLeft } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Instant Septic Tank Service Quote | South Florida | LocalBizzList',
@@ -10,9 +11,18 @@ export default function SepticQuotePage() {
   return (
     <div className="min-h-screen bg-neutral-50">
       <div className="bg-gradient-to-b from-primary to-primary-int py-16">
-        <div className="container text-center text-white">
-          <h1 className="text-4xl font-bold mb-4">Get Your Instant Septic Service Quote</h1>
-          <p className="text-xl text-white/90 mb-4 max-w-2xl mx-auto">Professional septic tank pumping, inspections, and repairs for South Florida.</p>
+        <div className="container">
+          <Link
+            href="/pricing/instant-quote"
+            className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-6 transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Service Selection
+          </Link>
+          <div className="text-center text-white">
+            <h1 className="text-4xl font-bold mb-4">Get Your Instant Septic Service Quote</h1>
+            <p className="text-xl text-white/90 mb-4 max-w-2xl mx-auto">Professional septic tank pumping, inspections, and repairs for South Florida.</p>
+          </div>
         </div>
       </div>
 

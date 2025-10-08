@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { ArrowLeft } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Instant Hood Cleaning Quote | NFPA 96 Certified | South Florida',
@@ -11,18 +12,27 @@ export default function InstantQuotePage() {
     <div className="min-h-screen bg-neutral-50">
       {/* Hero Section */}
       <div className="bg-gradient-to-b from-primary to-primary-int py-16">
-        <div className="container text-center text-white">
-          <h1 className="text-4xl font-bold mb-4">
-            Get Your Instant Hood Cleaning Quote
-          </h1>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            NFPA 96 certified restaurant hood cleaning for South Florida. 
-            Free estimate in 60 seconds, no obligation.
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
-            <span className="bg-white/20 px-4 py-2 rounded-full">✓ NFPA 96 Certified</span>
-            <span className="bg-white/20 px-4 py-2 rounded-full">✓ 24/7 Emergency</span>
-            <span className="bg-white/20 px-4 py-2 rounded-full">✓ Same-Day Service</span>
+        <div className="container">
+          <Link
+            href="/pricing/instant-quote"
+            className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-6 transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Service Selection
+          </Link>
+          <div className="text-center text-white">
+            <h1 className="text-4xl font-bold mb-4">
+              Get Your Instant Hood Cleaning Quote
+            </h1>
+            <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+              NFPA 96 certified restaurant hood cleaning for South Florida.
+              Free estimate in 60 seconds, no obligation.
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
+              <span className="bg-white/20 px-4 py-2 rounded-full">✓ NFPA 96 Certified</span>
+              <span className="bg-white/20 px-4 py-2 rounded-full">✓ 24/7 Emergency</span>
+              <span className="bg-white/20 px-4 py-2 rounded-full">✓ Same-Day Service</span>
+            </div>
           </div>
         </div>
       </div>

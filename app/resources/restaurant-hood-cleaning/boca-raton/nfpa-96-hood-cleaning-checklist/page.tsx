@@ -98,7 +98,7 @@ const articleMeta = {
     }
   ],
   cta_targets: {
-    primary: '/pricing/instant-quote?src=resource_boca-raton_nfpa-96-checklist_mid',
+    primary: '/pricing/instant-quote/restaurant-hood-cleaning?src=resource_boca-raton_nfpa-96-checklist_mid',
     secondary: '/locations/boca-raton/hood-cleaning/'
   },
   schema_types: ['Article', 'FAQPage', 'BreadcrumbList'],
@@ -421,8 +421,8 @@ export default function BocaRatonNFPA96ChecklistPage() {
                 <h3 className="text-2xl font-bold text-white mb-4">Ready to Ensure NFPA 96 Compliance?</h3>
                 <p className="text-green-100 mb-6">Get professional hood cleaning services that meet all Palm Beach County requirements</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link 
-                    href="/pricing/instant-quote?src=resource_boca-raton_nfpa-96-checklist_end"
+                  <Link
+                    href="/pricing/instant-quote/restaurant-hood-cleaning?src=resource_boca-raton_nfpa-96-checklist_end"
                     className="inline-block bg-white text-green-600 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
                   >
                     Get Instant Quote

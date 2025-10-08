@@ -97,7 +97,7 @@ const articleMeta = {
     }
   ],
   cta_targets: {
-    primary: '/pricing/instant-quote?src=resource_boca-raton_frequency_mid',
+    primary: '/pricing/instant-quote/restaurant-hood-cleaning?src=resource_boca-raton_frequency_mid',
     secondary: '/locations/boca-raton/hood-cleaning/'
   },
   schema_types: ['Article', 'FAQPage', 'BreadcrumbList'],
@@ -419,8 +419,8 @@ export default function BocaRatonHoodCleaningFrequencyPage() {
                 <h3 className="text-2xl font-bold text-white mb-4">Ready to Optimize Your Hood Cleaning Schedule?</h3>
                 <p className="text-green-100 mb-6">Get professional service that meets your restaurant's specific frequency requirements</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link 
-                    href="/pricing/instant-quote?src=resource_boca-raton_frequency_end"
+                  <Link
+                    href="/pricing/instant-quote/restaurant-hood-cleaning?src=resource_boca-raton_frequency_end"
                     className="inline-block bg-white text-green-600 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
                   >
                     Get Instant Quote
