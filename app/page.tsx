@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import HomeHero from '@/components/home/HomeHero'
 import NicheGrid from '@/components/home/NicheGrid'
 import CategoryStrip from '@/components/home/CategoryStrip'
@@ -200,6 +201,49 @@ export default function HomePage() {
 
       {/* Latest Guides */}
       <LatestGuides guides={mockGuides} />
+
+      {/* Service Areas & Trust Links */}
+      <section className="container py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Service Areas */}
+          <div>
+            <h2 className="text-2xl font-bold text-neutral-800 mb-6">Service Areas</h2>
+            <p className="text-neutral-600 mb-4">
+              We provide certified commercial services across South Florida's major metropolitan areas.
+            </p>
+            <div className="space-y-2">
+              <Link href="/locations/miami/hood-cleaning/" className="block text-primary hover:text-primary-int font-semibold">
+                Miami Hood Cleaning Services
+              </Link>
+              <Link href="/locations/boca-raton/hood-cleaning/" className="block text-primary hover:text-primary-int font-semibold">
+                Boca Raton Commercial Services
+              </Link>
+              <Link href="/locations/fort-lauderdale/hood-cleaning/" className="block text-primary hover:text-primary-int font-semibold">
+                Fort Lauderdale Exhaust Cleaning
+              </Link>
+            </div>
+          </div>
+
+          {/* Trust & Resources */}
+          <div>
+            <h2 className="text-2xl font-bold text-neutral-800 mb-6">Why Trust LocalBizzList</h2>
+            <p className="text-neutral-600 mb-4">
+              NFPA 96 certified, fully insured, and committed to same-day service across South Florida.
+            </p>
+            <div className="space-y-2">
+              <Link href="/about/" className="block text-primary hover:text-primary-int font-semibold">
+                About Our Company
+              </Link>
+              <Link href="/services/restaurant-hood-cleaning/" className="block text-primary hover:text-primary-int font-semibold">
+                Restaurant Hood Cleaning Services
+              </Link>
+              <Link href="/resources/" className="block text-primary hover:text-primary-int font-semibold">
+                Resource Center & Guides
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Footer CTA Band */}
       <FooterCTA

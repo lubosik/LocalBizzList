@@ -113,21 +113,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // Mock businesses - replace with real data source
-  const businesses = [
-    {
-      url: `${baseUrl}/businesses/elite-realty-group`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/businesses/prestige-wealth-advisors`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-  ]
+  // Empty businesses array - will be populated with real hood cleaning vendors
+  const businesses: any[] = []
 
   // Resource articles
   const resourceArticles = [

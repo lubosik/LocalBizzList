@@ -1,36 +1,7 @@
 import Hero from '@/components/Hero'
 
-// Mock business data - replace with real data source
-const mockBusinesses = [
-  {
-    slug: 'elite-realty-group',
-    name: 'Elite Realty Group',
-    description: 'Premier luxury real estate services in South Florida',
-    category: 'Real Estate',
-    city: 'Miami',
-    state: 'FL',
-    phone: '(305) 555-0123',
-    website: 'https://eliterealtygroup.com',
-    services: ['Luxury Home Sales', 'Property Management', 'Investment Consulting'],
-    logo: '/images/businesses/elite-realty-group.jpg',
-    verified: true,
-    featured: true,
-  },
-  {
-    slug: 'prestige-wealth-advisors',
-    name: 'Prestige Wealth Advisors',
-    description: 'Comprehensive wealth management and financial planning services',
-    category: 'Financial Services',
-    city: 'Boca Raton',
-    state: 'FL',
-    phone: '(561) 555-0456',
-    website: 'https://prestigewealthadvisors.com',
-    services: ['Investment Management', 'Estate Planning', 'Tax Optimization'],
-    logo: '/images/businesses/prestige-wealth-advisors.jpg',
-    verified: true,
-    featured: true,
-  },
-]
+// Empty businesses array - will be populated with real hood cleaning vendors
+const businesses: any[] = []
 
 export const metadata = {
   title: 'Business Directory - LocalBizzList',
@@ -38,10 +9,6 @@ export const metadata = {
 }
 
 export default function BusinessesPage() {
-  const businesses = mockBusinesses.sort((a, b) =>
-    a.name.localeCompare(b.name)
-  )
-
   return (
     <>
       <Hero
@@ -61,43 +28,64 @@ export default function BusinessesPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {businesses.map((business) => (
-            <div key={business.slug} className="card p-6">
-              <div className="flex items-start gap-4 mb-4">
-                {business.logo && (
-                  <div className="relative w-16 h-16 flex-shrink-0">
-                    <img
-                      src={business.logo}
-                      alt={`${business.name} logo`}
-                      className="w-full h-full object-contain"
-                    />
+        {businesses.length === 0 ? (
+          <div className="text-center py-16">
+            <div className="w-24 h-24 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <span className="text-4xl text-neutral-400">🏢</span>
+            </div>
+            <h3 className="text-xl font-semibold text-neutral-800 mb-2">
+              No businesses yet
+            </h3>
+            <p className="text-neutral-600 mb-6 max-w-md mx-auto">
+              We're building our directory of verified hood cleaning and commercial service providers. 
+              Check back soon for local businesses in your area.
+            </p>
+            <a 
+              href="/businesses/add" 
+              className="btn-primary px-6 py-3"
+            >
+              Add Your Business
+            </a>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {businesses.map((business) => (
+              <div key={business.slug} className="card p-6">
+                <div className="flex items-start gap-4 mb-4">
+                  {business.logo && (
+                    <div className="relative w-16 h-16 flex-shrink-0">
+                      <img
+                        src={business.logo}
+                        alt={`${business.name} logo`}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  )}
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-neutral-800 mb-1">
+                      {business.name}
+                    </h3>
+                    <span className="inline-block px-2 py-1 text-xs font-semibold text-primary bg-primary/10 rounded-full">
+                      {business.category}
+                    </span>
                   </div>
-                )}
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-neutral-800 mb-1">
-                    {business.name}
-                  </h3>
-                  <span className="inline-block px-2 py-1 text-xs font-semibold text-primary bg-primary/10 rounded-full">
-                    {business.category}
+                </div>
+                <p className="text-neutral-600 mb-4">{business.description}</p>
+                <div className="flex items-center justify-between">
+                  <span className="text-sm text-neutral-500">
+                    {business.city}, {business.state}
                   </span>
+                  <a
+                    href={`/businesses/${business.slug}`}
+                    className="text-primary hover:text-primary-int font-semibold"
+                  >
+                    View Details →
+                  </a>
                 </div>
               </div>
-              <p className="text-neutral-600 mb-4">{business.description}</p>
-              <div className="flex items-center justify-between">
-                <span className="text-sm text-neutral-500">
-                  {business.city}, {business.state}
-                </span>
-                <a
-                  href={`/businesses/${business.slug}`}
-                  className="text-primary hover:text-primary-int font-semibold"
-                >
-                  View Details →
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
       </section>
     </>
   )

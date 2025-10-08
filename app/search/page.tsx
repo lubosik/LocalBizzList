@@ -18,22 +18,8 @@ const mockPosts = [
   },
 ]
 
-const mockBusinesses = [
-  {
-    slug: 'elite-realty-group',
-    name: 'Elite Realty Group',
-    description: 'Premier luxury real estate services in South Florida',
-    category: 'Real Estate',
-    city: 'Miami',
-    state: 'FL',
-    phone: '(305) 555-0123',
-    website: 'https://eliterealtygroup.com',
-    services: ['Luxury Home Sales', 'Property Management', 'Investment Consulting'],
-    logo: '/images/businesses/elite-realty-group.jpg',
-    verified: true,
-    featured: true,
-  },
-]
+// Empty businesses array - will be populated with real hood cleaning vendors
+const businesses: any[] = []
 
 function SearchContent() {
   const searchParams = useSearchParams()
@@ -63,13 +49,13 @@ function SearchContent() {
 
   // Filter businesses
   const filteredBusinesses = query
-    ? mockBusinesses.filter(
+    ? businesses.filter(
         (business) =>
           business.name.toLowerCase().includes(query) ||
           business.description.toLowerCase().includes(query) ||
           business.category.toLowerCase().includes(query) ||
           business.city.toLowerCase().includes(query) ||
-          business.services?.some((service) => service.toLowerCase().includes(query))
+          business.services?.some((service: string) => service.toLowerCase().includes(query))
       )
     : []
 

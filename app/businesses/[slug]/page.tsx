@@ -3,46 +3,17 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { MapPin, Phone, Globe, CheckCircle2, ArrowLeft } from 'lucide-react'
 
-// Mock business data - replace with real data source
-const mockBusinesses = [
-  {
-    slug: 'elite-realty-group',
-    name: 'Elite Realty Group',
-    description: 'Premier luxury real estate services in South Florida',
-    category: 'Real Estate',
-    city: 'Miami',
-    state: 'FL',
-    phone: '(305) 555-0123',
-    website: 'https://eliterealtygroup.com',
-    services: ['Luxury Home Sales', 'Property Management', 'Investment Consulting'],
-    logo: '/images/businesses/elite-realty-group.jpg',
-    verified: true,
-    featured: true,
-  },
-  {
-    slug: 'prestige-wealth-advisors',
-    name: 'Prestige Wealth Advisors',
-    description: 'Comprehensive wealth management and financial planning services',
-    category: 'Financial Services',
-    city: 'Boca Raton',
-    state: 'FL',
-    phone: '(561) 555-0456',
-    website: 'https://prestigewealthadvisors.com',
-    services: ['Investment Management', 'Estate Planning', 'Tax Optimization'],
-    logo: '/images/businesses/prestige-wealth-advisors.jpg',
-    verified: true,
-    featured: true,
-  },
-]
+// Empty businesses array - will be populated with real hood cleaning vendors
+const businesses: any[] = []
 
 export async function generateStaticParams() {
-  return mockBusinesses.map((business) => ({
+  return businesses.map((business) => ({
     slug: business.slug,
   }))
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const business = mockBusinesses.find((business) => business.slug === params.slug)
+  const business = businesses.find((business) => business.slug === params.slug)
 
   if (!business) {
     return {
@@ -63,14 +34,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 export default function BusinessPage({ params }: { params: { slug: string } }) {
-  const business = mockBusinesses.find((business) => business.slug === params.slug)
+  const business = businesses.find((business) => business.slug === params.slug)
 
   if (!business) {
     notFound()
   }
 
   // Get related businesses
-  const relatedBusinesses = mockBusinesses
+  const relatedBusinesses = businesses
     .filter(
       (b) =>
         b.slug !== business.slug &&
@@ -144,7 +115,7 @@ export default function BusinessPage({ params }: { params: { slug: string } }) {
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-neutral-800 mb-4">Services</h2>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {business.services.map((service, index) => (
+                    {business.services.map((service: string, index: number) => (
                       <li
                         key={index}
                         className="flex items-center gap-2 text-neutral-700"
