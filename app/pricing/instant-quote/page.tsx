@@ -1,12 +1,25 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { getAllNiches } from '@/lib/data/niches'
+import { Flame, Droplets, Truck, HardHat, AlertTriangle, Zap } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Instant Hood Cleaning Quote | NFPA 96 Certified | South Florida',
-  description: 'Get an instant quote for restaurant hood cleaning. NFPA 96 certified service for Miami, Boca Raton, Fort Lauderdale. Free estimate in 60 seconds.',
+  title: 'Get Instant Quote - South Florida Commercial Services | LocalBizzList',
+  description: 'Get instant quotes for hood cleaning, grease trap, septic, sealcoating, fire extinguisher, and sprinkler services across South Florida.',
 }
 
-export default function InstantQuotePage() {
+const iconMap: { [key: string]: any } = {
+  Flame,
+  Droplets,
+  Truck,
+  HardHat,
+  AlertTriangle,
+  Zap,
+}
+
+export default function QuoteSelectorPage() {
+  const niches = getAllNiches()
+
   return (
     <div className="min-h-screen bg-neutral-50">
       {/* Header */}
@@ -27,220 +40,91 @@ export default function InstantQuotePage() {
       <div className="bg-gradient-to-b from-primary to-primary-int py-16">
         <div className="container text-center text-white">
           <h1 className="text-4xl font-bold mb-4">
-            Get Your Instant Hood Cleaning Quote
+            Get Your Instant Quote
           </h1>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            NFPA 96 certified restaurant hood cleaning for South Florida. 
-            Free estimate in 60 seconds, no obligation.
+          <p className="text-xl text-white/90 mb-4 max-w-2xl mx-auto">
+            Select the service you need and get a free, no-obligation quote in 60 seconds.
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
-            <span className="bg-white/20 px-4 py-2 rounded-full">✓ NFPA 96 Certified</span>
-            <span className="bg-white/20 px-4 py-2 rounded-full">✓ 24/7 Emergency</span>
-            <span className="bg-white/20 px-4 py-2 rounded-full">✓ Same-Day Service</span>
+          <p className="text-lg text-white/80">
+            Serving Miami, Boca Raton, and Fort Lauderdale
+          </p>
+        </div>
+      </div>
+
+      {/* Service Selection */}
+      <div className="container py-16">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-neutral-800 mb-8 text-center">
+            Which service do you need?
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {niches.map((niche) => {
+              const Icon = iconMap[niche.icon] || Flame
+
+              return (
+                <Link
+                  key={niche.slug}
+                  href={`/pricing/instant-quote/${niche.slug}?src=quote_selector`}
+                  className="card p-6 hover:shadow-xl transition-all duration-200 hover:scale-105 group"
+                >
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                      <Icon className="h-8 w-8 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-bold text-neutral-800 mb-2 group-hover:text-primary transition-colors">
+                      {niche.title}
+                    </h3>
+                    <p className="text-neutral-600 text-sm mb-4 line-clamp-2">
+                      {niche.description}
+                    </p>
+                    <span className="text-primary font-semibold text-sm group-hover:underline">
+                      Get Quote →
+                    </span>
+                  </div>
+                </Link>
+              )
+            })}
           </div>
         </div>
       </div>
 
-      {/* Calculator Form */}
-      <div className="container py-16">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-neutral-800 mb-6">
-              Hood Cleaning Calculator
-            </h2>
-            
-            <form className="space-y-6">
-              {/* Service Type */}
+      {/* Trust Signals */}
+      <div className="bg-white py-16">
+        <div className="container">
+          <div className="max-w-5xl mx-auto">
+            <h3 className="text-2xl font-bold text-neutral-800 mb-8 text-center">
+              Why Choose LocalBizzList?
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
               <div>
-                <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                  Service Type *
-                </label>
-                <select className="input w-full" required>
-                  <option value="">Select service type</option>
-                  <option value="standard">Standard Hood Cleaning (NFPA 96)</option>
-                  <option value="emergency">Emergency Cleaning (Same-day)</option>
-                  <option value="inspection">NFPA 96 Inspection Only</option>
-                </select>
-              </div>
-
-              {/* Location */}
-              <div>
-                <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                  Service Location *
-                </label>
-                <select className="input w-full" required>
-                  <option value="">Select your city</option>
-                  <option value="miami">Miami, FL</option>
-                  <option value="boca-raton">Boca Raton, FL</option>
-                  <option value="fort-lauderdale">Fort Lauderdale, FL</option>
-                </select>
-              </div>
-
-              {/* Kitchen Type */}
-              <div>
-                <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                  Kitchen Type *
-                </label>
-                <select className="input w-full" required>
-                  <option value="">Select kitchen type</option>
-                  <option value="restaurant">Restaurant</option>
-                  <option value="hotel">Hotel Kitchen</option>
-                  <option value="country-club">Country Club</option>
-                  <option value="hospital">Hospital/Healthcare</option>
-                  <option value="bakery">Commercial Bakery</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-
-              {/* Hood Count */}
-              <div>
-                <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                  Number of Hoods *
-                </label>
-                <select className="input w-full" required>
-                  <option value="">Select number of hoods</option>
-                  <option value="1">1 Hood</option>
-                  <option value="2">2 Hoods</option>
-                  <option value="3">3 Hoods</option>
-                  <option value="4">4 Hoods</option>
-                  <option value="5">5 Hoods</option>
-                  <option value="6+">6+ Hoods</option>
-                </select>
-              </div>
-
-              {/* Duct Length */}
-              <div>
-                <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                  Duct Length (approximate)
-                </label>
-                <select className="input w-full">
-                  <option value="">Select duct length</option>
-                  <option value="short">Short (under 20 feet)</option>
-                  <option value="medium">Medium (20-50 feet)</option>
-                  <option value="long">Long (50+ feet)</option>
-                  <option value="unknown">Not sure</option>
-                </select>
-              </div>
-
-              {/* Contact Information */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                    Business Name *
-                  </label>
-                  <input 
-                    type="text" 
-                    className="input w-full" 
-                    placeholder="Your restaurant name"
-                    required
-                  />
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-primary-fg">✓</span>
                 </div>
-                <div>
-                  <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                    Contact Name *
-                  </label>
-                  <input 
-                    type="text" 
-                    className="input w-full" 
-                    placeholder="Your name"
-                    required
-                  />
-                </div>
+                <h4 className="font-bold text-neutral-800 mb-2">Certified Experts</h4>
+                <p className="text-neutral-600 text-sm">Licensed, insured, and industry certified</p>
               </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                    Phone Number *
-                  </label>
-                  <input 
-                    type="tel" 
-                    className="input w-full" 
-                    placeholder="(954) 555-0123"
-                    required
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                    Email Address
-                  </label>
-                  <input 
-                    type="email" 
-                    className="input w-full" 
-                    placeholder="your@email.com"
-                  />
-                </div>
-              </div>
-
-              {/* Preferred Contact Method */}
               <div>
-                <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                  Preferred Contact Method
-                </label>
-                <div className="flex gap-4">
-                  <label className="flex items-center">
-                    <input type="radio" name="contact" value="call" className="mr-2" defaultChecked />
-                    Call me
-                  </label>
-                  <label className="flex items-center">
-                    <input type="radio" name="contact" value="text" className="mr-2" />
-                    Text me
-                  </label>
-                  <label className="flex items-center">
-                    <input type="radio" name="contact" value="email" className="mr-2" />
-                    Email me
-                  </label>
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-primary-fg">🛡️</span>
                 </div>
+                <h4 className="font-bold text-neutral-800 mb-2">Fully Insured</h4>
+                <p className="text-neutral-600 text-sm">$2M liability coverage for your protection</p>
               </div>
-
-              {/* Additional Notes */}
               <div>
-                <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                  Additional Notes
-                </label>
-                <textarea 
-                  className="input w-full h-24" 
-                  placeholder="Any special requirements, access notes, or questions..."
-                />
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-primary-fg">📞</span>
+                </div>
+                <h4 className="font-bold text-neutral-800 mb-2">24/7 Service</h4>
+                <p className="text-neutral-600 text-sm">Emergency response available anytime</p>
               </div>
-
-              {/* Submit Button */}
-              <div className="text-center">
-                <button 
-                  type="submit" 
-                  className="btn-primary px-12 py-4 text-lg font-semibold"
-                >
-                  Get My Free Quote
-                </button>
-                <p className="text-sm text-neutral-500 mt-4">
-                  By submitting, you agree to receive calls/texts. No spam, unsubscribe anytime.
-                </p>
+              <div>
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-primary-fg">⭐</span>
+                </div>
+                <h4 className="font-bold text-neutral-800 mb-2">Satisfaction Guaranteed</h4>
+                <p className="text-neutral-600 text-sm">Quality work backed by our guarantee</p>
               </div>
-            </form>
-          </div>
-
-          {/* Trust Signals */}
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-primary-fg">✓</span>
-              </div>
-              <h3 className="font-bold text-neutral-800 mb-2">NFPA 96 Certified</h3>
-              <p className="text-neutral-600">IKECA member technicians with full certification</p>
-            </div>
-            <div>
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-primary-fg">🛡️</span>
-              </div>
-              <h3 className="font-bold text-neutral-800 mb-2">$2M Insured</h3>
-              <p className="text-neutral-600">Full liability and workers compensation coverage</p>
-            </div>
-            <div>
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-primary-fg">📞</span>
-              </div>
-              <h3 className="font-bold text-neutral-800 mb-2">24/7 Emergency</h3>
-              <p className="text-neutral-600">Same-day response for grease fire emergencies</p>
             </div>
           </div>
         </div>
@@ -250,23 +134,23 @@ export default function InstantQuotePage() {
       <div className="bg-secondary py-16">
         <div className="container text-center text-white">
           <h2 className="text-3xl font-bold mb-4">
-            Need Immediate Service?
+            Need Help Choosing?
           </h2>
           <p className="text-xl text-white/90 mb-8">
-            Call now for same-day emergency hood cleaning
+            Call us and we'll help you find the right service
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link 
-              href="tel:+19545554663" 
+            <Link
+              href="tel:+19545554663"
               className="btn-primary px-8 py-3 text-lg"
             >
               Call (954) 555-HOOD
             </Link>
-            <Link 
-              href="/services/restaurant-hood-cleaning" 
+            <Link
+              href="/about"
               className="text-white hover:underline font-semibold"
             >
-              Learn More About Our Service
+              Learn More About Us
             </Link>
           </div>
         </div>

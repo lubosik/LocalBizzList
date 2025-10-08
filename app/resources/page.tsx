@@ -1,177 +1,145 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { getAllNiches } from '@/lib/data/niches'
+import { Flame, Droplets, Truck, HardHat, AlertTriangle, Zap } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Restaurant Hood Cleaning Resources | Expert Guides & Checklists',
-  description: 'Comprehensive resources for restaurant hood cleaning including NFPA 96 checklists, frequency guides, and troubleshooting tips for Miami, Boca Raton, and Fort Lauderdale.',
-  keywords: 'restaurant hood cleaning resources, NFPA 96 checklist, hood cleaning frequency, exhaust fan problems, Miami hood cleaning, Boca Raton hood cleaning, Fort Lauderdale hood cleaning',
+  title: 'Commercial Services Resources | Expert Guides & Checklists | LocalBizzList',
+  description: 'Comprehensive resources for commercial services including hood cleaning, grease trap, septic, sealcoating, fire extinguisher, and sprinkler guides for South Florida.',
 }
 
-const cities = [
-  {
-    name: 'Miami',
-    slug: 'miami',
-    description: 'Expert guides for Miami restaurant hood cleaning compliance'
-  },
-  {
-    name: 'Boca Raton', 
-    slug: 'boca-raton',
-    description: 'Professional hood cleaning resources for Boca Raton restaurants'
-  },
-  {
-    name: 'Fort Lauderdale',
-    slug: 'fort-lauderdale', 
-    description: 'Comprehensive hood cleaning guides for Fort Lauderdale establishments'
-  }
-]
-
-const resourceTypes = [
-  {
-    title: 'NFPA 96 Hood Cleaning Checklist',
-    slug: 'nfpa-96-hood-cleaning-checklist',
-    description: 'Complete compliance checklist for fire safety requirements',
-    icon: '📋'
-  },
-  {
-    title: 'Hood Cleaning Frequency by Restaurant Type',
-    slug: 'hood-cleaning-frequency-by-restaurant-type', 
-    description: 'Guidelines for cleaning schedules based on cooking volume',
-    icon: '📅'
-  },
-  {
-    title: 'Kitchen Exhaust Fan Problems & Quick Fixes',
-    slug: 'exhaust-fan-problems-and-fixes',
-    description: 'Troubleshooting guide for common exhaust system issues',
-    icon: '🔧'
-  }
-]
+const iconMap: { [key: string]: any } = {
+  Flame,
+  Droplets,
+  Truck,
+  HardHat,
+  AlertTriangle,
+  Zap,
+}
 
 export default function ResourcesPage() {
+  const niches = getAllNiches()
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              Restaurant Hood Cleaning Resources
-            </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Expert guides, checklists, and troubleshooting tips to help your restaurant maintain 
-              NFPA 96 compliance and optimal kitchen exhaust system performance.
-            </p>
+    <div className="min-h-screen bg-neutral-50">
+      {/* Hero Section */}
+      <div className="bg-gradient-to-b from-primary to-primary-int py-16">
+        <div className="container text-center text-white">
+          <h1 className="text-4xl font-bold mb-4">
+            Commercial Services Resources
+          </h1>
+          <p className="text-xl text-white/90 max-w-2xl mx-auto">
+            Expert guides, checklists, and troubleshooting tips for all your commercial service needs across South Florida.
+          </p>
+        </div>
+      </div>
+
+      {/* Service Categories */}
+      <div className="container py-16">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-neutral-800 mb-8 text-center">
+            Browse Resources by Service
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {niches.map((niche) => {
+              const Icon = iconMap[niche.icon] || Flame
+
+              return (
+                <Link
+                  key={niche.slug}
+                  href={`/resources/${niche.slug}`}
+                  className="card p-6 hover:shadow-xl transition-all duration-200 hover:scale-105 group"
+                >
+                  <div className="flex flex-col">
+                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                      <Icon className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-bold text-neutral-800 mb-2 group-hover:text-primary transition-colors">
+                      {niche.title}
+                    </h3>
+                    <p className="text-neutral-600 text-sm mb-4 flex-grow">
+                      Guides, checklists, and tips for {niche.shortTitle.toLowerCase()} services
+                    </p>
+                    <span className="text-primary font-semibold text-sm group-hover:underline">
+                      View Resources →
+                    </span>
+                  </div>
+                </Link>
+              )
+            })}
           </div>
         </div>
       </div>
 
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Cities Grid */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-            Resources by City
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {cities.map((city) => (
-              <div key={city.slug} className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  {city.name}
-                </h3>
-                <p className="text-gray-600 mb-6">
-                  {city.description}
-                </p>
-                <div className="space-y-4">
-                  {resourceTypes.map((resource) => (
-                    <Link
-                      key={resource.slug}
-                      href={`/resources/${city.slug}/${resource.slug}`}
-                      className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors group"
-                    >
-                      <div className="flex items-start space-x-3">
-                        <span className="text-2xl">{resource.icon}</span>
-                        <div>
-                          <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
-                            {resource.title}
-                          </h4>
-                          <p className="text-sm text-gray-600 mt-1">
-                            {resource.description}
-                          </p>
-                        </div>
-                      </div>
-                    </Link>
-                  ))}
+      {/* Popular Resources Preview */}
+      <div className="bg-white py-16">
+        <div className="container">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-neutral-800 mb-8 text-center">
+              Popular Resources
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Link href="/resources/restaurant-hood-cleaning" className="card p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="text-3xl">📋</div>
+                  <div>
+                    <h3 className="font-bold text-lg text-neutral-800 mb-2">NFPA 96 Hood Cleaning Checklist</h3>
+                    <p className="text-neutral-600 text-sm">Complete compliance checklist for restaurant hood cleaning</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              </Link>
+
+              <Link href="/resources/grease-trap-cleaning" className="card p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="text-3xl">💧</div>
+                  <div>
+                    <h3 className="font-bold text-lg text-neutral-800 mb-2">Grease Trap Maintenance Guide</h3>
+                    <p className="text-neutral-600 text-sm">Essential tips for grease trap pumping and compliance</p>
+                  </div>
+                </div>
+              </Link>
+
+              <Link href="/resources/septic-tank-services" className="card p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="text-3xl">🚛</div>
+                  <div>
+                    <h3 className="font-bold text-lg text-neutral-800 mb-2">Septic Tank Care Guide</h3>
+                    <p className="text-neutral-600 text-sm">How to maintain your septic system and avoid costly repairs</p>
+                  </div>
+                </div>
+              </Link>
+
+              <Link href="/resources/sealcoating" className="card p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="text-3xl">🏗️</div>
+                  <div>
+                    <h3 className="font-bold text-lg text-neutral-800 mb-2">Parking Lot Maintenance Tips</h3>
+                    <p className="text-neutral-600 text-sm">Extend the life of your asphalt with proper sealcoating</p>
+                  </div>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
+      </div>
 
-        {/* Resource Types Overview */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-            Resource Types
+      {/* CTA */}
+      <div className="bg-secondary py-16">
+        <div className="container text-center text-white">
+          <h2 className="text-3xl font-bold mb-4">
+            Need a Service Quote?
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {resourceTypes.map((resource) => (
-              <div key={resource.slug} className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center">
-                <div className="text-4xl mb-4">{resource.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  {resource.title}
-                </h3>
-                <p className="text-gray-600 mb-6">
-                  {resource.description}
-                </p>
-                <div className="space-y-2">
-                  {cities.map((city) => (
-                    <Link
-                      key={city.slug}
-                      href={`/resources/${city.slug}/${resource.slug}`}
-                      className="block text-blue-600 hover:text-blue-800 font-medium"
-                    >
-                      {city.name} Guide →
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Quick Links */}
-        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-            Quick Links
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Link
-              href="/services/restaurant-hood-cleaning"
-              className="p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors text-center"
-            >
-              <h3 className="font-semibold text-gray-900 mb-2">Service Overview</h3>
-              <p className="text-sm text-gray-600">Learn about our hood cleaning services</p>
-            </Link>
-            <Link
-              href="/pricing/instant-quote"
-              className="p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors text-center"
-            >
-              <h3 className="font-semibold text-gray-900 mb-2">Get Quote</h3>
-              <p className="text-sm text-gray-600">Instant pricing for your restaurant</p>
-            </Link>
-            <Link
-              href="/locations/miami/hood-cleaning"
-              className="p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors text-center"
-            >
-              <h3 className="font-semibold text-gray-900 mb-2">Miami Service</h3>
-              <p className="text-sm text-gray-600">Hood cleaning in Miami</p>
-            </Link>
-            <Link
-              href="/locations/boca-raton/hood-cleaning"
-              className="p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors text-center"
-            >
-              <h3 className="font-semibold text-gray-900 mb-2">Boca Raton Service</h3>
-              <p className="text-sm text-gray-600">Hood cleaning in Boca Raton</p>
-            </Link>
-          </div>
+          <p className="text-xl text-white/90 mb-8">
+            Get instant quotes for any of our commercial services
+          </p>
+          <Link
+            href="/pricing/instant-quote?src=resources_cta"
+            className="btn-primary px-8 py-3 text-lg"
+          >
+            Get Instant Quote
+          </Link>
         </div>
       </div>
     </div>
