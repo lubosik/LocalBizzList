@@ -78,6 +78,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/services/septic-tank-services`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/pricing/instant-quote`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
@@ -100,6 +106,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.8,
+    },
+    // Septic city service pages
+    {
+      url: `${baseUrl}/locations/miami/septic-services`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/locations/boca-raton/septic-services`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/locations/fort-lauderdale/septic-services`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
     },
   ]
 
@@ -156,6 +181,162 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/resources/issues/hood-cleaning/how-often-hood-cleaning`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+  ]
+
+  // Septic resource articles - Miami (8 articles)
+  const septicResourcesMiami = [
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/septic-pumping-cost-frequency`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/septic-inspection-checklist`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/emergency-septic-backups`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/drain-field-problems-warning-signs`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/what-not-to-flush`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/permits-local-rules`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/septic-vs-sewer-conversion`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/restaurants-on-septic`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+  ]
+
+  // Septic resource articles - Boca Raton (8 articles)
+  const septicResourcesBoca = [
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/septic-pumping-cost-frequency`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/septic-inspection-checklist`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/emergency-septic-backups`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/drain-field-problems-warning-signs`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/what-not-to-flush`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/permits-local-rules`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/septic-vs-sewer-conversion`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/restaurants-on-septic`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+  ]
+
+  // Septic resource articles - Fort Lauderdale (8 articles)
+  const septicResourcesFTL = [
+    {
+      url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/septic-pumping-cost-frequency`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/septic-inspection-checklist`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/emergency-septic-backups`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/drain-field-problems-warning-signs`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/what-not-to-flush`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/permits-local-rules`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/septic-vs-sewer-conversion`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/restaurants-on-septic`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
@@ -223,5 +404,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  return [...staticPages, ...blogPosts, ...businesses, ...commonIssuesPages, ...resourceArticles]
+  return [
+    ...staticPages,
+    ...blogPosts,
+    ...businesses,
+    ...commonIssuesPages,
+    ...resourceArticles,
+    ...septicResourcesMiami,
+    ...septicResourcesBoca,
+    ...septicResourcesFTL
+  ]
 }
