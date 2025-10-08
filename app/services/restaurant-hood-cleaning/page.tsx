@@ -451,6 +451,152 @@ export default function RestaurantHoodCleaningPage() {
         </div>
       </section>
 
+      {/* Resource Guides by City */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12">
+              Expert Hood Cleaning Guides by City
+            </h2>
+
+            {/* Miami Resources */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-semibold mb-6 text-blue-800">Miami</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h4 className="text-lg font-semibold mb-3 text-blue-600">NFPA 96 Hood Cleaning Checklist</h4>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Complete NFPA 96 compliance checklist for Miami restaurants. Fire safety requirements and Miami-Dade regulations.
+                  </p>
+                  <a
+                    href="/resources/restaurant-hood-cleaning/miami/nfpa-96-hood-cleaning-checklist"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
+                  >
+                    Read Guide →
+                  </a>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h4 className="text-lg font-semibold mb-3 text-blue-600">Hood Cleaning Frequency by Restaurant Type</h4>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Determine the right cleaning schedule for your Miami restaurant based on cooking volume and type.
+                  </p>
+                  <a
+                    href="/resources/restaurant-hood-cleaning/miami/hood-cleaning-frequency-by-restaurant-type"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
+                  >
+                    Read Guide →
+                  </a>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h4 className="text-lg font-semibold mb-3 text-blue-600">Exhaust Fan Problems and Fixes</h4>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Comprehensive guide to diagnosing and fixing common exhaust fan issues in Miami commercial kitchens.
+                  </p>
+                  <a
+                    href="/resources/restaurant-hood-cleaning/miami/exhaust-fan-problems-and-fixes"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
+                  >
+                    Read Guide →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Boca Raton Resources */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-semibold mb-6 text-blue-800">Boca Raton</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h4 className="text-lg font-semibold mb-3 text-blue-600">NFPA 96 Hood Cleaning Checklist</h4>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Complete NFPA 96 compliance checklist for Boca Raton restaurants with Palm Beach County requirements.
+                  </p>
+                  <a
+                    href="/resources/restaurant-hood-cleaning/boca-raton/nfpa-96-hood-cleaning-checklist"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
+                  >
+                    Read Guide →
+                  </a>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h4 className="text-lg font-semibold mb-3 text-blue-600">Hood Cleaning Frequency by Restaurant Type</h4>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Determine the right cleaning schedule for your Boca Raton restaurant based on cooking volume and type.
+                  </p>
+                  <a
+                    href="/resources/restaurant-hood-cleaning/boca-raton/hood-cleaning-frequency-by-restaurant-type"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
+                  >
+                    Read Guide →
+                  </a>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h4 className="text-lg font-semibold mb-3 text-blue-600">Exhaust Fan Problems and Fixes</h4>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Comprehensive guide to diagnosing and fixing exhaust fan issues in Boca Raton's coastal environment.
+                  </p>
+                  <a
+                    href="/resources/restaurant-hood-cleaning/boca-raton/exhaust-fan-problems-and-fixes"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
+                  >
+                    Read Guide →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Fort Lauderdale Resources */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-semibold mb-6 text-blue-800">Fort Lauderdale</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h4 className="text-lg font-semibold mb-3 text-blue-600">NFPA 96 Hood Cleaning Checklist</h4>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Complete NFPA 96 compliance checklist for Fort Lauderdale restaurants with Broward County codes.
+                  </p>
+                  <a
+                    href="/resources/restaurant-hood-cleaning/fort-lauderdale/nfpa-96-hood-cleaning-checklist"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
+                  >
+                    Read Guide →
+                  </a>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h4 className="text-lg font-semibold mb-3 text-blue-600">Hood Cleaning Frequency by Restaurant Type</h4>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Determine the right cleaning schedule for your Fort Lauderdale restaurant based on cooking volume.
+                  </p>
+                  <a
+                    href="/resources/restaurant-hood-cleaning/fort-lauderdale/hood-cleaning-frequency-by-restaurant-type"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
+                  >
+                    Read Guide →
+                  </a>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h4 className="text-lg font-semibold mb-3 text-blue-600">Exhaust Fan Problems and Fixes</h4>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Comprehensive guide to diagnosing and fixing exhaust fan issues in Fort Lauderdale commercial kitchens.
+                  </p>
+                  <a
+                    href="/resources/restaurant-hood-cleaning/fort-lauderdale/exhaust-fan-problems-and-fixes"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
+                  >
+                    Read Guide →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Common Issues Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -458,27 +604,27 @@ export default function RestaurantHoodCleaningPage() {
             <h2 className="text-3xl font-bold text-center mb-12">
               Common Issues We Can Solve
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                 <h3 className="text-xl font-semibold mb-4 text-orange-600">Exhaust Fan Making Loud Grinding Noise</h3>
                 <p className="text-gray-600 mb-4">
                   Troubleshooting guide for commercial kitchen exhaust fan grinding noise. Quick fixes, safety checks, and when to call professionals for repair.
                 </p>
-                <a 
+                <a
                   href="/resources/issues/hood-cleaning/exhaust-fan-grinding-noise"
                   className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium"
                 >
                   Learn More →
                 </a>
               </div>
-              
+
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                 <h3 className="text-xl font-semibold mb-4 text-blue-600">How Often Do We Need Hood Cleaning?</h3>
                 <p className="text-gray-600 mb-4">
                   Complete guide to hood cleaning frequency requirements by NFPA 96 standards. Learn cleaning schedules for different restaurant types and cooking volumes.
                 </p>
-                <a 
+                <a
                   href="/resources/issues/hood-cleaning/how-often-hood-cleaning"
                   className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
                 >
