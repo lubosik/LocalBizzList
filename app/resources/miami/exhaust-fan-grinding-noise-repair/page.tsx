@@ -2,7 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Wrench, AlertTriangle, Clock, DollarSign, Phone, MapPin, Shield, Settings } from 'lucide-react'
+import { Wrench, AlertTriangle, Clock, DollarSign, Phone, MapPin, Shield, Settings, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Exhaust Fan Making Loud Grinding Noise Miami | Emergency Fan Repair',
