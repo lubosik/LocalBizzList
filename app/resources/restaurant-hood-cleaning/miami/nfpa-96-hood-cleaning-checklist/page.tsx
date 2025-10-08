@@ -22,6 +22,8 @@ export const metadata: Metadata = {
 const articleMeta = {
   h1: 'NFPA 96 Hood Cleaning Checklist for Miami Restaurants',
   city: 'Miami' as const,
+  category: 'Compliance & Inspections',
+  tags: ['NFPA 96', 'Fire Safety', 'Compliance', 'Hood Cleaning'],
   target_keywords: [
     'NFPA 96 checklist Miami',
     'restaurant hood cleaning checklist',
@@ -175,9 +177,9 @@ export default function MiamiNFPA96ChecklistPage() {
                   {articleMeta.summary}
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
-                  <span>📖 {articleMeta.reading_time}</span>
-                  <span>📍 {articleMeta.city}</span>
-                  <span>🕒 Last updated: {articleMeta.last_updated}</span>
+                  <span>Read Time: {articleMeta.reading_time}</span>
+                  <span>City: {articleMeta.city}</span>
+                  <span>Last updated: {articleMeta.last_updated}</span>
                 </div>
               </div>
 

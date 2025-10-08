@@ -22,6 +22,8 @@ export const metadata: Metadata = {
 const articleMeta = {
   h1: 'NFPA 96 Hood Cleaning Checklist for Fort Lauderdale Restaurants',
   city: 'Fort Lauderdale' as const,
+  category: 'Compliance & Inspections',
+  tags: ['NFPA 96', 'Fire Safety', 'Compliance', 'Hood Cleaning'],
   target_keywords: [
     'NFPA 96 checklist Fort Lauderdale',
     'hood cleaning checklist',
@@ -186,9 +188,9 @@ export default function FortLauderdaleNFPA96ChecklistPage() {
                   {articleMeta.summary}
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
-                  <span>📖 {articleMeta.reading_time}</span>
-                  <span>📍 {articleMeta.city}</span>
-                  <span>🕒 Last updated: {articleMeta.last_updated}</span>
+                  <span>Read Time: {articleMeta.reading_time}</span>
+                  <span>City: {articleMeta.city}</span>
+                  <span>Last updated: {articleMeta.last_updated}</span>
                 </div>
               </div>
 
@@ -512,14 +514,20 @@ export default function FortLauderdaleNFPA96ChecklistPage() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Fort Lauderdale",
-                "item": "https://localbizzlist.com/resources/fort-lauderdale"
+                "name": "Restaurant Hood Cleaning",
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning"
               },
               {
                 "@type": "ListItem",
                 "position": 4,
+                "name": "Fort Lauderdale",
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning/fort-lauderdale"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
                 "name": "NFPA 96 Checklist",
-                "item": "https://localbizzlist.com/resources/fort-lauderdale/nfpa-96-hood-cleaning-checklist"
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning/fort-lauderdale/nfpa-96-hood-cleaning-checklist"
               }
             ]
           })

@@ -21,6 +21,8 @@ export const metadata: Metadata = {
 const articleMeta = {
   h1: 'Kitchen Exhaust Fan Problems & Quick Fixes in Boca Raton',
   city: 'Boca Raton' as const,
+  category: 'Maintenance & Repairs',
+  tags: ['Exhaust Fan', 'Maintenance', 'Repairs', 'Troubleshooting'],
   target_keywords: [
     'kitchen exhaust fan problems Boca Raton',
     'exhaust fan repair Boca Raton',
@@ -197,9 +199,9 @@ export default function BocaRatonExhaustFanProblemsPage() {
                   {articleMeta.summary}
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
-                  <span>📖 {articleMeta.reading_time}</span>
-                  <span>📍 {articleMeta.city}</span>
-                  <span>🕒 Last updated: {articleMeta.last_updated}</span>
+                  <span>Read Time: {articleMeta.reading_time}</span>
+                  <span>City: {articleMeta.city}</span>
+                  <span>Last updated: {articleMeta.last_updated}</span>
                 </div>
               </div>
 
@@ -606,14 +608,20 @@ export default function BocaRatonExhaustFanProblemsPage() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Boca Raton",
-                "item": "https://localbizzlist.com/resources/boca-raton"
+                "name": "Restaurant Hood Cleaning",
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning"
               },
               {
                 "@type": "ListItem",
                 "position": 4,
+                "name": "Boca Raton",
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning/boca-raton"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
                 "name": "Exhaust Fan Problems",
-                "item": "https://localbizzlist.com/resources/boca-raton/exhaust-fan-problems-and-fixes"
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning/boca-raton/exhaust-fan-problems-and-fixes"
               }
             ]
           })

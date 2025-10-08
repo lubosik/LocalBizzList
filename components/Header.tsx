@@ -68,6 +68,17 @@ export default function Header() {
               Resources
             </Link>
             <Link
+              href="/blog"
+              className={`text-sm font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 ${
+                isActive('/blog')
+                  ? 'text-brand-700 underline-offset-4 underline decoration-brand-600'
+                  : 'text-neutral-700 hover:text-brand-700'
+              }`}
+              aria-current={isActive('/blog') ? 'page' : undefined}
+            >
+              Blog
+            </Link>
+            <Link
               href="/about"
               className={`text-sm font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 ${
                 isActive('/about')

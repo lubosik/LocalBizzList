@@ -21,6 +21,8 @@ export const metadata: Metadata = {
 const articleMeta = {
   h1: 'Hood Cleaning Frequency by Restaurant Type in Fort Lauderdale',
   city: 'Fort Lauderdale' as const,
+  category: 'Compliance & Inspections',
+  tags: ['Hood Cleaning', 'Compliance', 'NFPA 96', 'Maintenance Schedule'],
   target_keywords: [
     'hood cleaning frequency Fort Lauderdale',
     'restaurant hood cleaning schedule',
@@ -176,9 +178,9 @@ export default function FortLauderdaleHoodCleaningFrequencyPage() {
                   {articleMeta.summary}
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
-                  <span>📖 {articleMeta.reading_time}</span>
-                  <span>📍 {articleMeta.city}</span>
-                  <span>🕒 Last updated: {articleMeta.last_updated}</span>
+                  <span>Read Time: {articleMeta.reading_time}</span>
+                  <span>City: {articleMeta.city}</span>
+                  <span>Last updated: {articleMeta.last_updated}</span>
                 </div>
               </div>
 
@@ -535,14 +537,20 @@ export default function FortLauderdaleHoodCleaningFrequencyPage() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Fort Lauderdale",
-                "item": "https://localbizzlist.com/resources/fort-lauderdale"
+                "name": "Restaurant Hood Cleaning",
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning"
               },
               {
                 "@type": "ListItem",
                 "position": 4,
+                "name": "Fort Lauderdale",
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning/fort-lauderdale"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
                 "name": "Hood Cleaning Frequency",
-                "item": "https://localbizzlist.com/resources/fort-lauderdale/hood-cleaning-frequency-by-restaurant-type"
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning/fort-lauderdale/hood-cleaning-frequency-by-restaurant-type"
               }
             ]
           })

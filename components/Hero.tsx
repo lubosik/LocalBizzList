@@ -10,6 +10,7 @@ interface HeroProps {
   backgroundImage?: string
   showSearch?: boolean
   searchPlaceholder?: string
+  searchUrl?: string
 }
 
 export default function Hero({
@@ -18,6 +19,7 @@ export default function Hero({
   backgroundImage,
   showSearch = false,
   searchPlaceholder = 'Search...',
+  searchUrl = '/search',
 }: HeroProps) {
   const [query, setQuery] = useState('')
   const router = useRouter()
@@ -25,7 +27,7 @@ export default function Hero({
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
     if (query.trim()) {
-      router.push(`/search?q=${encodeURIComponent(query.trim())}`)
+      router.push(`${searchUrl}?q=${encodeURIComponent(query.trim())}`)
     }
   }
   return (

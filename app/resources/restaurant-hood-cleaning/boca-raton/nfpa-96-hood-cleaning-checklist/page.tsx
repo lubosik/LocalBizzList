@@ -22,6 +22,8 @@ export const metadata: Metadata = {
 const articleMeta = {
   h1: 'NFPA 96 Hood Cleaning Checklist for Boca Raton Restaurants',
   city: 'Boca Raton' as const,
+  category: 'Compliance & Inspections',
+  tags: ['NFPA 96', 'Fire Safety', 'Compliance', 'Hood Cleaning'],
   target_keywords: [
     'NFPA 96 checklist Boca Raton',
     'restaurant hood cleaning checklist',
@@ -94,6 +96,11 @@ const articleMeta = {
     {
       question: 'What are the penalties for NFPA 96 violations in Boca Raton restaurants?',
       answer: 'Penalties include immediate closure orders for serious violations, fines ranging from $100-1,000 per violation, mandatory re-inspection fees, increased insurance costs, and potential criminal charges for willful violations. Repeat offenders face escalating penalties and may lose business licenses.',
+      schema_eligible: true
+    },
+    {
+      question: 'How does Boca Raton\'s upscale dining scene affect NFPA 96 compliance requirements?',
+      answer: 'Boca Raton\'s high concentration of upscale restaurants and country clubs often means higher cooking volumes and more complex hood systems. Many establishments use high-BTU equipment and specialty cooking methods that require more frequent cleaning than NFPA 96 minimums. Insurance providers in Palm Beach County also typically require proof of monthly professional cleaning for fine dining establishments, regardless of cooking volume.',
       schema_eligible: true
     }
   ],
@@ -175,9 +182,9 @@ export default function BocaRatonNFPA96ChecklistPage() {
                   {articleMeta.summary}
                 </p>
                 <div className="flex items-center space-x-4 text-sm text-gray-500">
-                  <span>📖 {articleMeta.reading_time}</span>
-                  <span>📍 {articleMeta.city}</span>
-                  <span>🕒 Last updated: {articleMeta.last_updated}</span>
+                  <span>Read Time: {articleMeta.reading_time}</span>
+                  <span>City: {articleMeta.city}</span>
+                  <span>Last updated: {articleMeta.last_updated}</span>
                 </div>
               </div>
 
@@ -537,14 +544,20 @@ export default function BocaRatonNFPA96ChecklistPage() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Boca Raton",
-                "item": "https://localbizzlist.com/resources/boca-raton"
+                "name": "Restaurant Hood Cleaning",
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning"
               },
               {
                 "@type": "ListItem",
                 "position": 4,
+                "name": "Boca Raton",
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning/boca-raton"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
                 "name": "NFPA 96 Hood Cleaning Checklist",
-                "item": "https://localbizzlist.com/resources/boca-raton/nfpa-96-hood-cleaning-checklist"
+                "item": "https://localbizzlist.com/resources/restaurant-hood-cleaning/boca-raton/nfpa-96-hood-cleaning-checklist"
               }
             ]
           })
