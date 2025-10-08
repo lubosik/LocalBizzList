@@ -24,26 +24,48 @@ export default function Header() {
 
           <div className="hidden md:flex items-center gap-6">
             <Link
-              href="/blog"
+              href="/"
               className={`text-sm font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 ${
-                isActive('/blog')
+                isActive('/') && pathname === '/'
                   ? 'text-brand-700 underline-offset-4 underline decoration-brand-600'
                   : 'text-neutral-700 hover:text-brand-700'
               }`}
-              aria-current={isActive('/blog') ? 'page' : undefined}
+              aria-current={isActive('/') && pathname === '/' ? 'page' : undefined}
             >
-              Blog
+              Home
             </Link>
             <Link
-              href="/businesses"
+              href="/niches"
               className={`text-sm font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 ${
-                isActive('/businesses')
+                isActive('/niches')
                   ? 'text-brand-700 underline-offset-4 underline decoration-brand-600'
                   : 'text-neutral-700 hover:text-brand-700'
               }`}
-              aria-current={isActive('/businesses') ? 'page' : undefined}
+              aria-current={isActive('/niches') ? 'page' : undefined}
             >
-              Businesses
+              Services
+            </Link>
+            <Link
+              href="/locations"
+              className={`text-sm font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 ${
+                isActive('/locations')
+                  ? 'text-brand-700 underline-offset-4 underline decoration-brand-600'
+                  : 'text-neutral-700 hover:text-brand-700'
+              }`}
+              aria-current={isActive('/locations') ? 'page' : undefined}
+            >
+              Locations
+            </Link>
+            <Link
+              href="/resources"
+              className={`text-sm font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 ${
+                isActive('/resources')
+                  ? 'text-brand-700 underline-offset-4 underline decoration-brand-600'
+                  : 'text-neutral-700 hover:text-brand-700'
+              }`}
+              aria-current={isActive('/resources') ? 'page' : undefined}
+            >
+              Resources
             </Link>
             <Link
               href="/about"
@@ -69,10 +91,10 @@ export default function Header() {
           </Link>
 
           <Link
-            href="/businesses/add"
+            href="/pricing/instant-quote?src=header_cta"
             className="btn-primary px-6 py-2 text-sm hidden sm:inline-flex focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2"
           >
-            Add Business
+            Get Instant Quote
           </Link>
         </div>
       </nav>
