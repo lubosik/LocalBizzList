@@ -84,6 +84,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/resources/septic-tank-services`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/pricing/instant-quote`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
@@ -187,7 +193,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // Septic resource articles - Miami (8 articles)
+  // Septic resource articles - Miami (12 articles)
   const septicResourcesMiami = [
     {
       url: `${baseUrl}/resources/septic-tank-services/miami/septic-pumping-cost-frequency`,
@@ -237,9 +243,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/septic-tank-installation-guide`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/septic-tank-maintenance-guide`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/septic-tank-problems-guide`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/miami/septic-tank-repair-guide`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
   ]
 
-  // Septic resource articles - Boca Raton (8 articles)
+  // Septic resource articles - Boca Raton (12 articles)
   const septicResourcesBoca = [
     {
       url: `${baseUrl}/resources/septic-tank-services/boca-raton/septic-pumping-cost-frequency`,
@@ -289,9 +319,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/commercial-services`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/drain-field-care`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/emergency-repairs`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/boca-raton/tank-installation`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
   ]
 
-  // Septic resource articles - Fort Lauderdale (8 articles)
+  // Septic resource articles - Fort Lauderdale (10 articles)
   const septicResourcesFTL = [
     {
       url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/septic-pumping-cost-frequency`,
@@ -337,6 +391,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/restaurants-on-septic`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/maintenance-schedule`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/resources/septic-tank-services/fort-lauderdale/pumping-frequency`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.7,

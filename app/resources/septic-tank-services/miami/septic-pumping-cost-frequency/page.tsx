@@ -23,7 +23,7 @@ export default function MiamiSepticPumpingCostFrequency() {
               Complete guide to septic pumping costs and schedules in Miami-Dade County
             </p>
             <Link
-              href="/pricing/instant-quote?src=septic_pumping_miami_hero"
+              href="/pricing/instant-quote/septic-tank-services?src=septic_miami_septic-pumping-cost-frequency_hero"
               className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-bold text-lg rounded-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
             >
               Get Instant Quote
@@ -500,7 +500,7 @@ export default function MiamiSepticPumpingCostFrequency() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/pricing/instant-quote?src=septic_pumping_miami_end"
+              href="/pricing/instant-quote/septic-tank-services?src=septic_miami_septic-pumping-cost-frequency_end"
               className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-bold text-lg rounded-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
             >
               Get Instant Quote

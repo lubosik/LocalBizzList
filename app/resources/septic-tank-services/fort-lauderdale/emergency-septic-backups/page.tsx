@@ -1,7 +1,8 @@
 import React from 'react';
 import { Metadata } from 'next';
+import Link from 'next/link';
 import Image from 'next/image';
-import { AlertTriangle, Phone, Clock, Shield, Droplets, Wrench } from 'lucide-react';
+import { AlertTriangle, Phone, Clock, Shield, Droplets, Wrench, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Emergency Septic Backups: First-Hour Actions — Fort Lauderdale | LocalBizzList",
@@ -10,7 +11,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Emergency Septic Backups: First-Hour Actions — Fort Lauderdale",
     description: "Complete guide to handling emergency septic backups in Fort Lauderdale including immediate response actions and coastal environment considerations.",
-    type: "article",
+    type: 'article',
+    publishedTime: '2025-01-15T00:00:00.000Z',
+    modifiedTime: '2025-01-15T00:00:00.000Z',
+    authors: ['LocalBizzList'],
   },
 };
 
@@ -32,8 +36,8 @@ export default function FortLauderdaleEmergencySepticBackupsPage() {
         "url": "https://localbizzlist.com/logo.png"
       }
     },
-    "datePublished": "2024-01-15",
-    "dateModified": "2024-01-15",
+    "datePublished": "2025-01-15T00:00:00.000Z",
+    "dateModified": "2025-01-15T00:00:00.000Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://localbizzlist.com/resources/septic-tank-services/fort-lauderdale/emergency-septic-backups"
@@ -208,6 +212,17 @@ export default function FortLauderdaleEmergencySepticBackupsPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            {/* Hero Image */}
+            <div className="mb-12">
+              <Image
+                src="https://images.unsplash.com/photo-1581578731548-c3b6d7d7b8b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                alt="Emergency septic backup response in Fort Lauderdale"
+                width={1200}
+                height={400}
+                className="w-full h-64 object-cover rounded-lg shadow-lg"
+                priority
+              />
+            </div>
             
             {/* Introduction */}
             <div className="mb-12">
@@ -786,6 +801,44 @@ export default function FortLauderdaleEmergencySepticBackupsPage() {
               </div>
             </div>
 
+            {/* Related Resources */}
+            <section className="mb-12 bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Related Resources</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <a
+                  href="/locations/fort-lauderdale/septic-services"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Septic Services in Fort Lauderdale</h4>
+                  <p className="text-sm text-gray-600">Complete local service information and expert guidance</p>
+                </a>
+
+                <a
+                  href="/services/septic-tank-services"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">All Septic Tank Services</h4>
+                  <p className="text-sm text-gray-600">Comprehensive septic services across South Florida</p>
+                </a>
+
+                <a
+                  href="/resources/septic-tank-services/fort-lauderdale/drain-field-problems-warning-signs"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Drain Field Problems & Warning Signs</h4>
+                  <p className="text-sm text-gray-600">Related issues and problem detection</p>
+                </a>
+
+                <a
+                  href="/resources/septic-tank-services/fort-lauderdale/permits-local-rules"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Permits & Local Rules</h4>
+                  <p className="text-sm text-gray-600">After emergency - regulatory requirements</p>
+                </a>
+              </div>
+            </section>
+
             {/* Call to Action */}
             <div className="bg-red-600 text-white p-8 rounded-lg text-center">
               <h2 className="text-2xl font-bold mb-4">🚨 Emergency Septic Service Available 24/7</h2>
@@ -800,7 +853,7 @@ export default function FortLauderdaleEmergencySepticBackupsPage() {
                   🚨 Call (954) 555-1234 NOW
                 </a>
                 <a
-                  href="/pricing/instant-quote/septic-tank-services?src=ftl-emergency-backups-mid"
+                  href="/pricing/instant-quote/septic-tank-services?src=septic_fort-lauderdale_emergency-septic-backups_mid"
                   className="btn-secondary border-white text-white hover:bg-white hover:text-red-600 text-lg px-8 py-4"
                 >
                   Get Instant Quote

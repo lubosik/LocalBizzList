@@ -1,7 +1,8 @@
 import React from 'react';
 import { Metadata } from 'next';
+import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, CheckCircle, XCircle, DollarSign, Clock, AlertTriangle, Shield, Droplets } from 'lucide-react';
+import { ArrowRight, CheckCircle, XCircle, DollarSign, Clock, AlertTriangle, Shield, Droplets, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Septic vs Sewer Conversion — Fort Lauderdale Cost & Process | LocalBizzList",
@@ -10,7 +11,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Septic vs Sewer Conversion — Fort Lauderdale Cost & Process",
     description: "Complete guide to converting from septic to sewer in Fort Lauderdale including costs, process, permits, and coastal environment considerations.",
-    type: "article",
+    type: 'article',
+    publishedTime: '2025-01-15T00:00:00.000Z',
+    modifiedTime: '2025-01-15T00:00:00.000Z',
+    authors: ['LocalBizzList'],
   },
 };
 
@@ -32,8 +36,8 @@ export default function FortLauderdaleSepticVsSewerConversionPage() {
         "url": "https://localbizzlist.com/logo.png"
       }
     },
-    "datePublished": "2024-01-15",
-    "dateModified": "2024-01-15",
+    "datePublished": "2025-01-15T00:00:00.000Z",
+    "dateModified": "2025-01-15T00:00:00.000Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://localbizzlist.com/resources/septic-tank-services/fort-lauderdale/septic-vs-sewer-conversion"
@@ -203,6 +207,17 @@ export default function FortLauderdaleSepticVsSewerConversionPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            {/* Hero Image */}
+            <div className="mb-12">
+              <Image
+                src="https://images.unsplash.com/photo-1581578731548-c3b6d7d7b8b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                alt="Septic vs sewer conversion process in Fort Lauderdale"
+                width={1200}
+                height={400}
+                className="w-full h-64 object-cover rounded-lg shadow-lg"
+                priority
+              />
+            </div>
             
             {/* Introduction */}
             <div className="mb-12">
@@ -760,6 +775,44 @@ export default function FortLauderdaleSepticVsSewerConversionPage() {
               </div>
             </div>
 
+            {/* Related Resources */}
+            <section className="mb-12 bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Related Resources</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <a
+                  href="/locations/fort-lauderdale/septic-services"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Septic Services in Fort Lauderdale</h4>
+                  <p className="text-sm text-gray-600">Complete local service information and expert guidance</p>
+                </a>
+
+                <a
+                  href="/services/septic-tank-services"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">All Septic Tank Services</h4>
+                  <p className="text-sm text-gray-600">Comprehensive septic services across South Florida</p>
+                </a>
+
+                <a
+                  href="/resources/septic-tank-services/fort-lauderdale/permits-local-rules"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Permits & Local Rules</h4>
+                  <p className="text-sm text-gray-600">Conversion permits and regulatory requirements</p>
+                </a>
+
+                <a
+                  href="/resources/septic-tank-services/fort-lauderdale/septic-pumping-cost-frequency"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Septic Pumping Cost & Frequency</h4>
+                  <p className="text-sm text-gray-600">Cost comparison and frequency requirements</p>
+                </a>
+              </div>
+            </section>
+
             {/* Call to Action */}
             <div className="bg-green-600 text-white p-8 rounded-lg text-center">
               <h2 className="text-2xl font-bold mb-4">Ready to Convert to Sewer in Fort Lauderdale?</h2>
@@ -768,7 +821,7 @@ export default function FortLauderdaleSepticVsSewerConversionPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="/pricing/instant-quote/septic-tank-services?src=ftl-sewer-conversion-mid"
+                  href="/pricing/instant-quote/septic-tank-services?src=septic_fort-lauderdale_septic-vs-sewer-conversion_mid"
                   className="btn-primary bg-white text-green-600 hover:bg-gray-100 text-lg px-8 py-4"
                 >
                   Get Instant Quote

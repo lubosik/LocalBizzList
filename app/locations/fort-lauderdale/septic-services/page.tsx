@@ -4,12 +4,12 @@ import Image from 'next/image';
 import { CheckCircle, Shield, Clock, Users, Award, Phone, MapPin, Calendar } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Septic Services Fort Lauderdale | Septic Tank Pumping & Inspection | LocalBizzList",
-  description: "Professional septic services in Fort Lauderdale, FL. Expert septic tank pumping, inspection, and drain field repair for residential and commercial properties. Same-day service available.",
-  keywords: "septic services fort lauderdale, septic tank pumping fort lauderdale, septic inspection fort lauderdale, drain field repair fort lauderdale, septic maintenance fort lauderdale",
+  title: "Septic Services Fort Lauderdale | Expert Tank Pumping & Coastal System Care | LocalBizzList",
+  description: "Professional septic services in Fort Lauderdale, FL. Expert septic tank pumping, inspection, and drain field repair for coastal properties. Specialized in high water tables, sandy soils, and saltwater intrusion. Same-day service available.",
+  keywords: "septic services fort lauderdale, septic tank pumping fort lauderdale, septic inspection fort lauderdale, drain field repair fort lauderdale, septic maintenance fort lauderdale, coastal septic systems fort lauderdale, broward county septic services",
   openGraph: {
-    title: "Septic Services Fort Lauderdale | Septic Tank Pumping & Inspection",
-    description: "Professional septic services in Fort Lauderdale, FL. Expert septic tank pumping, inspection, and drain field repair for residential and commercial properties.",
+    title: "Septic Services Fort Lauderdale | Expert Tank Pumping & Coastal System Care",
+    description: "Professional septic services in Fort Lauderdale, FL. Expert septic tank pumping, inspection, and drain field repair for coastal properties. Specialized in high water tables, sandy soils, and saltwater intrusion.",
     type: "website",
   },
 };
@@ -121,31 +121,46 @@ export default function FortLauderdaleSepticServicesPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="flex items-center justify-center gap-2 mb-4">
-              <MapPin size={28} />
-              <span className="text-xl font-semibold">Fort Lauderdale, Florida</span>
-            </div>
-            <h1 className="text-5xl font-bold mb-6">
-              Professional Septic Services in Fort Lauderdale
-            </h1>
-            <p className="text-xl mb-8 leading-relaxed">
-              Expert septic tank pumping, inspection, and maintenance services for Fort Lauderdale's coastal properties. We understand Broward County's unique challenges including high water tables, sandy soils, and saltwater intrusion. Serving residential and commercial properties throughout Fort Lauderdale, Pompano Beach, Wilton Manors, Plantation, Davie, and Hollywood.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="/pricing/instant-quote/septic-tank-services?src=ftl-septic-hero"
-                className="btn-primary text-lg px-8 py-4"
-              >
-                Get Instant Quote
-              </a>
-              <a
-                href="tel:+19545551234"
-                className="btn-secondary text-lg px-8 py-4"
-              >
-                <Phone className="inline mr-2" size={20} />
-                Call (954) 555-1234
-              </a>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="text-center lg:text-left">
+                <div className="flex items-center justify-center lg:justify-start gap-2 mb-4">
+                  <MapPin size={28} />
+                  <span className="text-xl font-semibold">Fort Lauderdale, Florida</span>
+                </div>
+                <h1 className="text-5xl font-bold mb-6">
+                  Professional Septic Services in Fort Lauderdale
+                </h1>
+                <p className="text-xl mb-8 leading-relaxed">
+                  Expert septic tank pumping, inspection, and maintenance services for Fort Lauderdale's coastal properties. We understand Broward County's unique challenges including high water tables, sandy soils, saltwater intrusion, and climate change impacts. Our specialized coastal septic expertise ensures your system performs optimally in South Florida's challenging environment. Serving residential and commercial properties throughout Fort Lauderdale, Pompano Beach, Wilton Manors, Plantation, Davie, and Hollywood.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                  <a
+                    href="/pricing/instant-quote/septic-tank-services?src=septic_fort-lauderdale_service-page_hero"
+                    className="btn-primary text-lg px-8 py-4"
+                  >
+                    Get Instant Quote
+                  </a>
+                  <a
+                    href="tel:+19545551234"
+                    className="btn-secondary text-lg px-8 py-4"
+                  >
+                    <Phone className="inline mr-2" size={20} />
+                    Call (954) 555-1234
+                  </a>
+                </div>
+              </div>
+              <div className="relative">
+                <Image
+                  src="https://images.unsplash.com/photo-1581578731548-c3b6d7d7b8b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                  alt="Professional septic tank pumping service truck in Fort Lauderdale"
+                  width={600}
+                  height={400}
+                  className="rounded-lg shadow-lg"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent rounded-lg"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -284,6 +299,18 @@ export default function FortLauderdaleSepticServicesPage() {
                       <li>• Regular system monitoring</li>
                     </ul>
                   </div>
+
+                  <div>
+                    <h4 className="text-lg font-semibold mb-3 text-red-600">Climate Change & Sea Level Rise</h4>
+                    <p className="text-gray-600 mb-3">
+                      Fort Lauderdale faces increasing challenges from sea level rise and changing precipitation patterns that affect septic system performance and longevity.
+                    </p>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Elevated system installations</li>
+                      <li>• Flood-resistant components</li>
+                      <li>• Future-proofing strategies</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
@@ -299,11 +326,11 @@ export default function FortLauderdaleSepticServicesPage() {
             </div>
 
             <div className="mt-12 bg-blue-50 p-8 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4 text-blue-800">Broward County Regulations</h3>
+              <h3 className="text-xl font-semibold mb-4 text-blue-800">Broward County Regulations & Compliance</h3>
               <p className="text-gray-700 mb-4">
-                Fort Lauderdale septic systems must comply with Broward County Health Department regulations. Our team stays current with all local requirements and can assist with permitting and compliance.
+                Fort Lauderdale septic systems must comply with Broward County Health Department regulations, Florida DEP standards, and DOH requirements. Our team stays current with all local requirements and can assist with permitting and compliance.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
                 <div>
                   <h4 className="font-semibold mb-2">Key Requirements:</h4>
                   <ul className="space-y-1 text-gray-600">
@@ -311,6 +338,7 @@ export default function FortLauderdaleSepticServicesPage() {
                     <li>• Tank size requirements</li>
                     <li>• Drain field specifications</li>
                     <li>• Inspection schedules</li>
+                    <li>• Nitrogen-reducing systems</li>
                   </ul>
                 </div>
                 <div>
@@ -320,6 +348,17 @@ export default function FortLauderdaleSepticServicesPage() {
                     <li>• Compliance inspections</li>
                     <li>• Regulatory updates</li>
                     <li>• Documentation support</li>
+                    <li>• System upgrades</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Specialized Systems:</h4>
+                  <ul className="space-y-1 text-gray-600">
+                    <li>• Aerobic Treatment Units (ATUs)</li>
+                    <li>• Nitrogen-reducing systems</li>
+                    <li>• Coastal-compatible designs</li>
+                    <li>• High water table solutions</li>
+                    <li>• Flood-resistant installations</li>
                   </ul>
                 </div>
               </div>
@@ -339,35 +378,35 @@ export default function FortLauderdaleSepticServicesPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                 <h3 className="text-lg font-semibold mb-2">Fort Lauderdale</h3>
-                <p className="text-gray-600 text-sm">Downtown, Las Olas, Victoria Park, Coral Ridge</p>
+                <p className="text-gray-600 text-sm">Downtown, Las Olas, Victoria Park, Coral Ridge, coastal properties</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                 <h3 className="text-lg font-semibold mb-2">Pompano Beach</h3>
-                <p className="text-gray-600 text-sm">Coastal properties, residential communities</p>
+                <p className="text-gray-600 text-sm">Coastal properties, high water table areas</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                 <h3 className="text-lg font-semibold mb-2">Wilton Manors</h3>
-                <p className="text-gray-600 text-sm">Residential septic maintenance</p>
+                <p className="text-gray-600 text-sm">Residential septic maintenance, older systems</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                 <h3 className="text-lg font-semibold mb-2">Plantation</h3>
-                <p className="text-gray-600 text-sm">Suburban septic services</p>
+                <p className="text-gray-600 text-sm">Suburban septic services, newer developments</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                 <h3 className="text-lg font-semibold mb-2">Davie</h3>
-                <p className="text-gray-600 text-sm">Rural and suburban properties</p>
+                <p className="text-gray-600 text-sm">Rural and suburban properties, larger lots</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                 <h3 className="text-lg font-semibold mb-2">Hollywood</h3>
-                <p className="text-gray-600 text-sm">Coastal septic systems</p>
+                <p className="text-gray-600 text-sm">Coastal septic systems, beachfront properties</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                 <h3 className="text-lg font-semibold mb-2">Lauderdale Lakes</h3>
-                <p className="text-gray-600 text-sm">Residential communities</p>
+                <p className="text-gray-600 text-sm">Residential communities, established neighborhoods</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                 <h3 className="text-lg font-semibold mb-2">Oakland Park</h3>
-                <p className="text-gray-600 text-sm">Mixed residential areas</p>
+                <p className="text-gray-600 text-sm">Mixed residential areas, commercial properties</p>
               </div>
             </div>
           </div>
@@ -578,7 +617,7 @@ export default function FortLauderdaleSepticServicesPage() {
                   How often should I pump my septic tank in Fort Lauderdale?
                 </h3>
                 <p className="text-gray-600">
-                  For most Fort Lauderdale homes, septic tanks should be pumped every 3-5 years. However, coastal properties with high water tables may require more frequent pumping every 2-3 years. Factors like household size, water usage, and tank size also affect pumping frequency.
+                  For most Fort Lauderdale homes, septic tanks should be pumped every 3-5 years. However, coastal properties with high water tables may require more frequent pumping every 2-3 years. Factors like household size, water usage, tank size, and proximity to saltwater also affect pumping frequency. Properties with Aerobic Treatment Units (ATUs) may need more frequent maintenance.
                 </p>
               </div>
 
@@ -660,7 +699,7 @@ export default function FortLauderdaleSepticServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/pricing/instant-quote/septic-tank-services?src=ftl-septic-cta"
+                href="/pricing/instant-quote/septic-tank-services?src=septic_fort-lauderdale_service-page_cta"
                 className="btn-primary bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-4"
               >
                 Get Instant Quote

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Metadata } from 'next';
+import Link from 'next/link';
 import Image from 'next/image';
-import { CheckCircle, Clock, Calendar, AlertTriangle, Shield } from 'lucide-react';
+import { CheckCircle, Clock, Calendar, AlertTriangle, Shield, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Fort Lauderdale Septic System Maintenance Schedule | LocalBizzList",
@@ -10,7 +11,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Fort Lauderdale Septic System Maintenance Schedule",
     description: "Complete septic system maintenance schedule for Fort Lauderdale properties. Learn about pumping frequency, inspections, and coastal environment considerations.",
-    type: "article",
+    type: 'article',
+    publishedTime: '2025-01-15T00:00:00.000Z',
+    modifiedTime: '2025-01-15T00:00:00.000Z',
+    authors: ['LocalBizzList'],
   },
 };
 
@@ -32,8 +36,8 @@ export default function FortLauderdaleSepticMaintenanceSchedulePage() {
         "url": "https://localbizzlist.com/logo.png"
       }
     },
-    "datePublished": "2024-01-15",
-    "dateModified": "2024-01-15",
+    "datePublished": "2025-01-15T00:00:00.000Z",
+    "dateModified": "2025-01-15T00:00:00.000Z",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://localbizzlist.com/resources/septic-tank-services/fort-lauderdale/maintenance-schedule"
@@ -70,6 +74,77 @@ export default function FortLauderdaleSepticMaintenanceSchedulePage() {
     ]
   };
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How often should I maintain my septic system in Fort Lauderdale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fort Lauderdale septic systems require inspection every 3 years, pumping every 3-5 years for residential properties, and more frequent maintenance for commercial properties or homes in coastal areas with high water tables."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What maintenance tasks should be done monthly for septic systems?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Monthly septic maintenance includes monitoring water usage, checking for slow drains, inspecting the drain field for standing water, ensuring proper waste disposal practices, and documenting any odors or backups."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Fort Lauderdale's coastal environment affect septic maintenance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fort Lauderdale's coastal environment requires more frequent maintenance due to high water tables, saltwater intrusion, sandy soil conditions, and storm surge risks. These factors can accelerate system wear and reduce efficiency."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the signs that my septic system needs maintenance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Warning signs include slow drains, sewage odors, wet spots in the drain field, lush grass over the system, gurgling sounds, and backups. In Fort Lauderdale, also watch for saltwater corrosion and storm damage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I hire a professional for septic maintenance in Fort Lauderdale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, professional maintenance is essential in Fort Lauderdale due to complex coastal conditions. Licensed technicians understand local regulations, can identify coastal-specific issues, and ensure compliance with Broward County requirements."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What maintenance is required for commercial septic systems in Fort Lauderdale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Commercial systems require more frequent pumping (every 1-2 years), quarterly inspections, grease trap maintenance, water usage monitoring, and compliance with stricter Broward County regulations for commercial properties."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does septic maintenance cost in Fort Lauderdale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Septic maintenance costs in Fort Lauderdale typically range from $200-500 for pumping, $150-300 for inspections, and $500-1,500 for repairs. Coastal properties may require specialized services and materials."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I perform septic maintenance myself in Fort Lauderdale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Basic maintenance like monitoring water usage and avoiding harmful chemicals can be done yourself. However, pumping, inspections, and repairs should be performed by licensed professionals due to Broward County regulations and coastal complexity."
+        }
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <script
@@ -79,6 +154,10 @@ export default function FortLauderdaleSepticMaintenanceSchedulePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       {/* Hero Section */}
@@ -128,6 +207,17 @@ export default function FortLauderdaleSepticMaintenanceSchedulePage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            {/* Hero Image */}
+            <div className="mb-12">
+              <Image
+                src="https://images.unsplash.com/photo-1581578731548-c3b6d7d7b8b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                alt="Septic system maintenance schedule for Fort Lauderdale properties"
+                width={1200}
+                height={400}
+                className="w-full h-64 object-cover rounded-lg shadow-lg"
+                priority
+              />
+            </div>
             
             {/* Introduction */}
             <div className="mb-12">
@@ -551,6 +641,106 @@ export default function FortLauderdaleSepticMaintenanceSchedulePage() {
               </div>
             </div>
 
+            {/* FAQ Section */}
+            <section id="faq" className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-3">How often should I maintain my septic system in Fort Lauderdale?</h3>
+                  <p className="text-gray-700">
+                    Fort Lauderdale septic systems require inspection every 3 years, pumping every 3-5 years for residential properties, and more frequent maintenance for commercial properties or homes in coastal areas with high water tables.
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-3">What maintenance tasks should be done monthly for septic systems?</h3>
+                  <p className="text-gray-700">
+                    Monthly septic maintenance includes monitoring water usage, checking for slow drains, inspecting the drain field for standing water, ensuring proper waste disposal practices, and documenting any odors or backups.
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-3">How does Fort Lauderdale's coastal environment affect septic maintenance?</h3>
+                  <p className="text-gray-700">
+                    Fort Lauderdale's coastal environment requires more frequent maintenance due to high water tables, saltwater intrusion, sandy soil conditions, and storm surge risks. These factors can accelerate system wear and reduce efficiency.
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-3">What are the signs that my septic system needs maintenance?</h3>
+                  <p className="text-gray-700">
+                    Warning signs include slow drains, sewage odors, wet spots in the drain field, lush grass over the system, gurgling sounds, and backups. In Fort Lauderdale, also watch for saltwater corrosion and storm damage.
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-3">Should I hire a professional for septic maintenance in Fort Lauderdale?</h3>
+                  <p className="text-gray-700">
+                    Yes, professional maintenance is essential in Fort Lauderdale due to complex coastal conditions. Licensed technicians understand local regulations, can identify coastal-specific issues, and ensure compliance with Broward County requirements.
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-3">What maintenance is required for commercial septic systems in Fort Lauderdale?</h3>
+                  <p className="text-gray-700">
+                    Commercial systems require more frequent pumping (every 1-2 years), quarterly inspections, grease trap maintenance, water usage monitoring, and compliance with stricter Broward County regulations for commercial properties.
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-3">How much does septic maintenance cost in Fort Lauderdale?</h3>
+                  <p className="text-gray-700">
+                    Septic maintenance costs in Fort Lauderdale typically range from $200-500 for pumping, $150-300 for inspections, and $500-1,500 for repairs. Coastal properties may require specialized services and materials.
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold mb-3">Can I perform septic maintenance myself in Fort Lauderdale?</h3>
+                  <p className="text-gray-700">
+                    Basic maintenance like monitoring water usage and avoiding harmful chemicals can be done yourself. However, pumping, inspections, and repairs should be performed by licensed professionals due to Broward County regulations and coastal complexity.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            {/* Related Resources */}
+            <section className="mb-12 bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Related Resources</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <a
+                  href="/locations/fort-lauderdale/septic-services"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Septic Services in Fort Lauderdale</h4>
+                  <p className="text-sm text-gray-600">Complete local service information and expert guidance</p>
+                </a>
+
+                <a
+                  href="/services/septic-tank-services"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">All Septic Tank Services</h4>
+                  <p className="text-sm text-gray-600">Comprehensive septic services across South Florida</p>
+                </a>
+
+                <a
+                  href="/resources/septic-tank-services/fort-lauderdale/pumping-frequency"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Septic Pumping Frequency</h4>
+                  <p className="text-sm text-gray-600">Timing guide for optimal system performance</p>
+                </a>
+
+                <a
+                  href="/resources/septic-tank-services/fort-lauderdale/what-not-to-flush"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">What Not to Flush</h4>
+                  <p className="text-sm text-gray-600">Best practices for septic system care</p>
+                </a>
+              </div>
+            </section>
+
             {/* Call to Action */}
             <div className="bg-blue-600 text-white p-8 rounded-lg text-center">
               <h2 className="text-2xl font-bold mb-4">Need Professional Septic Maintenance in Fort Lauderdale?</h2>
@@ -559,7 +749,7 @@ export default function FortLauderdaleSepticMaintenanceSchedulePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="/pricing/instant-quote/septic-tank-services?src=ftl-maintenance-schedule"
+                  href="/pricing/instant-quote/septic-tank-services?src=septic_fort-lauderdale_maintenance-schedule_mid"
                   className="btn-primary bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-4"
                 >
                   Get Instant Quote

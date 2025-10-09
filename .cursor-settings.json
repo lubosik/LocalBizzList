@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "unsplash": {
+      "command": "uv",
+      "args": ["run", "--with", "fastmcp", "fastmcp", "run", "./unsplash-mcp-server/server.py"],
+      "env": {
+        "UNSPLASH_ACCESS_KEY": "lDB7u4zFDvEUCFZy51zl2WyNU-q70sbw_b7wXW2L1Zo"
+      }
+    }
+  }
+}

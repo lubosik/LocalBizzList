@@ -24,7 +24,7 @@ export default function MiamiSepticServices() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="/pricing/instant-quote?src=septic_miami_hero"
+                href="/pricing/instant-quote/septic-tank-services?src=septic_miami_service-page_hero"
                 className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-bold text-lg rounded-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
               >
                 Get Instant Quote
@@ -495,7 +495,7 @@ export default function MiamiSepticServices() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              href="/pricing/instant-quote?src=septic_miami_end"
+              href="/pricing/instant-quote/septic-tank-services?src=septic_miami_service-page_cta"
               className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-bold text-lg rounded-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
             >
               Get Instant Quote

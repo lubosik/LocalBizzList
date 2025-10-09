@@ -134,7 +134,7 @@ export default function BocaRatonSepticServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/pricing/instant-quote/septic-tank-services?src=boca-septic-hero"
+                href="/pricing/instant-quote/septic-tank-services?src=septic_boca-raton_service-page_hero"
                 className="btn-primary text-lg px-8 py-4"
               >
                 Get Instant Quote

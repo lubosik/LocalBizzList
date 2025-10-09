@@ -624,6 +624,44 @@ export default function BocaRatonCommercialSepticServicesPage() {
               </div>
             </div>
 
+            {/* Related Resources */}
+            <section className="mb-12 bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Related Resources</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <a
+                  href="/locations/boca-raton/septic-services"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Septic Services in Boca Raton</h4>
+                  <p className="text-sm text-gray-600">Complete local service information and Palm Beach County guidance</p>
+                </a>
+
+                <a
+                  href="/services/septic-tank-services"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">All Septic Tank Services</h4>
+                  <p className="text-sm text-gray-600">Comprehensive septic services across South Florida</p>
+                </a>
+
+                <a
+                  href="/resources/septic-tank-services/boca-raton/restaurants-on-septic"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Restaurants on Septic</h4>
+                  <p className="text-sm text-gray-600">Special requirements for food service establishments</p>
+                </a>
+
+                <a
+                  href="/resources/septic-tank-services/boca-raton/septic-pumping-cost-frequency"
+                  className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
+                >
+                  <h4 className="font-semibold text-blue-600 mb-2">Septic Pumping Cost & Frequency</h4>
+                  <p className="text-sm text-gray-600">Pumping requirements and costs for Boca Raton properties</p>
+                </a>
+              </div>
+            </section>
+
             {/* Call to Action */}
             <div className="bg-blue-600 text-white p-8 rounded-lg text-center">
               <h2 className="text-2xl font-bold mb-4">Need Commercial Septic Services in Boca Raton?</h2>
@@ -632,16 +670,16 @@ export default function BocaRatonCommercialSepticServicesPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="/pricing/instant-quote/septic-tank-services?src=boca-commercial-mid"
+                  href="/pricing/instant-quote/septic-tank-services?src=septic_boca-raton_commercial-services_mid"
                   className="btn-primary bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-4"
                 >
                   Get Instant Quote
                 </a>
                 <a
-                  href="tel:+19545551234"
+                  href="tel:+15615551234"
                   className="btn-secondary border-white text-white hover:bg-white hover:text-blue-600 text-lg px-8 py-4"
                 >
-                  Call (954) 555-1234
+                  Call (561) 555-1234
                 </a>
               </div>
             </div>

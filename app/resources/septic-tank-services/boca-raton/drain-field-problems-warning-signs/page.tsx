@@ -4,22 +4,22 @@ import Image from 'next/image';
 import { AlertTriangle, Droplets, Eye, Wrench, CheckCircle, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Drain Field Problems & Early Warning Signs — Fort Lauderdale | LocalBizzList",
-  description: "Complete guide to identifying drain field problems and warning signs in Fort Lauderdale. Learn about coastal environment factors, high water table issues, and Broward County-specific concerns.",
-  keywords: "drain field problems fort lauderdale, drain field repair fort lauderdale, septic drain field issues fort lauderdale, broward county drain field problems",
+  title: "Drain Field Problems & Early Warning Signs — Boca Raton | LocalBizzList",
+  description: "Complete guide to identifying drain field problems and warning signs in Boca Raton. Learn about coastal environment factors, high water table issues, and Palm Beach County-specific concerns.",
+  keywords: "drain field problems boca raton, drain field repair boca raton, septic drain field issues boca raton, palm beach county drain field problems",
   openGraph: {
-    title: "Drain Field Problems & Early Warning Signs — Fort Lauderdale",
-    description: "Complete guide to identifying drain field problems and warning signs in Fort Lauderdale including coastal environment factors and high water table issues.",
+    title: "Drain Field Problems & Early Warning Signs — Boca Raton",
+    description: "Complete guide to identifying drain field problems and warning signs in Boca Raton including coastal environment factors and high water table issues.",
     type: "article",
   },
 };
 
-export default function FortLauderdaleDrainFieldProblemsPage() {
+export default function BocaRatonDrainFieldProblemsPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Drain Field Problems & Early Warning Signs — Fort Lauderdale",
-    "description": "Complete guide to identifying drain field problems and warning signs in Fort Lauderdale including coastal environment factors and high water table issues.",
+    "headline": "Drain Field Problems & Early Warning Signs — Boca Raton",
+    "description": "Complete guide to identifying drain field problems and warning signs in Boca Raton including coastal environment factors and high water table issues.",
     "author": {
       "@type": "Organization",
       "name": "LocalBizzList"
@@ -36,7 +36,7 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
     "dateModified": "2024-01-15",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://localbizzlist.com/resources/septic-tank-services/fort-lauderdale/drain-field-problems-warning-signs"
+      "@id": "https://localbizzlist.com/resources/septic-tank-services/boca-raton/drain-field-problems-warning-signs"
     }
   };
 
@@ -65,7 +65,7 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
       {
         "@type": "ListItem",
         "position": 4,
-        "name": "Fort Lauderdale Drain Field Problems"
+        "name": "Boca Raton Drain Field Problems"
       }
     ]
   };
@@ -76,18 +76,18 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What are the most common drain field problems in Fort Lauderdale?",
+        "name": "What are the most common drain field problems in Boca Raton?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The most common drain field problems in Fort Lauderdale include high water table saturation, saltwater intrusion, sandy soil erosion, and storm surge damage. These coastal environmental factors significantly impact drain field performance."
+          "text": "The most common drain field problems in Boca Raton include high water table saturation, saltwater intrusion, sandy soil erosion, and storm surge damage. These coastal environmental factors significantly impact drain field performance."
         }
       },
       {
         "@type": "Question",
-        "name": "How often should I inspect my drain field in Fort Lauderdale?",
+        "name": "How often should I inspect my drain field in Boca Raton?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Fort Lauderdale's coastal environment, drain field inspections should be performed quarterly due to high water tables and potential saltwater intrusion. Professional inspections are recommended annually."
+          "text": "In Boca Raton's coastal environment, drain field inspections should be performed quarterly due to high water tables and potential saltwater intrusion. Professional inspections are recommended annually."
         }
       },
       {
@@ -95,15 +95,15 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
         "name": "What are the early warning signs of drain field failure?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Early warning signs include slow drains, sewage odors, wet spots in the drain field area, lush green grass over the drain field, and gurgling sounds in pipes. In Fort Lauderdale, also watch for saltwater corrosion and storm damage."
+          "text": "Early warning signs include slow drains, sewage odors, wet spots in the drain field area, lush green grass over the drain field, and gurgling sounds in pipes. In Boca Raton, also watch for saltwater corrosion and storm damage."
         }
       },
       {
         "@type": "Question",
-        "name": "How does Fort Lauderdale's high water table affect drain fields?",
+        "name": "How does Boca Raton's high water table affect drain fields?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Fort Lauderdale's high water table reduces drain field efficiency by limiting soil absorption capacity. This can cause premature saturation, reduced treatment effectiveness, and increased pumping frequency requirements."
+          "text": "Boca Raton's high water table reduces drain field efficiency by limiting soil absorption capacity. This can cause premature saturation, reduced treatment effectiveness, and increased pumping frequency requirements."
         }
       },
       {
@@ -119,23 +119,23 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
         "name": "What should I do if I suspect drain field problems?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Immediately reduce water usage, avoid flushing toilets unnecessarily, and contact a licensed septic professional. In Fort Lauderdale, look for contractors experienced with coastal septic systems and high water table conditions."
+          "text": "Immediately reduce water usage, avoid flushing toilets unnecessarily, and contact a licensed septic professional. In Boca Raton, look for contractors experienced with coastal septic systems and high water table conditions."
         }
       },
       {
         "@type": "Question",
-        "name": "How much does drain field repair cost in Fort Lauderdale?",
+        "name": "How much does drain field repair cost in Boca Raton?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Drain field repair costs in Fort Lauderdale typically range from $3,000 to $15,000 depending on the extent of damage, soil conditions, and accessibility. Coastal properties may require specialized materials and techniques."
+          "text": "Drain field repair costs in Boca Raton typically range from $3,000 to $15,000 depending on the extent of damage, soil conditions, and accessibility. Coastal properties may require specialized materials and techniques."
         }
       },
       {
         "@type": "Question",
-        "name": "Are there Broward County regulations for drain field work?",
+        "name": "Are there Palm Beach County regulations for drain field work?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, Broward County requires permits for drain field repairs, inspections by licensed professionals, and compliance with environmental protection standards. All work must meet county health department requirements."
+          "text": "Yes, Palm Beach County requires permits for drain field repairs, inspections by licensed professionals, and compliance with environmental protection standards. All work must meet county health department requirements."
         }
       }
     ]
@@ -161,10 +161,10 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold mb-6">
-              Drain Field Problems & Early Warning Signs — Fort Lauderdale
+              Drain Field Problems & Early Warning Signs — Boca Raton
             </h1>
             <p className="text-xl mb-8 leading-relaxed">
-              Complete guide to identifying and addressing drain field problems in Fort Lauderdale's coastal environment. Learn about high water table issues, saltwater intrusion, and Broward County-specific concerns.
+              Complete guide to identifying and addressing drain field problems in Boca Raton's coastal environment. Learn about high water table issues, saltwater intrusion, and Palm Beach County-specific concerns.
             </p>
           </div>
         </div>
@@ -186,7 +186,7 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold mb-2">Fort Lauderdale Specifics</h3>
+                <h3 className="font-semibold mb-2">Boca Raton Specifics</h3>
                 <ul className="space-y-1 text-sm text-gray-600">
                   <li>• High Water Table Impact</li>
                   <li>• Coastal Environment</li>
@@ -207,7 +207,7 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
             <div className="mb-12">
               <Image
                 src="https://images.unsplash.com/photo-1581578731548-c3b6d7d7b8b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-                alt="Drain field problems and warning signs in Fort Lauderdale"
+                alt="Drain field problems and warning signs in Boca Raton"
                 width={1200}
                 height={400}
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
@@ -217,12 +217,12 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
             
             {/* Introduction */}
             <div className="mb-12">
-              <h2 className="text-3xl font-bold mb-6">Understanding Drain Field Problems in Fort Lauderdale</h2>
+              <h2 className="text-3xl font-bold mb-6">Understanding Drain Field Problems in Boca Raton</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Fort Lauderdale's coastal environment presents unique challenges for septic drain fields. The combination of high water tables, sandy soil, saltwater intrusion, and frequent storms creates conditions that can accelerate drain field problems and failure.
+                Boca Raton's coastal environment presents unique challenges for septic drain fields. The combination of high water tables, sandy soil, saltwater intrusion, and frequent storms creates conditions that can accelerate drain field problems and failure.
               </p>
               <p className="text-gray-600 mb-6">
-                Early detection of drain field issues is crucial in Fort Lauderdale's coastal environment, where problems can escalate quickly due to high water tables and potential saltwater exposure. This guide helps you identify warning signs before they become costly repairs.
+                Early detection of drain field issues is crucial in Boca Raton's coastal environment, where problems can escalate quickly due to high water tables and potential saltwater exposure. This guide helps you identify warning signs before they become costly repairs.
               </p>
             </div>
 
@@ -282,9 +282,9 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
               </div>
 
               <div className="bg-orange-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-4 text-orange-800">Fort Lauderdale Specific Warning Signs</h3>
+                <h3 className="text-xl font-semibold mb-4 text-orange-800">Boca Raton Specific Warning Signs</h3>
                 <p className="text-gray-700 mb-4">
-                  In Fort Lauderdale's coastal environment, watch for these additional warning signs:
+                  In Boca Raton's coastal environment, watch for these additional warning signs:
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                   <div>
@@ -363,9 +363,9 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
               </div>
 
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-4 text-blue-800">Fort Lauderdale Visual Monitoring</h3>
+                <h3 className="text-xl font-semibold mb-4 text-blue-800">Boca Raton Visual Monitoring</h3>
                 <p className="text-gray-700 mb-4">
-                  In Fort Lauderdale's coastal environment, visual monitoring should include:
+                  In Boca Raton's coastal environment, visual monitoring should include:
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
                   <div>
@@ -399,18 +399,18 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
               </div>
             </div>
 
-            {/* Fort Lauderdale Specific Problems */}
+            {/* Boca Raton Specific Problems */}
             <div className="mb-12">
               <h2 className="text-2xl font-bold mb-6 flex items-center">
                 <Droplets className="w-6 h-6 mr-3 text-green-600" />
-                Fort Lauderdale Specific Problems
+                Boca Raton Specific Problems
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-green-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold mb-4 text-green-800">High Water Table Issues</h3>
                   <p className="text-gray-700 mb-4">
-                    Fort Lauderdale's proximity to the ocean and extensive canal system creates high water table conditions that significantly impact drain field performance.
+                    Boca Raton's proximity to the ocean and extensive canal system creates high water table conditions that significantly impact drain field performance.
                   </p>
                   <ul className="space-y-2 text-sm text-gray-700">
                     <li>• <strong>Reduced absorption:</strong> High water table limits soil capacity</li>
@@ -437,7 +437,7 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
               <div className="bg-orange-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4 text-orange-800">Sandy Soil Challenges</h3>
                 <p className="text-gray-700 mb-4">
-                  Fort Lauderdale's sandy soil composition affects drain field performance and requires specialized considerations:
+                  Boca Raton's sandy soil composition affects drain field performance and requires specialized considerations:
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                   <div>
@@ -458,53 +458,6 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
                       <li>• Increased maintenance frequency</li>
                     </ul>
                   </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Common Drain Field Problems */}
-            <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">Common Drain Field Problems</h2>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mb-6">
-                <h3 className="text-xl font-semibold mb-4">Problem Categories</h3>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-sm">
-                    <thead>
-                      <tr className="bg-gray-50">
-                        <th className="px-4 py-2 text-left font-semibold">Problem Type</th>
-                        <th className="px-4 py-2 text-left font-semibold">Symptoms</th>
-                        <th className="px-4 py-2 text-left font-semibold">Fort Lauderdale Risk</th>
-                        <th className="px-4 py-2 text-left font-semibold">Prevention</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td className="px-4 py-2 border-b">Saturation</td>
-                        <td className="px-4 py-2 border-b">Wet spots, slow drains</td>
-                        <td className="px-4 py-2 border-b">High</td>
-                        <td className="px-4 py-2 border-b">Regular pumping, water conservation</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-2 border-b">Clogging</td>
-                        <td className="px-4 py-2 border-b">Backups, odors</td>
-                        <td className="px-4 py-2 border-b">Medium</td>
-                        <td className="px-4 py-2 border-b">Proper waste disposal</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-2 border-b">Erosion</td>
-                        <td className="px-4 py-2 border-b">Soil loss, settling</td>
-                        <td className="px-4 py-2 border-b">High</td>
-                        <td className="px-4 py-2 border-b">Vegetation, drainage control</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-2 border-b">Corrosion</td>
-                        <td className="px-4 py-2 border-b">Component failure</td>
-                        <td className="px-4 py-2 border-b">High</td>
-                        <td className="px-4 py-2 border-b">Saltwater-resistant materials</td>
-                      </tr>
-                    </tbody>
-                  </table>
                 </div>
               </div>
             </div>
@@ -563,9 +516,9 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
               </div>
 
               <div className="bg-orange-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-4 text-orange-800">Fort Lauderdale Specific Prevention</h3>
+                <h3 className="text-xl font-semibold mb-4 text-orange-800">Boca Raton Specific Prevention</h3>
                 <p className="text-gray-700 mb-4">
-                  Additional prevention measures for Fort Lauderdale's coastal environment:
+                  Additional prevention measures for Boca Raton's coastal environment:
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
                   <div>
@@ -619,7 +572,7 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-3">Fort Lauderdale Specific</h4>
+                    <h4 className="font-semibold mb-3">Boca Raton Specific</h4>
                     <ul className="space-y-2 text-sm text-gray-700">
                       <li>• Post-hurricane damage</li>
                       <li>• Saltwater intrusion signs</li>
@@ -630,55 +583,8 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
                 </div>
                 <div className="mt-4 p-4 bg-white rounded border-l-4 border-red-500">
                   <p className="text-sm text-gray-700">
-                    <strong>Emergency Contact:</strong> Call (954) 555-1234 for 24/7 emergency septic services in Fort Lauderdale and surrounding areas.
+                    <strong>Emergency Contact:</strong> Call (561) 555-1234 for 24/7 emergency septic services in Boca Raton and surrounding areas.
                   </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Cost Considerations */}
-            <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">Repair Cost Considerations</h2>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <h3 className="text-xl font-semibold mb-4">Fort Lauderdale Drain Field Repair Costs</h3>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-sm">
-                    <thead>
-                      <tr className="bg-gray-50">
-                        <th className="px-4 py-2 text-left font-semibold">Repair Type</th>
-                        <th className="px-4 py-2 text-left font-semibold">Cost Range</th>
-                        <th className="px-4 py-2 text-left font-semibold">Fort Lauderdale Factors</th>
-                        <th className="px-4 py-2 text-left font-semibold">Timeline</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td className="px-4 py-2 border-b">Minor Repairs</td>
-                        <td className="px-4 py-2 border-b">$500-2,000</td>
-                        <td className="px-4 py-2 border-b">Saltwater-resistant materials</td>
-                        <td className="px-4 py-2 border-b">1-3 days</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-2 border-b">Drain Field Repair</td>
-                        <td className="px-4 py-2 border-b">$3,000-8,000</td>
-                        <td className="px-4 py-2 border-b">High water table considerations</td>
-                        <td className="px-4 py-2 border-b">3-7 days</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-2 border-b">Complete Replacement</td>
-                        <td className="px-4 py-2 border-b">$8,000-15,000</td>
-                        <td className="px-4 py-2 border-b">Coastal design requirements</td>
-                        <td className="px-4 py-2 border-b">1-2 weeks</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-2 border-b">Emergency Service</td>
-                        <td className="px-4 py-2 border-b">+$200-500</td>
-                        <td className="px-4 py-2 border-b">24/7 availability</td>
-                        <td className="px-4 py-2 border-b">Same day</td>
-                      </tr>
-                    </tbody>
-                  </table>
                 </div>
               </div>
             </div>
@@ -689,30 +595,30 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
               
               <div className="space-y-6">
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-3">What are the most common drain field problems in Fort Lauderdale?</h3>
+                  <h3 className="text-lg font-semibold mb-3">What are the most common drain field problems in Boca Raton?</h3>
                   <p className="text-gray-700">
-                    The most common drain field problems in Fort Lauderdale include high water table saturation, saltwater intrusion, sandy soil erosion, and storm surge damage. These coastal environmental factors significantly impact drain field performance.
+                    The most common drain field problems in Boca Raton include high water table saturation, saltwater intrusion, sandy soil erosion, and storm surge damage. These coastal environmental factors significantly impact drain field performance.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-3">How often should I inspect my drain field in Fort Lauderdale?</h3>
+                  <h3 className="text-lg font-semibold mb-3">How often should I inspect my drain field in Boca Raton?</h3>
                   <p className="text-gray-700">
-                    In Fort Lauderdale's coastal environment, drain field inspections should be performed quarterly due to high water tables and potential saltwater intrusion. Professional inspections are recommended annually.
+                    In Boca Raton's coastal environment, drain field inspections should be performed quarterly due to high water tables and potential saltwater intrusion. Professional inspections are recommended annually.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold mb-3">What are the early warning signs of drain field failure?</h3>
                   <p className="text-gray-700">
-                    Early warning signs include slow drains, sewage odors, wet spots in the drain field area, lush green grass over the drain field, and gurgling sounds in pipes. In Fort Lauderdale, also watch for saltwater corrosion and storm damage.
+                    Early warning signs include slow drains, sewage odors, wet spots in the drain field area, lush green grass over the drain field, and gurgling sounds in pipes. In Boca Raton, also watch for saltwater corrosion and storm damage.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-3">How does Fort Lauderdale's high water table affect drain fields?</h3>
+                  <h3 className="text-lg font-semibold mb-3">How does Boca Raton's high water table affect drain fields?</h3>
                   <p className="text-gray-700">
-                    Fort Lauderdale's high water table reduces drain field efficiency by limiting soil absorption capacity. This can cause premature saturation, reduced treatment effectiveness, and increased pumping frequency requirements.
+                    Boca Raton's high water table reduces drain field efficiency by limiting soil absorption capacity. This can cause premature saturation, reduced treatment effectiveness, and increased pumping frequency requirements.
                   </p>
                 </div>
 
@@ -726,21 +632,21 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold mb-3">What should I do if I suspect drain field problems?</h3>
                   <p className="text-gray-700">
-                    Immediately reduce water usage, avoid flushing toilets unnecessarily, and contact a licensed septic professional. In Fort Lauderdale, look for contractors experienced with coastal septic systems and high water table conditions.
+                    Immediately reduce water usage, avoid flushing toilets unnecessarily, and contact a licensed septic professional. In Boca Raton, look for contractors experienced with coastal septic systems and high water table conditions.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-3">How much does drain field repair cost in Fort Lauderdale?</h3>
+                  <h3 className="text-lg font-semibold mb-3">How much does drain field repair cost in Boca Raton?</h3>
                   <p className="text-gray-700">
-                    Drain field repair costs in Fort Lauderdale typically range from $3,000 to $15,000 depending on the extent of damage, soil conditions, and accessibility. Coastal properties may require specialized materials and techniques.
+                    Drain field repair costs in Boca Raton typically range from $3,000 to $15,000 depending on the extent of damage, soil conditions, and accessibility. Coastal properties may require specialized materials and techniques.
                   </p>
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-3">Are there Broward County regulations for drain field work?</h3>
+                  <h3 className="text-lg font-semibold mb-3">Are there Palm Beach County regulations for drain field work?</h3>
                   <p className="text-gray-700">
-                    Yes, Broward County requires permits for drain field repairs, inspections by licensed professionals, and compliance with environmental protection standards. All work must meet county health department requirements.
+                    Yes, Palm Beach County requires permits for drain field repairs, inspections by licensed professionals, and compliance with environmental protection standards. All work must meet county health department requirements.
                   </p>
                 </div>
               </div>
@@ -751,11 +657,11 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Related Resources</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <a
-                  href="/locations/fort-lauderdale/septic-services"
+                  href="/locations/boca-raton/septic-services"
                   className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
                 >
-                  <h4 className="font-semibold text-blue-600 mb-2">Septic Services in Fort Lauderdale</h4>
-                  <p className="text-sm text-gray-600">Complete local service information and expert guidance</p>
+                  <h4 className="font-semibold text-blue-600 mb-2">Septic Services in Boca Raton</h4>
+                  <p className="text-sm text-gray-600">Complete local service information and Palm Beach County guidance</p>
                 </a>
 
                 <a
@@ -767,41 +673,41 @@ export default function FortLauderdaleDrainFieldProblemsPage() {
                 </a>
 
                 <a
-                  href="/resources/septic-tank-services/fort-lauderdale/emergency-septic-backups"
+                  href="/resources/septic-tank-services/boca-raton/emergency-septic-backups"
                   className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
                 >
                   <h4 className="font-semibold text-blue-600 mb-2">Emergency Septic Backups</h4>
-                  <p className="text-sm text-gray-600">First-hour emergency response for Fort Lauderdale properties</p>
+                  <p className="text-sm text-gray-600">Emergency response for Boca Raton properties</p>
                 </a>
 
                 <a
-                  href="/resources/septic-tank-services/fort-lauderdale/septic-inspection-checklist"
+                  href="/resources/septic-tank-services/boca-raton/septic-inspection-checklist"
                   className="p-4 bg-white border border-gray-200 rounded hover:border-blue-500 transition-colors"
                 >
                   <h4 className="font-semibold text-blue-600 mb-2">Septic Inspection Checklist</h4>
-                  <p className="text-sm text-gray-600">Complete inspection guide for Broward County compliance</p>
+                  <p className="text-sm text-gray-600">Complete inspection guide for Palm Beach County compliance</p>
                 </a>
               </div>
             </section>
 
             {/* Call to Action */}
             <div className="bg-blue-600 text-white p-8 rounded-lg text-center">
-              <h2 className="text-2xl font-bold mb-4">Need Professional Drain Field Service in Fort Lauderdale?</h2>
+              <h2 className="text-2xl font-bold mb-4">Need Professional Drain Field Service in Boca Raton?</h2>
               <p className="text-xl mb-6">
-                Our certified technicians understand Fort Lauderdale's unique coastal challenges and can help diagnose and repair drain field problems before they become costly failures.
+                Our certified technicians understand Boca Raton's unique coastal challenges and can help diagnose and repair drain field problems before they become costly failures.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="/pricing/instant-quote/septic-tank-services?src=septic_fort-lauderdale_drain-field-problems-warning-signs_mid"
+                  href="/pricing/instant-quote/septic-tank-services?src=septic_boca-raton_drain-field-problems-warning-signs_mid"
                   className="btn-primary bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-4"
                 >
                   Get Instant Quote
                 </a>
                 <a
-                  href="tel:+19545551234"
+                  href="tel:+15615551234"
                   className="btn-secondary border-white text-white hover:bg-white hover:text-blue-600 text-lg px-8 py-4"
                 >
-                  Call (954) 555-1234
+                  Call (561) 555-1234
                 </a>
               </div>
             </div>
