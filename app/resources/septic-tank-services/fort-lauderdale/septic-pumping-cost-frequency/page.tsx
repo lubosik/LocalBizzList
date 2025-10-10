@@ -210,10 +210,10 @@ export default function FortLauderdaleSepticPumpingCostFrequencyPage() {
             {/* Hero Image */}
             <div className="mb-12">
               <Image
-                src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-                alt="Septic pumping cost and frequency guide for Fort Lauderdale"
-                width={1200}
-                height={400}
+                src="https://images.unsplash.com/photo-1722483297823-692d2f278396?ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHwxfHxzZXB0aWMlMjBwdW1wJTIwdHJ1Y2t8ZW58MHwwfHx8MTc2MDEyMDM3N3ww&ixlib=rb-4.1.0&w=1600&auto=format&q=80"
+                alt="Professional septic tank truck ready for residential pumping service"
+                width={1600}
+                height={900}
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
                 priority
               />
@@ -225,6 +225,17 @@ export default function FortLauderdaleSepticPumpingCostFrequencyPage() {
               <p className="text-lg text-gray-600 mb-6">
                 Septic pumping costs in Fort Lauderdale are influenced by unique coastal environmental factors that don't affect inland properties. Understanding these factors helps you budget effectively and maintain optimal system performance.
               </p>
+              
+              <div className="my-8">
+                <Image
+                  src="https://images.unsplash.com/photo-1587483169422-569e73293f8a?ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHwyfHxzZXB0aWMlMjBwdW1wJTIwdHJ1Y2t8ZW58MHwwfHx8MTc2MDEyMDM3N3ww&ixlib=rb-4.1.0&w=1600&auto=format&q=80"
+                  alt="Service truck positioned for septic system maintenance"
+                  width={1600}
+                  height={1247}
+                  className="rounded-lg shadow-lg w-full"
+                  loading="lazy"
+                />
+              </div>
               <p className="text-gray-600 mb-6">
                 This comprehensive guide covers pricing factors, frequency recommendations, and cost-saving strategies specifically tailored for Fort Lauderdale's coastal environment and Broward County regulations.
               </p>

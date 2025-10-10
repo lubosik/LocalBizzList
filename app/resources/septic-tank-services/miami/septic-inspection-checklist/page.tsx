@@ -8,7 +8,7 @@ export const metadata = {
   keywords: ["septic inspection Miami", "septic inspection checklist Miami", "Miami-Dade septic inspection", "septic system inspection Miami", "septic tank inspection Miami", "septic inspection cost Miami", "Miami septic inspector", "septic inspection report Miami"],
   category: "compliance-inspections",
   city: "Miami",
-  thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1706206140285-fd36d93aaa83?ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHwxfHxzZXB0aWMlMjBpbnNwZWN0aW9uJTIwdXRpbGl0eXxlbnwwfDB8fHwxNzYwMTIwMzkwfDA&ixlib=rb-4.1.0&w=1600&auto=format&q=80",
   author: "LocalBizzList Team",
   publishedAt: "2024-01-15",
   updatedAt: "2024-01-15",
@@ -23,7 +23,7 @@ export default function MiamiSepticInspectionChecklist() {
     "@type": "Article",
     "headline": "Complete Septic Inspection Checklist for Miami Properties",
     "description": "Comprehensive septic inspection checklist for Miami properties. Learn Miami-Dade County requirements, what inspectors look for, costs, and how to prepare your system for inspection.",
-    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
+    "image": "https://images.unsplash.com/photo-1706206140285-fd36d93aaa83?ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHwxfHxzZXB0aWMlMjBpbnNwZWN0aW9uJTIwdXRpbGl0eXxlbnwwfDB8fHwxNzYwMTIwMzkwfDA&ixlib=rb-4.1.0&w=1600&auto=format&q=80",
     "author": {
       "@type": "Organization",
       "name": "LocalBizzList Team"
@@ -220,6 +220,17 @@ export default function MiamiSepticInspectionChecklist() {
                   Miami-Dade County has specific requirements for septic system inspections that differ from other Florida counties. 
                   The high water table, frequent rainfall, and urban development create unique challenges that inspectors must address.
                 </p>
+                
+                <div className="my-8">
+                  <Image
+                    src="https://images.unsplash.com/photo-1639563722312-11bc9a31ee34?ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHwzfHxzZXB0aWMlMjBpbnNwZWN0aW9uJTIwdXRpbGl0eXxlbnwwfDB8fHwxNzYwMTIwMzkwfDA&ixlib=rb-4.1.0&w=1600&auto=format&q=80"
+                    alt="Professional technician conducting septic system inspection"
+                    width={1600}
+                    height={800}
+                    className="rounded-lg shadow-lg w-full"
+                    loading="lazy"
+                  />
+                </div>
 
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div className="bg-white border border-gray-200 rounded-lg p-6">

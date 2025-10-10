@@ -210,10 +210,10 @@ export default function BocaRatonSepticPumpingCostFrequencyPage() {
             {/* Hero Image */}
             <div className="mb-12">
               <Image
-                src="https://images.unsplash.com/photo-1581578731548-c3b6d7d7b8b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-                alt="Septic pumping costs and frequency in Boca Raton"
-                width={1200}
-                height={400}
+                src="https://images.unsplash.com/photo-1722483297823-692d2f278396?ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHwxfHxzZXB0aWMlMjBwdW1wJTIwdHJ1Y2t8ZW58MHwwfHx8MTc2MDEyMDM3N3ww&ixlib=rb-4.1.0&w=1600&auto=format&q=80"
+                alt="Professional septic tank truck ready for residential pumping service"
+                width={1600}
+                height={900}
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
                 priority
               />
@@ -225,6 +225,17 @@ export default function BocaRatonSepticPumpingCostFrequencyPage() {
               <p className="text-lg text-gray-600 mb-6">
                 Understanding septic pumping costs and frequency is essential for maintaining system health and compliance with Palm Beach County regulations. Boca Raton's coastal environment presents unique factors that affect both cost and frequency.
               </p>
+              
+              <div className="my-8">
+                <Image
+                  src="https://images.unsplash.com/photo-1587483169422-569e73293f8a?ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHwyfHxzZXB0aWMlMjBwdW1wJTIwdHJ1Y2t8ZW58MHwwfHx8MTc2MDEyMDM3N3ww&ixlib=rb-4.1.0&w=1600&auto=format&q=80"
+                  alt="Service truck positioned for septic system maintenance"
+                  width={1600}
+                  height={1247}
+                  className="rounded-lg shadow-lg w-full"
+                  loading="lazy"
+                />
+              </div>
               <p className="text-gray-600 mb-6">
                 The combination of high water tables, sandy soil, and coastal environmental stress can increase pumping requirements and costs compared to inland areas. Proper planning and maintenance can help optimize both cost and frequency.
               </p>
