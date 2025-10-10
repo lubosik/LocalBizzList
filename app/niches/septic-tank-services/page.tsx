@@ -47,7 +47,7 @@ export default function SepticTankServicesPage() {
     city: issue.cities[0], // Use first city
   }))
 
-  // Mock data for septic tank resources
+  // Real data for septic tank resources - linking to existing articles
   const septicTankResources = [
     {
       title: 'Septic Tank Pumping Frequency Guide for South Florida',
@@ -56,7 +56,7 @@ export default function SepticTankServicesPage() {
       category: 'Maintenance & Repairs',
       publishedAt: 'Jan 5, 2025',
       readTime: '6 min read',
-      slug: 'septic-tank-pumping-frequency-guide',
+      slug: 'septic-pumping-cost-frequency',
       citySlug: 'miami',
     },
     {
@@ -66,7 +66,7 @@ export default function SepticTankServicesPage() {
       category: 'Emergency & After-Hours',
       publishedAt: 'Jan 4, 2025',
       readTime: '8 min read',
-      slug: 'septic-tank-backup-emergency-pumping',
+      slug: 'emergency-septic-backups',
       citySlug: 'boca-raton',
     },
     {
@@ -76,7 +76,7 @@ export default function SepticTankServicesPage() {
       category: 'Compliance & Inspections',
       publishedAt: 'Jan 3, 2025',
       readTime: '7 min read',
-      slug: 'pre-sale-septic-inspection-guide',
+      slug: 'septic-inspection-checklist',
       citySlug: 'fort-lauderdale',
     },
     {
@@ -86,7 +86,7 @@ export default function SepticTankServicesPage() {
       category: 'Maintenance & Repairs',
       publishedAt: 'Jan 2, 2025',
       readTime: '5 min read',
-      slug: 'slow-drains-septic-tank-warning-signs',
+      slug: 'drain-field-problems-warning-signs',
       citySlug: 'miami',
     },
     {
