@@ -16,3 +16,63 @@ issues:
       - "septic overflow emergency"
     articleSlug: "septic-tank-backup-emergency-pumping"
     priority: 1
+  - slug: "drain-field-failure-repair"
+    title: "Drain Field Failure and Repair Solutions"
+    snippet: "Professional drain field restoration and replacement services restore system function."
+    category: "maintenance-repairs"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "drain field failure"
+      - "leach field repair"
+      - "septic drain field problems"
+      - "drain field replacement"
+    articleSlug: "drain-field-failure-repair"
+    priority: 2
+  - slug: "septic-system-odor-control"
+    title: "Septic System Odor Control and Elimination"
+    snippet: "Effective odor elimination solutions for persistent septic system smells."
+    category: "maintenance-repairs"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "septic system odors"
+      - "septic tank smell"
+      - "odor control septic"
+      - "septic odor elimination"
+    articleSlug: "septic-system-odor-control"
+    priority: 3
+  - slug: "septic-tank-pumping-frequency"
+    title: "Septic Tank Pumping Schedule and Frequency"
+    snippet: "Optimal pumping schedules based on tank size, household usage, and local regulations."
+    category: "maintenance-repairs"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "septic tank pumping"
+      - "pumping frequency"
+      - "septic maintenance schedule"
+      - "tank pumping cost"
+    articleSlug: "septic-tank-pumping-frequency"
+    priority: 4
+  - slug: "septic-system-inspection"
+    title: "Comprehensive Septic System Inspection Services"
+    snippet: "Thorough system inspections for real estate transactions and routine maintenance."
+    category: "compliance-inspections"
+    cities:
+      - miami
+      - boca-raton
+      - fort-lauderdale
+    keywords:
+      - "septic system inspection"
+      - "septic tank inspection"
+      - "pre-sale inspection"
+      - "septic compliance check"
+    articleSlug: "septic-system-inspection"
+    priority: 5
