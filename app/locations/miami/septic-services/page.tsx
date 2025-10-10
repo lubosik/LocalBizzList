@@ -908,32 +908,32 @@ export default function MiamiSepticServices() {
               </div>
             </Link>
 
-            <Link href="/resources/septic-tank-services/miami" className="group">
+            <Link href="/resources/septic-tank-services/miami/septic-pumping-cost-frequency" className="group">
               <div className="bg-white p-8 rounded-lg shadow-lg border-2 border-transparent group-hover:border-blue-500 transition-colors">
                 <div className="flex items-center mb-4">
-                  <FileText className="w-6 h-6 text-blue-600 mr-2" />
-                  <h3 className="text-xl font-semibold">Miami Resources</h3>
+                  <DollarSign className="w-6 h-6 text-blue-600 mr-2" />
+                  <h3 className="text-xl font-semibold">Pumping Cost & Frequency</h3>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  Detailed guides, tips, and information specific to septic systems in Miami-Dade County.
+                  Complete guide to Miami septic pumping costs, schedules, and money-saving tips.
                 </p>
                 <span className="text-blue-600 font-medium group-hover:text-blue-700">
-                  Learn More →
+                  Read Guide →
                 </span>
               </div>
             </Link>
 
-            <Link href="/locations/boca-raton/septic-services" className="group">
+            <Link href="/resources/septic-tank-services/miami/emergency-septic-backups" className="group">
               <div className="bg-white p-8 rounded-lg shadow-lg border-2 border-transparent group-hover:border-blue-500 transition-colors">
                 <div className="flex items-center mb-4">
-                  <MapPin className="w-6 h-6 text-blue-600 mr-2" />
-                  <h3 className="text-xl font-semibold">Boca Raton Services</h3>
+                  <AlertTriangle className="w-6 h-6 text-blue-600 mr-2" />
+                  <h3 className="text-xl font-semibold">Emergency Septic Backups</h3>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  Septic services for Boca Raton and Palm Beach County with specialized coastal solutions.
+                  What to do during septic emergencies in Miami, including storm-related backups.
                 </p>
                 <span className="text-blue-600 font-medium group-hover:text-blue-700">
-                  Learn More →
+                  Read Guide →
                 </span>
               </div>
             </Link>
@@ -959,10 +959,10 @@ export default function MiamiSepticServices() {
               Get Instant Quote
             </Link>
             <Link
-              href="/resources/septic-tank-services/miami"
+              href="/resources/septic-tank-services/miami/drain-field-problems-warning-signs"
               className="inline-flex items-center px-8 py-4 border-2 border-white text-white font-bold text-lg rounded-lg hover:bg-white hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
             >
-              Miami Resources
+              Drain Field Guide
             </Link>
           </div>
         </div>

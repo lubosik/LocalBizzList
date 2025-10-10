@@ -24,32 +24,6 @@ export const metadata: Metadata = {
 };
 
 const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Emergency Septic Backups: First-Hour Actions — Miami",
-  "description": "Emergency septic backup response guide for Miami. Learn immediate actions to take and when to call professionals for septic emergencies.",
-  "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&h=630&fit=crop",
-  "author": {
-    "@type": "Organization",
-    "name": "LocalBizzList Team"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "LocalBizzList",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://local-bizz-list.vercel.app/logo.png"
-    }
-  },
-  "datePublished": "2024-01-15",
-  "dateModified": "2024-01-15",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://local-bizz-list.vercel.app/resources/septic-tank-services/miami/emergency-septic-backups"
-  }
-};
-
-  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Miami Emergency Septic Backups - Complete Response Guide 2025",

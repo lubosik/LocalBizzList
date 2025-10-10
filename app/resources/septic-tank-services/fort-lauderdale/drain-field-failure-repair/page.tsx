@@ -23,7 +23,6 @@ import {
   Building, 
   Utensils,
   TreePine,
-  Water,
   Gauge,
   Activity,
   AlertCircle,
@@ -40,7 +39,6 @@ export const metadata: Metadata = {
     description: 'Professional drain field failure repair and replacement services in Fort Lauderdale. Expert diagnosis, restoration, and emergency response for leach field problems.',
     type: 'website',
   },
-  readTime: '12 min read',
 }
 
 const articleSchema = {
@@ -271,7 +269,7 @@ export default function DrainFieldFailureRepairPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-blue-50 p-6 rounded-lg">
                     <h3 className="text-lg font-semibold text-blue-800 mb-3 flex items-center">
-                      <Water className="h-5 w-5 mr-2" />
+                      <Droplets className="h-5 w-5 mr-2" />
                       High Water Table
                     </h3>
                     <p className="text-gray-700 mb-3">

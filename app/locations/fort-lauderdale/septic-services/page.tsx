@@ -133,6 +133,30 @@ export default function FortLauderdaleSepticServicesPage() {
           "@type": "Answer",
           "text": "Yes, we provide 24/7 emergency septic services throughout Fort Lauderdale and surrounding areas. Our emergency response team can handle backups, overflows, and urgent repairs. We understand that septic emergencies can't wait, especially in coastal properties."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Fort Lauderdale's hurricane season affect septic systems?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hurricane season brings heavy rainfall and potential flooding that can overwhelm septic systems. We recommend pumping your tank before hurricane season, securing access lids, and having emergency contact numbers ready. Consider backup power for pump systems if you're in a flood-prone area."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the typical lifespan of a septic system in Fort Lauderdale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "With proper maintenance, septic systems in Fort Lauderdale typically last 20-30 years. However, Broward County's high water table, salt air, and frequent flooding can reduce lifespan. Regular pumping, inspections, and prompt repairs can maximize your system's longevity."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can tree roots damage my septic system in Fort Lauderdale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Fort Lauderdale's lush tropical vegetation means tree roots actively seek moisture and can invade septic tanks and drain fields. Keep trees at least 10-15 feet away from your system. If you suspect root intrusion, we offer inspection and root removal services to prevent costly damage."
+        }
       }
     ]
   };
@@ -768,9 +792,6 @@ export default function FortLauderdaleSepticServicesPage() {
           </div>
         </div>
       </section>
-          </div>
-        </div>
-      </section>
 
       {/* Service Areas */}
       <section className="py-16 bg-gray-50">
@@ -1086,6 +1107,33 @@ export default function FortLauderdaleSepticServicesPage() {
                 </h3>
                 <p className="text-gray-600">
                   Most septic additives are unnecessary and can actually harm your system. Regular pumping and proper maintenance are more effective. Avoid flushing chemicals, grease, or non-biodegradable items. Our team can recommend proper maintenance practices for Fort Lauderdale conditions and help you establish an effective maintenance routine.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-semibold mb-3 text-blue-600">
+                  How does Fort Lauderdale's hurricane season affect septic systems?
+                </h3>
+                <p className="text-gray-600">
+                  Hurricane season brings heavy rainfall and potential flooding that can overwhelm septic systems. We recommend pumping your tank before hurricane season, securing access lids, and having emergency contact numbers ready. Consider backup power for pump systems if you're in a flood-prone area.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-semibold mb-3 text-blue-600">
+                  What is the typical lifespan of a septic system in Fort Lauderdale?
+                </h3>
+                <p className="text-gray-600">
+                  With proper maintenance, septic systems in Fort Lauderdale typically last 20-30 years. However, Broward County's high water table, salt air, and frequent flooding can reduce lifespan. Regular pumping, inspections, and prompt repairs can maximize your system's longevity.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-semibold mb-3 text-blue-600">
+                  Can tree roots damage my septic system in Fort Lauderdale?
+                </h3>
+                <p className="text-gray-600">
+                  Yes, Fort Lauderdale's lush tropical vegetation means tree roots actively seek moisture and can invade septic tanks and drain fields. Keep trees at least 10-15 feet away from your system. If you suspect root intrusion, we offer inspection and root removal services to prevent costly damage.
                 </p>
               </div>
             </div>
