@@ -162,7 +162,7 @@ export default function GreaseTrapQuotePage() {
                   <input
                     type="email"
                     className="input w-full"
-                    placeholder="your@email.com"
+                    placeholder="info@localbizzlist.com"
                   />
                 </div>
               </div>

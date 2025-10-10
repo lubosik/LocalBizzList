@@ -172,6 +172,7 @@ export default function HomePage() {
             contactPoint: {
               '@type': 'ContactPoint',
               contactType: 'Customer Service',
+              email: 'info@localbizzlist.com',
               areaServed: ['Miami', 'Fort Lauderdale', 'Boca Raton'],
               availableLanguage: ['en', 'es'],
             },
