@@ -31,6 +31,7 @@ issues:
       - "drain field replacement"
     articleSlug: "drain-field-failure-repair"
     priority: 2
+    comingSoon: true
   - slug: "septic-system-odor-control"
     title: "Septic System Odor Control and Elimination"
     snippet: "Effective odor elimination solutions for persistent septic system smells."
@@ -46,6 +47,7 @@ issues:
       - "septic odor elimination"
     articleSlug: "septic-system-odor-control"
     priority: 3
+    comingSoon: true
   - slug: "septic-tank-pumping-frequency"
     title: "Septic Tank Pumping Schedule and Frequency"
     snippet: "Optimal pumping schedules based on tank size, household usage, and local regulations."
@@ -61,6 +63,7 @@ issues:
       - "tank pumping cost"
     articleSlug: "septic-tank-pumping-frequency"
     priority: 4
+    comingSoon: true
   - slug: "septic-system-inspection"
     title: "Comprehensive Septic System Inspection Services"
     snippet: "Thorough system inspections for real estate transactions and routine maintenance."

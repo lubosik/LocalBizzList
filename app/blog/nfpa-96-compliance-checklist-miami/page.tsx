@@ -10,8 +10,8 @@ export const metadata = {
   city: "Miami",
   thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
   author: "LocalBizzList Team",
-  publishedAt: "2024-01-15",
-  updatedAt: "2024-01-15",
+  publishedAt: "2025-10-06",
+  updatedAt: "2025-10-06",
   readTime: "12 min",
   h1: "30-Point NFPA 96 Compliance Checklist for Miami Restaurants",
   canonical: "https://local-bizz-list.vercel.app/blog/nfpa-96-compliance-checklist-miami"
@@ -25,8 +25,8 @@ const articleMeta = {
   city: "Miami",
   thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
   author: "LocalBizzList Team",
-  publishedAt: "2024-01-15",
-  updatedAt: "2024-01-15",
+  publishedAt: "2025-10-06",
+  updatedAt: "2025-10-06",
   readTime: "12 min",
   h1: "30-Point NFPA 96 Compliance Checklist for Miami Restaurants",
   canonical: "https://local-bizz-list.vercel.app/blog/nfpa-96-compliance-checklist-miami"

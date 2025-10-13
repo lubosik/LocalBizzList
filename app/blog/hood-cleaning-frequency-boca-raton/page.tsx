@@ -10,8 +10,8 @@ export const metadata = {
   city: "Boca Raton",
   thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
   author: "LocalBizzList Team",
-  publishedAt: "2024-01-15",
-  updatedAt: "2024-01-15",
+  publishedAt: "2025-10-08",
+  updatedAt: "2025-10-08",
   readTime: "10 min",
   h1: "Hood Cleaning Frequency by Restaurant Type in Boca Raton",
   canonical: "https://local-bizz-list.vercel.app/blog/hood-cleaning-frequency-boca-raton"
@@ -25,8 +25,8 @@ const articleMeta = {
   city: "Boca Raton",
   thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
   author: "LocalBizzList Team",
-  publishedAt: "2024-01-15",
-  updatedAt: "2024-01-15",
+  publishedAt: "2025-10-08",
+  updatedAt: "2025-10-08",
   readTime: "10 min",
   h1: "Hood Cleaning Frequency by Restaurant Type in Boca Raton",
   canonical: "https://local-bizz-list.vercel.app/blog/hood-cleaning-frequency-boca-raton"

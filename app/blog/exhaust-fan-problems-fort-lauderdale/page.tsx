@@ -10,8 +10,8 @@ export const metadata = {
   city: "Fort Lauderdale",
   thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
   author: "LocalBizzList Team",
-  publishedAt: "2024-01-15",
-  updatedAt: "2024-01-15",
+  publishedAt: "2025-10-10",
+  updatedAt: "2025-10-10",
   readTime: "8 min",
   h1: "Kitchen Exhaust Fan Problems & Quick Fixes in Fort Lauderdale",
   canonical: "https://local-bizz-list.vercel.app/blog/exhaust-fan-problems-fort-lauderdale"
@@ -25,8 +25,8 @@ const articleMeta = {
   city: "Fort Lauderdale",
   thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
   author: "LocalBizzList Team",
-  publishedAt: "2024-01-15",
-  updatedAt: "2024-01-15",
+  publishedAt: "2025-10-10",
+  updatedAt: "2025-10-10",
   readTime: "8 min",
   h1: "Kitchen Exhaust Fan Problems & Quick Fixes in Fort Lauderdale",
   canonical: "https://local-bizz-list.vercel.app/blog/exhaust-fan-problems-fort-lauderdale"

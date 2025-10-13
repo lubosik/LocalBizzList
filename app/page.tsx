@@ -80,6 +80,9 @@ export default function HomePage() {
     const nicheData = allNicheIssues.find((n: any) =>
       n.issues.some((i: any) => i.slug === issue.slug)
     )
+    
+    // Find the specific issue to get comingSoon flag
+    const specificIssue = nicheData?.issues.find((i: any) => i.slug === issue.slug)
 
     return {
       niche: nicheData?.nicheTitle || issue.title.split(' ')[0],
@@ -88,6 +91,7 @@ export default function HomePage() {
       snippet: issue.snippet,
       slug: issue.slug,
       city: issue.cities[0], // Use first city
+      comingSoon: specificIssue?.comingSoon || false,
     }
   })
   
@@ -103,7 +107,7 @@ export default function HomePage() {
       slug: 'nfpa-96-compliance-checklist-miami',
       citySlug: 'miami',
       url: '/blog/nfpa-96-compliance-checklist-miami',
-      thumbnailImage: '',
+      thumbnailImage: 'https://images.unsplash.com/photo-1676128923106-1f4bf988f347?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHwxfHxyZXN0YXVyYW50JTIwa2l0Y2hlbiUyMGhvb2QlMjBjbGVhbmluZyUyMGNvbW1lcmNpYWx8ZW58MHx8fHwxNzYwMzY0MTM4fDA&ixlib=rb-4.1.0&q=80&w=400',
     },
     {
       title: 'Hood Cleaning Frequency by Restaurant Type in Boca Raton',
@@ -115,7 +119,7 @@ export default function HomePage() {
       slug: 'hood-cleaning-frequency-boca-raton',
       citySlug: 'boca-raton',
       url: '/blog/hood-cleaning-frequency-boca-raton',
-      thumbnailImage: '',
+      thumbnailImage: 'https://images.unsplash.com/photo-1663490080984-4f9f2c02e96c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHwyfHxyZXN0YXVyYW50JTIwa2l0Y2hlbiUyMGhvb2QlMjBjbGVhbmluZyUyMGNvbW1lcmNpYWx8ZW58MHx8fHwxNzYwMzY0MTM4fDA&ixlib=rb-4.1.0&q=80&w=400',
     },
     {
       title: 'Kitchen Exhaust Fan Problems & Quick Fixes in Fort Lauderdale',
@@ -127,7 +131,7 @@ export default function HomePage() {
       slug: 'exhaust-fan-problems-fort-lauderdale',
       citySlug: 'fort-lauderdale',
       url: '/blog/exhaust-fan-problems-fort-lauderdale',
-      thumbnailImage: '',
+      thumbnailImage: 'https://images.unsplash.com/photo-1666479258732-5ea17469b610?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHwzfHxyZXN0YXVyYW50JTIwa2l0Y2hlbiUyMGhvb2QlMjBjbGVhbmluZyUyMGNvbW1lcmNpYWx8ZW58MHx8fHwxNzYwMzY0MTM4fDA&ixlib=rb-4.1.0&q=80&w=400',
     },
     {
       title: 'NFPA 96 Hood Cleaning Checklist for Fort Lauderdale',
@@ -139,7 +143,7 @@ export default function HomePage() {
       slug: 'nfpa-96-hood-cleaning-checklist-fort-lauderdale',
       citySlug: 'fort-lauderdale',
       url: '/blog/nfpa-96-hood-cleaning-checklist-fort-lauderdale',
-      thumbnailImage: '',
+      thumbnailImage: 'https://images.unsplash.com/photo-1755937302364-b871cf494a29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHw0fHxyZXN0YXVyYW50JTIwa2l0Y2hlbiUyMGhvb2QlMjBjbGVhbmluZyUyMGNvbW1lcmNpYWx8ZW58MHx8fHwxNzYwMzY0MTM4fDA&ixlib=rb-4.1.0&q=80&w=400',
     },
     {
       title: 'Hood Cleaning Frequency Requirements in Miami',
@@ -151,7 +155,7 @@ export default function HomePage() {
       slug: 'hood-cleaning-frequency-requirements-miami',
       citySlug: 'miami',
       url: '/blog/hood-cleaning-frequency-requirements-miami',
-      thumbnailImage: '',
+      thumbnailImage: 'https://images.unsplash.com/photo-1629219222129-8e51c028e95a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHw1fHxyZXN0YXVyYW50JTIwa2l0Y2hlbiUyMGhvb2QlMjBjbGVhbmluZyUyMGNvbW1lcmNpYWx8ZW58MHx8fHwxNzYwMzY0MTM4fDA&ixlib=rb-4.1.0&q=80&w=400',
     },
     {
       title: 'Exhaust Fan Problems & Coastal Climate Considerations in Boca Raton',
@@ -163,7 +167,7 @@ export default function HomePage() {
       slug: 'exhaust-fan-coastal-considerations-boca-raton',
       citySlug: 'boca-raton',
       url: '/blog/exhaust-fan-coastal-considerations-boca-raton',
-      thumbnailImage: '',
+      thumbnailImage: 'https://images.unsplash.com/photo-1588990678968-c092c0f54f0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MTM5NjB8MHwxfHNlYXJjaHw2fHxyZXN0YXVyYW50JTIwa2l0Y2hlbiUyMGhvb2QlMjBjbGVhbmluZyUyMGNvbW1lcmNpYWx8ZW58MHx8fHwxNzYwMzY0MTM4fDA&ixlib=rb-4.1.0&q=80&w=400',
     },
   ]
 
