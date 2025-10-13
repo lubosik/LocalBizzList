@@ -50,22 +50,46 @@ export const metadata: Metadata = {
   },
 }
 
+// Helper function to map niche slug to URL path segment
+function getNichePathSegment(nicheSlug: string): string {
+  const nicheMap: Record<string, string> = {
+    'restaurant-hood-cleaning': 'hood-cleaning',
+    'grease-trap-cleaning': 'grease-trap',
+    'septic-tank-services': 'septic',
+    'sealcoating': 'sealcoating',
+    'fire-extinguisher-services': 'fire-extinguisher',
+    'sprinkler-repair': 'sprinkler',
+  }
+  return nicheMap[nicheSlug] || nicheSlug
+}
+
 export default function HomePage() {
   const niches = getAllNiches()
   const categories = getAllCategories()
   const cities = getAllCities()
-  
+
   // Get top 12 issues from real data
   const topIssues = getHomepageIssues(12)
-  
+
+  // Get all niche issues to access niche metadata
+  const allNicheIssues = require('@/lib/data/issues').getAllNicheIssues()
+
   // Transform issues for IssuesGrid component
-  const issues = topIssues.map((issue) => ({
-    niche: issue.title.split(' ')[0], // Extract first word as niche name
-    title: issue.title,
-    snippet: issue.snippet,
-    slug: issue.slug,
-    city: issue.cities[0], // Use first city
-  }))
+  const issues = topIssues.map((issue) => {
+    // Find the niche this issue belongs to
+    const nicheData = allNicheIssues.find((n: any) =>
+      n.issues.some((i: any) => i.slug === issue.slug)
+    )
+
+    return {
+      niche: nicheData?.nicheTitle || issue.title.split(' ')[0],
+      nicheSlug: nicheData?.niche || '',
+      title: issue.title,
+      snippet: issue.snippet,
+      slug: issue.slug,
+      city: issue.cities[0], // Use first city
+    }
+  })
   
   // Real data for latest guides from actual blog articles
   const latestGuides = [
@@ -74,66 +98,72 @@ export default function HomePage() {
       excerpt: 'Complete NFPA 96 compliance checklist for Miami restaurants. Ensure fire safety compliance with Miami-Dade County requirements and avoid costly violations.',
       city: 'Miami',
       category: 'Compliance & Inspections',
-      publishedAt: 'Jan 15, 2024',
+      publishedAt: 'Oct 6, 2025',
       readTime: '12 min read',
       slug: 'nfpa-96-compliance-checklist-miami',
       citySlug: 'miami',
       url: '/blog/nfpa-96-compliance-checklist-miami',
+      thumbnailImage: '',
     },
     {
       title: 'Hood Cleaning Frequency by Restaurant Type in Boca Raton',
       excerpt: 'Complete guide to hood cleaning frequency requirements for different restaurant types in Boca Raton. NFPA 96 compliance schedules for fast food, fine dining, and casual restaurants.',
       city: 'Boca Raton',
       category: 'Compliance & Inspections',
-      publishedAt: 'Jan 15, 2024',
+      publishedAt: 'Oct 8, 2025',
       readTime: '10 min read',
       slug: 'hood-cleaning-frequency-boca-raton',
       citySlug: 'boca-raton',
       url: '/blog/hood-cleaning-frequency-boca-raton',
+      thumbnailImage: '',
     },
     {
       title: 'Kitchen Exhaust Fan Problems & Quick Fixes in Fort Lauderdale',
       excerpt: 'Complete troubleshooting guide for kitchen exhaust fan problems in Fort Lauderdale. Quick fixes for common issues, repair costs, and when to call professionals.',
       city: 'Fort Lauderdale',
       category: 'Maintenance & Repairs',
-      publishedAt: 'Jan 15, 2024',
+      publishedAt: 'Oct 10, 2025',
       readTime: '10 min read',
       slug: 'exhaust-fan-problems-fort-lauderdale',
       citySlug: 'fort-lauderdale',
       url: '/blog/exhaust-fan-problems-fort-lauderdale',
+      thumbnailImage: '',
     },
     {
       title: 'NFPA 96 Hood Cleaning Checklist for Fort Lauderdale',
       excerpt: 'Complete NFPA 96 hood cleaning checklist for Fort Lauderdale restaurants. Ensure fire safety compliance with Broward County requirements and avoid costly violations.',
       city: 'Fort Lauderdale',
       category: 'Compliance & Inspections',
-      publishedAt: 'Jan 15, 2024',
+      publishedAt: 'Oct 12, 2025',
       readTime: '11 min read',
       slug: 'nfpa-96-hood-cleaning-checklist-fort-lauderdale',
       citySlug: 'fort-lauderdale',
       url: '/blog/nfpa-96-hood-cleaning-checklist-fort-lauderdale',
+      thumbnailImage: '',
     },
     {
       title: 'Hood Cleaning Frequency Requirements in Miami',
       excerpt: 'Understanding hood cleaning frequency requirements for Miami restaurants. NFPA 96 compliance and Miami-Dade County regulations.',
       city: 'Miami',
       category: 'Compliance & Inspections',
-      publishedAt: 'Jan 15, 2024',
+      publishedAt: 'Oct 14, 2025',
       readTime: '9 min read',
       slug: 'hood-cleaning-frequency-requirements-miami',
       citySlug: 'miami',
       url: '/blog/hood-cleaning-frequency-requirements-miami',
+      thumbnailImage: '',
     },
     {
       title: 'Exhaust Fan Problems & Coastal Climate Considerations in Boca Raton',
       excerpt: 'Exhaust fan problems and coastal climate considerations for Boca Raton restaurants. Salt air effects and maintenance tips.',
       city: 'Boca Raton',
       category: 'Maintenance & Repairs',
-      publishedAt: 'Jan 15, 2024',
+      publishedAt: 'Oct 15, 2025',
       readTime: '7 min read',
       slug: 'exhaust-fan-coastal-considerations-boca-raton',
       citySlug: 'boca-raton',
       url: '/blog/exhaust-fan-coastal-considerations-boca-raton',
+      thumbnailImage: '',
     },
   ]
 
