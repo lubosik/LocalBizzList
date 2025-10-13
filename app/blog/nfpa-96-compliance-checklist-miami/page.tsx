@@ -8,7 +8,7 @@ export const metadata = {
   keywords: ["NFPA 96 checklist Miami", "restaurant hood cleaning Miami", "commercial kitchen fire safety", "Miami-Dade fire code compliance"],
   category: "compliance-inspections",
   city: "Miami",
-  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-06",
   updatedAt: "2025-10-06",
@@ -23,7 +23,7 @@ const articleMeta = {
   keywords: ["NFPA 96 checklist Miami", "restaurant hood cleaning Miami", "commercial kitchen fire safety", "Miami-Dade fire code compliance"],
   category: "compliance-inspections",
   city: "Miami",
-  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-06",
   updatedAt: "2025-10-06",
@@ -221,7 +221,7 @@ export default function NFPA96ComplianceChecklistMiami() {
                 </div>
 
                 <Image
-                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center"
+                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?fit=crop&crop=center"
                   alt="Restaurant kitchen exhaust hood cleaning schedule documentation"
                   width={800}
                   height={600}
@@ -308,7 +308,7 @@ export default function NFPA96ComplianceChecklistMiami() {
                 </div>
 
                 <Image
-                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&crop=center"
+                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?fit=crop&crop=center"
                   alt="Commercial kitchen exhaust fan system maintenance and inspection"
                   width={800}
                   height={600}

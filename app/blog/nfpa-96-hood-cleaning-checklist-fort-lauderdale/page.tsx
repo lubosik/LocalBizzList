@@ -8,7 +8,7 @@ export const metadata = {
   keywords: ["NFPA 96 hood cleaning checklist Fort Lauderdale", "restaurant hood cleaning Fort Lauderdale", "commercial kitchen fire safety", "Broward County fire code compliance"],
   category: "compliance-inspections",
   city: "Fort Lauderdale",
-  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-12",
   updatedAt: "2025-10-12",
@@ -23,7 +23,7 @@ const articleMeta = {
   keywords: ["NFPA 96 hood cleaning checklist Fort Lauderdale", "restaurant hood cleaning Fort Lauderdale", "commercial kitchen fire safety", "Broward County fire code compliance"],
   category: "compliance-inspections",
   city: "Fort Lauderdale",
-  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-12",
   updatedAt: "2025-10-12",
@@ -181,7 +181,7 @@ export default function NFPA96HoodCleaningChecklistFortLauderdale() {
               </p>
 
               <Image
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop&crop=center"
+                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop&crop=center"
                 alt="Fort Lauderdale restaurant kitchen hood cleaning compliance checklist"
                 width={800}
                 height={600}
@@ -233,7 +233,7 @@ export default function NFPA96HoodCleaningChecklistFortLauderdale() {
               </ul>
 
               <Image
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center"
+                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?fit=crop&crop=center"
                 alt="Fort Lauderdale restaurant kitchen ductwork inspection and cleaning"
                 width={800}
                 height={600}

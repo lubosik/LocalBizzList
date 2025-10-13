@@ -17,7 +17,7 @@ const articles = [
     niche: 'Restaurant Hood Cleaning',
     publishedAt: '2024-01-15',
     readTime: '12 min',
-    thumbnail: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop',
+    thumbnail: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop',
     url: '/blog/nfpa-96-compliance-checklist-miami',
     tags: ['NFPA 96', 'Miami', 'Compliance', 'Fire Safety']
   },
@@ -31,7 +31,7 @@ const articles = [
     niche: 'Restaurant Hood Cleaning',
     publishedAt: '2024-01-15',
     readTime: '10 min',
-    thumbnail: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop',
+    thumbnail: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop',
     url: '/blog/hood-cleaning-frequency-boca-raton',
     tags: ['Hood Cleaning', 'Boca Raton', 'Frequency', 'NFPA 96']
   },
@@ -45,7 +45,7 @@ const articles = [
     niche: 'Restaurant Hood Cleaning',
     publishedAt: '2024-01-15',
     readTime: '8 min',
-    thumbnail: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop',
+    thumbnail: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?fit=crop',
     url: '/blog/exhaust-fan-problems-fort-lauderdale',
     tags: ['Exhaust Fan', 'Fort Lauderdale', 'Repairs', 'Troubleshooting']
   },
@@ -59,7 +59,7 @@ const articles = [
     niche: 'Restaurant Hood Cleaning',
     publishedAt: '2024-01-15',
     readTime: '11 min',
-    thumbnail: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop',
+    thumbnail: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop',
     url: '/blog/nfpa-96-hood-cleaning-checklist-fort-lauderdale',
     tags: ['NFPA 96', 'Fort Lauderdale', 'Checklist', 'Compliance']
   },
@@ -73,7 +73,7 @@ const articles = [
     niche: 'Restaurant Hood Cleaning',
     publishedAt: '2024-01-15',
     readTime: '9 min',
-    thumbnail: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop',
+    thumbnail: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop',
     url: '/blog/hood-cleaning-frequency-requirements-miami',
     tags: ['Hood Cleaning', 'Miami', 'Frequency', 'Requirements']
   },
@@ -87,7 +87,7 @@ const articles = [
     niche: 'Restaurant Hood Cleaning',
     publishedAt: '2024-01-15',
     readTime: '7 min',
-    thumbnail: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop',
+    thumbnail: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?fit=crop',
     url: '/blog/exhaust-fan-coastal-considerations-boca-raton',
     tags: ['Exhaust Fan', 'Boca Raton', 'Coastal', 'Climate']
   },
@@ -101,7 +101,7 @@ const articles = [
     niche: 'Restaurant Hood Cleaning',
     publishedAt: '2024-01-15',
     readTime: '5 min',
-    thumbnail: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop',
+    thumbnail: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?fit=crop',
     url: '/resources/issues/hood-cleaning/exhaust-fan-grinding-noise',
     tags: ['Exhaust Fan', 'Grinding Noise', 'Emergency', 'Repair']
   },
@@ -115,7 +115,7 @@ const articles = [
     niche: 'Restaurant Hood Cleaning',
     publishedAt: '2024-01-15',
     readTime: '6 min',
-    thumbnail: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop',
+    thumbnail: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop',
     url: '/resources/issues/hood-cleaning/how-often-hood-cleaning',
     tags: ['Hood Cleaning', 'Frequency', 'NFPA 96', 'Compliance']
   }

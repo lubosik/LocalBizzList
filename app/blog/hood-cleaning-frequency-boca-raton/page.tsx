@@ -8,7 +8,7 @@ export const metadata = {
   keywords: ["hood cleaning frequency Boca Raton", "restaurant hood cleaning schedule", "commercial kitchen cleaning Boca Raton", "NFPA 96 compliance Boca Raton"],
   category: "compliance-inspections",
   city: "Boca Raton",
-  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-08",
   updatedAt: "2025-10-08",
@@ -23,7 +23,7 @@ const articleMeta = {
   keywords: ["hood cleaning frequency Boca Raton", "restaurant hood cleaning schedule", "commercial kitchen cleaning Boca Raton", "NFPA 96 compliance Boca Raton"],
   category: "compliance-inspections",
   city: "Boca Raton",
-  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-08",
   updatedAt: "2025-10-08",
@@ -228,7 +228,7 @@ export default function HoodCleaningFrequencyBocaRaton() {
                 </div>
 
                 <Image
-                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop&crop=center"
+                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop&crop=center"
                   alt="Different types of restaurants requiring different hood cleaning frequencies in Boca Raton"
                   width={800}
                   height={600}

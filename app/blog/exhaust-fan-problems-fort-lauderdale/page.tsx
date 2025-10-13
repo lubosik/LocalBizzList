@@ -8,7 +8,7 @@ export const metadata = {
   keywords: ["kitchen exhaust fan problems Fort Lauderdale", "exhaust fan repair Fort Lauderdale", "range hood repair", "kitchen vent fan troubleshooting"],
   category: "maintenance-repairs",
   city: "Fort Lauderdale",
-  thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-10",
   updatedAt: "2025-10-10",
@@ -23,7 +23,7 @@ const articleMeta = {
   keywords: ["kitchen exhaust fan problems Fort Lauderdale", "exhaust fan repair Fort Lauderdale", "range hood repair", "kitchen vent fan troubleshooting"],
   category: "maintenance-repairs",
   city: "Fort Lauderdale",
-  thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-10",
   updatedAt: "2025-10-10",
@@ -244,7 +244,7 @@ export default function ExhaustFanProblemsFortLauderdale() {
                 </div>
 
                 <Image
-                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&crop=center"
+                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?fit=crop&crop=center"
                   alt="Commercial kitchen exhaust fan troubleshooting and repair in Fort Lauderdale"
                   width={800}
                   height={600}

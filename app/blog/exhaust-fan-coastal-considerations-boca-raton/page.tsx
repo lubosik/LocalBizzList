@@ -8,7 +8,7 @@ export const metadata = {
   keywords: ["exhaust fan problems Boca Raton", "coastal climate exhaust fan", "kitchen exhaust fan repair", "salt air exhaust fan damage"],
   category: "maintenance-repairs",
   city: "Boca Raton",
-  thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-15",
   updatedAt: "2025-10-15",
@@ -23,7 +23,7 @@ const articleMeta = {
   keywords: ["exhaust fan problems Boca Raton", "coastal climate exhaust fan", "kitchen exhaust fan repair", "salt air exhaust fan damage"],
   category: "maintenance-repairs",
   city: "Boca Raton",
-  thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-15",
   updatedAt: "2025-10-15",
@@ -180,7 +180,7 @@ export default function ExhaustFanCoastalConsiderationsBocaRaton() {
               </p>
 
               <Image
-                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&crop=center"
+                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?fit=crop&crop=center"
                 alt="Kitchen exhaust fan maintenance in Boca Raton coastal climate"
                 width={800}
                 height={600}

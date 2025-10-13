@@ -8,7 +8,7 @@ export const metadata = {
   keywords: ["hood cleaning frequency Miami", "restaurant hood cleaning schedule", "NFPA 96 compliance Miami", "commercial kitchen cleaning frequency"],
   category: "compliance-inspections",
   city: "Miami",
-  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-14",
   updatedAt: "2025-10-14",
@@ -23,7 +23,7 @@ const articleMeta = {
   keywords: ["hood cleaning frequency Miami", "restaurant hood cleaning schedule", "NFPA 96 compliance Miami", "commercial kitchen cleaning frequency"],
   category: "compliance-inspections",
   city: "Miami",
-  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+  thumbnail: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?fit=crop",
   author: "LocalBizzList Team",
   publishedAt: "2025-10-14",
   updatedAt: "2025-10-14",
@@ -180,7 +180,7 @@ export default function HoodCleaningFrequencyRequirementsMiami() {
               </p>
 
               <Image
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop&crop=center"
+                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?fit=crop&crop=center"
                 alt="Commercial kitchen hood cleaning schedule in Miami"
                 width={800}
                 height={600}
