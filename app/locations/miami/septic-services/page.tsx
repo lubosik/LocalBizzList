@@ -170,6 +170,33 @@ export default function MiamiSepticServices() {
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Professional septic system services for Miami-Dade County's unique challenges
             </p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-8 border border-white/20 max-w-4xl mx-auto">
+              <h2 className="text-2xl font-bold mb-4 text-white">We Handle Everything For You</h2>
+              <p className="text-lg text-white/90 mb-4">
+                <strong>We handle all the sourcing, negotiations, and logistics to find you the best septic service provider at the cheapest cost in your area.</strong> 
+                Restaurant hood cleaning, grease trap services, septic maintenance, and more.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                <div className="flex items-center text-white/90">
+                  <span className="w-5 h-5 bg-green-300 rounded-full mr-2 flex items-center justify-center">
+                    <span className="text-green-800 text-xs">✓</span>
+                  </span>
+                  <span>Licensed & Certified Providers</span>
+                </div>
+                <div className="flex items-center text-white/90">
+                  <span className="w-5 h-5 bg-green-300 rounded-full mr-2 flex items-center justify-center">
+                    <span className="text-green-800 text-xs">✓</span>
+                  </span>
+                  <span>Best Price Guarantee</span>
+                </div>
+                <div className="flex items-center text-white/90">
+                  <span className="w-5 h-5 bg-green-300 rounded-full mr-2 flex items-center justify-center">
+                    <span className="text-green-800 text-xs">✓</span>
+                  </span>
+                  <span>Complete Project Management</span>
+                </div>
+              </div>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/pricing/instant-quote/septic-tank-services?src=septic_miami_service-page_hero"
@@ -947,7 +974,10 @@ export default function MiamiSepticServices() {
           <h2 className="text-3xl font-bold text-white mb-6">
             Ready for Professional Septic Services in Miami?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-white mb-4">
+            <strong>We handle all the sourcing, negotiations, and logistics to find you the best septic service provider at the cheapest cost in your area.</strong>
+          </p>
+          <p className="text-lg text-blue-100 mb-8 max-w-3xl mx-auto">
             Get expert septic tank services tailored to Miami's unique environment.
             Licensed professionals with local expertise and 24/7 emergency response.
           </p>

@@ -21,9 +21,15 @@ export default function FooterCTA({
           <h3 className="text-2xl md:text-3xl font-semibold text-brand-ink mb-2">
             {headline}
           </h3>
-          <p className="mt-2 text-brand-ink/80 mb-6">
+          <p className="mt-2 text-brand-ink/80 mb-4">
             {subtext}
           </p>
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 mb-6 border border-white/20 max-w-3xl mx-auto">
+            <p className="text-sm text-brand-ink/90 font-medium">
+              <strong>We handle all the sourcing, negotiations, and logistics to find you the best service provider at the cheapest cost in your area.</strong> 
+              Restaurant hood cleaning, grease trap services, septic maintenance, and more.
+            </p>
+          </div>
           <div className="mt-6">
             <Link
               href={buttonHref}

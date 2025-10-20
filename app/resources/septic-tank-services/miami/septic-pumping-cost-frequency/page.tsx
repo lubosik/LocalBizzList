@@ -135,9 +135,36 @@ export default function MiamiSepticPumpingCostFrequency() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Septic Pumping Cost & Frequency in Miami
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100">
+            <p className="text-xl md:text-2xl mb-6 text-blue-100">
               Complete guide to septic pumping costs and schedules in Miami-Dade County. Learn about Miami's unique environmental challenges, local regulations, and cost factors.
             </p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-8 border border-white/20 max-w-4xl mx-auto">
+              <h2 className="text-2xl font-bold mb-4 text-white">We Handle Everything For You</h2>
+              <p className="text-lg text-white/90 mb-4">
+                <strong>We handle all the sourcing, negotiations, and logistics to find you the best septic service provider at the cheapest cost in your area.</strong> 
+                Restaurant hood cleaning, grease trap services, septic maintenance, and more.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                <div className="flex items-center text-white/90">
+                  <span className="w-5 h-5 bg-green-300 rounded-full mr-2 flex items-center justify-center">
+                    <span className="text-green-800 text-xs">✓</span>
+                  </span>
+                  <span>Licensed & Certified Providers</span>
+                </div>
+                <div className="flex items-center text-white/90">
+                  <span className="w-5 h-5 bg-green-300 rounded-full mr-2 flex items-center justify-center">
+                    <span className="text-green-800 text-xs">✓</span>
+                  </span>
+                  <span>Best Price Guarantee</span>
+                </div>
+                <div className="flex items-center text-white/90">
+                  <span className="w-5 h-5 bg-green-300 rounded-full mr-2 flex items-center justify-center">
+                    <span className="text-green-800 text-xs">✓</span>
+                  </span>
+                  <span>Complete Project Management</span>
+                </div>
+              </div>
+            </div>
             <Link
               href="/pricing/instant-quote/septic-tank-services?src=septic_miami_septic-pumping-cost-frequency_hero"
               className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-bold text-lg rounded-lg hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
@@ -1155,7 +1182,10 @@ export default function MiamiSepticPumpingCostFrequency() {
           <h2 className="text-3xl font-bold text-white mb-6">
             Ready for Professional Septic Pumping in Miami?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-white mb-4">
+            <strong>We handle all the sourcing, negotiations, and logistics to find you the best septic service provider at the cheapest cost in your area.</strong>
+          </p>
+          <p className="text-lg text-blue-100 mb-8 max-w-3xl mx-auto">
             Get expert septic pumping services with transparent pricing and Miami-specific expertise.
             Licensed professionals serving all of Miami-Dade County.
           </p>

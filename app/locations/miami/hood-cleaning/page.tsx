@@ -183,7 +183,7 @@ export default function MiamiHoodCleaningPage() {
             <h1 className="text-5xl font-bold mb-6">
               Professional Hood Cleaning Services in Miami
             </h1>
-            <p className="text-xl mb-8 leading-relaxed">
+            <p className="text-xl mb-6 leading-relaxed">
               NFPA 96 certified kitchen exhaust cleaning for Miami restaurants, cafes, and commercial kitchens. 
               Same-day service available with instant quotes and emergency response throughout Miami-Dade County.
               <br />
@@ -191,6 +191,33 @@ export default function MiamiHoodCleaningPage() {
               <a href="/locations/boca-raton/hood-cleaning" className="text-blue-200 hover:text-white underline">Boca Raton</a> • 
               <a href="/locations/fort-lauderdale/hood-cleaning" className="text-blue-200 hover:text-white underline"> Fort Lauderdale</a>
             </p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-8 border border-white/20 max-w-4xl mx-auto">
+              <h2 className="text-2xl font-bold mb-4 text-white">We Handle Everything For You</h2>
+              <p className="text-lg text-white/90 mb-4">
+                <strong>We handle all the sourcing, negotiations, and logistics to find you the best hood cleaning service provider at the cheapest cost in your area.</strong> 
+                Restaurant hood cleaning, grease trap services, septic maintenance, and more.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                <div className="flex items-center text-white/90">
+                  <span className="w-5 h-5 bg-green-300 rounded-full mr-2 flex items-center justify-center">
+                    <span className="text-green-800 text-xs">✓</span>
+                  </span>
+                  <span>NFPA 96 Certified Providers</span>
+                </div>
+                <div className="flex items-center text-white/90">
+                  <span className="w-5 h-5 bg-green-300 rounded-full mr-2 flex items-center justify-center">
+                    <span className="text-green-800 text-xs">✓</span>
+                  </span>
+                  <span>Best Price Guarantee</span>
+                </div>
+                <div className="flex items-center text-white/90">
+                  <span className="w-5 h-5 bg-green-300 rounded-full mr-2 flex items-center justify-center">
+                    <span className="text-green-800 text-xs">✓</span>
+                  </span>
+                  <span>Complete Project Management</span>
+                </div>
+              </div>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="/pricing/instant-quote?src=miami-hero"
@@ -515,7 +542,10 @@ export default function MiamiHoodCleaningPage() {
             <h2 className="text-3xl font-bold mb-6">
               Ready for Professional Hood Cleaning in Miami?
             </h2>
-            <p className="text-xl mb-8">
+            <p className="text-xl text-white mb-4">
+              <strong>We handle all the sourcing, negotiations, and logistics to find you the best hood cleaning service provider at the cheapest cost in your area.</strong>
+            </p>
+            <p className="text-lg mb-8">
               Get an instant quote or call us today for same-day NFPA 96 certified hood cleaning services throughout Miami.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

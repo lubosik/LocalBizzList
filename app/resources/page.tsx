@@ -131,7 +131,10 @@ export default function ResourcesPage() {
           <h2 className="text-3xl font-bold mb-4">
             Need a Service Quote?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="text-xl text-white mb-4">
+            <strong>We handle all the sourcing, negotiations, and logistics to find you the best service provider at the cheapest cost in your area.</strong>
+          </p>
+          <p className="text-lg mb-8 opacity-90">
             Get instant quotes for any of our commercial services
           </p>
           <Link
